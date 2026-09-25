@@ -1,0 +1,434 @@
+@void kind=flags
+N: Não havia bandeiras. {pause=0.9}
+@void kind=crowd
+N: Não havia multidão. {pause=0.9}
+@void kind=cameras
+N: Não havia câmeras esperando uma frase de efeito. {pause=1.0}
+@eyes
+N: O ex-presidente abriu os olhos e viu um enorme salão vazio. {pause=0.6}
+@hall cam=reveal
+N: À sua frente, apenas uma mesa. {pause=0.5}
+N: Atrás dela, Jesus. {pause=1.4}
+@hall cam=high
+N: Não havia anjos tocando trombetas. {pause=0.6}
+N: Não havia demônios puxando correntes. {pause=0.8}
+N: Só silêncio. {pause=2.2}
+@pclose
+P: Então é isso? {pause=1.0}
+@jclose
+N: Jesus não respondeu. {pause=1.2}
+@pclose
+P: Eu morri? {pause=0.9}
+@jclose
+J: Sim. {pause=1.4}
+@pclose
+N: O ex-presidente respirou fundo. {pause=0.6}
+P: E agora o senhor vai decidir para onde eu vou.
+@jclose
+J: Não. A decisão já está diante de nós. Agora você vai compreendê-la. {pause=1.0}
+@pclose
+N: O homem engoliu em seco.
+P: Eu fui cristão a vida inteira. {pause=0.8}
+@book mode=open
+N: Jesus abriu um livro. {pause=0.7}
+J: Isso será considerado. {pause=0.9}
+@pclose
+N: O presidente pareceu aliviado.
+P: Eu defendi Deus. Defendi a família. Combati gente que queria destruir os nossos valores. {pause=0.8}
+@jclose mode=look
+N: Jesus ergueu os olhos. {pause=0.6}
+J: Não transforme o julgamento dos seus atos em mais um discurso eleitoral.
+S: Silêncio.
+J: Aqui não existe eleitorado. {pause=1.0}
+@hall
+N: O homem abaixou as mãos. {pause=0.7}
+@book mode=turn
+N: Jesus virou uma página. {pause=0.6}
+J: Você recebeu poder sobre milhões de pessoas.
+@pclose
+P: Pelo voto.
+@jclose
+J: Sim.
+@pclose
+P: Então o povo confiou em mim.
+@jclose
+J: Parte dele confiou em você. A outra parte também ficou sob sua responsabilidade. {pause=1.0}
+@hall
+N: O homem nada disse. {pause=1.0}
+@jclose
+J: Você amou aqueles que não votaram em você?
+@pclose
+P: Eu governava para todos.
+@jclose mode=lean
+J: Não perguntei o que dizia seu cargo. Perguntei o que havia em seu coração.
+S: Silêncio.
+@hall
+N: Jesus continuou:
+J: Você transformou adversários em inimigos.
+@pclose
+P: Eles fizeram o mesmo comigo.
+@jclose
+J: Estamos julgando você.
+@pclose
+P: Mas isso importa.
+@jclose
+J: Importará quando eles estiverem aqui. {pause=0.9}
+@pclose
+N: O homem apertou o maxilar.
+P: Então tudo que fizeram comigo não vale nada?
+@jclose
+J: Vale. Mas o pecado de outro homem nunca se tornou uma virtude sua. {pause=1.0}
+@book mode=turn
+N: Jesus virou outra página. {pause=0.6}
+J: Houve uma pandemia. {pause=0.9}
+@pclose mode=up
+N: O homem imediatamente levantou a cabeça.
+P: Eu sabia.
+@jclose
+J: Explique.
+@pclose
+P: Foi uma tragédia mundial. Governadores tinham responsabilidade. Prefeitos tinham responsabilidade. Médicos erraram. Organizações internacionais erraram. A ciência mudou. Querem jogar tudo nas minhas costas. {pause=0.8}
+@jclose
+J: Não colocarei tudo nas suas costas.
+@pclose
+N: O homem relaxou. {pause=0.6}
+@jclose mode=lean
+N: Jesus completou:
+J: Colocarei apenas aquilo que era seu. {pause=1.0}
+@hall
+N: O silêncio voltou. {pause=1.2}
+J: Você tinha medo de destruir a economia.
+@pclose
+P: Claro.
+@jclose
+J: Era uma preocupação real.
+@pclose
+P: Então o senhor entende.
+@jclose
+J: Entendo perfeitamente.
+@jclose mode=lean
+N: Jesus se inclinou para a frente.
+J: É justamente por entender suas razões que posso julgar suas escolhas. {pause=0.9}
+@hall
+N: O homem permaneceu imóvel. {pause=0.8}
+@jclose
+J: Houve momentos em que você poderia ter demonstrado cautela e preferiu demonstrar confiança.
+@pclose
+P: Um líder não pode espalhar pânico.
+@jclose
+J: Cautela não é pânico.
+S: Silêncio.
+@candles mode=few
+J: Houve momentos em que pessoas choravam seus mortos, e você ouviu aquelas mortes primeiro como acusações contra você. {pause=0.9}
+@pclose
+N: O homem abriu a boca.
+P: A imprensa— {pause=0.15}
+@jclose mode=hand
+N: Jesus levantou a mão.
+J: Não. {pause=0.9}
+@pclose
+N: O presidente parou. {pause=0.7}
+@jclose
+J: Pela primeira vez, você não poderá colocar outra pessoa no centro da resposta. {pause=0.9}
+@book mode=close
+N: Jesus fechou o livro. {pause=1.0}
+@candles mode=three
+J: Imagine uma mulher que perdeu o marido. {pause=0.8}
+J: Outra que perdeu a mãe. {pause=0.8}
+J: Um homem que perdeu o filho. {pause=0.9}
+J: Nenhum deles conhece você pessoalmente.
+J: Nenhum deles quer derrotá-lo numa eleição. {pause=0.7}
+J: Eles perguntam apenas: {pause=0.6}
+Q: “Quando a nossa vida dependia de quem tinha poder, ele tratou essa responsabilidade com toda a seriedade que podia?” {pause=1.6}
+@pclose
+N: O presidente permaneceu em silêncio. {pause=0.8}
+P: Eu fiz muita coisa certa.
+@jclose
+J: Fez.
+@pclose mode=up
+N: Ele levantou os olhos.
+P: Então o senhor reconhece?
+@jclose
+J: É claro.
+@pclose
+P: Auxílio. Hospitais. Recursos. Vacinas.
+@jclose
+J: O bem que você fez existe.
+@pclose
+N: O homem respirou aliviado.
+P: Então isso conta.
+@jclose
+J: Conta. {pause=0.7}
+N: Jesus fez uma pausa. {pause=0.8}
+@scale
+J: Mas você passou a vida imaginando o julgamento como uma balança infantil. Algumas boas ações deste lado, algumas más ações do outro, e então verificamos qual pilha ficou maior.
+@pclose
+P: Não é assim?
+@scale mode=break
+J: Não. {pause=1.2}
+@pclose mode=pale
+N: O homem empalideceu.
+P: Então como é?
+@jclose mode=lean
+J: O julgamento revela quem você decidiu se tornar quando teve oportunidades repetidas de escolher diferente. {pause=1.0}
+@hall jesus=walk
+N: Jesus caminhou lentamente ao redor da mesa. {pause=0.5}
+J: Você gostava do poder?
+@pclose
+P: Eu servi ao país.
+@hall jesus=stand
+J: Não foi minha pergunta.
+S: Silêncio.
+@pclose mode=bow
+P: Sim. {pause=0.8}
+@crowd
+J: Gostava de multidões gritando seu nome?
+P: Sim.
+J: Gostava quando tratavam você como alguém escolhido por Deus?
+N: Uma pausa maior. {pause=1.2}
+P: Gostava. {pause=0.9}
+@hall jesus=stand
+J: E alguma vez isso lhe pareceu perigoso?
+@pclose
+P: Às vezes.
+@hall jesus=stand
+J: O suficiente para se afastar disso?
+@pclose mode=bow
+P: Não. {pause=1.1}
+@hall jesus=return
+N: Jesus voltou à cadeira. {pause=0.8}
+@jclose
+J: Você pronunciou meu nome muitas vezes.
+@pclose
+P: Porque acredito no senhor.
+@jclose
+J: Acreditar que eu existo nunca foi a parte difícil.
+@pclose
+N: O homem franziu a testa.
+P: Então qual era?
+@jclose mode=lean
+J: Aceitar que seguir a mim frequentemente exigiria abrir mão daquilo que mais alimentava você.
+@pclose
+P: Como o quê? {pause=0.8}
+@words
+J: Orgulho.
+S: Silêncio.
+J: Vingança.
+S: Silêncio.
+J: A necessidade de vencer. {pause=0.8}
+@hall man=bow
+N: O homem abaixou a cabeça. {pause=0.6}
+@words
+J: A necessidade de nunca admitir fraqueza. {pause=1.0}
+@pclose mode=shake
+N: As mãos dele começaram a tremer.
+P: Eu não podia demonstrar fraqueza. {pause=0.8}
+@jclose
+J: Aqui está uma das tragédias da sua vida. {pause=0.6}
+N: Jesus olhou para ele.
+@jclose mode=lean
+J: Você confundiu humildade com fraqueza por tanto tempo que, quando precisava de humildade, já não conseguia reconhecê-la. {pause=1.0}
+@pclose
+P: Eu pedi perdão pelos meus pecados.
+@jclose
+J: Muitas vezes.
+@pclose
+P: Então?
+@jclose
+J: Algumas vezes você pediu perdão para não precisar mudar. {pause=1.0}
+@pclose mode=up
+N: O homem levantou os olhos.
+P: Isso não vale?
+@jclose
+J: Arrependimento não é uma palavra usada para apagar o passado. É a disposição de deixar que a verdade o transforme. {pause=0.9}
+@pclose
+P: Eu acreditava que estava certo.
+@jclose
+J: Eu sei.
+@pclose
+P: Isso não conta?
+@jclose
+J: Conta para compreender você. {pause=0.6}
+N: Jesus fez uma pausa. {pause=0.7}
+J: Não transforma o erro em acerto. {pause=1.0}
+@pclose
+N: O homem respirou fundo.
+P: Eu também fiz o bem.
+@hall
+J: Sim.
+P: Ajudei pessoas.
+J: Sim.
+P: Amei minha família.
+J: Sim.
+@pclose
+P: Tive amigos. Pessoas que me amavam. Pessoas que diziam que eu dei esperança a elas.
+@jclose
+J: Tudo isso é verdade.
+@pclose mode=shake
+N: O homem pareceu desesperado.
+P: Então como eu posso ser condenado? {rate=+6% pause=1.0}
+@jclose mode=slow
+N: Jesus não respondeu imediatamente. {pause=0.9}
+N: Quando falou, sua voz não tinha raiva. {pause=0.6}
+N: Isso tornou tudo pior. {pause=0.9}
+J: Porque sua pergunta ainda é “como posso ser condenado?”, e não “quem eu feri?” {pause=1.4}
+@hall
+N: O homem ficou completamente imóvel. {pause=1.0}
+@jclose
+J: Até aqui você tenta construir sua defesa.
+@pclose mode=shake
+P: É um julgamento! {rate=+8% volume=+15%}
+@jclose
+J: Sim.
+@pclose mode=shake
+P: Então preciso me defender! {rate=+8% volume=+15%}
+@jclose
+J: Você passou a vida inteira se defendendo. {pause=0.8}
+@book mode=point
+N: Jesus apontou para o livro.
+J: Eu estava esperando que, finalmente, você confessasse. {pause=1.0}
+@pclose mode=tears
+N: Os olhos do homem começaram a se encher de lágrimas.
+P: Confessar o quê? {rate=-10% pause=0.9}
+@words mode=list
+J: Sem adversário.
+J: Sem imprensa.
+J: Sem partido.
+J: Sem Supremo.
+J: Sem governador.
+J: Sem comunista.
+J: Sem aliado traidor.
+J: Sem jornalista. {pause=0.9}
+@hall jesus=approach
+N: Jesus aproximou-se. {pause=0.8}
+@words
+J: Apenas você. {pause=1.4}
+@pclose mode=cry
+N: O homem começou a chorar. {pause=0.6}
+P: Eu errei. {rate=-14% pause=0.9}
+N: Jesus ficou em silêncio. {pause=0.9}
+P: Eu errei muito. {rate=-14%}
+@jclose
+J: Continue.
+@pclose mode=cry
+P: Fui arrogante. {rate=-12%}
+S: Silêncio.
+P: Fui cruel algumas vezes. {rate=-12%}
+S: Silêncio.
+P: Gostei quando meus inimigos sofreram. {rate=-12%}
+S: Silêncio.
+P: Coloquei meu orgulho acima de coisas que não deveria. {rate=-12%}
+N: Ele respirava com dificuldade. {pause=0.8}
+P: Fiz pessoas acreditarem que defender a mim era defender a Deus. {rate=-12% pause=1.0}
+@jclose mode=eyes
+N: Jesus fechou os olhos. {pause=0.6}
+J: Continue.
+@pclose mode=cry
+P: Talvez eu tenha usado o nome do senhor para coisas que eram minhas. {rate=-14%}
+N: A voz falhou. {pause=0.6}
+P: Meu poder. {rate=-16%}
+@jclose mode=eyes
+J: Continue.
+@pclose mode=cry
+P: Minha raiva. {rate=-16%}
+@jclose mode=eyes
+J: Continue.
+@pclose mode=cry
+P: Meu medo. {rate=-18% pause=0.8}
+@hall man=kneel jesus=near
+N: O homem caiu de joelhos. {pause=0.8}
+P: Minha vaidade. {rate=-20% pause=1.0}
+N: Longo silêncio. {pause=3.2}
+N: Jesus se aproximou. {pause=0.8}
+@pclose mode=kneel
+N: O homem ergueu os olhos. {pause=0.5}
+P: Ainda dá tempo? {rate=-12% pause=1.0}
+@jclose mode=above
+N: Jesus perguntou:
+J: Você está arrependido porque viu o inferno diante de você? {pause=0.9}
+@pclose mode=kneel
+N: O homem congelou. {pause=1.0}
+@jclose mode=above
+J: Ou porque finalmente consegue enxergar as pessoas que feriu? {pause=1.2}
+@candles mode=many
+N: O ex-presidente chorou. {pause=0.8}
+N: Tentou responder. {pause=0.7}
+N: Nenhuma palavra saiu. {pause=1.2}
+@hall man=kneel jesus=near
+N: Jesus esperou. {pause=1.5}
+@book mode=still
+N: Por fim, o homem olhou novamente para o livro. {pause=0.6}
+@hall man=kneel jesus=near door=appear cam=door
+N: Depois para a porta. {pause=0.8}
+@jclose mode=above
+N: Depois para Jesus. {pause=0.8}
+@pclose mode=kneel
+N: E perguntou:
+P: O que vai acontecer comigo? {rate=-10% pause=1.2}
+@jclose mode=above
+N: Jesus permaneceu olhando para ele. {pause=0.8}
+N: Então pronunciou o veredito. {pause=1.0}
+J: Você passou a vida pedindo que o mundo fosse duro com aqueles que considerava culpados. {pause=0.8}
+@pclose mode=kneelshake
+N: O homem tremia. {pause=0.6}
+@jclose mode=above
+J: Mas este julgamento não é vingança. {pause=0.8}
+@door mode=closed
+N: Jesus apontou para uma porta que havia surgido ao fundo do salão. {pause=0.6}
+N: Atrás dela não havia fogo. {pause=0.6}
+N: Havia apenas escuridão. {pause=1.2}
+@jclose mode=slow
+J: Você conheceu misericórdia muitas vezes e frequentemente a considerou fraqueza. Conheceu poder e deixou que ele alimentasse seu orgulho. Conheceu sofrimento e, demasiadas vezes, permitiu que a necessidade de se defender fosse maior que a disposição de escutar. {pause=0.9}
+@pclose mode=kneelshake
+N: O homem começou a negar com a cabeça. {pause=0.6}
+@jclose
+N: Jesus continuou:
+J: Suas boas ações são reais. Seu amor por algumas pessoas foi real. Sua fé não foi inteiramente falsa. {pause=0.6}
+N: Uma pausa. {pause=0.9}
+J: E nada disso torna irreais as escolhas que você fez quando podia ter escolhido diferente. {pause=1.0}
+@pclose mode=kneel
+N: O homem começou a chorar novamente.
+P: Senhor… {rate=-20% pause=1.0}
+@jclose mode=slow
+N: Jesus respondeu:
+J: Eu não o condeno por ter sido imperfeito.
+S: Silêncio.
+J: Condeno o homem que repetidamente viu oportunidades de abandonar o orgulho e escolheu preservá-lo. {pause=1.0}
+@hall man=kneel jesus=point door=on cam=verdict
+N: Jesus apontou para a porta.
+J: O veredito é condenação. {pause=1.6}
+@pclose mode=kneel
+N: O ex-presidente fechou os olhos. {pause=0.6}
+P: Inferno? {rate=-15% pause=1.0}
+@jclose mode=sad
+J: Sim. {pause=2.0 sfx=boom}
+@hall man=kneel jesus=near door=on cam=wide
+N: A palavra atravessou o salão. {pause=0.8}
+N: Não houve trovão. {pause=0.6}
+N: Não houve comemoração. {pause=0.9}
+@jclose mode=sad
+N: Jesus parecia triste. {pause=1.0}
+@pclose mode=kneel
+N: O homem olhou para ele pela última vez.
+P: Então o senhor me odeia? {rate=-12%}
+@jclose mode=sad
+J: Não. {pause=0.8}
+@pclose mode=kneel
+P: Como pode me mandar para lá e não me odiar? {rate=-12% pause=0.8}
+@jclose mode=sad
+N: Jesus respondeu:
+J: Você passou tempo demais acreditando que condenar alguém exigia odiá-lo. {pause=1.6}
+@door mode=open
+N: A porta se abriu. {pause=1.4 sfx=door}
+N: O homem chorou. {pause=1.2}
+@hall man=gone jesus=near door=open cam=final
+N: Jesus permaneceu onde estava. {pause=1.0}
+@words mode=list
+N: Sem satisfação. {pause=0.5}
+N: Sem raiva. {pause=0.5}
+N: Sem aplausos. {pause=1.0}
+@hall man=gone jesus=near door=closing cam=end
+N: Porque aquele não era o triunfo de um lado político sobre outro. {pause=1.0}
+N: Era uma tragédia. {pause=1.6}
+@end
+N: E, pela primeira vez, não havia ninguém que o ex-presidente pudesse culpar por ela. {pause=5.0}
