@@ -1,0 +1,530 @@
+<title>Previsão Presidencial 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --paper:#f6f7f2; --surface:#fdfdfa; --ink:#15191a; --ink-2:#4a524f; --ink-3:#7a827e;
+  --rule:#dfe2d8; --grid:#e8eae2; --accent:#0b7a4b; --focus:#0b7a4b;
+  --lula:#e34948; --flavio:#2a78d6; --cury:#e87ba4; --renan:#4a3aa7; --caiado:#1baf7a; --zema:#eda100; --outros:#9aa19c;
+  --neutral:#d9dbd4; --warn:#b26a00;
+  --shadow:0 1px 2px rgba(20,30,25,.06),0 4px 16px rgba(20,30,25,.05);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#101312; --surface:#171b1a; --ink:#eef1ec; --ink-2:#b7beb8; --ink-3:#848c87;
+  --rule:#2a302e; --grid:#232927; --accent:#3fbf86; --focus:#3fbf86;
+  --lula:#e66767; --flavio:#3987e5; --cury:#d55181; --renan:#9085e9; --caiado:#199e70; --zema:#c98500; --outros:#6f7672;
+  --neutral:#3a403e; --warn:#e0a040; --shadow:none; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --paper:#101312; --surface:#171b1a; --ink:#eef1ec; --ink-2:#b7beb8; --ink-3:#848c87;
+  --rule:#2a302e; --grid:#232927; --accent:#3fbf86; --focus:#3fbf86;
+  --lula:#e66767; --flavio:#3987e5; --cury:#d55181; --renan:#9085e9; --caiado:#199e70; --zema:#c98500; --outros:#6f7672;
+  --neutral:#3a403e; --warn:#e0a040; --shadow:none; color-scheme:dark;}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:15px/1.55 "Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;padding-inline:16px;padding-block:0 64px}
+.wrap{max-width:1080px;margin:0 auto}
+h1,h2,h3{font-family:"Archivo","Arial Narrow",system-ui,sans-serif;text-wrap:balance;margin:0}
+h1{font-stretch:75%;font-weight:800;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1;letter-spacing:-.01em}
+h2{font-stretch:85%;font-weight:750;font-size:1.55rem;line-height:1.15}
+h3{font-stretch:100%;font-weight:650;font-size:1rem}
+p{margin:0;max-width:68ch}
+.eyebrow{font:600 .72rem/1.2 "Public Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3)}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--ink-2)} .small{font-size:.85rem}
+header.top{display:flex;flex-direction:column;gap:14px;padding-block:36px 24px;border-bottom:1px solid var(--rule)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.85rem;color:var(--ink-2)}
+.meta b{color:var(--ink);font-weight:600}
+section{padding-block:40px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:18px}
+.sec-head{display:flex;flex-direction:column;gap:6px}
+/* hero */
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-top:28px}
+.cand-big{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:18px 20px;display:flex;flex-direction:column;gap:4px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.cand-big::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--c)}
+.cand-big .pct{font-family:"Archivo",sans-serif;font-stretch:70%;font-weight:850;font-size:clamp(3.2rem,11vw,5.6rem);line-height:.95;color:var(--ink)}
+.cand-big .pct small{font-size:.45em;font-weight:700;margin-left:2px;color:var(--ink-2)}
+.cand-big .who{font:700 1.05rem/1.2 "Archivo",sans-serif;font-stretch:90%}
+.cand-big .sub{font-size:.85rem;color:var(--ink-2)}
+.tug{grid-column:1/-1;display:flex;flex-direction:column;gap:8px}
+.tugbar{display:flex;height:14px;border-radius:7px;overflow:hidden;gap:2px;background:var(--surface)}
+.tugbar span{display:block;height:100%}
+.tug .scale{display:flex;justify-content:space-between;font-size:.75rem;color:var(--ink-3)}
+.facts{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+.fact{background:var(--surface);padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.fact .v{font:800 1.5rem/1.1 "Archivo",sans-serif;font-stretch:80%}
+.fact .l{font-size:.78rem;color:var(--ink-2)}
+/* callout */
+.callout{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:18px;align-items:center}
+.sens{display:flex;flex-direction:column;gap:8px}
+.sens-row{display:grid;grid-template-columns:128px 1fr 44px;gap:10px;align-items:center;font-size:.85rem}
+.sens-row .bar{display:flex;height:10px;border-radius:5px;overflow:hidden;gap:2px}
+.sens-row.on{font-weight:700}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{fill:var(--ink-2);font:12px "Public Sans",sans-serif;font-variant-numeric:tabular-nums}
+.chart .lbl{fill:var(--ink);font-weight:600}
+.axis line,.gridl{stroke:var(--grid);stroke-width:1}
+.base{stroke:var(--ink-3);stroke-width:1}
+.tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:8px 10px;font-size:.8rem;line-height:1.35;box-shadow:0 6px 24px rgba(0,0,0,.14);min-width:150px;max-width:260px;z-index:5}
+.tip b{font-weight:700}
+.tip .row{display:flex;justify-content:space-between;gap:12px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.82rem;color:var(--ink-2)}
+.legend button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:0;padding:3px 8px;border-radius:6px;border:1px solid var(--rule);background:var(--surface);color:var(--ink)}
+.legend button[aria-pressed="false"]{opacity:.45}
+.legend button:focus-visible,.seg button:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden;background:var(--surface);align-self:flex-start}
+.seg button{all:unset;cursor:pointer;padding:6px 12px;font-size:.85rem;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);font-weight:600}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:8px 12px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--grid)}
+th{font-weight:600;color:var(--ink-2);font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;background:var(--surface);position:sticky;top:0}
+td:first-child,th:first-child{text-align:left}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{font-variant-numeric:tabular-nums}
+.two{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px;align-items:start}
+.two.even{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+#t-t2 th{white-space:normal}
+.tiles{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;max-width:520px}
+.tile{aspect-ratio:1;max-width:100%;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;font:700 .82rem/1 "Archivo",sans-serif;font-stretch:90%;cursor:default;border:0;color:#fff;position:relative;outline-offset:2px}
+.tile small{font:500 .66rem/1 "Public Sans",sans-serif;margin-top:3px;opacity:.95}
+.tile.light{color:#15191a}
+.tile:focus-visible{outline:2px solid var(--focus)}
+.ramp{display:flex;flex-direction:column;gap:4px;font-size:.75rem;color:var(--ink-2);max-width:320px}
+.ramp .g{height:10px;border-radius:5px}
+.ramp .ends{display:flex;justify-content:space-between}
+details{border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+details summary{cursor:pointer;padding:10px 14px;font-weight:600;font-size:.9rem}
+details .tbl-wrap{border:0;border-top:1px solid var(--rule);border-radius:0 0 10px 10px;max-height:420px;overflow:auto}
+.method{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 28px}
+.method div{display:flex;flex-direction:column;gap:6px}
+.method p{font-size:.9rem;color:var(--ink-2)}
+.pill{display:inline-block;padding:1px 8px;border-radius:99px;font-size:.72rem;font-weight:600;border:1px solid var(--rule);color:var(--ink-2)}
+footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-direction:column;gap:6px}
+@media (max-width:760px){
+  .two,.two.even,.callout,.method{grid-template-columns:1fr}
+  .facts{grid-template-columns:repeat(2,1fr)}
+  .sens-row{grid-template-columns:96px 1fr 40px}
+}
+@media (prefers-reduced-motion:no-preference){.tugbar span{transition:width .6s ease}}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Modelo probabilístico · Eleição presidencial do Brasil</div>
+  <h1>Previsão Presidencial 2026</h1>
+  <p class="muted">Agregação bayesiana de <b id="nPesq"></b> pesquisas de 2026, calibrada pelos erros das pesquisas em cinco eleições (2006–2022) e simulada <b id="nSim"></b> vezes, do 1º turno ao mapa das 27 UFs.</p>
+  <div class="meta">
+    <span>1º turno <b id="dT1"></b></span><span>2º turno <b id="dT2"></b></span>
+    <span>Última pesquisa <b id="dUlt"></b></span><span>Atualizado <b id="dGer"></b></span>
+  </div>
+</header>
+
+<div class="hero" id="hero"></div>
+
+<section id="sens-sec">
+  <div class="sec-head">
+    <div class="eyebrow">O ponto de atenção</div>
+    <h2>As pesquisas brasileiras erraram sempre para o mesmo lado</h2>
+  </div>
+  <div class="callout">
+    <p class="small muted" id="sensTxt"></p>
+    <div class="sens" id="sens"></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">1º turno · votos válidos projetados para <span id="dT1b"></span></div>
+    <h2>Quanto cada candidato deve ter nas urnas</h2>
+    <p class="small muted">Ponto: média das simulações. Barra grossa: 80% dos cenários. Barra fina: 95%. O anel vazado marca a média das pesquisas sem correção histórica.</p>
+  </div>
+  <div class="chart" id="c-t1"></div>
+  <div class="tbl-wrap"><table id="t-t1"></table></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Tendência · votos válidos no 1º turno</div>
+    <h2>Como a disputa se moveu desde março</h2>
+    <p class="small muted">Linha: tendência estimada (filtro de Kalman), já descontado o viés de cada instituto. Faixa: intervalo de 80%. Pontos: pesquisas publicadas, em votos válidos.</p>
+  </div>
+  <div class="legend" id="lg-trend"></div>
+  <div class="chart" id="c-trend"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">2º turno · <span id="dT2b"></span></div>
+    <h2 id="t2Title">Lula × Flávio Bolsonaro</h2>
+    <p class="small muted" id="t2Sub"></p>
+  </div>
+  <div class="two even">
+    <div class="chart" id="c-t2"></div>
+    <div class="tbl-wrap"><table id="t-t2"></table></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Mapa · 27 unidades da federação</div>
+    <h2>Onde cada um vence</h2>
+    <p class="small muted">Geografia de 2022 projetada com a persistência histórica entre eleições, choques regionais e estaduais, e o efeito do candidato no seu estado de origem. Cada simulação é reajustada para bater o total nacional sorteado.</p>
+  </div>
+  <div class="seg" role="group" aria-label="Turno do mapa">
+    <button type="button" id="m2" aria-pressed="true">2º turno: chance de Lula</button>
+    <button type="button" id="m1" aria-pressed="false">1º turno: líder provável</button>
+  </div>
+  <div class="two">
+    <div class="chart" id="c-map"><div class="tiles" id="tiles"></div></div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div class="ramp" id="ramp"></div>
+      <div id="mapSummary" class="small muted"></div>
+    </div>
+  </div>
+  <details><summary>Ver tabela por UF</summary><div class="tbl-wrap"><table id="t-uf"></table></div></details>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Institutos de pesquisa</div>
+    <h2>Quem puxa para qual lado</h2>
+    <p class="small muted">Efeito de instituto: quanto cada um mede acima (+) ou abaixo (−) da tendência comum, em pontos de votos válidos. O peso vem do erro de cada instituto nas eleições de 2010, 2018 e 2022; institutos sem histórico recebem peso 1.</p>
+  </div>
+  <div class="chart" id="c-house"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Lições de 2006 a 2022</div>
+    <h2>O erro das pesquisas na véspera do 1º turno</h2>
+    <p class="small muted">Diferença entre a projeção final e a urna, em pontos de votos válidos. 2010, 2018 e 2022: backtest do próprio modelo com os dados da época. 2006 e 2014: médias finais divulgadas pela imprensa.</p>
+  </div>
+  <div class="legend" id="lg-hist"></div>
+  <div class="chart" id="c-hist"></div>
+  <p class="small muted" id="histTxt"></p>
+</section>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Como funciona</div><h2>Metodologia</h2></div>
+  <div class="method" id="method"></div>
+</section>
+
+<footer>
+  <span>Fontes: páginas de pesquisas eleitorais da Wikipédia (compilação das pesquisas registradas no TSE) e resultados oficiais por UF de 2002 a 2022 (TSE, via Wikipédia).</span>
+  <span>Modelo estatístico independente, sem vínculo com institutos, partidos ou candidaturas. Probabilidades não são certezas: um evento de 30% acontece com frequência.</span>
+</footer>
+</div>
+
+<script>
+const D = __DADOS__;
+const COR = {"Lula":"--lula","Flávio Bolsonaro":"--flavio","Augusto Cury":"--cury","Renan Santos":"--renan","Caiado":"--caiado","Zema":"--zema","Outros":"--outros"};
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const cor = n => css(COR[n] || "--outros");
+const fmt = (x, d=1) => x == null || isNaN(x) ? "–" : x.toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct = (p, d=0) => {
+  if (p == null) return "–";
+  const v = 100*p;
+  if (v > 0 && v < 1) return "<1%";
+  if (v < 100 && v > 99) return ">99%";
+  return fmt(v, d) + "%";
+};
+const dataBR = s => { const [y,m,d] = s.split(/[- ]/); return `${d}/${m}/${y}`; };
+const dataCurta = s => { const m=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"]; const [y,mm,d]=s.split("-"); return `${+d} ${m[+mm-1]}`; };
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs={}, parent){ const e=document.createElementNS(NS,tag); for(const k in attrs) e.setAttribute(k,attrs[k]); if(parent) parent.appendChild(e); return e; }
+function svgIn(host, w, h){ host.querySelectorAll("svg").forEach(s=>s.remove()); const s=el("svg",{viewBox:`0 0 ${w} ${h}`,role:"img"}); host.prepend(s); return s; }
+function tipIn(host){ let t=host.querySelector(".tip"); if(!t){ t=document.createElement("div"); t.className="tip"; t.hidden=true; host.appendChild(t);} return t; }
+function place(tip, host, x, y){ const W=host.clientWidth; tip.hidden=false; const tw=tip.offsetWidth; let left=x+14; if(left+tw>W) left=x-tw-14; if(left<0) left=0; tip.style.left=left+"px"; tip.style.top=Math.max(0,y-10)+"px"; }
+const byName = Object.fromEntries(D.candidatos.map(c=>[c.nome,c]));
+const P = D.candidatos[0].nome, A = D.candidatos[1].nome;
+
+/* ---------- cabeçalho ---------- */
+document.getElementById("nPesq").textContent = (D.n_pesquisas_t1 + D.n_confrontos_t2).toLocaleString("pt-BR");
+document.getElementById("nSim").textContent = D.n_sim.toLocaleString("pt-BR");
+document.getElementById("dT1").textContent = dataBR(D.eleicao.t1);
+document.getElementById("dT2").textContent = dataBR(D.eleicao.t2);
+document.getElementById("dT1b").textContent = dataBR(D.eleicao.t1);
+document.getElementById("dT2b").textContent = dataBR(D.eleicao.t2);
+document.getElementById("dUlt").textContent = dataBR(D.ultima_pesquisa);
+document.getElementById("dGer").textContent = dataBR(D.gerado_em);
+
+function hero(){
+  const h = document.getElementById("hero"); h.innerHTML="";
+  const top = [...D.candidatos].sort((a,b)=>b.p_vitoria-a.p_vitoria);
+  top.slice(0,2).forEach(c=>{
+    const d=document.createElement("div"); d.className="cand-big"; d.style.setProperty("--c", cor(c.nome));
+    const v=Math.round(100*c.p_vitoria);
+    d.innerHTML = `<div class="eyebrow">Chance de ser eleito</div>
+      <div class="pct num">${v}<small>%</small></div>
+      <div class="who">${c.nome} <span class="pill">${c.partido}</span></div>
+      <div class="sub num">1º turno: ${fmt(c.t1_media)}% (80%: ${fmt(c.t1_p10)}–${fmt(c.t1_p90)}) · vence no 1º turno em ${pct(c.p_vence_t1)}</div>`;
+    h.appendChild(d);
+  });
+  const resto = 1 - top[0].p_vitoria - top[1].p_vitoria;
+  const tug=document.createElement("div"); tug.className="tug";
+  tug.innerHTML = `<div class="tugbar" role="img" aria-label="Probabilidade de vitória: ${top[0].nome} ${pct(top[0].p_vitoria)}, ${top[1].nome} ${pct(top[1].p_vitoria)}">
+    <span style="width:${100*top[0].p_vitoria}%;background:${cor(top[0].nome)}"></span>
+    ${resto>0.001?`<span style="width:${100*resto}%;background:var(--outros)"></span>`:""}
+    <span style="width:${100*top[1].p_vitoria}%;background:${cor(top[1].nome)}"></span></div>
+    <div class="scale"><span>${top[0].nome}</span><span>50%</span><span>${top[1].nome}</span></div>`;
+  h.appendChild(tug);
+  const f=document.createElement("div"); f.className="facts";
+  const lf = D.confrontos.find(c=>(c.a===P&&c.b===A)||(c.a===A&&c.b===P));
+  const pLider = byName[P].p_primeiro_lugar_t1;
+  f.innerHTML = [
+    [pct(D.p_segundo_turno), "chance de haver 2º turno"],
+    [lf?pct(lf.prob):"–", `2º turno ser ${P} × ${A.split(" ")[0]}`],
+    [pct(pLider), `${P} termina o 1º turno à frente`],
+    [pct(1-pLider), `${A.split(" ")[0]} termina o 1º turno à frente`],
+  ].map(([v,l])=>`<div class="fact"><span class="v num">${v}</span><span class="l">${l}</span></div>`).join("");
+  h.appendChild(f);
+}
+
+/* ---------- sensibilidade ---------- */
+function sens(){
+  const C=D.calibracao, box=document.getElementById("sens"); box.innerHTML="";
+  const nomes = {0:"Pesquisas sem correção",0.5:"Metade da correção",1:"Modelo (padrão)",1.5:"Correção 1,5×"};
+  D.sensibilidade.forEach(s=>{
+    const p=s.vitoria[P], a=s.vitoria[A];
+    const r=document.createElement("div"); r.className="sens-row"+(s.peso_vies===D.peso_vies?" on":"");
+    r.innerHTML=`<span>${nomes[s.peso_vies]??s.peso_vies}</span>
+      <span class="bar" role="img" aria-label="${P} ${pct(p)}, ${A} ${pct(a)}"><span style="width:${100*p}%;background:${cor(P)}"></span><span style="width:${100*a}%;background:${cor(A)}"></span></span>
+      <span class="num">${pct(p)}</span>`;
+    box.appendChild(r);
+  });
+  const leg=document.createElement("div"); leg.className="legend";
+  leg.innerHTML=`<span><span class="sw" style="background:${cor(P)}"></span>${P} (valor à direita)</span><span><span class="sw" style="background:${cor(A)}"></span>${A}</span>`;
+  box.appendChild(leg);
+  const e = D.calibracao.erros_t1.filter(r=>r.papel==="adv");
+  const anos = e.map(r=>r.ano).sort().join(", ");
+  document.getElementById("sensTxt").innerHTML =
+    `Em ${e.length} de ${e.length} eleições (${anos}) a projeção final subestimou o principal candidato contra o PT no 1º turno, em média <b>${fmt(-e.reduce((s,r)=>s+r.erro,0)/e.length)} pontos</b>. Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em ${D.calibracao.erros_h2h.map(r=>`${r.ano}: +${fmt(r.erro)}`).join(" e ")}. O modelo aplica esse viés só em parte (encolhido para zero, por serem poucas eleições) e mantém a incerteza toda. As barras mostram o quanto o resultado depende dessa escolha.`;
+}
+
+/* ---------- 1º turno: intervalos ---------- */
+function chartT1(){
+  const host=document.getElementById("c-t1"); const W=Math.max(320,host.clientWidth);
+  const cs=D.candidatos, rowH=38, m={l:Math.min(150,W*0.32),r:24,t:22,b:28}, H=m.t+m.b+rowH*cs.length;
+  const s=svgIn(host,W,H); const xmax=Math.max(55, Math.ceil(Math.max(...cs.map(c=>c.t1_p975))/5)*5);
+  const x=v=>m.l+(W-m.l-m.r)*v/xmax;
+  for(let v=0; v<=xmax; v+=10){ el("line",{x1:x(v),x2:x(v),y1:m.t-6,y2:H-m.b,class:"gridl"},s); el("text",{x:x(v),y:H-8,"text-anchor":"middle"},s).textContent=v+"%"; }
+  el("line",{x1:x(50),x2:x(50),y1:m.t-10,y2:H-m.b,stroke:css("--ink-3"),"stroke-dasharray":"3 3"},s);
+  el("text",{x:x(50),y:m.t-12,"text-anchor":"middle"},s).textContent="50% vence no 1º turno";
+  const tip=tipIn(host);
+  cs.forEach((c,i)=>{
+    const y=m.t+rowH*i+rowH/2, col=cor(c.nome);
+    el("text",{x:m.l-12,y:y+4,"text-anchor":"end",class:"lbl"},s).textContent=c.nome;
+    el("line",{x1:x(c.t1_p025),x2:x(c.t1_p975),y1:y,y2:y,stroke:col,"stroke-width":2,"stroke-linecap":"round",opacity:.55},s);
+    el("rect",{x:x(c.t1_p10),y:y-5,width:Math.max(2,x(c.t1_p90)-x(c.t1_p10)),height:10,rx:4,fill:col,opacity:.9},s);
+    el("circle",{cx:x(c.agregado_bruto),cy:y,r:5,fill:"none",stroke:css("--ink-2"),"stroke-width":1.5},s);
+    el("circle",{cx:x(c.t1_media),cy:y,r:6,fill:col,stroke:css("--surface"),"stroke-width":2},s);
+    el("text",{x:Math.min(x(c.t1_p975)+8, W-4),y:y+4,"text-anchor":x(c.t1_p975)+60>W?"end":"start"},s).textContent=fmt(c.t1_media)+"%";
+    const hit=el("rect",{x:0,y:y-rowH/2,width:W,height:rowH,fill:"transparent"},s);
+    hit.addEventListener("pointermove",ev=>{ tip.innerHTML=`<b>${c.nome}</b> (${c.partido})<div class="row"><span>Projeção</span><span class="num">${fmt(c.t1_media)}%</span></div><div class="row"><span>80% dos cenários</span><span class="num">${fmt(c.t1_p10)}–${fmt(c.t1_p90)}%</span></div><div class="row"><span>Média das pesquisas</span><span class="num">${fmt(c.agregado_bruto)}%</span></div><div class="row"><span>Vai ao 2º turno</span><span class="num">${pct(c.p_segundo_turno)}</span></div>`; const r=host.getBoundingClientRect(); place(tip,host,ev.clientX-r.left,ev.clientY-r.top); });
+    hit.addEventListener("pointerleave",()=>tip.hidden=true);
+  });
+  const t=document.getElementById("t-t1");
+  t.innerHTML=`<thead><tr><th>Candidato</th><th class="num">Projeção</th><th class="num">Intervalo 80%</th><th class="num">Média das pesquisas</th><th class="num">1º lugar no 1º turno</th><th class="num">Vai ao 2º turno</th><th class="num">Eleito</th></tr></thead><tbody>`+
+    cs.map(c=>`<tr><td><span class="sw" style="background:${cor(c.nome)}"></span>${c.nome} <span class="muted small">${c.partido}</span></td><td class="num">${fmt(c.t1_media)}%</td><td class="num">${fmt(c.t1_p10)}–${fmt(c.t1_p90)}%</td><td class="num">${fmt(c.agregado_bruto)}%</td><td class="num">${pct(c.p_primeiro_lugar_t1)}</td><td class="num">${pct(c.p_segundo_turno)}</td><td class="num">${pct(c.p_vitoria)}</td></tr>`).join("")+"</tbody>";
+}
+
+/* ---------- tendência ---------- */
+const visivel = new Set([P, A, "Augusto Cury", "Renan Santos", "Caiado", "Zema"]);
+function legendTrend(){
+  const lg=document.getElementById("lg-trend"); lg.innerHTML="";
+  D.candidatos.forEach(c=>{ const b=document.createElement("button"); b.type="button"; b.setAttribute("aria-pressed",visivel.has(c.nome)); b.innerHTML=`<span class="sw" style="background:${cor(c.nome)}"></span>${c.nome}`; b.onclick=()=>{ visivel.has(c.nome)?visivel.delete(c.nome):visivel.add(c.nome); b.setAttribute("aria-pressed",visivel.has(c.nome)); chartTrend(); }; lg.appendChild(b); });
+}
+function chartTrend(){
+  const host=document.getElementById("c-trend"); const W=Math.max(320,host.clientWidth), H=Math.round(Math.min(420,Math.max(280,W*0.45)));
+  const m={l:40,r:W<520?44:110,t:12,b:28}; const s=svgIn(host,W,H);
+  const nomes=D.candidatos.map(c=>c.nome).filter(n=>visivel.has(n)&&D.tendencia_t1[n]);
+  const all=D.tendencia_t1[P]; const d0=new Date(all[0].d), d1=new Date(all[all.length-1].d);
+  const x=d=>m.l+(W-m.l-m.r)*(new Date(d)-d0)/(d1-d0);
+  let ymax=0; nomes.forEach(n=>D.tendencia_t1[n].forEach(p=>ymax=Math.max(ymax,p.m+1.3*p.s))); (D.pesquisas_t1[P]||[]).forEach(p=>{ if(visivel.has(P)) ymax=Math.max(ymax,p.v)});
+  ymax=Math.min(60,Math.ceil((ymax+2)/5)*5);
+  const y=v=>m.t+(H-m.t-m.b)*(1-v/ymax);
+  for(let v=0; v<=ymax; v+=10){ el("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:"gridl"},s); el("text",{x:m.l-8,y:y(v)+4,"text-anchor":"end"},s).textContent=v+"%"; }
+  const mesIni=new Date(d0.getFullYear(),d0.getMonth()+1,1);
+  for(let d=mesIni; d<=d1; d=new Date(d.getFullYear(),d.getMonth()+1,1)){ const iso=d.toISOString().slice(0,10); el("text",{x:x(iso),y:H-8,"text-anchor":"middle"},s).textContent=dataCurta(iso).split(" ")[1]; el("line",{x1:x(iso),x2:x(iso),y1:H-m.b,y2:H-m.b+4,class:"base"},s); }
+  el("line",{x1:m.l,x2:W-m.r,y1:y(0),y2:y(0),class:"base"},s);
+  const eleicao=D.eleicao.t1; el("line",{x1:x(eleicao),x2:x(eleicao),y1:m.t,y2:H-m.b,stroke:css("--ink-3"),"stroke-dasharray":"3 3"},s);
+  el("text",{x:x(eleicao)-4,y:m.t+10,"text-anchor":"end"},s).textContent="4 out";
+  const ultimo = D.ultima_pesquisa;
+  nomes.forEach(n=>{
+    const T=D.tendencia_t1[n], col=cor(n);
+    const up=T.map(p=>`${x(p.d)},${y(p.m+1.2816*p.s)}`).join(" "), dn=[...T].reverse().map(p=>`${x(p.d)},${y(Math.max(0,p.m-1.2816*p.s))}`).join(" ");
+    el("polygon",{points:up+" "+dn,fill:col,opacity:.13},s);
+    (D.pesquisas_t1[n]||[]).forEach(p=>el("circle",{cx:x(p.d),cy:y(p.v),r:2.6,fill:col,opacity:.45},s));
+    const obs=T.filter(p=>p.d<=ultimo), fut=T.filter(p=>p.d>=ultimo);
+    el("polyline",{points:obs.map(p=>`${x(p.d)},${y(p.m)}`).join(" "),fill:"none",stroke:col,"stroke-width":2,"stroke-linejoin":"round"},s);
+    el("polyline",{points:fut.map(p=>`${x(p.d)},${y(p.m)}`).join(" "),fill:"none",stroke:col,"stroke-width":2,"stroke-dasharray":"4 4"},s);
+  });
+  // rótulos diretos na ponta, sem sobreposição
+  if (W>=520){
+    const ends=nomes.map(n=>{const T=D.tendencia_t1[n]; return {n, v:T[T.length-1].m, yy:y(T[T.length-1].m)}}).sort((a,b)=>a.yy-b.yy);
+    for(let i=1;i<ends.length;i++) if(ends[i].yy-ends[i-1].yy<14) ends[i].yy=ends[i-1].yy+14;
+    ends.forEach(e=>{ const t=el("text",{x:W-m.r+8,y:e.yy+4,class:"lbl"},s); t.textContent=`${e.n.split(" ")[0]} ${fmt(e.v)}`; });
+  }
+  // crosshair
+  const tip=tipIn(host); const cross=el("line",{y1:m.t,y2:H-m.b,stroke:css("--ink-3"),"stroke-width":1,opacity:0},s);
+  const hit=el("rect",{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:"transparent"},s);
+  hit.addEventListener("pointermove",ev=>{
+    const r=host.getBoundingClientRect(), sx=(ev.clientX-r.left)*W/r.width;
+    const t=new Date(d0.getTime()+(sx-m.l)/(W-m.l-m.r)*(d1-d0)); const iso=t.toISOString().slice(0,10);
+    const i=Math.max(0,Math.min(all.length-1,Math.round((t-d0)/864e5)));
+    const dia=D.tendencia_t1[P][i].d; cross.setAttribute("x1",x(dia)); cross.setAttribute("x2",x(dia)); cross.setAttribute("opacity",1);
+    const linhas=nomes.map(n=>({n,p:D.tendencia_t1[n][i]})).sort((a,b)=>b.p.m-a.p.m);
+    const polls=(D.pesquisas_t1[P]||[]).filter(p=>Math.abs(new Date(p.d)-new Date(dia))<1.5*864e5).map(p=>p.i);
+    tip.innerHTML=`<b>${dataCurta(dia)}${dia>ultimo?" · projeção":""}</b>`+linhas.map(l=>`<div class="row"><span><span class="sw" style="background:${cor(l.n)}"></span>${l.n}</span><span class="num">${fmt(l.p.m)}%</span></div>`).join("")+(polls.length?`<div class="small muted" style="margin-top:4px">Pesquisas: ${[...new Set(polls)].join(", ")}</div>`:"");
+    place(tip,host,ev.clientX-r.left,ev.clientY-r.top);
+  });
+  hit.addEventListener("pointerleave",()=>{tip.hidden=true;cross.setAttribute("opacity",0);});
+}
+
+/* ---------- 2º turno ---------- */
+function chartT2(){
+  const lf=D.confrontos.find(c=>(c.a===P&&c.b===A)); if(!lf) return;
+  const host=document.getElementById("c-t2"); const W=Math.max(300,host.clientWidth), H=260, m={l:12,r:12,t:34,b:34};
+  const s=svgIn(host,W,H); const bins=lf.hist, lo=30, step=0.5, n=bins.length, maxc=Math.max(...bins);
+  const x=v=>m.l+(W-m.l-m.r)*(v-lo)/(n*step), y=c=>H-m.b-(H-m.t-m.b)*c/maxc;
+  const bw=(W-m.l-m.r)/n;
+  bins.forEach((c,i)=>{ const v=lo+i*step; if(!c) return; el("rect",{x:x(v)+0.5,y:y(c),width:Math.max(0.5,bw-1),height:H-m.b-y(c),fill:v+step/2>50?cor(P):cor(A),opacity:.85},s); });
+  el("line",{x1:m.l,x2:W-m.r,y1:H-m.b,y2:H-m.b,class:"base"},s);
+  for(let v=35; v<=65; v+=5){ el("text",{x:x(v),y:H-m.b+16,"text-anchor":"middle"},s).textContent=v+"%"; }
+  el("line",{x1:x(50),x2:x(50),y1:m.t-8,y2:H-m.b,stroke:css("--ink"),"stroke-width":1.5},s);
+  el("text",{x:x(50)-8,y:m.t-12,"text-anchor":"end",class:"lbl"},s).textContent=`← ${A.split(" ")[0]} vence ${pct(1-lf.p_a_vence)}`;
+  el("text",{x:x(50)+8,y:m.t-12,"text-anchor":"start",class:"lbl"},s).textContent=`${P} vence ${pct(lf.p_a_vence)} →`;
+  el("text",{x:W/2,y:H-4,"text-anchor":"middle"},s).textContent=`Votos válidos de ${P} no 2º turno`;
+  const tip=tipIn(host); const hit=el("rect",{x:m.l,y:m.t,width:W-m.l-m.r,height:H-m.t-m.b,fill:"transparent"},s);
+  const tot=bins.reduce((a,b)=>a+b,0);
+  hit.addEventListener("pointermove",ev=>{ const r=host.getBoundingClientRect(), sx=(ev.clientX-r.left)*W/r.width; const i=Math.max(0,Math.min(n-1,Math.floor((sx-m.l)/bw))); const v=lo+i*step; tip.innerHTML=`<b>${P} com ${fmt(v)}–${fmt(v+step)}%</b><div class="row"><span>Frequência</span><span class="num">${pct(bins[i]/tot,1)}</span></div>`; place(tip,host,ev.clientX-r.left,ev.clientY-r.top); });
+  hit.addEventListener("pointerleave",()=>tip.hidden=true);
+  const ag=D.t2_agregado[A];
+  document.getElementById("t2Title").textContent=`${P} × ${A}: ${P} com ${fmt(lf.a_media)}% dos válidos`;
+  document.getElementById("t2Sub").innerHTML=`Distribuição dos votos válidos de ${P} nas ${Math.round(lf.prob*D.n_sim).toLocaleString("pt-BR")} simulações em que o 2º turno é contra ${A}. As pesquisas de confronto direto apontam ${fmt(ag.media)}% para ${P} (média com efeitos de instituto); o modelo desconta o erro histórico desse tipo de pesquisa e o correlaciona com o erro do 1º turno.`;
+  const t=document.getElementById("t-t2");
+  t.innerHTML=`<thead><tr><th>Confronto</th><th class="num">Chance de ocorrer</th><th class="num">Pesquisas*</th><th class="num">Vence o 1º</th></tr></thead><tbody>`+
+    D.confrontos.filter(c=>c.prob>=0.001).map(c=>`<tr><td>${c.a} × ${c.b}</td><td class="num">${pct(c.prob,1)}</td><td class="num">${c.a===P&&D.t2_agregado[c.b]?fmt(D.t2_agregado[c.b].media)+"%":"–"}</td><td class="num">${pct(c.p_a_vence)}</td></tr>`).join("")+
+    Object.keys(D.t2_agregado).filter(r=>!D.confrontos.some(c=>c.a===P&&c.b===r)).map(r=>`<tr><td class="muted">${P} × ${r}</td><td class="num muted">&lt;0,1%</td><td class="num">${fmt(D.t2_agregado[r].media)}%</td><td class="num muted">–</td></tr>`).join("")+
+    `</tbody><tfoot><tr><td colspan="4" class="small muted" style="text-align:left;white-space:normal">* Parcela de ${P} nos votos válidos segundo a média das pesquisas de confronto direto, antes da correção histórica.</td></tr></tfoot>`;
+}
+
+/* ---------- mapa em mosaico ---------- */
+const GRADE = {RR:[0,2],AP:[0,4],AM:[1,1],PA:[1,3],MA:[1,4],CE:[1,5],RN:[1,6],AC:[2,0],RO:[2,1],MT:[2,2],TO:[2,3],PI:[2,4],PE:[2,5],PB:[2,6],MS:[3,2],GO:[3,3],DF:[3,4],BA:[3,5],AL:[3,6],PR:[4,2],SP:[4,3],MG:[4,4],ES:[4,5],SE:[4,6],SC:[5,2],RJ:[5,4],RS:[6,2]};
+const NOME_UF={AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
+function hex2rgb(h){h=h.replace("#","");return [0,2,4].map(i=>parseInt(h.slice(i,i+2),16));}
+function mix(a,b,t){const A=hex2rgb(a),B=hex2rgb(b);return `rgb(${A.map((v,i)=>Math.round(v+(B[i]-v)*t)).join(",")})`;}
+function lum(rgb){const v=rgb.match(/\d+/g).map(Number).map(c=>{c/=255;return c<=.03928?c/12.92:((c+.055)/1.055)**2.4});return .2126*v[0]+.7152*v[1]+.0722*v[2];}
+function divergente(p){ // p = chance de Lula; cinza neutro no meio
+  const n=css("--neutral"); return p>=0.5? mix(n,cor(P),Math.min(1,(p-0.5)*2)) : mix(n,cor(A),Math.min(1,(0.5-p)*2)); }
+let modo=2;
+function mapa(){
+  const box=document.getElementById("tiles"); box.innerHTML="";
+  const host=document.getElementById("c-map"); const tip=tipIn(host);
+  const E=Object.fromEntries(D.estados.map(e=>[e.uf,e]));
+  for(let r=0;r<7;r++) for(let c=0;c<7;c++){
+    const uf=Object.keys(GRADE).find(k=>GRADE[k][0]===r&&GRADE[k][1]===c);
+    const d=document.createElement("div");
+    if(!uf){ d.style.visibility="hidden"; d.className="tile"; box.appendChild(d); continue; }
+    const e=E[uf]; let bg, sub;
+    if(modo===2){ bg=divergente(e.t2_p_lula); sub=fmt(e.t2_lula_media,0)+"%"; }
+    else { const [lid,pl]=Object.entries(e.t1_lider).sort((a,b)=>b[1]-a[1])[0]; bg=mix(css("--neutral"),cor(lid),Math.min(1,Math.max(0,(pl-0.5)*2))*0.85+0.15); sub=lid.split(" ")[0].slice(0,6); }
+    d.className="tile"+(lum(bg)>0.4?" light":""); d.style.background=bg; d.tabIndex=0;
+    d.setAttribute("aria-label",`${NOME_UF[uf]}: ${modo===2?`Lula com ${fmt(e.t2_lula_media)}% no 2º turno, chance ${pct(e.t2_p_lula)}`:`líder provável ${sub}`}`);
+    d.innerHTML=`${uf}<small class="num">${sub}</small>`;
+    const show=ev=>{ const t1=Object.entries(e.t1).filter(([k])=>k!=="Outros").sort((a,b)=>b[1]-a[1]).slice(0,4);
+      tip.innerHTML=`<b>${NOME_UF[uf]}</b>`+(modo===2?`<div class="row"><span>${P} no 2º turno</span><span class="num">${fmt(e.t2_lula_media)}%</span></div><div class="row"><span>Intervalo 80%</span><span class="num">${fmt(e.t2_lula_p10)}–${fmt(e.t2_lula_p90)}%</span></div><div class="row"><span>Chance de ${P} vencer</span><span class="num">${pct(e.t2_p_lula)}</span></div>`:"")+
+      `<div class="small muted" style="margin-top:4px">1º turno</div>`+t1.map(([k,v])=>`<div class="row"><span><span class="sw" style="background:${cor(k)}"></span>${k}</span><span class="num">${fmt(v)}%</span></div>`).join("");
+      const r=host.getBoundingClientRect(), b=d.getBoundingClientRect(); place(tip,host,b.right-r.left,b.top-r.top); };
+    d.addEventListener("pointerenter",show); d.addEventListener("focus",show);
+    d.addEventListener("pointerleave",()=>tip.hidden=true); d.addEventListener("blur",()=>tip.hidden=true);
+    box.appendChild(d);
+  }
+  const ramp=document.getElementById("ramp");
+  if(modo===2){ ramp.innerHTML=`<span>Chance de ${P} vencer na UF (2º turno contra ${A})</span><div class="g" style="background:linear-gradient(90deg,${cor(A)},${css("--neutral")},${cor(P)})"></div><div class="ends"><span>${A.split(" ")[0]} certo</span><span>50%</span><span>${P} certo</span></div>`; }
+  else { ramp.innerHTML=`<span>Candidato mais provável de liderar o 1º turno na UF (cor mais forte = mais certeza)</span><div class="legend">${D.candidatos.slice(0,2).map(c=>`<span><span class="sw" style="background:${cor(c.nome)}"></span>${c.nome}</span>`).join("")}</div>`; }
+  const pesos=D.estados.reduce((s,e)=>s+e.eleitores_validos_2022,0);
+  const lulaUF=D.estados.filter(e=>e.t2_p_lula>0.5).length;
+  const disput=D.estados.filter(e=>e.t2_p_lula>0.25&&e.t2_p_lula<0.75).map(e=>e.uf);
+  document.getElementById("mapSummary").innerHTML = modo===2
+    ? `No confronto ${P} × ${A}, ${P} é favorito em <b>${lulaUF}</b> UFs e ${A.split(" ")[0]} em <b>${27-lulaUF}</b>. Mais disputadas (chance entre 25% e 75%): <b>${disput.join(", ")||"nenhuma"}</b>. No Brasil o voto é somado nacionalmente: vencer em mais estados não decide a eleição.`
+    : `No 1º turno, ${P} lidera provavelmente em <b>${D.estados.filter(e=>e.t1_lider[P]>0.5).length}</b> UFs e ${A.split(" ")[0]} em <b>${D.estados.filter(e=>e.t1_lider[A]>0.5).length}</b>.`;
+  const t=document.getElementById("t-uf");
+  const cs=D.candidatos.map(c=>c.nome);
+  t.innerHTML=`<thead><tr><th>UF</th>${cs.map(c=>`<th class="num">${c.split(" ")[0]}</th>`).join("")}<th class="num">${P} 2º t.</th><th class="num">Chance ${P}</th></tr></thead><tbody>`+
+    [...D.estados].sort((a,b)=>b.t2_p_lula-a.t2_p_lula).map(e=>`<tr><td>${NOME_UF[e.uf]} <span class="muted small">${e.uf}</span></td>${cs.map(c=>`<td class="num">${fmt(e.t1[c])}</td>`).join("")}<td class="num">${fmt(e.t2_lula_media)}</td><td class="num">${pct(e.t2_p_lula)}</td></tr>`).join("")+"</tbody>";
+}
+document.getElementById("m2").onclick=()=>{modo=2;document.getElementById("m2").setAttribute("aria-pressed","true");document.getElementById("m1").setAttribute("aria-pressed","false");mapa();};
+document.getElementById("m1").onclick=()=>{modo=1;document.getElementById("m1").setAttribute("aria-pressed","true");document.getElementById("m2").setAttribute("aria-pressed","false");mapa();};
+
+/* ---------- institutos ---------- */
+function chartHouse(){
+  const host=document.getElementById("c-house"); const W=Math.max(320,host.clientWidth);
+  const I=D.institutos.filter(i=>i.n>=2&&i[A]!=null), rowH=30, m={l:W<520?118:150,r:W<520?60:150,t:34,b:10}, H=m.t+m.b+rowH*I.length;
+  const s=svgIn(host,W,H); const lim=Math.max(3,Math.ceil(Math.max(...I.map(i=>Math.max(Math.abs(i[P]||0),Math.abs(i[A]||0))))));
+  const x=v=>m.l+(W-m.l-m.r)*(v+lim)/(2*lim);
+  for(let v=-lim; v<=lim; v++){ if(v%1) continue; el("line",{x1:x(v),x2:x(v),y1:m.t-4,y2:H-m.b,class:v===0?"base":"gridl"},s); if(v%(lim>4?2:1)===0) el("text",{x:x(v),y:m.t-10,"text-anchor":"middle"},s).textContent=(v>0?"+":"")+v; }
+  const tip=tipIn(host);
+  I.forEach((it,k)=>{
+    const y=m.t+rowH*k+rowH/2;
+    el("text",{x:m.l-10,y:y+4,"text-anchor":"end",class:"lbl"},s).textContent=it.instituto;
+    [[P,-5],[A,3]].forEach(([n,dy])=>{ const v=it[n]||0; el("rect",{x:Math.min(x(0),x(v)),y:y+dy-1,width:Math.max(1.5,Math.abs(x(v)-x(0))),height:5,rx:2,fill:cor(n)},s); });
+    if(W>=520) el("text",{x:W-m.r+12,y:y+4},s).textContent=`${it.n} pesq. · peso ${fmt(it.peso,2)}${it.tem_historico?"":"*"}`;
+    else el("text",{x:W-m.r+8,y:y+4},s).textContent=`×${fmt(it.peso,1)}`;
+    const hit=el("rect",{x:0,y:y-rowH/2,width:W,height:rowH,fill:"transparent"},s);
+    hit.addEventListener("pointermove",ev=>{ tip.innerHTML=`<b>${it.instituto}</b><div class="row"><span>${P}</span><span class="num">${it[P]>0?"+":""}${fmt(it[P])} pt</span></div><div class="row"><span>${A}</span><span class="num">${it[A]>0?"+":""}${fmt(it[A])} pt</span></div>${it.t2!=null?`<div class="row"><span>${P} no 2º turno</span><span class="num">${it.t2>0?"+":""}${fmt(it.t2)} pt</span></div>`:""}<div class="row"><span>Pesquisas de 1º turno</span><span class="num">${it.n}</span></div><div class="row"><span>Peso histórico</span><span class="num">${fmt(it.peso,2)}${it.tem_historico?"":" (sem histórico)"}</span></div>`; const r=host.getBoundingClientRect(); place(tip,host,ev.clientX-r.left,ev.clientY-r.top); });
+    hit.addEventListener("pointerleave",()=>tip.hidden=true);
+  });
+  const lg=document.createElement("div"); lg.className="legend"; host.querySelectorAll(".legend").forEach(l=>l.remove());
+  lg.innerHTML=`<span><span class="sw" style="background:${cor(P)}"></span>${P}</span><span><span class="sw" style="background:${cor(A)}"></span>${A}</span><span>* sem histórico: peso neutro</span>`;
+  host.appendChild(lg);
+}
+
+/* ---------- histórico ---------- */
+function chartHist(){
+  const host=document.getElementById("c-hist"); const W=Math.max(320,host.clientWidth), H=260, m={l:40,r:10,t:16,b:30};
+  const s=svgIn(host,W,H); const E=D.calibracao.erros_t1; const anos=[...new Set(E.map(e=>e.ano))].sort();
+  const papeis=[["pt","Candidato do PT","--lula"],["adv","Principal adversário","--flavio"],["outros","Demais","--outros"]];
+  const lim=Math.ceil(Math.max(...E.map(e=>Math.abs(e.erro)))/2)*2+1;
+  const y=v=>m.t+(H-m.t-m.b)*(lim-v)/(2*lim); const gw=(W-m.l-m.r)/anos.length, bw=Math.min(22,gw/4.5);
+  for(let v=-lim+1; v<=lim; v+=2){ el("line",{x1:m.l,x2:W-m.r,y1:y(v),y2:y(v),class:"gridl"},s); }
+  for(let v=-Math.floor(lim/2)*2; v<=lim; v+=4) el("text",{x:m.l-8,y:y(v)+4,"text-anchor":"end"},s).textContent=(v>0?"+":"")+v;
+  el("line",{x1:m.l,x2:W-m.r,y1:y(0),y2:y(0),class:"base"},s);
+  const tip=tipIn(host);
+  anos.forEach((a,i)=>{ const cx=m.l+gw*(i+.5);
+    el("text",{x:cx,y:H-8,"text-anchor":"middle",class:"lbl"},s).textContent=a;
+    papeis.forEach(([p,,v],j)=>{ const e=E.find(r=>r.ano===a&&r.papel===p); if(!e) return; const bx=cx+(j-1)*(bw+2)-bw/2;
+      const r=el("rect",{x:bx,y:Math.min(y(0),y(e.erro)),width:bw,height:Math.max(1.5,Math.abs(y(e.erro)-y(0))),rx:3,fill:css(v)},s);
+      r.addEventListener("pointermove",ev=>{ tip.innerHTML=`<b>${a} · ${papeis[j][1]}</b><div class="row"><span>Projeção</span><span class="num">${fmt(e.pesquisa)}%</span></div><div class="row"><span>Urna</span><span class="num">${fmt(e.urna)}%</span></div><div class="row"><span>Erro</span><span class="num">${e.erro>0?"+":""}${fmt(e.erro)} pt</span></div><div class="small muted">${e.fonte}</div>`; const rr=host.getBoundingClientRect(); place(tip,host,ev.clientX-rr.left,ev.clientY-rr.top); });
+      r.addEventListener("pointerleave",()=>tip.hidden=true);
+    });
+  });
+  el("text",{x:m.l+4,y:m.t+8},s).textContent="↑ pesquisa acima da urna";
+  el("text",{x:m.l+4,y:H-m.b-6},s).textContent="↓ pesquisa abaixo da urna";
+  document.getElementById("lg-hist").innerHTML=papeis.map(([,l,v])=>`<span><span class="sw" style="background:${css(v)}"></span>${l}</span>`).join("");
+  const C=D.calibracao;
+  document.getElementById("histTxt").innerHTML=`Viés aplicado em 2026 (média encolhida para zero): PT ${C.vies_t1.pt>0?"+":""}${fmt(C.vies_t1.pt)} pt, adversário ${fmt(C.vies_t1.adv)} pt, demais ${C.vies_t1.outros>0?"+":""}${fmt(C.vies_t1.outros)} pt. Erro típico (raiz do erro quadrático médio): ${fmt(C.dp_t1.pt)}, ${fmt(C.dp_t1.adv)} e ${fmt(C.dp_t1.outros)} pt.`;
+}
+
+/* ---------- metodologia ---------- */
+function metodo(){
+  const C=D.calibracao;
+  const itens=[
+    ["1. Coleta",`Todas as pesquisas nacionais de 2026 compiladas na Wikipédia (registradas no TSE): ${D.n_pesquisas_t1} cenários de 1º turno com o elenco final e ${D.n_confrontos_t2} confrontos de 2º turno. Cada pesquisa é convertida em votos válidos, como o TSE apura.`],
+    ["2. Agregação",`Para cada candidato, um passeio aleatório diário é estimado por filtro e suavizador de Kalman, com efeito fixo por instituto (priori de ±2,5 pt) e volatilidade escolhida por máxima verossimilhança. O nível é ancorado nos institutos que mais acertaram em 2010, 2018 e 2022.`],
+    ["3. Erro histórico",`O mesmo agregador foi rodado na véspera de 2010, 2018 e 2022, com pesos calculados sem o ano testado. Somados a 2006 e 2014, esses erros definem o viés médio (encolhido para zero) e a dispersão, sorteada com caudas grossas (t de Student, 5 g.l.).`],
+    ["4. Segundo turno",`Confrontos diretos agregados da mesma forma e projetados para 25/out. O erro desse tipo de pesquisa (medida antes do 1º turno) vem de 2018 e 2022 e tem correlação ${fmt(C.rho_t1_t2,2)} com o erro do 1º turno. Confrontos sem pesquisa usam transferência de votos por afinidade ideológica.`],
+    ["5. Estados",`Inclinação de cada UF em relação ao país (logito), com persistência ${fmt(C.persistencia_uf,2)} entre eleições estimada em 2006–2022; choques regionais (dp ${fmt(C.dp_regiao,2)}) e estaduais (dp ${fmt(C.dp_estado,2)}); candidato da casa rende ${fmt(C.multiplicador_casa,1)}× no próprio estado (média de 7 casos, 2002–2022).`],
+    ["6. Limites",`O modelo não usa pesquisas estaduais, abstenção diferencial nem eventos de campanha além do que as pesquisas captam. O viés histórico pode ter sido corrigido pelos institutos desde 2022; por isso a sensibilidade ao viés é mostrada no topo.`],
+  ];
+  document.getElementById("method").innerHTML=itens.map(([h,p])=>`<div><h3>${h}</h3><p>${p}</p></div>`).join("");
+}
+
+function tudo(){ hero(); sens(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
+legendTrend(); metodo(); tudo();
+let rt; addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(tudo,150);});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",tudo);
+new MutationObserver(tudo).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+</script>
