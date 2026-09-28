@@ -92,6 +92,7 @@ python prever.py --sim 50000          # mais simulações
 python prever.py --peso-vies 0        # sem correção do viés histórico
 python prever.py --peso-vies 1        # correção histórica inteira
 python prever.py --ate 2026-08-15     # "volta no tempo": só pesquisas até a data
+python prever.py --institutos AtlasIntel,MDA   # só alguns institutos
 python -m pytest testes               # testes
 ```
 

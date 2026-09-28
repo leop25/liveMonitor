@@ -6,6 +6,7 @@ Uso:
     python prever.py --atualizar     # baixa as pesquisas mais recentes antes
     python prever.py --sim 50000 --peso-vies 1   # correção histórica inteira
     python prever.py --ate 2026-09-01   # "volta no tempo": só pesquisas até a data
+    python prever.py --institutos AtlasIntel,MDA   # só alguns institutos
 """
 from __future__ import annotations
 
@@ -27,11 +28,13 @@ def main() -> None:
                     help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 0,5 = padrão, 1 = inteiro)")
     ap.add_argument("--semente", type=int, default=2026)
     ap.add_argument("--ate", type=date.fromisoformat, default=None, help="usa só pesquisas até esta data (AAAA-MM-DD)")
+    ap.add_argument("--institutos", type=lambda t: [x.strip() for x in t.split(",") if x.strip()], default=None,
+                    help="usa só estes institutos, separados por vírgula (ex.: AtlasIntel,MDA)")
     ap.add_argument("--saida", type=Path, default=RAIZ / "saida")
     args = ap.parse_args()
 
     s = executar(n_sim=args.sim, peso_vies=args.peso_vies, atualizar=args.atualizar,
-                 semente=args.semente, hoje=args.ate)
+                 semente=args.semente, hoje=args.ate, institutos=args.institutos)
     args.saida.mkdir(parents=True, exist_ok=True)
     salvar_json(s, args.saida / "previsao.json")
     html, _ = gerar_painel(s, args.saida)

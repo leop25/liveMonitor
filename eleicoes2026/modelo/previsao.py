@@ -45,7 +45,7 @@ def _pontos(obs: pd.DataFrame, desde: pd.Timestamp) -> list[dict]:
 
 
 def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar: bool = False, semente: int = 2026,
-             hoje: date | None = None, verbose: bool = True) -> dict:
+             hoje: date | None = None, verbose: bool = True, institutos: list[str] | None = None) -> dict:
     log = print if verbose else (lambda *a, **k: None)
     if atualizar:
         log("• Atualizando pesquisas na Wikipédia…")
@@ -70,6 +70,10 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
     p1 = p1[p1.meio >= INICIO_SERIE].reset_index(drop=True)
     p2 = coleta.pesquisas_segundo_turno(brutas)
     p2 = p2[p2.meio >= INICIO_SERIE].reset_index(drop=True)
+    if institutos:  # previsão restrita a alguns institutos (ex.: os mais precisos no passado)
+        p1 = p1[p1.instituto.isin(institutos)].reset_index(drop=True)
+        p2 = p2[p2.instituto.isin(institutos)].reset_index(drop=True)
+        log(f"  apenas: {', '.join(institutos)}")
     log(f"  {len(p1)} pesquisas de 1º turno e {len(p2)} confrontos de 2º turno desde {INICIO_SERIE:%d/%m/%Y}")
 
     log("• Calibrando com eleições de 2006–2022 (backtest, qualidade dos institutos, geografia)…")
