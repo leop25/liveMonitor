@@ -14,7 +14,11 @@ from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
 
 DATA_T1 = pd.Timestamp("2026-10-04")
 DATA_T2 = pd.Timestamp("2026-10-25")
-INICIO_SERIE = pd.Timestamp("2026-01-15")   # elenco de candidatos já próximo do final
+INICIO_SERIE = pd.Timestamp("2026-01-15")
+# Metade do viés histórico: os institutos atualizaram amostras (Censo 2022), adotaram modelos de
+# eleitor provável e a distância entre presenciais e online caiu pela metade desde 2022 — mas em
+# 2022 até os mais precisos erraram no mesmo sentido. Ver README ("Escolha do cenário").
+PESO_VIES_PADRAO = 0.5   # elenco de candidatos já próximo do final
 
 CONFIG_2026 = dict(
     candidatos=["Lula", "Flávio Bolsonaro", "Augusto Cury", "Renan Santos", "Caiado", "Zema"],
@@ -40,7 +44,7 @@ def _pontos(obs: pd.DataFrame, desde: pd.Timestamp) -> list[dict]:
              "a": round(float(r.ajustado), 2)} for r in o.itertuples()]
 
 
-def executar(n_sim: int = 20000, peso_vies: float = 1.0, atualizar: bool = False, semente: int = 2026,
+def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar: bool = False, semente: int = 2026,
              hoje: date | None = None, verbose: bool = True) -> dict:
     log = print if verbose else (lambda *a, **k: None)
     if atualizar:
@@ -102,11 +106,19 @@ def executar(n_sim: int = 20000, peso_vies: float = 1.0, atualizar: bool = False
     # sensibilidade ao viés histórico
     sens = []
     for pv in (0.0, 0.5, 1.0, 1.5):
-        c2 = Configuracao(**{**cfg.__dict__, "peso_vies": pv, "n_sim": min(n_sim, 10000)})
-        r2 = simular_nacional(c2, ent, cal, np.random.default_rng(semente + 1))
+        if pv == peso_vies:  # o cenário escolhido usa a própria simulação principal
+            r2 = res
+        else:
+            c2 = Configuracao(**{**cfg.__dict__, "peso_vies": pv, "n_sim": min(n_sim, 10000)})
+            r2 = simular_nacional(c2, ent, cal, np.random.default_rng(semente + 1))
         todos = cands + ["Outros"]
+        ip_, ia_ = todos.index(cfg.principal), todos.index(cfg.adversario)
+        lf = (r2.finalistas[:, 0] == ip_) & (r2.finalistas[:, 1] == ia_) & ~r2.decidido_t1
         sens.append({"peso_vies": pv, "vitoria": {c: float(np.mean(r2.vencedor == i)) for i, c in enumerate(todos[:-1])},
-                     "decidido_t1": float(np.mean(r2.decidido_t1))})
+                     "decidido_t1": float(np.mean(r2.decidido_t1)),
+                     "t1": {c: float(r2.t1[c].mean()) for c in todos},
+                     "t2_principal": float(np.mean(r2.t2_parcela[lf])) if lf.any() else None,
+                     "lider_t1_principal": float(np.mean(r2.t1.to_numpy()[:, :-1].argmax(axis=1) == ip_))})
 
     saida = _consolidar(cfg, cfg_d, res, ent, cal, tend1, tend2, p1, p2, sens)
     saida["gerado_em"] = datetime.now().strftime("%Y-%m-%d %H:%M")

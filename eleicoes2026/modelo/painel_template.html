@@ -114,7 +114,7 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
 <header class="top">
   <div class="eyebrow">Modelo probabilístico · Eleição presidencial do Brasil</div>
   <h1>Previsão Presidencial 2026</h1>
-  <p class="muted">Agregação bayesiana de <b id="nPesq"></b> pesquisas de 2026, calibrada pelos erros das pesquisas em cinco eleições (2006–2022) e simulada <b id="nSim"></b> vezes, do 1º turno ao mapa das 27 UFs.</p>
+  <p class="muted">Agregação bayesiana de <b id="nPesq"></b> pesquisas de 1º turno e <b id="nConf"></b> confrontos de 2º turno de 2026, calibrada pelos erros das pesquisas em cinco eleições (2006–2022) e simulada <b id="nSim"></b> vezes, do 1º turno ao mapa das 27 UFs.</p>
   <div class="meta">
     <span>1º turno <b id="dT1"></b></span><span>2º turno <b id="dT2"></b></span>
     <span>Última pesquisa <b id="dUlt"></b></span><span>Atualizado <b id="dGer"></b></span>
@@ -125,9 +125,11 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
 
 <section id="sens-sec">
   <div class="sec-head">
-    <div class="eyebrow">O ponto de atenção</div>
-    <h2>As pesquisas brasileiras erraram sempre para o mesmo lado</h2>
+    <div class="eyebrow">Dois cenários</div>
+    <h2>Quanto do erro histórico das pesquisas vai se repetir?</h2>
   </div>
+  <div class="tbl-wrap"><table id="t-cen"></table></div>
+  <p class="small muted" id="cenTxt"></p>
   <div class="callout">
     <p class="small muted" id="sensTxt"></p>
     <div class="sens" id="sens"></div>
@@ -241,7 +243,8 @@ const byName = Object.fromEntries(D.candidatos.map(c=>[c.nome,c]));
 const P = D.candidatos[0].nome, A = D.candidatos[1].nome;
 
 /* ---------- cabeçalho ---------- */
-document.getElementById("nPesq").textContent = (D.n_pesquisas_t1 + D.n_confrontos_t2).toLocaleString("pt-BR");
+document.getElementById("nPesq").textContent = D.n_pesquisas_t1.toLocaleString("pt-BR");
+document.getElementById("nConf").textContent = D.n_confrontos_t2.toLocaleString("pt-BR");
 document.getElementById("nSim").textContent = D.n_sim.toLocaleString("pt-BR");
 document.getElementById("dT1").textContent = dataBR(D.eleicao.t1);
 document.getElementById("dT2").textContent = dataBR(D.eleicao.t2);
@@ -285,7 +288,7 @@ function hero(){
 /* ---------- sensibilidade ---------- */
 function sens(){
   const C=D.calibracao, box=document.getElementById("sens"); box.innerHTML="";
-  const nomes = {0:"Pesquisas sem correção",0.5:"Metade da correção",1:"Modelo (padrão)",1.5:"Correção 1,5×"};
+  const nomes = {0:"Sem correção",0.5:"Metade (escolhido)",1:"Correção inteira",1.5:"Correção 1,5×"};
   D.sensibilidade.forEach(s=>{
     const p=s.vitoria[P], a=s.vitoria[A];
     const r=document.createElement("div"); r.className="sens-row"+(s.peso_vies===D.peso_vies?" on":"");
@@ -301,6 +304,14 @@ function sens(){
   const anos = e.map(r=>r.ano).sort().join(", ");
   document.getElementById("sensTxt").innerHTML =
     `Em ${e.length} de ${e.length} eleições (${anos}) a projeção final subestimou o principal candidato contra o PT no 1º turno, em média <b>${fmt(-e.reduce((s,r)=>s+r.erro,0)/e.length)} pontos</b>. Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em ${D.calibracao.erros_h2h.map(r=>`${r.ano}: +${fmt(r.erro)}`).join(" e ")}. O modelo aplica esse viés só em parte (encolhido para zero, por serem poucas eleições) e mantém a incerteza toda. As barras mostram o quanto o resultado depende dessa escolha.`;
+  // tabela dos dois cenários principais
+  const cen=[0.5,1].map(pv=>D.sensibilidade.find(s=>s.peso_vies===pv)).filter(Boolean);
+  const titulo={0.5:"Metade da correção <span class=\"pill\">escolhido</span>",1:"Correção histórica inteira"};
+  const desc={0.5:"Os institutos corrigiram parte do problema",1:"As pesquisas erram como em 2006–2022"};
+  const t2=s=>s.t2_principal==null?"–":`${fmt(s.t2_principal)} × ${fmt(100-s.t2_principal)}`;
+  document.getElementById("t-cen").innerHTML=`<thead><tr><th>Cenário</th><th class="num">1º turno ${P} × ${A.split(" ")[0]}</th><th class="num">Quem lidera o 1º turno</th><th class="num">2º turno ${P} × ${A.split(" ")[0]}</th><th class="num">Chance ${P}</th><th class="num">Chance ${A.split(" ")[0]}</th></tr></thead><tbody>`+
+    cen.map(s=>{const lp=s.lider_t1_principal;return `<tr${s.peso_vies===D.peso_vies?' style="font-weight:600"':""}><td>${titulo[s.peso_vies]}<div class="small muted" style="font-weight:400">${desc[s.peso_vies]}</div></td><td class="num">${fmt(s.t1[P])} × ${fmt(s.t1[A])}</td><td class="num">${lp>=0.5?P:A.split(" ")[0]} (${pct(Math.max(lp,1-lp))})</td><td class="num">${t2(s)}</td><td class="num">${pct(s.vitoria[P])}</td><td class="num">${pct(s.vitoria[A])}</td></tr>`}).join("")+"</tbody>";
+  document.getElementById("cenTxt").innerHTML=`<b>Por que metade.</b> Desde 2022 os institutos atualizaram as amostras com o Censo 2022, adotaram modelos de eleitor provável e, no caso da Quaest, passaram a controlar a composição política da amostra. A distância entre institutos presenciais e online caiu de cerca de 5,5 para 2,5 pontos na margem Lula–adversário. Mas em 2022 até os institutos mais precisos superestimaram Lula em cerca de 4 pontos, e a baixa resposta de eleitores bolsonaristas não tem correção conhecida. Aplicar metade do viés é o meio-termo que essas evidências sustentam. Votos válidos em %.`;
 }
 
 /* ---------- 1º turno: intervalos ---------- */

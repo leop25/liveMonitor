@@ -12,30 +12,51 @@ python prever.py --atualizar      # baixa as pesquisas mais recentes e gera said
 
 ## Resultado atual (pesquisas até 27/09/2026, 20 mil simulações)
 
+Cenário escolhido: **metade da correção do viés histórico** (explicação abaixo).
+
 | Candidato | 1º turno (válidos) | Intervalo 80% | Vai ao 2º turno | Eleito |
 |---|---|---|---|---|
-| Flávio Bolsonaro (PL) | 44,5% | 39,5–49,5% | 89% | **70%** |
-| Lula (PT) | 42,4% | 37,9–47,1% | 89% | **30%** |
-| Augusto Cury (Avante) | 4,0% | 1,5–6,7% | <1% | <1% |
-| Renan Santos (Missão) | 3,5% | 1,9–5,1% | <1% | <1% |
-| Caiado (PSD) | 3,4% | 1,9–5,1% | <1% | <1% |
-| Zema (Novo) | 1,0% | 0,3–1,9% | <1% | <1% |
+| Lula (PT) | 43,1% | 38,6–47,7% | 93% | **41%** |
+| Flávio Bolsonaro (PL) | 42,8% | 37,7–47,8% | 93% | **59%** |
+| Augusto Cury (Avante) | 4,4% | 1,8–7,1% | <1% | <1% |
+| Renan Santos (Missão) | 3,8% | 2,2–5,5% | <1% | <1% |
+| Caiado (PSD) | 3,7% | 2,2–5,4% | <1% | <1% |
+| Zema (Novo) | 1,1% | 0,3–2,0% | <1% | <1% |
 
-Chance de 2º turno: 89%. No confronto Lula × Flávio, Lula tem em média 48,1% dos válidos.
+Chance de 2º turno: 93%. No 1º turno, Lula termina à frente em 53% das simulações. No 2º turno Lula × Flávio,
+Lula fica em média com 49,1% dos válidos (faixa de 80%: 43,8–54,4%).
 
-**A previsão depende muito de uma escolha:** quanto confiar no padrão histórico de erro das pesquisas.
+## Dois cenários
 
-| Correção do viés histórico | Lula | Flávio |
-|---|---|---|
-| Nenhuma (pesquisas certas em média) | 53% | 47% |
-| Metade | 42% | 58% |
-| **Padrão do modelo** | **30%** | **70%** |
-| 1,5× | 20% | 80% |
+| Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
+|---|---|---|---|---|
+| **Metade da correção (escolhido)** | 43,1 × 42,8 | 49,1 × 50,9 | **41%** | **59%** |
+| Correção histórica inteira | 42,5 × 44,5 | 48,0 × 52,0 | 30% | 70% |
+| Sem correção (pesquisas certas em média) | — | — | 53% | 47% |
 
 Em todas as cinco eleições de 2006 a 2022, a projeção final subestimou o principal candidato contra o PT no
 1º turno (de 1,5 a 7 pontos). Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em
-3,2 pontos (2018) e 6,1 (2022). O modelo aplica esse viés só em parte (média encolhida para zero) e mantém a
-incerteza. Se os institutos corrigiram seus métodos depois de 2022, a linha "Nenhuma" fica mais perto da verdade.
+3,2 pontos (2018) e 6,1 (2022).
+
+### Escolha do cenário
+
+A favor de o erro ter diminuído:
+- os institutos atualizaram as amostras com o Censo 2022 (em 2022 usavam projeções defasadas);
+- adotaram modelos de eleitor provável (a Quaest desde 2022/2024) e a Quaest passou, em 2026, a controlar a
+  composição política da amostra no desenho, com ponderação por MRP em cerca de 400 subgrupos;
+- nas municipais de 2024, as pesquisas divergiram da urna em só 3 das 26 capitais;
+- a distância entre institutos presenciais (Datafolha, Quaest) e online (AtlasIntel) na margem Lula–adversário
+  caiu de cerca de 5,5 pontos em 2022 para 2,5 pontos em 2026.
+
+Contra:
+- em 2022 até os institutos mais precisos (AtlasIntel, MDA) superestimaram a margem de Lula em cerca de 4 pontos;
+- a explicação mais aceita (baixa taxa de resposta de eleitores bolsonaristas, decisão no dia e voto útil de
+  última hora) não tem correção conhecida, e nenhum instituto brasileiro acompanha os mesmos eleitores antes e
+  depois da votação;
+- a diferença entre presenciais e online persiste no mesmo sentido.
+
+As evidências sustentam que parte do problema foi corrigida, não todo. Por isso o padrão é `--peso-vies 0.5`.
+Os outros cenários ficam no painel e na linha de comando (`--peso-vies 0` ou `--peso-vies 1`).
 
 ## Como funciona
 
@@ -69,6 +90,7 @@ saida/painel.html (painel interativo) e saida/previsao.json
 ```bash
 python prever.py --sim 50000          # mais simulações
 python prever.py --peso-vies 0        # sem correção do viés histórico
+python prever.py --peso-vies 1        # correção histórica inteira
 python prever.py --ate 2026-08-15     # "volta no tempo": só pesquisas até a data
 python -m pytest testes               # testes
 ```

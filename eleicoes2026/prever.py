@@ -4,7 +4,7 @@
 Uso:
     python prever.py                 # usa as pesquisas em cache (dados/brutos)
     python prever.py --atualizar     # baixa as pesquisas mais recentes antes
-    python prever.py --sim 50000 --peso-vies 0.5
+    python prever.py --sim 50000 --peso-vies 1   # correção histórica inteira
     python prever.py --ate 2026-09-01   # "volta no tempo": só pesquisas até a data
 """
 from __future__ import annotations
@@ -13,7 +13,7 @@ import argparse
 from datetime import date
 from pathlib import Path
 
-from modelo.previsao import executar, salvar_json
+from modelo.previsao import PESO_VIES_PADRAO, executar, salvar_json
 from modelo.relatorio import gerar_painel
 
 RAIZ = Path(__file__).resolve().parent
@@ -23,8 +23,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--atualizar", action="store_true", help="baixa as pesquisas mais recentes da Wikipédia")
     ap.add_argument("--sim", type=int, default=20000, help="número de simulações (padrão: 20000)")
-    ap.add_argument("--peso-vies", type=float, default=1.0,
-                    help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 1 = padrão)")
+    ap.add_argument("--peso-vies", type=float, default=PESO_VIES_PADRAO,
+                    help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 0,5 = padrão, 1 = inteiro)")
     ap.add_argument("--semente", type=int, default=2026)
     ap.add_argument("--ate", type=date.fromisoformat, default=None, help="usa só pesquisas até esta data (AAAA-MM-DD)")
     ap.add_argument("--saida", type=Path, default=RAIZ / "saida")
