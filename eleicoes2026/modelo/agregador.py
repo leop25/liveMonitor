@@ -96,7 +96,7 @@ def ajustar_tendencia(obs: pd.DataFrame, pesos: dict[str, float], ate: pd.Timest
     datas = pd.date_range(inicio, fim, freq="D")
     t = ((obs.meio.dt.normalize() - inicio).dt.days).to_numpy()
     y = obs.valor.to_numpy(float)
-    n = obs.n_efetivo.fillna(1500).clip(lower=300).to_numpy(float)
+    n = obs.n_efetivo.fillna(1500).clip(lower=300, upper=6000).to_numpy(float)  # amostras gigantes não dominam
     w_inst = obs.instituto.map(pesos).fillna(peso_padrao).to_numpy(float)
     p = np.clip(y, 1, 99)
     v = (EFEITO_DESENHO * p * (100 - p) / n + ERRO_NAO_AMOSTRAL ** 2) / w_inst

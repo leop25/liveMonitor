@@ -159,8 +159,38 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|Mission Party (Brazil)}}" class=unsortable |
 ! style="background-color:{{party color|Avante (political party)}}" class=unsortable |
 |-
+|''Nexus''
+|''25–27 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |42
+|37
+|5
+|1
+|4
+|5
+|1
+|5
+|±2 pp
+|2,000
+| style="background:#ffb7b7;font-weight:bold;" |5
+|[https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf]
+|-
+|''Quaest''
+|''24–27 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |39
+|34
+|4
+|1
+|3
+|4
+|0
+|15
+|±2 pp
+|2,004
+| style="background:#ffb7b7;font-weight:bold;" |5
+|<ref name=":71">{{Cite web |date=2026-09-28 |title=Quaest, 1º turno:Lula, 39%; Flávio Bolsonaro, 34%; Caiado, 4%; Cury, 4%; Renan, 3%; Zema, 1%|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml|access-date=2026-09-28 |website=G1 |language=pt-BR}}</ref>
+|-
 |''Datafolha''
-|''22–24 Sep 2026''
+|''22–24 Sep''
 |style="background:#ffb7b7;font-weight:bold;" |40
 |36
 |4
@@ -175,7 +205,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-24 |title=Datafolha, 1º turno: Lula, 40%; Flávio Bolsonaro, 36%; Cury, 5%; Caiado, 4%; Renan, 3%; Zema, 1% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-24-setembro.ghtml |access-date=2026-09-25 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Futura''
-|''18–24 Sep 2026''
+|''18–24 Sep''
 |38.4
 | style="font-weight:bold; background-color:#b2d1ea;" |40.4
 |5.7
@@ -190,7 +220,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |last=PODER360 |date=2026-09-24 |title=Flávio tem 40,4% e Lula, 38,4% no 1º turno, diz Futura |url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-404-e-lula-384-no-1o-turno-diz-futura/ |access-date=2026-09-25 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''PoderData''
-|''20–23 Sep 2026''
+|''20–23 Sep''
 |style="background:#ffb7b7;font-weight:bold;" |41
 |39
 |2
@@ -205,7 +235,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |last=Karter |first=Bianca Penteado, Jonathan |date=2026-09-24 |title=Em votos válidos, Lula tem 43% contra 42% de Flávio no 1º turno |url=https://www.poder360.com.br/poderdata/em-votos-validos-lula-tem-43-contra-42-de-flavio-no-1o-turno/ |access-date=2026-09-25 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Palver''
-|''20–23 Sep 2026''
+|''20–23 Sep''
 |style="background:#ffb7b7;font-weight:bold;" |43
 | style="font-weight:bold; background-color:#b2d1ea;" |43
 |1
@@ -220,7 +250,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-24 |title=Palver: Flávio e Lula empatam no 1º turno em 43% |url=https://www.cnnbrasil.com.br/eleicoes/palver-flavio-e-lula-empatam-no-1o-turno-em-43/ |access-date=2026-09-25 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Real Time''
-|''19–23 Sep 2026''
+|''19–23 Sep''
 |style="background:#ffb7b7;font-weight:bold;" |41
 |37
 |2
@@ -235,7 +265,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-24 |title=Real Time Big Data: Lula tem 41% no 1º turno; Flávio, 37% |url=https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-41-no-1o-turno-flavio-37/ |access-date=2026-09-25 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''AtlasIntel''
-|''17–22 Sep 2026''
+|''17–22 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |45.8
 |43.4
 |1.3
@@ -250,7 +280,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-23 |title=Atlas/Bloomberg: Lula tem 45,8% no 1º turno; Flávio, 43,4% |url=https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-458-no-1o-turno-flavio-434/ |access-date=2026-09-24 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Nexus''
-|''18–20 Sep 2026''
+|''18–20 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |37
 |5
@@ -265,7 +295,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-21 |title=Nexus/BTG: Lula tem 40% no 1º turno; Flávio, 37% e Cury, 6% |url=https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-40-no-1o-turno-flavio-37-e-cury-6/ |access-date=2026-09-21 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Quaest''
-|''17–20 Sep 2026''
+|''17–20 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |37
 |33
 |4
@@ -280,7 +310,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":69">{{Cite web |date=2026-09-21 |title=Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 33%; Cury, 6%; Caiado, 4%; Renan, 3%; Zema, 1% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml |access-date=2026-09-21 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Palver''
-|''15–20 Sep 2026''
+|''15–20 Sep''
 |41
 | style="font-weight:bold; background-color:#b2d1ea;" |42
 |1
@@ -295,7 +325,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":68">{{Cite web |last=Marcelino |first=Daniel |date=2026-09-21 |title=Palver mostra Flávio Bolsonaro numericamente à frente de Lula no 1º turno, em empate técnico |url=https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico |access-date=2026-09-21 |website=JOTA Jornalismo |language=pt-BR}}</ref>
 |-
 |''Datafolha''
-|''15–16 Sep 2026''
+|''15–16 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |36
 |4
@@ -310,7 +340,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-17 |title=Lula x Flávio Bolsonaro: Datafolha aponta empate técnico no 1º turno |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/17/datafolha-presidente-17-setembro.ghtml |access-date=2026-09-18 |website=G1 |language=pt-BR}}</ref>
 |-
 |''PoderData''
-|''13–16 Sep 2026''
+|''13–16 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |37
 |36
 |3
@@ -325,7 +355,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":67">{{Cite web |last=Penteado |first=Bianca |date=2026-09-17 |title=PoderData/Aya: Lula tem 37% contra 36% de Flávio no 1º turno |url=https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-37-contra-36-de-flavio-no-1o-turno/ |access-date=2026-09-18 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''AtlasIntel''
-|''11–16 Sep 2026''
+|''11–16 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |44.1
 |41.7
 |1.7
@@ -340,7 +370,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-17 |title=Lula tem 44,1% no 1º turno; Flávio, 41,7%, diz Atlas |url=https://www.cnnbrasil.com.br/eleicoes/lula-tem-441-no-1o-turno-flavio-417-diz-atlas/ |access-date=2026-09-18 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Futura''
-|''11–15 Sep 2026''
+|''11–15 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |38.3
 |37.7
 |4.5
@@ -355,7 +385,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-17 |title=Futura: Lula tem 38,3% no 1º turno; Flávio, 37,7% |url=https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-383-no-1o-turno-flavio-377/ |access-date=2026-09-18 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Nexus''
-|''11–13 Sep 2026''
+|''11–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |37
 |5
@@ -370,7 +400,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-14 |title=Nexus/BTG: No 1° turno, Lula tem 40%; Flávio, 36% e Cury, 7% |url=https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-1-turno-lula-tem-40-flavio-36-e-cury-7/ |access-date=2026-09-14 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Quaest''
-|''10–13 Sep 2026''
+|''10–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |36
 |31
 |4
@@ -385,7 +415,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":65">{{Cite web |last=PODER360 |date=2026-09-14 |title=Flávio tem 42% contra 40% de Lula no 2º turno, diz Quaest |url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-contra-40-de-lula-no-2o-turno-diz-quaest/ |access-date=2026-09-14 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Indexa''
-|''10–13 Sep 2026''
+|''10–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |34
 |4
@@ -400,7 +430,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":66">{{Cite web |last=Marcelino |first=Daniel |date=2026-09-15 |title=Lula recua no 1º turno e perde vantagem sobre Flávio no 2º, mostra Indexa Broadcast |url=https://www.jota.info/eleicoes/eleicoes-2026/lula-recua-no-1o-turno-e-perde-vantagem-sobre-flavio-no-2o-mostra-indexa-broadcast |access-date=2026-09-15 |website=JOTA Jornalismo |language=pt-BR}}</ref>
 |-
 |''MDA''
-|''9–13 Sep 2026''
+|''9–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |40.5
 |30.4
 |3
@@ -415,7 +445,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-15 |title=CNT/MDA: Lula tem 10 pontos de vantagem sobre Flávio no 1º turno; diferença é de 7,3 no 2º |url=https://iclnoticias.com.br/cnt-mda-lula-tem-10-pontos-de-vantagem/ |access-date=2026-09-15 |website=ICL Notícias |language=pt-BR}}</ref>
 |-
 |''Datafolha''
-|''8–10 Sep 2026''
+|''8–10 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |35
 |4
@@ -430,7 +460,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-11 |title=Datafolha: Lula tem 39% e Flávio, 35% no 1° turno |url=https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-39-e-flavio-35-no-1-turno/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Futura''
-|''4–10 Sep 2026''
+|''4–10 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |39.2
 |33.6
 |4.4
@@ -445,7 +475,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-11 |title=Futura: Lula tem 39,2% das intenções de voto no 1º turno; Flávio, 33,6% |url=https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-392-das-intencoes-de-voto-no-1o-turno-flavio-336/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''PoderData''
-|''6–9 Sep 2026''
+|''6–9 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |36
 |2
@@ -460,7 +490,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":60">{{Cite web |last=Karter |first=Bianca Penteado, Jonathan |date=2026-09-10 |title=Flávio tem 47% e Lula 45% no 2º turno, diz PoderData/Aya |url=https://www.poder360.com.br/poderdata/flavio-tem-47-e-lula-45-no-2o-turno-diz-poderdata-aya/ |access-date=2026-09-10 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''AtlasIntel''
-|''4–9 Sep 2026''
+|''4–9 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |37.4
 |1.1
@@ -475,7 +505,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-10 |title=AtlasIntel/Bloomberg: Lula tem 43% no 1º turno; Flávio, 37,4% |url=https://www.cnnbrasil.com.br/eleicoes/atlasintel-bloomberg-lula-tem-43-no-1o-turno-flavio-374/ |access-date=2026-09-10 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Palver''
-|''4–7 Sep 2026''
+|''4–7 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |39
 |1
@@ -490,7 +520,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":59">{{Cite web |title=Pesquisa-Eleitoral-Palver-Onda-2-1.pdf |url=https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Eleitoral-Palver-Onda-2-1.pdf |access-date=2026-09-10 |website=docs.google.com}}</ref>
 |-
 |''Ideia''
-|''4–7 Sep 2026''
+|''4–7 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |38.4
 |37.3
 |4
@@ -505,7 +535,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |[https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro.pdf]
 |-
 |''Nexus''
-|''4–7 Sep 2026''
+|''4–7 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |35
 |4
@@ -520,7 +550,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-08 |title=Nexus/BTG: Lula tem 39% no 1º turno; Flávio, tem 34% |url=https://www.cnnbrasil.com.br/eleicoes/nexus-btg-lula-tem-39-no-1o-turno-flavio-tem-34/ |access-date=2026-09-08 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Quaest''
-|''3–6 Sep 2026''
+|''3–6 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |36
 |29
 |3
@@ -535,7 +565,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-07 |title=Quaest, 1º turno: veja números da pesquisa divulgada no 7 de Setembro |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/07/quaest-presidente-7-setembro.ghtml |access-date=2026-09-07 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Datafolha''
-|''1–2 Sep 2026''
+|''1–2 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |33
 |4
@@ -550,7 +580,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-03 |title=Datafolha: Lula tem 38% e Flávio Bolsonaro 33% no 1º turno |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-presidente-3-setembro.ghtml |access-date=2026-09-03 |website=G1 |language=pt-BR}}</ref>
 |-
 |''PoderData''
-|''30 Aug–2 Sep 2026''
+|''30 Aug – 2 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |37
 |34
 |2
@@ -565,11 +595,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":58">{{Cite web |last=Penteado |first=Bianca |date=2026-09-03 |title=Flávio tem 45% e Lula registra 44% no 2º turno, diz PoderData/Aya |url=https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/ |access-date=2026-09-03 |website=Poder360 |language=pt-br}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |1 September
+| style="border-right-style:hidden;" |''1 Sep''
 | colspan="12" |Beginning of the institutional crisis at the [[Supreme Federal Court]].{{efn|name="STF crisis"}}<ref name=":61">{{Cite web |date=2026-09-01 |title=Vorcaro consultou Moraes sobre fuga: "2ª tenho que estar fora?" |url=https://www.cnnbrasil.com.br/politica/vorcaro-consultou-moraes-sobre-fuga-2a-tenho-que-estar-fora-diz-jornal/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":62">{{Cite web |last=AFP and The Associated Press |title=Brazil’s Supreme Court shuts down early as political chaos mounts |url=https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts |access-date=2026-09-11 |website=Al Jazeera |language=en}}</ref><ref name=":63">{{Cite web |date=2026-09-03 |title=Moraes usa inquérito das fake news para acusar Mendonça de crimes {{!}} Blogs |url=https://www.cnnbrasil.com.br/blogs/gustavo-uribe/politica/moraes-usa-inquerito-das-fake-news-para-acusar-mendonca-de-crimes/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":64">{{Cite web |date=2026-09-09 |title=Entenda o que o STF vai discutir no plenário em 15 de setembro |url=https://www.cnnbrasil.com.br/politica/entenda-o-que-o-stf-vai-discutir-no-plenario-em-15-de-setembro/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Quaest''
-|''30 Aug–1 Sep 2026''
+|''30 Aug – 1 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |37
 |29
 |1
@@ -584,7 +614,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":57">{{Cite web |date=2026-09-02 |title=Quaest, 1º turno: Lula, 37%; Flávio Bolsonaro, 29%; Augusto Cury, 10% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/02/quaest-presidente-2-setembro.ghtml |access-date=2026-09-03 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Futura''
-|''27 Aug–1 Sep 2026''
+|''27 Aug – 1 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |38.7
 |33.6
 |3.5
@@ -599,7 +629,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-09-03 |title=Futura: Lula tem 38,7% no 1º turno; Flávio, 33,6% |url=https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-387-no-1o-turno-flavio-336/ |access-date=2026-09-03 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Real Time''
-|''27–31 Aug 2026''
+|''27–31 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |30
 |4
@@ -614,7 +644,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":56">{{Cite web |last=PODER360 |date=2026-09-01 |title=Lula e Flávio Bolsonaro empatam com 44% no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-com-44-no-2o-turno-diz-pesquisa/ |access-date=2026-09-01 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Nexus''
-|''28–30 Aug 2026''
+|''28–30 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |33
 |5
@@ -629,7 +659,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":55">{{cite web|url=https://noticias.uol.com.br/eleicoes/2026/08/31/pesquisa-presidencial-btgnexus-31-agosto.ghtm|title=BTG/Nexus: Lula lidera no 1° turno, Flávio cai 4 pontos, e Cury sobe 9|website=UOL|language=pt-br|date=31 August 2026|accessdate=31 August 2026}}</ref>
 |-
 |''AtlasIntel''
-|''25–30 Aug 2026''
+|''25–30 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |43.4
 |33.7
 |3.3
@@ -644,11 +674,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":54">{{cite web|url=https://veja.abril.com.br/politica/atlasintel-pesquisa-mostra-disputa-presidencial-apos-primeiros-debates-e-sabatinas/|title=Nova pesquisa AtlasIntel mostra disputa presidencial após primeiros debates e sabatinas|website=Veja|language=pt-br|first=Pedro|last=Jordão|date=31 August 2026|accessdate=31 August 2026}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |28 August
+| style="border-right-style:hidden;" |''28 Aug''
 | colspan="12" |Beginning of free electoral broadcast time on TV and Radio.{{efn|name="Free airtime"}}
 |-
 |''Vox Brasil''
-|''25–27 Aug 2026''
+|''25–27 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |37.1
 |34.8
 |5
@@ -663,7 +693,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":53">{{Cite web |last=PODER360 |date=2026-08-29 |title=Flávio e Lula empatam no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-3/ |access-date=2026-08-30 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''PoderData''
-|''23–26 Aug 2026''
+|''23–26 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |35
 |4
@@ -678,11 +708,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":52">{{Cite web |last=Karter |first=Bianca Penteado, Jonathan |date=2026-08-27 |title=Lula tem 45% contra 44% de Flávio no 2º turno, diz PoderData/Aya |url=https://www.poder360.com.br/poderdata/lula-tem-45-contra-44-de-flavio-no-2o-turno-diz-poderdata-aya/ |access-date=2026-08-27 |website=Poder360 |language=pt-br}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |23 August
-| colspan="12" |First presidential debate. Lula, Flávio Bolsonaro, and Zema did not attend.<ref>{{Cite AV media |url=https://www.youtube.com/watch?v=B856kFWqeBU |title=🔴[AO VIVO] DEBATE DA BAND DE CANDIDATOS À PRESIDÊNCIA {{!}} ELEIÇÕES 2026 - 23/08/2026 |date=2026-08-10 |last=Rádio BandNews FM |access-date=2026-08-24 |via=YouTube}}</ref>
+| style="border-right-style:hidden;" |''23 Aug''
+| colspan="12" |[[2026 Brazilian general election#Presidential debates|First televised presidential debate]]. Lula, Flávio Bolsonaro, and Zema did not attend.<ref>{{Cite AV media |url=https://www.youtube.com/watch?v=B856kFWqeBU |title=🔴[AO VIVO] DEBATE DA BAND DE CANDIDATOS À PRESIDÊNCIA {{!}} ELEIÇÕES 2026 - 23/08/2026 |date=2026-08-10 |last=Rádio BandNews FM |access-date=2026-08-24 |via=YouTube}}</ref>
 |-
 |''Nexus''
-|''21–23 Aug 2026''
+|''21–23 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |37
 |5
@@ -697,7 +727,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":51">{{Cite web |last=PODER360 |date=2026-08-24 |title=Lula tem 46% contra 45% de Flávio no 2º turno, diz BTG/Nexus |url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-btg-nexus/ |access-date=2026-08-25 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Indexa''
-|''20–23 Aug 2026''
+|''20–23 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |34
 |5
@@ -712,7 +742,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-08-26 |title=Indexa: Lula tem 39% das intenções de voto no 1º turno; Flávio, 34% |url=https://www.cnnbrasil.com.br/eleicoes/indexa-lula-tem-39-das-intencoes-de-voto-no-1o-turno-flavio-34/ |access-date=2026-08-26 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Datafolha''
-|''18–20 Aug 2026''
+|''18–20 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |33
 |5
@@ -727,7 +757,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":50">{{Cite web |date=2026-08-21 |title=Datafolha: veja os resultados da pesquisa para a Presidência |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/21/datafolha-primeiro-turno-21-agosto.ghtml |access-date=2026-08-22 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Nexus''
-|''14–16 Aug 2026''
+|''14–16 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |36
 |5
@@ -742,11 +772,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-08-17 |title=Nexus/BTG: No 1º turno, Lula tem 41% e Flávio, 36% |url=https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-1o-turno-lula-tem-41-e-flavio-36/ |access-date=2026-08-17 |website=CNN Brasil |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |16 August
+| style="border-right-style:hidden;" |''16 Aug''
 | colspan="12" |Beginning of the election campaign.
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |15 August
+| style="border-right-style:hidden;" |''15 Aug''
 | colspan="12" |Deadline for the registration of candidacies.
 |}
 
@@ -783,7 +813,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|Avante (political party)}}" |
 |-
 |''Quaest''
-|''10–13 Aug 2026''
+|''10–13 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |31
 |4
@@ -798,7 +828,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":44">{{Cite web |date=2026-08-14 |title=Quaest, 1º turno: Lula, 38%; Flávio Bolsonaro, 31% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/14/quaest-presidente-1o-turno-14-agosto.ghtml |access-date=2026-09-02 |website=G1 |language=pt-BR}}</ref>
 |-
 |''PoderData''
-|''9–12 Aug 2026''
+|''9–12 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |35
 |4
@@ -813,7 +843,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":43">{{Cite web |last=Karter |first=Bianca Penteado, Jonathan |date=2026-08-13 |title=Lula tem 46% contra 45% de Flávio no 2º turno, diz PoderData/Aya |url=https://www.poder360.com.br/poderdata/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-poderdata-aya/ |access-date=2026-08-13 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Nexus''
-|''7–9 Aug 2026''
+|''7–9 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |35
 |5
@@ -828,7 +858,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-08-10 |title=Nexus/BTG: No 1º turno, Lula tem 40% e Flávio, 35% |url=https://www.cnnbrasil.com.br/eleicoes/nexus-btg-no-1o-turno-lula-tem-40-e-flavio-35/ |access-date=2026-08-10 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''MDA''
-|''5–9 Aug 2026''
+|''5–9 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |42.4
 |28.7
 |4
@@ -843,7 +873,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":42">{{Cite web |date=2026-08-11 |title=CNT/MDA: Lula tem 13 pontos de vantagem sobre Flávio Bolsonaro no 1º turno |url=https://www.cartacapital.com.br/politica/cnt-mda-lula-tem-13-pontos-de-vantagem-sobre-flavio-bolsonaro-no-1o-turno/ |access-date=2026-08-11 |website=CartaCapital |language=pt-BR}}</ref>
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''3–7 Aug 2026''
+| rowspan="2" |''3–7 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |38.8
 |34.1
 |5.9
@@ -868,7 +898,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |3.6
 |-
 | rowspan="2" |''Palver''
-| rowspan="2" |''3–7 Aug 2026''
+| rowspan="2" |''3–7 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |44
 |40
 |2
@@ -893,11 +923,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |5
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |3 August
+| style="border-right-style:hidden;" |''3 Aug''
 | colspan="12" |[[Avante (political party)|Avante]]'s National Convention officially nominated [[Augusto Cury]] for president.<ref>{{Cite web |last=Conteúdo |first=Estadão |date=2026-08-04 |title=Avante oficializa candidatura de Augusto Cury a presidente em convenção |url=https://www.infomoney.com.br/politica/avante-oficializa-candidatura-de-augusto-cury-a-presidente-em-convencao/ |access-date=2026-08-04 |website=InfoMoney |language=pt-BR}}</ref>
 |-
 |''Quaest''
-|''31 Jul–3 Aug 2026''
+|''31 Jul – 3 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |30
 |4
@@ -912,7 +942,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-08-05 |title=Quaest: Lula tem 39% no primeiro turno; Flávio, 30% |url=https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-39-no-primeiro-turno-flavio-30/ |access-date=2026-08-05 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Ideia''
-|''31 Jul–3 Aug 2026''
+|''31 Jul – 3 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |35
 |5.7
@@ -927,11 +957,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |[https://www.canalmeio.com.br/wp-content/uploads/2026/08/Pesquisa-Meio_Ideia-Agosto-1.pdf]
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |2 August
+| style="border-right-style:hidden;" |''2 Aug''
 | colspan="12" |The [[Workers' Party (Brazil)|Workers' Party]]'s National Convention formally nominated [[Luiz Inácio Lula da Silva|Lula]], with [[Geraldo Alckmin]] ([[Brazilian Socialist Party|PSB]]) as his running mate.<ref>{{Cite web |date=2026-08-02 |title=PT oficializa Lula como candidato à Presidência em busca do 4º mandato, com promessas para mulheres, idosos e militares |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/02/pt-lanca-candidatura-lula-1.ghtml |access-date=2026-08-02 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Nexus''
-|''31 Jul–2 Aug 2026''
+|''31 Jul – 2 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |37
 |5
@@ -946,7 +976,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":41">{{Cite web |last=PODER360 |date=2026-08-03 |title=Lula e Flávio estão tecnicamente empatados no 2º turno, diz Nexus |url=https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-nexus/ |access-date=2026-08-03 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''PoderData''
-|''26–29 Jul 2026''
+|''26–29 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |35
 |5
@@ -961,7 +991,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":40">{{Cite web |last=Saba |first=Lígia |date=2026-07-30 |title=Leia os resultados da pesquisa PoderData/Aya para presidente |url=https://www.poder360.com.br/poderdata/leia-os-resultados-da-pesquisa-poderdata-aya-para-presidente/ |access-date=2026-07-30 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Vox Brasil''
-|''26–28 Jul 2026''
+|''26–28 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40.5
 |31.2
 |5.5
@@ -976,11 +1006,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |last=Toledo |first=Madu |date=2026-07-31 |title=Vox: Lula lidera com 40,5% no 1º turno. Flávio tem 31,2% e Caiado, 5,5% |url=https://www.metropoles.com/brasil/vox-lula-lidera-com-405-no-1o-turno-flavio-tem-312-e-caiado-55 |access-date=2026-07-31 |website=Metrópoles |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |27 July
+| style="border-right-style:hidden;" |''27 Jul''
 | colspan="12" |[[New Party (Brazil)|New Party]]'s National Convention officially nominated [[Romeu Zema]] for president.<ref>{{Cite web |date=2026-07-27 |title=Romeu Zema é confirmado como candidato a presidente pelo Novo nas Elei |url=https://g1.globo.com/politica/noticia/2026/07/27/novo-confirma-zema-a-presidencia-da-republica.ghtml |access-date=2026-07-27 |website=G1 |language=pt-BR}}</ref>
 |-
 | rowspan="2" |''AtlasIntel''
-| rowspan="2" |''22–27 Jul 2026''
+| rowspan="2" |''22–27 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |44.9
 |35.8
 |3.1
@@ -1005,11 +1035,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |10.4
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |26 July
+| style="border-right-style:hidden;" |''26 Jul''
 | colspan="12" |[[Social Democratic Party (Brazil, 2011)|Social Democratic Party]]'s National Convention officially nominated [[Ronaldo Caiado]], with [[Gilberto Kassab]] as his running mate.<ref>{{Cite web |date=2026-07-26 |title=PSD oficializa Caiado à Presidência com Kassab de vice |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml |access-date=2026-07-26 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Nexus''
-|''24–26 Jul 2026''
+|''24–26 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |33
 |6
@@ -1024,11 +1054,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":39">{{Cite web |last=PODER360 |date=2026-07-27 |title=Lula tem 47% contra 43% de Flávio no 2º turno, diz BTG/Nexus |url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-47-contra-43-de-flavio-no-2o-turno-diz-btg-nexus/ |access-date=2026-07-27 |website=Poder360 |language=pt-br}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |25 July
+| style="border-right-style:hidden;" |''25 Jul''
 | colspan="12" |[[Liberal Party (Brazil, 2006)|Liberal Party]]'s National Convention officially nominated [[Flávio Bolsonaro]] for president.<ref>{{Cite web |date=2026-07-25 |title=PL lança candidatura de Flávio à Presidência em evento com vídeo de Jair Bolsonaro feito por IA, apoio de Michelle e discurso de Milei |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/25/pl-lanca-candidatura-de-flavio-bolsonaro-a-presidencia-da-republica.ghtml |access-date=2026-07-25 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Datafolha''
-|''22–23 Jul 2026''
+|''22–23 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |32
 |4
@@ -1043,14 +1073,14 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":13">{{Cite web |date=2026-07-24 |title=Datafolha: Lula tem 48%, e Flávio Bolsonaro, 43% no segundo turno |url=https://www1.folha.uol.com.br/poder/2026/07/datafolha-lula-tem-48-e-flavio-bolsonaro-43-no-segundo-turno.shtml |access-date=2026-07-24 |website=Folha de S.Paulo |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| rowspan="2" style="border-right-style:hidden;" |20 July
+| rowspan="2" style="border-right-style:hidden;" |''20 Jul''
 | colspan="12" |The [[Mission Party (Brazil)|Mission Party]]'s National Convention officially nominated [[Renan Santos]], with Aroldo Medina as his running mate.<ref>{{Cite web |date=2026-07-20 |title=Renan Santos: Missão oficializa candidatura à Presidência |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/20/partido-missao-antecipa-convencao.ghtml |access-date=2026-07-20 |website=G1 |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
 | colspan="12" |Beginning of the period for party conventions.{{efn|name="party conventions"}}
 |-
 |''Real Time''
-|''18–20 Jul 2026''
+|''18–20 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |33
 |7
@@ -1065,7 +1095,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":14">{{Cite web |last=PODER360 |date=2026-07-21 |title=Lula tem 45% contra 42% de Flávio no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-45-contra-42-de-flavio-no-2o-turno-diz-pesquisa/ |access-date=2026-07-21 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Indexa''
-|''16–19 Jul 2026''
+|''16–19 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |30
 |6
@@ -1080,7 +1110,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":15">{{Cite web |date=2026-07-21 |title=Leia na íntegra a nova pesquisa Indexa sobre a eleição para presidente |url=https://www.cartacapital.com.br/cartaexpressa/leia-na-integra-a-nova-pesquisa-indexa-sobre-a-eleicao-para-presidente/ |access-date=2026-07-21 |website=CartaCapital |language=pt-BR}}</ref>
 |-
 |''PoderData''
-|''12–15 Jul 2026''
+|''12–15 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |34
 |4
@@ -1095,7 +1125,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |last=Penteado |first=Bianca |date=2026-07-16 |title=Lula tem 40% e Flávio, 34%, no 1º turno, diz PoderData/Aya |url=https://www.poder360.com.br/poderdata/lula-tem-40-e-flavio-34-no-1o-turno-diz-poderdata-aya/ |access-date=2026-07-17 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Quaest''
-|''10–13 Jul 2026''
+|''10–13 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |28
 |4
@@ -1110,7 +1140,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-07-15 |title=Quaest: Lula tem 40% no primeiro turno; Flávio, 28% |url=https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-40-no-primeiro-turno-flavio-28/ |access-date=2026-07-15 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Nexus''
-|''10–12 Jul 2026''
+|''10–12 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |34
 |5
@@ -1125,7 +1155,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":23">{{Cite web |last=PODER360 |date=2026-07-13 |title=Lula e Flávio Bolsonaro empatam no 2º turno, diz Nexus |url=https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/ |access-date=2026-07-13 |website=Poder360 |language=pt-br}}</ref>
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''7–11 Jul 2026''
+| rowspan="4" |''7–11 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40.1
 |36.8
 |5
@@ -1170,11 +1200,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |4
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |8 July
+| style="border-right-style:hidden;" |''8 Jul''
 | colspan="12" |[[Aécio Neves]] ([[Brazilian Social Democracy Party|PSDB]]) rules out a presidential bid.<ref>{{Cite web |title=Entrevista {{!}} Aécio descarta candidatura do PSDB à Presidência e vê eleição ‘fratricida’ entre Lula e Flávio |url=https://www.estadao.com.br/politica/aecio-descarta-candidatura-do-psdb-a-presidencia-e-ve-eleicao-fratricida-entre-lula-e-flavio/ |access-date=2026-07-08 |website=Estadão |language=pt-br}}</ref>
 |-
 |''Ideia''
-|''3–6 Jul 2026''
+|''3–6 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |40.4
 |32
 |4
@@ -1189,7 +1219,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":25">{{Cite web |last=PODER360 |date=2026-07-08 |title=Lula e Flávio estão tecnicamente empatados no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-estao-tecnicamente-empatados-no-2o-turno-diz-pesquisa/ |access-date=2026-07-08 |website=Poder360 |language=pt-br}}</ref>
 |-
 | rowspan="2" |''AtlasIntel''
-| rowspan="2" |''26–30 Jun 2026''
+| rowspan="2" |''26–30 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |46.3
 |36.6
 |2.9
@@ -1214,7 +1244,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |10.9
 |-
 | rowspan="2" |''Nexus''
-| rowspan="2" |''26–28 Jun 2026''
+| rowspan="2" |''26–28 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |34
 |5
@@ -1239,7 +1269,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |7
 |-
 |''Vox Brasil''
-|''23–25 Jun 2026''
+|''23–25 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |38.3
 |32.2
 |5.1
@@ -1254,7 +1284,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":26">{{Cite web |last=PODER360 |date=2026-06-27 |title=Flávio e Lula empatam no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-pesquisas/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-2/ |access-date=2026-06-29 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''PoderData''
-|''21–24 Jun 2026''
+|''21–24 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |36
 |4
@@ -1269,7 +1299,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |last=Penteado |first=Bianca |date=2026-06-25 |title=PoderData/Aya: Lula 40%, Flávio 36%, Renan 4% e Caiado 4% |url=https://www.poder360.com.br/poderdata/poderdata-aya-1o-turno-lula-40-flavio-36-renan-4-e-caiado-4/ |access-date=2026-06-25 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Indexa''
-|''18–20 Jun 2026''
+|''18–20 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |31
 |5
@@ -1284,7 +1314,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":27">{{Cite web |last=Marcelino |first=Daniel |date=2026-06-23 |title=Indexa: Lula amplia vantagem e chega a 42%; Flávio Bolsonaro tem 31% |url=https://www.jota.info/eleicoes/eleicoes-2026/indexa-lula-amplia-vantagem-e-chega-a-42-flavio-bolsonaro-tem-31 |access-date=2026-06-24 |website=JOTA Jornalismo |language=pt-BR}}</ref>
 |-
 |''Datafolha''
-|''17–18 Jun 2026''
+|''17–18 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |31
 |3
@@ -1299,7 +1329,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-06-20 |title=Datafolha: Lula aparece com 41% no 1º turno contra 31% de Flávio |url=https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-aparece-com-41-no-1o-turno-contra-31-de-flavio/ |access-date=2026-06-20 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 | rowspan="2" |''Nexus''
-| rowspan="2" |''12–14 Jun 2026''
+| rowspan="2" |''12–14 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |33
 |4
@@ -1324,7 +1354,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 |''MDA''
-|''10–14 Jun 2026''
+|''10–14 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |41.8
 |28.2
 |4
@@ -1339,7 +1369,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-06-16 |title=A disputa pela Presidência no 1º turno, segundo nova pesquisa CNT/MDA |url=https://www.cartacapital.com.br/politica/a-disputa-pela-presidencia-no-1o-turno-segundo-nova-pesquisa-cnt-mda/ |access-date=2026-06-16 |website=CartaCapital |language=pt-BR}}</ref>
 |-
 | rowspan="3" |''Futura''
-| rowspan="3" |''8–12 Jun 2026''
+| rowspan="3" |''8–12 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |41.6
 |34.1
 |4.5
@@ -1374,7 +1404,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |26.2
 |-
 |''Quaest''
-|''5–8 Jun 2026''
+|''5–8 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |29
 |3
@@ -1389,7 +1419,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-06-10 |title=Quaest: Lula lidera com 39% no 1º turno; Flávio tem 29% |url=https://www.cnnbrasil.com.br/eleicoes/quaest-lula-lidera-com-39-no-1o-turno-flavio-tem-29/ |access-date=2026-06-10 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Vox Brasil''
-|''1–3 Jun 2026''
+|''1–3 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |42.1
 |33.6
 |6.9
@@ -1404,7 +1434,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":28">{{Cite web |last=PODER360 |date=2026-06-05 |title=Lula tem 47,8% e Flávio, 41,3%, no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-eleicoes/lula-tem-478-e-flavio-413-no-2o-turno-diz-pesquisa/ |access-date=2026-06-06 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Real Time''
-|''29–30 May 2026''
+|''29–30 May''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |31
 |6
@@ -1419,7 +1449,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-06-01 |title=Real Time: Lula lidera contra todos os adversários no 1º turno |url=https://www.cnnbrasil.com.br/eleicoes/real-time-lula-lidera-contra-todos-os-adversarios-no-1o-turno/ |access-date=2026-06-01 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''PoderData''
-|''25–28 May 2026''
+|''25–28 May''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |35
 |3
@@ -1434,7 +1464,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |last=Karter |first=Bianca Penteado, Jonathan |date=2026-05-29 |title=PoderData/Aya: Lula tem 40% e Flávio, 35% no 1º turno |url=https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-40-e-flavio-35-no-1o-turno/ |access-date=2026-05-29 |website=Poder360 |language=pt-br}}</ref>
 |-
 |''Ideia''
-|''23–27 May 2026''
+|''23–27 May''
 | style="background:#ffb7b7;font-weight:bold;" |38.5
 |31.5
 |5.5
@@ -1449,7 +1479,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |[https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-2.pdf]
 |-
 |''Indexa''
-|''22–24 May 2026''
+|''22–24 May''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |30
 |5
@@ -1464,7 +1494,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":29">{{Cite web |last=Marcelino |first=Daniel |date=2026-05-27 |title=Lula lidera com 39%, e Flávio Bolsonaro tem 30% no 1º turno, diz Indexa Pesquisas |url=https://www.jota.info/eleicoes/eleicoes-2026/lula-lidera-com-39-e-flavio-bolsonaro-tem-30-no-1o-turno-diz-indexa-pesquisas |access-date=2026-06-24 |website=JOTA Jornalismo |language=pt-BR}}</ref>
 |-
 | rowspan="2" |''Nexus''
-| rowspan="2" |''22–24 May 2026''
+| rowspan="2" |''22–24 May''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |35
 |5
@@ -1489,7 +1519,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 |''Datafolha''
-|''20–22 May 2026''
+|''20–22 May''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |31
 |4
@@ -1504,7 +1534,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-05-22 |title=Datafolha testou cenário com Flávio Bolsonaro e com MIchelle |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/22/datafolha-lula-tem-40percent-e-flavio-bolsonaro-31percent-das-intencoes-de-voto-no-1o-turno.ghtml |access-date=2026-05-23 |website=G1 |language=pt-BR}}</ref>
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''15–20 May 2026''
+| rowspan="2" |''15–20 May''
 | style="background:#ffb7b7;font-weight:bold;" |42.7
 |35.6
 |3.3
@@ -1529,7 +1559,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |25.7
 |-
 |''Vox Brasil''
-|''17–19 May 2026''
+|''17–19 May''
 | style="background:#ffb7b7;font-weight:bold;" |41.5
 |32.1
 |5.9
@@ -1544,7 +1574,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":31">{{Cite web |last=PODER360 |date=2026-05-20 |title=Lula tem 46,8% e Flávio, 38,1% no 2º turno, diz pesquisa |url=https://www.poder360.com.br/poder-eleicoes/lula-tem-468-e-flavio-381-no-2o-turno-diz-pesquisa/ |access-date=2026-06-05 |website=Poder360 |language=pt-br}}</ref>
 |-
 | rowspan="2" |''AtlasIntel''
-| rowspan="2" |''13–18 May 2026''
+| rowspan="2" |''13–18 May''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |34.3
 |2.7
@@ -1569,11 +1599,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |29.7
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |13 May
+| style="border-right-style:hidden;" |''13 May''
 | colspan="12" |Leaked audio recordings linked [[Flávio Bolsonaro]] to [[Daniel Vorcaro]], a central figure in the [[Banco Master scandal]].<ref name=":19">{{Cite web |last=Moraes |first=Paulo Motoryn, Eduardo Goulart, Laís Martins, Andrew Fishman, Cecília Olliveira, Leandro Becker, Mauricio |date=2026-05-13 |title=ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair |url=https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/ |access-date=2026-05-13 |website=Intercept Brasil |language=pt-BR}}</ref><ref name=":20">{{Cite web |date=2026-05-13 |title=Flávio pediu R$ 134 mi a Vorcaro para filme de Bolsonaro, diz Intercept |url=https://www.cnnbrasil.com.br/politica/flavio-pediu-r-134-mi-a-vorcaro-para-filme-de-bolsonaro-diz-intercept/ |access-date=2026-05-13 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":21">{{Cite news |title=A bombshell leak threatens Flávio Bolsonaro’s election bid |url=https://www.economist.com/the-americas/2026/05/14/a-bombshell-leak-threatens-flavio-bolsonaros-election-bid |access-date=2026-05-14 |work=The Economist |issn=0013-0613}}</ref><ref name=":22">{{Cite web |date=2026-05-13 |title=Brazil presidential hopeful Flávio Bolsonaro denies wrongdoing after asking banker for millions |url=https://apnews.com/article/brazil-flavio-bolsonaro-vorcaro-236f7e6448e10836d1af0ceecc26ddc8 |access-date=2026-05-14 |website=AP News |language=en}}</ref>{{efn|name="Banco Master"}}
 |-
 |''Datafolha''
-|''12–13 May 2026''
+|''12–13 May''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |35
 |3
@@ -1588,7 +1618,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-05-16 |title=Datafolha: Lula e Flávio Bolsonaro lideram intenções de voto no 1º turno |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/16/datafolha-maio-primeiro-turno.ghtml |access-date=2026-05-16 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Vox Brasil''
-|''9–12 May 2026''
+|''9–12 May''
 |35.1
 | style="font-weight:bold; background-color:#b2d1ea;" |37.8
 |4.3
@@ -1603,11 +1633,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":32">{{Cite web |last=PODER360 |date=2026-05-15 |title=Flávio tem 43,8% e Lula, 40,2% no 2º turno, diz Vox |url=https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/ |access-date=2026-06-05 |website=Poder360 |language=pt-br}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |11 May
+| style="border-right-style:hidden;" |''11 May''
 | colspan="12" |[[Ciro Gomes]] ([[Brazilian Social Democracy Party|PSDB]]) confirms that he will run for Governor of [[Ceará]], ending speculation about a presidential bid.<ref>{{Cite web |date=2026-05-11 |title=Após convite do PSDB, Ciro Gomes diz que não disputará Presidência |url=https://www.cnnbrasil.com.br/eleicoes/apos-convite-do-psdb-ciro-gomes-diz-que-nao-disputara-presidencia/ |access-date=2026-05-11 |website=CNN Brasil |language=pt-BR}}</ref><ref>{{Cite web |date=2026-05-11 |title=Ciro Gomes não disputará a Presidência em 2026; foco é o Ceará |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/11/ciro-gomes-candidatura-2026.ghtml |access-date=2026-05-11 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Quaest''
-|''8–11 May 2026''
+|''8–11 May''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |33
 |4
@@ -1622,7 +1652,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-05-13 |title=Quaest: Lula lidera 1º turno com 39%; Flávio tem 33% |url=https://www.cnnbrasil.com.br/eleicoes/quaest-lula-lidera-1o-turno-com-39-flavio-tem-33/ |access-date=2026-05-13 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''4–8 May 2026''
+| rowspan="2" |''4–8 May''
 | style="background:#ffb7b7;font-weight:bold;" |38.1
 |37.4
 |5.7
@@ -1647,7 +1677,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |2.2
 |-
 |''Ideia''
-|''1–5 May 2026''
+|''1–5 May''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |36
 |5.6
@@ -1662,7 +1692,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |[https://www.canalmeio.com.br/wp-content/uploads/2026/05/Pesquisa-Meio_Ideia-Maio-1.pdf]
 |-
 | rowspan="2" |''Real Time''
-| rowspan="2" |''2–4 May 2026''
+| rowspan="2" |''2–4 May''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |34
 |5
@@ -1687,7 +1717,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |5
 |-
 | rowspan="2" |''AtlasIntel''
-| rowspan="2" |''22–27 Apr 2026''
+| rowspan="2" |''22–27 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |46.6
 |39.7
 |3.3
@@ -1712,7 +1742,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |4.9
 |-
 | rowspan="3" |''Nexus''
-| rowspan="3" |''24–26 Apr 2026''
+| rowspan="3" |''24–26 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |36
 |3
@@ -1747,7 +1777,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |3
 |-
 |''Quaest''
-|''9–13 Apr 2026''
+|''9–13 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |37
 |32
 |6
@@ -1762,7 +1792,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-04-15 |title=Quaest: Lula tem 37% contra 32% de Flávio no 1º turno |url=https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-37-contra-32-de-flavio-no-1o-turno/ |access-date=2026-04-16 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''MDA''
-|''8–12 Apr 2026''
+|''8–12 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |39.2
 |30.2
 |4.6
@@ -1777,7 +1807,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |title=CNT/MDA: no 1º turno, Lula tem 39,2% e Flávio, 30,2% |url=https://exame.com/brasil/cnt-mda-no-1o-turno-lula-tem-392-e-flavio-302/ |access-date=2026-04-14 |website=Exame |language=pt-br}}</ref>
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''7–11 Apr 2026''
+| rowspan="2" |''7–11 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |39.8
 |37.3
 |4.8
@@ -1802,7 +1832,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |0.2
 |-
 |''Datafolha''
-|''7–9 Apr 2026''
+|''7–9 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |35
 |5
@@ -1817,7 +1847,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-04-11 |title=Datafolha: pesquisa confirma polarização entre Lula e Flávio Bolsonaro |url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/04/11/datafolha-pesquisa-confirma-polarizacao-entre-lula-e-flavio-bolsonaro.ghtml |access-date=2026-04-11 |website=G1 |language=pt-BR}}</ref>
 |-
 |''Ideia''
-|''3–7 Apr 2026''
+|''3–7 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |40.4
 |37
 |6.5
@@ -1832,11 +1862,11 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref>{{Cite web |date=2026-04-08 |title=Meio/Ideia: Lula tem 40,4%, e Flávio, 37,0% no 1º turno |url=https://www.cnnbrasil.com.br/eleicoes/meio-ideia-lula-tem-404-e-flavio-370-no-1o-turno/ |access-date=2026-04-08 |website=CNN Brasil |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |5 Apr
+| style="border-right-style:hidden;" |''5 Apr''
 | colspan="12" |[[Avante (political party)|Avante]] announced the candidacy of writer [[Augusto Cury]].<ref>{{Cite web |date=2026-04-05|title=Avante anuncia pré-candidatura do escritor Augusto Cury ao Planalto|url=https://www.cnnbrasil.com.br/eleicoes/avante-anuncia-pre-candidatura-do-escritor-augusto-cury-ao-planalto/|access-date=2026-04-07|website=CNN Brasil|language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |4 Apr
+| style="border-right-style:hidden;" |''4 Apr''
 | colspan="12" |Electoral resignation deadline.{{efn|name="descompatibilização"}}{{efn|name="tarcísio"}}
 |}
 
@@ -1877,11 +1907,11 @@ period
 ! style="background-color:{{party color|New Party (Brazil)}}" |
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |30 Mar
+| style="border-right-style:hidden;" |''30 Mar''
 | colspan="13" |[[2026 Social Democratic Party presidential selection|PSD selects Ronaldo Caiado]] as its presidential candidate.<ref>{{Cite web |date=2026-03-30 |title=Escolha do PSD por Caiado passou por pesquisas, perfil e eleição em Goiás {{!}} Blogs |url=https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/escolha-do-psd-por-caiado-passou-por-pesquisas-perfil-e-eleicao-em-goias/ |access-date=2026-03-30 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 | rowspan="3" |''Nexus''
-| rowspan="3" |''27–29 Mar 2026''
+| rowspan="3" |''27–29 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |38
 |{{n/a}}
@@ -1919,7 +1949,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3
 |-
 |''Paraná Pesquisas''
-|''25–28 Mar 2026''
+|''25–28 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |41.3
 |37.8
 |{{n/a}}
@@ -1935,7 +1965,7 @@ period
 |<ref>{{Cite web |date=2026-03-30 |title=Paraná Pesquisas: Lula tem 41,3% contra 37,8% de Flavio no 1º turno |url=https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-lula-tem-413-contra-378-de-flavio-no-1o-turno/ |access-date=2026-03-30 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Gerp''
-|''20–25 Mar 2026''
+|''20–25 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |36
 |{{n/a}}
@@ -1951,7 +1981,7 @@ period
 |<ref name=":GerpM26">{{Cite web |date=2026-03-27 |title=Gerp: Zema é o melhor candidato a vice para Flávio, e Alckmin, para Lula |url=https://jovempan.com.br/noticias/politica/gerp-zema-e-o-melhor-candidato-a-vice-para-flavio-e-alckmin-para-lula.html |access-date=2026-03-29 |website=jovempan |language=pt-BR}}</ref>
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''18–23 Mar 2026''
+| rowspan="4" |''18–23 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |45.9
 |40.1
 |{{n/a}}
@@ -2000,11 +2030,11 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9.9
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |23 Mar
+| style="border-right-style:hidden;" |''23 Mar''
 | colspan="13" |Ratinho Júnior withdraws his candidacy.<ref>{{Cite web |date=2026-03-23 |title=Ratinho Jr. decide concluir mandato no Paraná e sai da corrida presidencial |url=https://www.cnnbrasil.com.br/eleicoes/ratinho-jr-decide-concluir-mandato-no-parana-e-sai-da-disputa-presidencial/ |access-date=2026-03-23 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 | rowspan="4" |''Ideia''
-| rowspan="4" |''6–10 Mar 2026''
+| rowspan="4" |''6–10 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |40.3
 |35
 |{{n/a}}
@@ -2053,7 +2083,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4.4
 |-
 | rowspan="7" |''Quaest''
-| rowspan="7" |''6–9 Mar 2026''
+| rowspan="7" |''6–9 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |32
 |{{n/a}}
@@ -2135,7 +2165,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''2–6 Mar 2026''
+| rowspan="4" |''2–6 Mar''
 |35.1
 | style="font-weight:bold; background-color:#b2d1ea;" |41.9
 |{{n/a}}
@@ -2184,7 +2214,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12.4
 |-
 | rowspan="4" |''Datafolha''
-| rowspan="4" |''3–5 Mar 2026''
+| rowspan="4" |''3–5 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |33
 |{{n/a}}
@@ -2233,7 +2263,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |5
 |-
 | rowspan="3" |''Real Time''
-| rowspan="3" |''28 Feb–2 Mar 2026''
+| rowspan="3" |''28 Feb – 2 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |40
 |33
 |{{n/a}}
@@ -2271,7 +2301,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 | rowspan="2" |''Paraná Pesquisas''
-| rowspan="2" |''22–25 Feb 2026''
+| rowspan="2" |''22–25 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |40.5
 |36.6
 |{{n/a}}
@@ -2298,7 +2328,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4.3
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |''19–24 Feb 2026''
+| rowspan="5" |''19–24 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |47.1
 |33.1
 |7.4
@@ -2358,7 +2388,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6.2
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''5–9 Feb 2026''
+| rowspan="4" |''5–9 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |38
 |30
 |{{n/a}}
@@ -2406,7 +2436,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 | rowspan="2" |''Real Time''
-| rowspan="2" |''6–7 Feb 2026''
+| rowspan="2" |''6–7 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |30
 |{{n/a}}
@@ -2433,7 +2463,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="3" |''Futura''
-| rowspan="3" |''3–7 Feb 2026''
+| rowspan="3" |''3–7 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |36.7
 |34.2
 |9.8
@@ -2471,7 +2501,7 @@ period
 | style="font-weight:bold; background-color:#b2d1ea;" " |1.3
 |-
 |''Gerp''
-|''28 Jan–2 Feb 2026''
+|''28 Jan – 2 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |35
 |{{n/a}}
@@ -2487,7 +2517,7 @@ period
 |<ref name=":GerpF26">{{Cite web |date=2026-02-04 |title=Instituto Gerp divulga pesquisa para presidente da República; veja os números |url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/ |access-date=2026-02-04 |website=Gazeta Do Povo |language=pt-BR}}</ref>
 |-
 | rowspan="3" |''Ideia''
-| rowspan="3" |''30 Jan–2 Feb 2026''
+| rowspan="3" |''30 Jan – 2 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |39.5
 |32
 |{{n/a}}
@@ -2525,11 +2555,11 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |5
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |27 Jan
+| style="border-right-style:hidden;" |''27 Jan''
 | colspan="13" |[[Ronaldo Caiado]] joins the PSD.<ref name=":17">{{Cite web|title=Ao lado de Ratinho Jr. e Leite, Caiado anuncia filiação ao PSD|url=https://www.cnnbrasil.com.br/eleicoes/ao-lado-de-ratinho-jr-e-leite-caiado-anuncia-filiacao-ao-psd/|website=CNN Brasil|date=2026-01-27|access-date=2026-02-01|language=pt-BR}}</ref>
 |-
 | rowspan="2" |''Paraná Pesquisas''
-| rowspan="2" |''25–28 Jan 2026''
+| rowspan="2" |''25–28 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |39.8
 |33.1
 |{{n/a}}
@@ -2556,7 +2586,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |13.2
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''15–20 Jan 2026''
+| rowspan="4" |''15–20 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |48.4
 |28
 |11
@@ -2605,7 +2635,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |33.6
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''15–19 Jan 2026''
+| rowspan="2" |''15–19 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |37
 |33.3
 |10.5
@@ -2632,7 +2662,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |1.1
 |-
 | rowspan="2" |''Ideia''
-| rowspan="2" |''8–12 Jan 2026''
+| rowspan="2" |''8–12 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |39.7
 |26.5
 |{{n/a}}
@@ -2659,7 +2689,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |7.5
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''8–11 Jan 2026''
+| rowspan="5" |''8–11 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |36
 |23
 |9
@@ -2749,7 +2779,7 @@ period
 ! style="background:{{party color|Brazil Union}}" |
 |-
 | rowspan="2" |''Paraná Pesquisas''
-| rowspan="2" |''18–22 Dec 2025''
+| rowspan="2" |''18–22 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |37.6
 |27.8
 |{{n/a}}
@@ -2776,7 +2806,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |11.6
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''10–15 Dec 2025''
+| rowspan="4" |''10–15 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |47.9
 |21.3
 |15
@@ -2825,7 +2855,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |32.5
 |-
 | rowspan="3" |''Quaest''
-| rowspan="3" |11–14 Dec 2025
+| rowspan="3" |''11–14 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |23
 |10
@@ -2863,7 +2893,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |13
 |-
 |''Gerp''
-|6–10 Dec 2025
+|''6–10 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |34
 |25
 |{{n/a}}
@@ -2879,11 +2909,11 @@ period
 |<ref name=":4">{{Cite web |date=2025-12-11 |title=Gerp: Lula lidera no 1º turno, mas empata com Flávio no 2º – Jovem Pan |url=https://jovempan.com.br/noticias/politica/pesquisa-gerp-lula-lidera-primeiro-turno-mas-empata-com-flavio-bolsonaro-no-segundo.html |access-date=2025-12-12 |website=Gerp: Lula lidera no 1º turno, mas empata com Flávio no 2º – Jovem Pan |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |5 Dec
+| style="border-right-style:hidden;" |''5 Dec''
 | colspan="13" |[[Flávio Bolsonaro]] announces his candidacy, stating that he was endorsed by his father, [[Jair Bolsonaro]], during a prison visit.<ref>{{cite web |date=5 December 2025 |title=Flávio Bolsonaro confirma pré-candidatura à Presidência em 2026: 'Bolsonaro me conferiu a missão' |url=https://oglobo.globo.com/politica/noticia/2025/12/05/flavio-bolsonaro-confirma-pre-candidatura-a-presidencia-em-2026-bolsonaro-me-conferiu-a-missao.ghtml |access-date=11 December 2025 |website=[[O Globo]] |language=pt}}</ref>
 |-
 | rowspan="2" |''Ipec''
-| rowspan="2" |4–8 Dec 2025
+| rowspan="2" |''4–8 Dec''
 | rowspan="2" style="background:#ffb7b7;font-weight:bold;" |38
 |{{n/a}}
 |17
@@ -2908,7 +2938,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |19
 |-
 | rowspan="2" |''Datafolha''
-| rowspan="2" |2–4 Dec 2025
+| rowspan="2" |''2–4 Dec''
 | rowspan="2" style="background:#ffb7b7;font-weight:bold;" |41
 |{{n/a}}
 |23
@@ -2933,7 +2963,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |23
 |-
 | rowspan="2" |''AtlasIntel''
-| rowspan="2" |22–27 Nov 2025
+| rowspan="2" |''22–27 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |48.4
 |{{n/a}}
 |32.5
@@ -2960,11 +2990,11 @@ period
 | style="background:#ffb7b7;font-weight:bold" |24.2
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |22 Nov
+| style="border-right-style:hidden;" |''22 Nov''
 | colspan="13" |[[Jair Bolsonaro]] is arrested by the [[Brazilian Federal Police|Federal Police]] and transferred to prison for attempting to escape house arrest.<ref>{{Cite web |date=2025-11-23 |title=Jair Bolsonaro: Brazilian ex-president arrested after being determined a flight risk |url=https://www.bbc.com/news/articles/ce8qdm5zg10o |access-date=2026-02-10 |website=www.bbc.com |language=en-GB}}</ref>
 |-
 | rowspan="2" |''MDA''
-| rowspan="2" |19–23 Nov 2025
+| rowspan="2" |''19–23 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |{{n/a}}
 |21.7
@@ -2991,7 +3021,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |11
 |-
 | rowspan="2" |''Paraná Pesquisas''
-| rowspan="2" |6–10 Nov 2025
+| rowspan="2" |''6–10 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |36
 |{{n/a}}
 |23.2
@@ -3018,7 +3048,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |16.6
 |-
 | ''Quaest''
-| 6–9 Nov 2025
+| ''6–9 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |35
 | {{n/a}}
 | 16
@@ -3034,7 +3064,7 @@ period
 | <ref name="qaNov2025">{{Cite web |date=13 November 2025 |url=https://g1.globo.com/politica/noticia/2025/11/13/quaest-eleicao-2026-novembro.ghtml|title=Vantagem de Lula sobre adversários no 2º turno cai, e presidente volta a empatar tecnicamente com Bolsonaro, diz Quaest |website=G1 |language=pt}}</ref>
 |-
 | rowspan="2" | ''Paraná Pesquisas''
-| rowspan="2" | 21–24 Oct 2025
+| rowspan="2" | ''21–24 Oct''
 | style="background:#ffb7b7;font-weight:bold;" | 37.4
 | {{n/a}}
 | 22.3
@@ -3061,7 +3091,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |18.4
 |-
 | ''AtlasIntel''
-| 15–19 Oct 2025
+| ''15–19 Oct''
 | style="background:#ffb7b7;font-weight:bold;" |51.3
 |{{n/a}}
 | 30.4
@@ -3077,7 +3107,7 @@ period
 | <ref name="atlasOct25">{{Cite web |date=24 October 2025 |url=https://www.poder360.com.br/poder-pesquisas/lula-ganha-em-todos-os-cenarios-de-1o-e-2o-turnos-diz-atlasintel/|title=Lula ganha em todos os cenários de 1º e 2º turnos, diz AtlasIntel |website=Poder360 |language=pt}}</ref>
 |-
 | ''Quaest''
-| 2–5 Oct 2025
+| ''2–5 Oct''
 | style="background:#ffb7b7;font-weight:bold;" |39
 |{{n/a}}
 | 18
@@ -3093,7 +3123,7 @@ period
 | <ref name="quaestOct25">{{Cite web |date=9 October 2025 |url=https://g1.globo.com/politica/noticia/2025/10/09/quaest-eleicao-presidencial-2026.ghtml|title=Quaest mostra Lula 9 pontos à frente de Ciro; 10, de Bolsonaro; 12, de Tarcísio e Michelle; 13, de Ratinho Jr., 15, de Zema, Caiado e Eduardo; e 23 de Leite no 2º turno de 2026 |website=G1 |language=pt}}</ref>
 |-
 | ''Gerp''
-| 29 Sep – 6 Oct 2025
+| ''29 Sep – 6 Oct''
 | style="background:#ffb7b7;font-weight:bold;" |27
 | {{n/a}}
 | 23
@@ -3109,7 +3139,7 @@ period
 | <ref name="gerpoct25">{{Cite web |date=8 October 2025 |url=https://jovempan.com.br/noticias/politica/pesquisa-gerp-aponta-disputa-aberta-para-2026-e-leve-recuperacao-de-lula.html|title=Pesquisa Gerp aponta disputa aberta para 2026 e leve recuperação de Lula |website=Jovem Pan |language=pt}}</ref>
 |-
 | ''Quaest''
-| 12–14 Sep 2025
+| ''12–14 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |35
 | {{n/a}}
 | 17
@@ -3125,11 +3155,11 @@ period
 | <ref name="quaestSep25">{{Cite web |date=18 September 2025 |url=https://g1.globo.com/politica/noticia/2025/09/18/quaest-lula-venceria-ciro-tarcisio-ratinho-jr-bolsonaro-zema-michelle-caiado-eduardo-bolsonaro-e-leite-no-2o-turno-de-2026.ghtml|title=Quaest: Lula venceria Ciro, Tarcísio, Ratinho Jr., Bolsonaro, Zema, Michelle, Caiado, Eduardo Bolsonaro e Leite no 2º turno de 2026 |website=G1 |language=pt}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |11 Sep
+| style="border-right-style:hidden;" |''11 Sep''
 | colspan="13" |[[Jair Bolsonaro]] [[Trial for the 2022–2023 Brazilian coup plot|is sentenced to 27 years in prison]] for leading a coup plot.<ref>{{Cite news |last=Ionova |first=Ana |last2=capital |first2=Jack NicasReporting from Brazil’s Supreme Court in the |last3=Brasília |date=2025-09-11 |title=Bolsonaro Sentenced to 27 Years in Prison for Plotting Coup in Brazil |url=https://www.nytimes.com/2025/09/11/world/americas/bolsonaro-convicted-coup-attempt.html |access-date=2026-02-10 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
 |-
 | ''AtlasIntel''
-| 10–14 Sep 2025
+| ''10–14 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |48.2
 | {{n/a}}
 | 30.4
@@ -3145,7 +3175,7 @@ period
 | <ref>{{Cite web |date=17 September 2025 |url=https://www.cnnbrasil.com.br/politica/atlas-lula-teria-482-em-1o-turno-presidencial-tarcisio-304/|title=Atlas: Lula teria 48,2% em 1º turno presidencial; Tarcísio, 30,4% |website=CNN Brasil |language=pt}}</ref>
 |-
 | ''MDA''
-| 3–6 Sep 2025
+| ''3–6 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |35.8
 | {{n/a}}
 | 17.1
@@ -3161,7 +3191,7 @@ period
 | <ref>{{Cite web |date=8 September 2025 |url=https://istoe.com.br/cnt-lula-venceria-bolsonaro-eduardo-e-tarcisio-em-eleicoes-de-2026|title=CNT: Lula venceria Bolsonaro, Eduardo e Tarcísio em eleições de 2026 |website=Istoé |language=pt}}</ref>
 |-
 | ''Real Time''
-| 28–30 Aug 2025
+| ''28–30 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |42
 | {{n/a}}
 | 40
@@ -3177,7 +3207,7 @@ period
 | <ref>{{Cite web |date=2 September 2025 |url=https://www.cnnbrasil.com.br/politica/real-time-lula-tem-42-e-tarcisio-40-em-cenario-de-1o-turno/|title=Real Time: Lula tem 42% e Tarcísio, 40% em cenário de 1º turno |website=CNN Brasil |language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 20–25 Aug 2025
+| ''20–25 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |44.1
 | {{n/a}}
 | 31.8
@@ -3193,7 +3223,7 @@ period
 | <ref name="atlasAug25">{{Cite web |date=28 August 2025 |url=https://www.cartacapital.com.br/politica/atlasintel-testa-tarcisio-e-michelle-contra-lula-na-disputa-pela-presidencia-em-2026-veja-os-resultados/|title=AtlasIntel testa Tarcísio e Michelle contra Lula na disputa pela Presidência em 2026; veja os resultados |website=Carta Capital |language=pt}}</ref>
 |-
 | ''Paraná Pesquisas''
-| 17–21 Aug 2025
+| ''17–21 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |35.1
 | {{n/a}}
 | 24.5
@@ -3209,7 +3239,7 @@ period
 | <ref name="paranaAug25">{{Cite web |date=25 August 2025 |url=https://www.poder360.com.br/poder-pesquisas/lula-empata-com-bolsonaro-michelle-e-tarcisio-no-2-turno/|title=Lula empata com Bolsonaro, Michelle e Tarcísio no 2° turno |website=Poder360 |language=pt}}</ref>
 |-
 | rowspan="2" | ''Quaest''
-| rowspan="2" | 13–17 Aug 2025
+| rowspan="2" | ''13–17 Aug''
 | rowspan="2" style="background:#ffb7b7;font-weight:bold;" |35
 | {{n/a}}
 | 17
@@ -3235,7 +3265,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |21
 |-
 | rowspan="2" | ''Datafolha''
-| rowspan="2" | 29–30 Jul 2025
+| rowspan="2" | ''29–30 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |38
 | {{n/a}}
 | 21
@@ -3262,7 +3292,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |22
 |-
 | ''AtlasIntel''
-| 25–28 Jul 2025
+| ''25–28 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |48.5
 | {{n/a}}
 | 33
@@ -3278,7 +3308,7 @@ period
 | <ref name="atlasJul25">{{Cite web |date=31 July 2025 |url=https://exame.com/brasil/lula-vence-bolsonaro-tarcisio-e-michelle-e-outros-4-nomes-da-direita-em-2026-diz-atlasintel/|title=Lula lidera com folga para 2026 e vence todos os adversários no 2º turno, diz AtlasIntel |website=Piaui Hoje|language=pt}}</ref>
 |-
 | ''Quaest''
-| 10–14 Jul 2025
+| ''10–14 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |32
 | {{n/a}}
 | 15
@@ -3294,7 +3324,7 @@ period
 | <ref name="quaestjul25">{{Cite web |date=17 July 2025 |url=https://g1.globo.com/politica/noticia/2025/07/17/quaest-eleicao-2026.ghtml|title=Eleição 2026: Lula lidera em todos os cenários de 1º turno e empataria só com Tarcísio em eventual 2º turno, diz Quaest |website=G1 |language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 27–30 Jun 2025
+| ''27–30 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |44.6
 | {{n/a}}
 | 34
@@ -3310,7 +3340,7 @@ period
 | <ref name="atlasJun25">{{Cite web |date=8 July 2025 |url=https://cdn.atlasintel.org/99d32184-8a96-4363-940d-ea86480cc08b.pdf|title=Latam Pulse Brazil |website=AtlasIntel |language=pt}}</ref>
 |-
 | ''Neokemp''
-| 25–27 Jun 2025
+| ''25–27 Jun''
 | 35
 | {{n/a}}
 | style="background:#c9def0;font-weight:bold;" |37.5
@@ -3326,7 +3356,7 @@ period
 | <ref name="neokempJun25">{{Cite web |date=24 June 2025 |url=https://www.gazetadopovo.com.br/republica/lula-perderia-tarcisio-apoio-bolsonaro-segundo-turno/|title=Lula perderia para Tarcísio com apoio de Bolsonaro em segundo turno, aponta pesquisa |website=Gazeta do Povo |language=pt}}</ref>
 |-
 | ''Futura''
-| 12–23 Jun 2025
+| ''12–23 Jun''
 | style="background:#ffb7b7;font-weight:bold" |28.2
 | {{n/a}}
 | 26.3
@@ -3342,7 +3372,7 @@ period
 | <ref name="futuraJun25">{{Cite web |date=24 June 2025 |url=https://exame.com/brasil/lula-perde-para-bolsonaro-michelle-e-tarcisio-por-mais-de-10-pontos-no-2o-turno-em-2026-diz-futura/|title=Lula perde para Bolsonaro, Michelle e Tarcísio por mais de 10 pontos no 2º turno em 2026, diz Futura |website=Exame |language=pt}}</ref>
 |-
 | rowspan="2" | ''Paraná Pesquisas''
-| rowspan="2" | 18–22 Jun 2025
+| rowspan="2" | ''18–22 Jun''
 | style="background:#ffb7b7;font-weight:bold" |34
 | {{n/a}}
 | 24.3
@@ -3368,7 +3398,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |13.4
 |-
 | ''MDA''
-| 11–15 Jun 2025
+| ''11–15 Jun''
 | style="background:#ffb7b7;font-weight:bold" |30.5
 | {{n/a}}
 | 18.3
@@ -3384,7 +3414,7 @@ period
 | <ref>{{Cite web |date=14 June 2025 |url=https://www.cartacapital.com.br/politica/pesquisa-mda-testa-lula-haddad-bolsonaro-e-tarcisio-para-2026-veja-os-numeros/|title=Pesquisa MDA testa Lula, Haddad, Bolsonaro e Tarcísio para 2026; veja os números |website=Carta Capital|language=pt}}</ref>
 |-
 | rowspan="2" | ''Datafolha''
-| rowspan="2" | 10–11 Jun 2025
+| rowspan="2" | ''10–11 Jun''
 | style="background:#ffb7b7;font-weight:bold" |37
 | {{n/a}}
 | 21
@@ -3436,7 +3466,7 @@ period
 ! style="background:{{party color|Brazil Union}}" |
 |-
 | ''Gerp''
-| 28–31 May 2025
+| ''28–31 May''
 | style="background:#ffb7b7;font-weight:bold" |24
 | 18
 | 9
@@ -3451,7 +3481,7 @@ period
 | <ref name="exame1">{{Cite web |date=30 June 2025 |url=https://exame.com/brasil/lula-bolsonaro-tarcisio-o-que-as-novas-pesquisas-mostram-sobre-as-eleicoes-de-2026/|title=Lula, Bolsonaro, Tarcísio: o que as novas pesquisas mostram sobre as eleições de 2026 |website=Exame|language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 19–23 May 2025
+| ''19–23 May''
 | style="background:#ffb7b7;font-weight:bold" |44.1
 | 33.1
 | 3
@@ -3466,7 +3496,7 @@ period
 | <ref>{{Cite web |date=30 May 2025 |url=https://www.cartacapital.com.br/politica/pesquisa-testa-cenarios-eleitorais-com-lula-tarcisio-e-michelle-para-2026-veja-os-resultados/|title=Pesquisa testa cenários eleitorais com Lula, Tarcísio e Michelle para 2026; veja os resultados |website=Carta Capital|language=pt}}</ref>
 |-
 | ''Gerp''
-| 21–25 Apr 2025
+| ''21–25 Apr''
 | style="background:#ffb7b7;font-weight:bold" |30
 | 19
 | 9
@@ -3481,7 +3511,7 @@ period
 | <ref>{{Cite web |date=29 April 2025 |url=https://www.gazetadopovo.com.br/republica/bolsonaro-segue-a-frente-de-lula-em-pesquisa-do-instituto-gerp-sobre-2026/|title=Bolsonaro segue à frente de Lula em pesquisa do instituto Gerp sobre 2026 |website=Gazeta do Povo|language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 20–24 Apr 2025
+| ''20–24 Apr''
 | style="background:#ffb7b7;font-weight:bold" |42.8
 | style="height:30px" |34.3
 | 2.7
@@ -3496,7 +3526,7 @@ period
 | <ref>{{Cite web |date=28 April 2025 |url=https://noticias.uol.com.br/politica/ultimas-noticias/2025/04/28/pesquisa-traz-bolsonaro-numericamente-a-frente-e-em-empate-tecnico-com-lula.htm|title=Bolsonaro e Lula têm empate técnico em disputa para 2026, diz AtlasIntel |website=UOL|language=pt}}</ref>
 |-
 | ''Paraná Pesquisas''
-| 16–19 Apr 2025
+| ''16–19 Apr''
 | style="background:#ffb7b7;font-weight:bold" |34
 | 27.3
 | 12.6
@@ -3511,7 +3541,7 @@ period
 | <ref name="prpesquisasapr">{{Cite web |date=5 April 2025 |url=https://www1.folha.uol.com.br/poder/2025/04/datafolha-lula-venceria-bolsonaro-e-demais-nomes-da-direita-se-eleicao-fosse-hoje.shtml|title=Datafolha: Lula venceria Bolsonaro e demais nomes da direita se eleição fosse hoje |website=Folha de S.Paulo|language=pt}}</ref>
 |-
 | ''Datafolha''
-| 1–3 Apr 2025
+| ''1–3 Apr''
 | style="background:#ffb7b7;font-weight:bold" |35
 | style="height:30px" |15
 | 11
@@ -3526,7 +3556,7 @@ period
 | <ref name="prpesquisasapr" />
 |-
 | ''AtlasIntel''
-| 24–27 Feb 2025
+| ''24–27 Feb''
 | style="background:#ffb7b7;font-weight:bold" |41.6
 | 32.3
 | {{n/a}}
@@ -3541,7 +3571,7 @@ period
 | <ref name="atlas1">{{Cite web |date=7 March 2025 |url=https://noticias.uol.com.br/politica/ultimas-noticias/2025/03/07/lula-tarcisio-pesquisa-atlas.htm|title=Atlas: Lula lidera no 1º turno, mas empata tecnicamente com Tarcísio no 2º turno |website=UOL |language=pt}}</ref>
 |-
 | ''MDA''
-| 19–23 Feb 2025
+| ''19–23 Feb''
 | style="background:#ffb7b7;font-weight:bold" |30.4
 |14
 |14.3
@@ -3556,7 +3586,7 @@ period
 |<ref>{{Cite web |date=18 February 2025 |url=https://www.cnnbrasil.com.br/politica/lula-tem-303-e-bolsonaro-301-em-simulacao-eleitoral-diz-cnt-mda/|title=Lula tem 30,3% e Bolsonaro, 30,1% em simulação eleitoral, diz CNT/MD |website=CNN Brazil |language=pt}}</ref>
 |-
 | ''Quaest''
-| 23–26 Jan 2025
+| ''23–26 Jan''
 | style="background:#ffb7b7;font-weight:bold" |30
 |13
 |9
@@ -3571,7 +3601,7 @@ period
 | <ref>{{Cite web |date=3 January 2025 |title=Quaest para presidente: Lula tem 30%; Tarcísio, 13%; e Gusttavo Lima, 12% |url=https://www.cnnbrasil.com.br/politica/quaest-para-presidente-lula-tem-30-tarcisio-13-e-gustavo-lima-12/ |access-date=3 January 2025 |website=CNN |language=pt}}</ref>
 |}
 
-=== 2024 ===
+=== 2024 and earlier ===
 {| class="wikitable mw-collapsible" style="text-align:center;font-size:90%;"
 |- valign="bottom"
 ! rowspan="2" | Polling firm
@@ -3614,7 +3644,7 @@ period
 ! style="background:{{party color|Progressistas}}" |
 |-
 | rowspan="7" |''Paraná Pesquisas''
-| rowspan="7" |21–25 Nov 2024
+| rowspan="7" |''21–25 Nov 2024''
 |33.6
 |{{n/a}}
 |{{n/a}}
@@ -3745,7 +3775,7 @@ period
 | style="background:#b2d1ea;font-weight:bold" |10.6
 |-
 | rowspan="3" |''MDA''
-| rowspan="3" |7–10 Nov 2024
+| rowspan="3" |''7–10 Nov 2024''
 | style="background:#ffb7b7;font-weight:bold;" |35.2
 |{{n/a}}
 |{{n/a}}
@@ -3804,7 +3834,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |18.3
 |-
 | rowspan="5" |''Paraná Pesquisas''
-| rowspan="5" |18–22 Jul 2024
+| rowspan="5" |''18–22 Jul 2024''
 | style="background:#ffb7b7;font-weight:bold;" | 38.3
 | {{n/a}}
 | {{n/a}}
@@ -3899,7 +3929,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" | 25.5
 |-
 |''Quaest''
-|2–6 May 2024
+|''2–6 May''
 | style="background:#ffb7b7;font-weight:bold;" | 46
 | {{n/a}}
 | 40
@@ -3922,7 +3952,7 @@ period
 |<ref>{{Cite web |title=Poll 02–06 May 2024 |url=https://static.poder360.com.br/2024/05/pesquisa-quaest-lula-tarcisio-13maio2024.pdf}}</ref>
 |-
 | rowspan="7" |''Paraná Pesquisas''
-| rowspan="7" |27 Apr – 1 May 2024
+| rowspan="7" |''27 Apr – 1 May 2024''
 | 36
 | {{n/a}}
 | {{n/a}}
@@ -4053,7 +4083,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" | 22.3
 |-
 | rowspan="3" |''Paraná Pesquisas''
-| rowspan="3" |24–28 Jan 2024
+| rowspan="3" |''24–28 Jan 2024''
 | style="background:#ffb7b7;font-weight:bold;" | 37.6
 | {{n/a}}
 | {{n/a}}
@@ -4112,7 +4142,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" | 3.1
 |-
 | rowspan="4" |''Paraná Pesquisas''
-| rowspan="4" |29 Sep – 3 Oct 2023
+| rowspan="4" |''29 Sep – 3 Oct 2023''
 | style="background:#ffb7b7;font-weight:bold;" |36.6
 | {{n/a}}
 | 12.7
@@ -4287,8 +4317,108 @@ period
 ! style="background-color:{{party color|Mission Party (Brazil)}}" |
 ! style="background-color:{{party color|Avante (political party)}}" |
 |-
+| rowspan="5" |''Nexus''
+| rowspan="5" |''25–27 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |46
+|44
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|9
+| rowspan="5" |±2 pp
+| rowspan="5" |2,000
+| style="background:#ffb7b7;font-weight:bold;" |2
+| rowspan="5" |[https://content.btgpactual.com/research/files/file/pt-BR/2026-09-28T010233.441_BTG_Nexus___Elei__es_2026___Rodada_16___vers_o_executiva__28_set_2026__6506.pdf]
+|-
+| style="background:#ffb7b7;font-weight:bold;" |46
+|{{n/a}}
+|42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|12
+| style="background:#ffb7b7;font-weight:bold;" |4
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|{{n/a}}
+|39
+|{{n/a}}
+|{{n/a}}
+|14
+| style="background:#ffb7b7;font-weight:bold;" |9
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|37
+|{{n/a}}
+|15
+| style="background:#ffb7b7;font-weight:bold;" |11
+|-
+| style="background:#ffb7b7;font-weight:bold;" |46
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|41
+|13
+| style="background:#ffb7b7;font-weight:bold;" |5
+|-
+| rowspan="5" |''Quaest''
+| rowspan="5" |''24–27 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |42
+|style="font-weight:bold; background-color:#b2d1ea;" |42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|16
+| rowspan="5" |±2 pp
+| rowspan="5" |2,004
+| style="background:#ecf0f1;font-weight:bold" |Tie
+| rowspan="5" |<ref name=":71" />
+|-
+| style="background:#ffb7b7;font-weight:bold;" |43
+|{{n/a}}
+|40
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|17
+| style="background:#ffb7b7;font-weight:bold;" |3
+|-
+| style="background:#ffb7b7;font-weight:bold;" |46
+|{{n/a}}
+|{{n/a}}
+|30
+|{{n/a}}
+|{{n/a}}
+|24
+| style="background:#ffb7b7;font-weight:bold;" |16
+|-
+| style="background:#ffb7b7;font-weight:bold;" |42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|39
+|{{n/a}}
+|19
+| style="background:#ffb7b7;font-weight:bold;" |3
+|-
+| style="background:#ffb7b7;font-weight:bold;" |42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|33
+|25
+| style="background:#ffb7b7;font-weight:bold;" |9
+|-
 | rowspan="5" |''Datafolha''
-| rowspan="5" |''22–24 Sep 2026''
+| rowspan="5" |''22–24 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |45
 |{{n/a}}
@@ -4338,7 +4468,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3
 |-
 | rowspan="5" |''Futura''
-| rowspan="5" |''18–24 Sep 2026''
+| rowspan="5" |''18–24 Sep''
 |43.7
 |style="font-weight:bold; background-color:#b2d1ea;" |49.4
 |{{n/a}}
@@ -4388,7 +4518,7 @@ period
 |style="font-weight:bold; background-color:#b5dddd;" |5.3
 |-
 | rowspan="2" |''PoderData''
-| rowspan="2" |''20–23 Sep 2026''
+| rowspan="2" |''20–23 Sep''
 |45
 |style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -4411,7 +4541,7 @@ period
 |style="font-weight:bold; background-color:#b5dddd;" |3
 |-
 | rowspan="5" |''Palver''
-| rowspan="5" |''20–23 Sep 2026''
+| rowspan="5" |''20–23 Sep''
 |45
 |style="font-weight:bold; background-color:#b2d1ea;" |48
 |{{n/a}}
@@ -4461,7 +4591,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="5" |''Real Time''
-| rowspan="5" |''19–23 Sep 2026''
+| rowspan="5" |''19–23 Sep''
 |44
 |style="font-weight:bold; background-color:#b2d1ea;" |45
 |{{n/a}}
@@ -4511,7 +4641,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |1
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |''17–22 Sep 2026''
+| rowspan="5" |''17–22 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |47.7
 |47.4
 |{{n/a}}
@@ -4561,7 +4691,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6.8
 |-
 | rowspan="5" |''Nexus''
-| rowspan="5" |''18–20 Sep 2026''
+| rowspan="5" |''18–20 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |45
 |{{n/a}}
@@ -4611,7 +4741,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |1
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''17–20 Sep 2026''
+| rowspan="5" |''17–20 Sep''
 |41
 | style="font-weight:bold; background-color:#b2d1ea;" |42
 |{{n/a}}
@@ -4661,7 +4791,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4
 |-
 | rowspan="5" |''Palver''
-| rowspan="5" |''15–20 Sep 2026''
+| rowspan="5" |''15–20 Sep''
 |43
 | style="font-weight:bold; background-color:#b2d1ea;" |47
 |{{n/a}}
@@ -4711,7 +4841,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="5" |''Datafolha''
-| rowspan="5" |''15–16 Sep 2026''
+| rowspan="5" |''15–16 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |44
 |{{n/a}}
@@ -4761,7 +4891,7 @@ period
 | style="background:#ecf0f1;font-weight:bold" |Tie
 |-
 | rowspan="2" |''PoderData''
-| rowspan="2" |''13–16 Sep 2026''
+| rowspan="2" |''13–16 Sep''
 |44
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -4784,7 +4914,7 @@ period
 | style="font-weight:bold; background-color:#b5dddd;" |3
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |''11–16 Sep 2026''
+| rowspan="5" |''11–16 Sep''
 |46.8
 | style="font-weight:bold; background-color:#b2d1ea;" |47.2
 |{{n/a}}
@@ -4834,7 +4964,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |7.8
 |-
 | rowspan="5" |''Futura''
-| rowspan="5" |''11–15 Sep 2026''
+| rowspan="5" |''11–15 Sep''
 |43.7
 | style="font-weight:bold; background-color:#b2d1ea;" |48.1
 |{{n/a}}
@@ -4884,7 +5014,7 @@ period
 | style="font-weight:bold; background-color:#b5dddd;" |3.3
 |-
 | rowspan="5" |''Nexus''
-| rowspan="5" |''11–13 Sep 2026''
+| rowspan="5" |''11–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |46
 |{{n/a}}
@@ -4934,7 +5064,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''10–13 Sep 2026''
+| rowspan="5" |''10–13 Sep''
 |40
 | style="font-weight:bold; background-color:#b2d1ea;" |42
 |{{n/a}}
@@ -4984,7 +5114,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |2
 |-
 | rowspan="5" |''Indexa''
-| rowspan="5" |''10–13 Sep 2026''
+| rowspan="5" |''10–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |42
 |{{n/a}}
@@ -5034,7 +5164,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |2
 |-
 | rowspan="5" |''MDA''
-| rowspan="5" |''9–13 Sep 2026''
+| rowspan="5" |''9–13 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |47.3
 |40
 |{{n/a}}
@@ -5084,7 +5214,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |7.1
 |-
 | rowspan="5" |''Datafolha''
-| rowspan="5" |''8–10 Sep 2026''
+| rowspan="5" |''8–10 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |44
 |{{n/a}}
@@ -5134,7 +5264,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |2
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''4–10 Sep 2026''
+| rowspan="4" |''4–10 Sep''
 |45
 | style="font-weight:bold; background-color:#b2d1ea;" |45.4
 |{{n/a}}
@@ -5175,7 +5305,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8.5
 |-
 | rowspan="2" |''PoderData''
-| rowspan="2" |6''–9 Sep 2026''
+| rowspan="2" |''6–9 Sep''
 |45
 | style="font-weight:bold; background-color:#b2d1ea;" |47
 |{{n/a}}
@@ -5198,7 +5328,7 @@ period
 | style="font-weight:bold; background-color:#b5dddd;" |1
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |4''–9 Sep 2026''
+| rowspan="5" |''4–9 Sep''
 |46.2
 | style="font-weight:bold; background-color:#b2d1ea;" |46.4
 |{{n/a}}
@@ -5248,7 +5378,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |2.7
 |-
 | rowspan="5" |''Palver''
-| rowspan="5" |4''–7 Sep 2026''
+| rowspan="5" |''4–7 Sep''
 |44
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -5298,7 +5428,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12
 |-
 | rowspan="5" |''Ideia''
-| rowspan="5" |4''–7 Sep 2026''
+| rowspan="5" |''4–7 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |46
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -5348,7 +5478,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |5.1
 |-
 | rowspan="5" |''Nexus''
-| rowspan="5" |4''–7 Sep 2026''
+| rowspan="5" |''4–7 Sep''
 |45
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -5398,7 +5528,7 @@ period
 | style="font-weight:bold; background-color:#b5dddd;" |2
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |3''–6 Sep 2026''
+| rowspan="5" |''3–6 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |41
 | style="font-weight:bold; background-color:#b2d1ea;" |41
 |{{n/a}}
@@ -5448,7 +5578,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4
 |-
 | rowspan="4" |''Datafolha''
-| rowspan="4" |1''–2 Sep 2026''
+| rowspan="4" |''1–2 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |44
 |{{n/a}}
@@ -5489,7 +5619,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''30 Aug–2 Sep 2026''
+| rowspan="4" |''30 Aug – 2 Sep''
 |44
 | style="font-weight:bold; background-color:#b2d1ea;" |45
 |{{n/a}}
@@ -5530,11 +5660,11 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |5
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |1 September
+| style="border-right-style:hidden;" |''1 Sep''
 | colspan="11" |Beginning of the institutional crisis at the [[Supreme Federal Court]].{{efn|name="STF crisis"}}<ref name=":61" /><ref name=":62" /><ref name=":63" /><ref name=":64" />
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''30 Aug–1 Sep 2026''
+| rowspan="5" |''30 Aug – 1 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |41
 |{{n/a}}
@@ -5584,7 +5714,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''27 Aug–1 Sep 2026''
+| rowspan="4" |''27 Aug – 1 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |45.6
 |45.2
 |{{n/a}}
@@ -5625,7 +5755,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="4" |''Real Time''
-| rowspan="4" |''27–31 Aug 2026''
+| rowspan="4" |''27–31 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |44
 | style="font-weight:bold; background-color:#b2d1ea;" |44
 |{{n/a}}
@@ -5666,7 +5796,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |7
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''28–30 Aug 2026''
+| rowspan="4" |''28–30 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |45
 |{{n/a}}
@@ -5707,7 +5837,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''25–30 Aug 2026''
+| rowspan="4" |''25–30 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |47.1
 |42.6
 |{{n/a}}
@@ -5748,7 +5878,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |21.5
 |-
 | rowspan="3" |''Vox Brasil''
-| rowspan="3" |''25–27 Aug 2026''
+| rowspan="3" |''25–27 Aug''
 |44.5
 | style="font-weight:bold; background-color:#b2d1ea;" |45.1
 |{{n/a}}
@@ -5780,7 +5910,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6.2
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''23–26 Aug 2026''
+| rowspan="4" |''23–26 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |44
 |{{n/a}}
@@ -5821,7 +5951,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |7
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''21–23 Aug 2026''
+| rowspan="4" |''21–23 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |45
 |{{n/a}}
@@ -5862,7 +5992,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12
 |-
 | rowspan="4" |''Indexa''
-| rowspan="4" |''20–23 Aug 2026''
+| rowspan="4" |''20–23 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |41
 |{{n/a}}
@@ -5903,7 +6033,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12
 |-
 | rowspan="4" |''Datafolha''
-| rowspan="4" |''18–20 Aug 2026''
+| rowspan="4" |''18–20 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |43
 |{{n/a}}
@@ -5944,7 +6074,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''14–16 Aug 2026''
+| rowspan="4" |''14–16 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |44
 |{{n/a}}
@@ -5985,11 +6115,11 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |11
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |16 August
+| style="border-right-style:hidden;" |''16 Aug''
 | colspan="11" |Beginning of the election campaign.
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |15 August
+| style="border-right-style:hidden;" |''15 Aug''
 | colspan="11" |Deadline for the registration of candidacies.
 |}
 
@@ -6026,7 +6156,7 @@ period
 | bgcolor="{{party color|Avante (political party)}}" |
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''10–13 Aug 2026''
+| rowspan="4" |''10–13 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |40
 |{{n/a}}
@@ -6067,7 +6197,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''9–12 Aug 2026''
+| rowspan="4" |''9–12 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |45
 |{{n/a}}
@@ -6108,7 +6238,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''7–9 Aug 2026''
+| rowspan="4" |''7–9 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |44
 |{{n/a}}
@@ -6149,7 +6279,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="5" |''MDA''
-| rowspan="5" |''5–9 Aug 2026''
+| rowspan="5" |''5–9 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |48
 |39.1
 |{{n/a}}
@@ -6199,7 +6329,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |16.2
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''3–7 Aug 2026''
+| rowspan="4" |''3–7 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46.5
 |44
 |{{n/a}}
@@ -6240,7 +6370,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |14
 |-
 | rowspan="4" |''Palver''
-| rowspan="4" |''3–7 Aug 2026''
+| rowspan="4" |''3–7 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -6281,7 +6411,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |15
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''31 Jul–3 Aug 2026''
+| rowspan="4" |''31 Jul – 3 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |44
 |39
 |{{n/a}}
@@ -6322,7 +6452,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="4" |''Ideia''
-| rowspan="4" |''31Jul–3 Aug 2026''
+| rowspan="4" |''31 Jul – 3 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |48.5
 |43
 |{{n/a}}
@@ -6363,7 +6493,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |13.3
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''31Jul–2 Aug 2026''
+| rowspan="4" |''31 Jul – 2 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |45
 |{{n/a}}
@@ -6404,7 +6534,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''26–29 Jul 2026''
+| rowspan="4" |''26–29 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |43
 |{{n/a}}
@@ -6445,7 +6575,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="3" |''Vox Brasil''
-| rowspan="3" |''26–28 Jul 2026''
+| rowspan="3" |''26–28 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |47.5
 |41.1
 |{{n/a}}
@@ -6477,7 +6607,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8.2
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''22–27 Jul 2026''
+| rowspan="4" |''22–27 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |49.2
 |42.9
 |{{n/a}}
@@ -6518,7 +6648,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |17.4
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''24–26 Jul 2026''
+| rowspan="4" |''24–26 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |43
 |{{n/a}}
@@ -6559,7 +6689,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="3" |''Datafolha''
-| rowspan="3" |''22–23 Jul 2026''
+| rowspan="3" |''22–23 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |48
 |43
 |{{n/a}}
@@ -6591,7 +6721,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="4" |''Real Time''
-| rowspan="4" |''18–20 Jul 2026''
+| rowspan="4" |''18–20 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |42
 |{{n/a}}
@@ -6632,7 +6762,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="4" |''Indexa''
-| rowspan="4" |''16–19 Jul 2026''
+| rowspan="4" |''16–19 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |39
 |{{n/a}}
@@ -6673,7 +6803,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |20
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''12–15 Jul 2026''
+| rowspan="4" |''12–15 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |43
 |{{n/a}}
@@ -6714,7 +6844,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |5
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''10–13 Jul 2026''
+| rowspan="4" |''10–13 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |37
 |{{n/a}}
@@ -6755,7 +6885,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''10–12 Jul 2026''
+| rowspan="4" |''10–12 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |44
 |{{n/a}}
@@ -6796,7 +6926,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |14
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''7–11 Jul 2026''
+| rowspan="4" |''7–11 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |46.3
 |46.1
 |{{n/a}}
@@ -6837,7 +6967,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |13.3
 |-
 | rowspan="4" |''Ideia''
-| rowspan="4" |''3–6 Jul 2026''
+| rowspan="4" |''3–6 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |40
 |{{n/a}}
@@ -6878,7 +7008,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''26–30 Jun 2026''
+| rowspan="4" |''26–30 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |48.8
 |42.3
 |{{n/a}}
@@ -6919,7 +7049,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |20.3
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''26–28 Jun 2026''
+| rowspan="4" |''26–28 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |44
 |{{n/a}}
@@ -6960,7 +7090,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12
 |-
 | rowspan="3" |''Vox Brasil''
-| rowspan="3" |''23–25 Jun 2026''
+| rowspan="3" |''23–25 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |45.3
 |42.8
 |{{n/a}}
@@ -6992,7 +7122,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4.2
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''21–24 Jun 2026''
+| rowspan="4" |''21–24 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |43
 |{{n/a}}
@@ -7033,7 +7163,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |7
 |-
 | rowspan="4" |''Indexa''
-| rowspan="4" |''18–20 Jun 2026''
+| rowspan="4" |''18–20 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |40
 |{{n/a}}
@@ -7074,7 +7204,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |20
 |-
 | rowspan="3" |''Datafolha''
-| rowspan="3" |''17–18 Jun 2026''
+| rowspan="3" |''17–18 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |43
 |{{n/a}}
@@ -7106,7 +7236,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="4" |''Nexus''
-| rowspan="4" |''12–14 Jun 2026''
+| rowspan="4" |''12–14 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |49
 |43
 |{{n/a}}
@@ -7147,7 +7277,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |13
 |-
 | rowspan="5" |''MDA''
-| rowspan="5" |''10–14 Jun 2026''
+| rowspan="5" |''10–14 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |49.3
 |36.8
 |{{n/a}}
@@ -7197,7 +7327,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |20.8
 |-
 | rowspan="4" |''Futura''
-| rowspan="4" |''8–12 Jun 2026''
+| rowspan="4" |''8–12 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |48.1
 |42.9
 |{{n/a}}
@@ -7238,7 +7368,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |17.5
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''3–8 Jun 2026''
+| rowspan="4" |''3–8 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |44
 |38
 |{{n/a}}
@@ -7279,7 +7409,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |14
 |-
 | rowspan="3" |''Vox Brasil''
-| rowspan="3" |''1–3 Jun 2026''
+| rowspan="3" |''1–3 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |47.8
 |41.3
 |{{n/a}}
@@ -7311,7 +7441,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3.8
 |-
 | rowspan="4" |''Real Time''
-| rowspan="4" |''29–30 May 2026''
+| rowspan="4" |''29–30 May''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |40
 |{{n/a}}
@@ -7352,7 +7482,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |16
 |-
 | rowspan="4" |''PoderData''
-| rowspan="4" |''25–28 May 2026''
+| rowspan="4" |''25–28 May''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |42
 |{{n/a}}
@@ -7393,7 +7523,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="4" |''Ideia''
-| rowspan="4" |''23–27 May 2026''
+| rowspan="4" |''23–27 May''
 | style="background:#ffb7b7;font-weight:bold;" |46.5
 |41.4
 |{{n/a}}
@@ -7434,7 +7564,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |15
 |-
 | rowspan="3" |''Indexa''
-| rowspan="3" |''22–24 May 2026''
+| rowspan="3" |''22–24 May''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |41
 |{{n/a}}
@@ -7466,7 +7596,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="3" |''Nexus''
-| rowspan="3" |''22–24 May 2026''
+| rowspan="3" |''22–24 May''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |43
 |{{n/a}}
@@ -7498,7 +7628,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |11
 |-
 | rowspan="3" |''Datafolha''
-| rowspan="3" |''20–22 May 2026''
+| rowspan="3" |''20–22 May''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |43
 |{{n/a}}
@@ -7530,7 +7660,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="3" |''Futura''
-| rowspan="3" |''15–20 May 2026''
+| rowspan="3" |''15–20 May''
 | style="background:#ffb7b7;font-weight:bold;" |47.7
 |42.2
 |{{n/a}}
@@ -7562,7 +7692,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12.4
 |-
 | rowspan="3" |''Vox Brasil''
-| rowspan="3" |''17–19 May 2026''
+| rowspan="3" |''17–19 May''
 | style="background:#ffb7b7;font-weight:bold;" |46.8
 |38.1
 |{{n/a}}
@@ -7594,7 +7724,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |12.2
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''13–18 May 2026''
+| rowspan="4" |''13–18 May''
 | style="background:#ffb7b7;font-weight:bold;" |48.9
 |41.8
 |{{n/a}}
@@ -7635,11 +7765,11 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |19.4
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
-| style="border-right-style:hidden;" |13 May
+| style="border-right-style:hidden;" |''13 May''
 | colspan="12" |Leaked audio recordings linked Flávio Bolsonaro to [[Daniel Vorcaro]], central figure in the [[Banco Master scandal]].<ref name=":19" /><ref name=":20" /><ref name=":21" /><ref name=":22" />{{efn|name="Banco Master"}}
 |-
 | rowspan="3" |''Datafolha''
-| rowspan="3" |''12–13 May 2026''
+| rowspan="3" |''12–13 May''
 | style="background:#ffb7b7;font-weight:bold;" |45
 | style="font-weight:bold; background-color:#b2d1ea;" |45
 |{{n/a}}
@@ -7671,7 +7801,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 | rowspan="4" |''Vox Brasil''
-| rowspan="4" |''9–12 May 2026''
+| rowspan="4" |''9–12 May''
 |40.2
 | style="font-weight:bold; background-color:#b2d1ea;" |43.8
 |{{n/a}}
@@ -7712,7 +7842,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |18.2
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''8–11 May 2026''
+| rowspan="4" |''8–11 May''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |41
 |{{n/a}}
@@ -7753,7 +7883,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |17
 |-
 | rowspan="3" |''Futura''
-| rowspan="3" |''4–8 May 2026''
+| rowspan="3" |''4–8 May''
 |44.4
 | style="font-weight:bold; background-color:#b2d1ea;" |46.9
 |{{n/a}}
@@ -7785,7 +7915,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8.2
 |-
 | rowspan="4" |''Ideia''
-| rowspan="4" |''1–5 May 2026''
+| rowspan="4" |''1–5 May''
 |44.7
 | style="font-weight:bold; background-color:#b2d1ea;" |45.3
 |{{n/a}}
@@ -7826,7 +7956,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |17.1
 |-
 | rowspan="4" |''Real Time''
-| rowspan="4" |''2–4 May 2026''
+| rowspan="4" |''2–4 May''
 |43
 | style="font-weight:bold; background-color:#b2d1ea;" |44
 |{{n/a}}
@@ -7867,7 +7997,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |24
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''22–27 Apr 2026''
+| rowspan="4" |''22–27 Apr''
 |47.5
 | style="font-weight:bold; background-color:#b2d1ea;" |47.8
 |{{n/a}}
@@ -7908,7 +8038,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |17.6
 |-
 | rowspan="3" |''Nexus''
-| rowspan="3" |''24–26 Apr 2026''
+| rowspan="3" |''24–26 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |45
 |{{n/a}}
@@ -7940,7 +8070,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''9–13 Apr 2026''
+| rowspan="5" |''9–13 Apr''
 |40
 | style="font-weight:bold; background-color:#b2d1ea;" |42
 |{{n/a}}
@@ -7990,7 +8120,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |21
 |-
 | rowspan="4" |''MDA''
-| rowspan="4" |''8–12 Apr 2026''
+| rowspan="4" |''8–12 Apr''
 | style="background:#ffb7b7;font-weight:bold;" |44.9
 |40.2
 |{{n/a}}
@@ -8031,7 +8161,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |16.7
 |-
 | rowspan="3" |''Futura''
-| rowspan="3" |''7–11 Apr 2026''
+| rowspan="3" |''7–11 Apr''
 |42.6
 | style="font-weight:bold; background-color:#b2d1ea;" |48
 |{{n/a}}
@@ -8063,7 +8193,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6.8
 |-
 | rowspan="3" |''Datafolha''
-| rowspan="3" |''7–9 Apr 2026''
+| rowspan="3" |''7–9 Apr''
 |45
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -8095,7 +8225,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3
 |-
 | rowspan="4" |''Ideia''
-| rowspan="4" |''3–7 Apr 2026''
+| rowspan="4" |''3–7 Apr''
 |45.5
 | style="font-weight:bold; background-color:#b2d1ea;" |45.8
 |{{n/a}}
@@ -8169,7 +8299,7 @@ period
 | bgcolor="{{party color|New Party (Brazil)}}" |
 |-
 | rowspan="3" |''Nexus''
-| rowspan="3" |''27–29 Mar 2026''
+| rowspan="3" |''27–29 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |46
 | style="font-weight:bold; background-color:#b2d1ea;" |46
 |{{n/a}}
@@ -8201,7 +8331,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 |''Paraná Pesquisas''
-|''25–28 Mar 2026''
+|''25–28 Mar''
 |44.1
 | style="font-weight:bold; background-color:#b2d1ea;" |45.2
 |{{n/a}}
@@ -8215,7 +8345,7 @@ period
 |<ref>{{Cite web |last=Alves |first=Giovana |date=2026-03-30 |title=Paraná Pesquisas: Lula e Flávio Bolsonaro empatam no 1º e 2º turnos |url=https://www.metropoles.com/brasil/parana-pesquisas-lula-e-flavio-bolsonaro-empatam-no-1o-e-2o-turnos |access-date=2026-03-30 |website=www.metropoles.com |language=pt-BR}}</ref>
 |-
 |''Gerp''
-|''20–25 Mar 2026''
+|''20–25 Mar''
 |45
 | style="font-weight:bold; background-color:#b2d1ea;" |48
 |{{n/a}}
@@ -8229,7 +8359,7 @@ period
 |<ref name=":GerpM26" />
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |''18–23 Mar 2026''
+| rowspan="4" |''18–23 Mar''
 |46.6
 | style="font-weight:bold; background-color:#b2d1ea;" |47.6
 |{{n/a}}
@@ -8270,7 +8400,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |2.9
 |-
 | rowspan="5" |''Ideia''
-| rowspan="5" |''6–10 Mar 2026''
+| rowspan="5" |''6–10 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |47.4
 |45.3
 |{{n/a}}
@@ -8320,7 +8450,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8.1
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''6–9 Mar 2026''
+| rowspan="4" |''6–9 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |41
 | style="font-weight:bold; background-color:#b2d1ea;" |41
 |{{n/a}}
@@ -8361,7 +8491,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''2–6 Mar 2026''
+| rowspan="2" |''2–6 Mar''
 |40.5
 | style="font-weight:bold; background-color:#b2d1ea;" |48.8
 |{{n/a}}
@@ -8384,7 +8514,7 @@ period
 | style="font-weight:bold; background-color:#b3deff;" |4.1
 |-
 | rowspan="4" |''Datafolha''
-| rowspan="4" |''3–5 Mar 2026''
+| rowspan="4" |''3–5 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |43
 |{{n/a}}
@@ -8425,7 +8555,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4
 |-
 | rowspan="4" |''Real Time''
-| rowspan="4" |''28 Feb–2 Mar 2026''
+| rowspan="4" |''28 Feb – 2 Mar''
 | style="background:#ffb7b7;font-weight:bold;" |42
 |41
 |{{n/a}}
@@ -8466,7 +8596,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="3" |''Paraná Pesquisas''
-| rowspan="3" |''22–25 Feb 2026''
+| rowspan="3" |''22–25 Feb''
 |43.8
 | style="font-weight:bold; background-color:#b2d1ea;" |44.4
 |{{n/a}}
@@ -8498,7 +8628,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3.9
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |''19–24 Feb 2026''
+| rowspan="5" |''19–24 Feb''
 |46.2
 | style="font-weight:bold; background-color:#b2d1ea;" |46.3
 |{{n/a}}
@@ -8548,7 +8678,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |4.3
 |-
 | rowspan="4" |''Quaest''
-| rowspan="4" |''5–9 Feb 2026''
+| rowspan="4" |''5–9 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |38
 |{{n/a}}
@@ -8589,7 +8719,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |11
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''3–7 Feb 2026''
+| rowspan="2" |''3–7 Feb''
 |42.4
 | style="font-weight:bold; background-color:#b2d1ea;" |48.2
 |{{n/a}}
@@ -8612,7 +8742,7 @@ period
 | style="font-weight:bold; background-color:#b3deff;" |6
 |-
 | rowspan="4" |''Gerp''
-| rowspan="4" |''28 Jan–2 Feb 2026''
+| rowspan="4" |''28 Jan – 2 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |45
 | style="background:#c9def0;font-weight:bold" |45
 |{{n/a}}
@@ -8653,7 +8783,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 | rowspan="5" |''Ideia''
-| rowspan="5" |''30 Jan–2 Feb 2026''
+| rowspan="5" |''30 Jan – 2 Feb''
 | style="background:#ffb7b7;font-weight:bold;" |45.8
 |41.1
 |{{n/a}}
@@ -8703,7 +8833,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10.5
 |-
 | rowspan="3" |''Paraná Pesquisas''
-| rowspan="3" |''25–28 Jan 2026''
+| rowspan="3" |''25–28 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |44.8
 |42.2
 |{{n/a}}
@@ -8735,7 +8865,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |5.8
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |''15–20 Jan 2026''
+| rowspan="5" |''15–20 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |49
 |45
 |{{n/a}}
@@ -8785,7 +8915,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="2" |''Futura''
-| rowspan="2" |''15–19 Jan 2026''
+| rowspan="2" |''15–19 Jan''
 |41.9
 | style="font-weight:bold; background-color:#b2d1ea;" |48.1
 |{{n/a}}
@@ -8808,7 +8938,7 @@ period
 | style="font-weight:bold; background-color:#b3deff;" |4.8
 |-
 | rowspan="5" |''Ideia''
-| rowspan="5" |''8–12 Jan 2026''
+| rowspan="5" |''8–12 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |46.2
 |36
 |{{n/a}}
@@ -8858,7 +8988,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9.8
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''8–11 Jan 2026''
+| rowspan="5" |''8–11 Jan''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |38
 |{{n/a}}
@@ -8933,7 +9063,7 @@ period
 ! style="background:{{party color|Brazil Union}}" |
 |-
 | rowspan="3" |''Paraná Pesquisas''
-| rowspan="3" |''18–22 Dec 2025''
+| rowspan="3" |''18–22 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |44.1
 |41
 |{{n/a}}
@@ -8965,7 +9095,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |3.6
 |-
 | rowspan="5" |''AtlasIntel''
-| rowspan="5" |''10–15 Dec 2025''
+| rowspan="5" |''10–15 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |53
 |41
 |{{n/a}}
@@ -9015,7 +9145,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="5" |''Quaest''
-| rowspan="5" |''11–14 Dec 2025''
+| rowspan="5" |''11–14 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |46
 |36
 |{{n/a}}
@@ -9065,7 +9195,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |11
 |-
 | rowspan="4" |''Gerp''
-| rowspan="4" |6–10 Dec 2025
+| rowspan="4" |''6–10 Dec''
 |41
 | style="background:#b2d1ea;font-weight:bold;" |42
 |{{n/a}}
@@ -9106,7 +9236,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6
 |-
 | rowspan="2" |''Veritá''
-| rowspan="2" |6–7 Dec 2025
+| rowspan="2" |''6–7 Dec''
 |40.3
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |44.9
@@ -9129,7 +9259,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |0.6
 |-
 | rowspan="3" |''Datafolha''
-| rowspan="3" |2–4 Dec 2025
+| rowspan="3" |''2–4 Dec''
 | style="background:#ffb7b7;font-weight:bold;" |47
 |{{n/a}}
 |42
@@ -9161,7 +9291,7 @@ period
 |  style="background:#ffb7b7;font-weight:bold;" |15
 |-
 | rowspan="4" |''AtlasIntel''
-| rowspan="4" |22–27 Nov 2025
+| rowspan="4" |''22–27 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |49
 | {{n/a}}
 |47
@@ -9202,7 +9332,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |8
 |-
 | rowspan="4" |''MDA''
-| rowspan="4" |19–23 Nov 2025
+| rowspan="4" |''19–23 Nov''
 | style="background:#ffb7b7;font-weight:bold" |45.7
 | {{n/a}}
 |39.1
@@ -9243,7 +9373,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |13.2
 |-
 | rowspan="2" |''Paraná Pesquisas''
-| rowspan="2" |6–10 Nov 2025
+| rowspan="2" |''6–10 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |43
 | {{n/a}}
 |41.8
@@ -9266,7 +9396,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |6.8
 |-
 | ''Quaest''
-| 6–9 Nov 2025
+| ''6–9 Nov''
 | style="background:#ffb7b7;font-weight:bold;" |41
 | {{n/a}}
 | 36
@@ -9280,7 +9410,7 @@ period
 | <ref name="qaNov2025"/>
 |-
 | rowspan="2" | ''Paraná Pesquisas''
-| rowspan="2" | 21–24 Oct 2025
+| rowspan="2" | ''21–24 Oct''
 | style="background:#ffb7b7;font-weight:bold;" |44.9
 |{{n/a}}
 | 40.9
@@ -9303,7 +9433,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |9.7
 |-
 | ''AtlasIntel''
-| 15–19 Oct 2025
+| ''15–19 Oct''
 | style="background:#ffb7b7;font-weight:bold;" |52
 | {{n/a}}
 | 44
@@ -9317,7 +9447,7 @@ period
 | <ref name="atlasOct25"/>
 |-
 | ''Quaest''
-| 2–5 Oct 2025
+| ''2–5 Oct''
 | style="background:#ffb7b7;font-weight:bold;" |45
 | {{n/a}}
 | 33
@@ -9331,7 +9461,7 @@ period
 | <ref name="quaestOct25"/>
 |-
 | ''Gerp''
-| 29 Sep – 6 Oct 2025
+| ''29 Sep – 6 Oct''
 | 36
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |45
@@ -9345,7 +9475,7 @@ period
 | <ref name="gerpoct25"/>
 |-
 | ''Quaest''
-| 12–14 Sep 2025
+| ''12–14 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |{{n/a}}
 | 35
@@ -9359,7 +9489,7 @@ period
 | <ref name="quaestSep25"/>
 |-
 | ''AtlasIntel''
-| 10–14 Sep 2025
+| ''10–14 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |50.6
 |{{n/a}}
 | 45.2
@@ -9373,7 +9503,7 @@ period
 | <ref>{{Cite web |date=17 September 2025 |url=https://www.cnnbrasil.com.br/politica/atlas-em-2o-turno-lula-teria-506-dos-votos-tarcisio-acumularia-452/|title=Atlas: em 2º turno, Lula teria 50,6% dos votos; Tarcísio acumularia 45,2% |website=CNN Brasil |language=pt}}</ref>
 |-
 | ''MDA''
-| 3–6 Sep 2025
+| ''3–6 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |43.9
 |{{n/a}}
 | 37.6
@@ -9387,7 +9517,7 @@ period
 | <ref>{{Cite web |date=8 September 2025 |url=https://www.cnnbrasil.com.br/politica/em-2o-turno-lula-teria-439-e-tarcisio-376-diz-pesquisa-cnt-mda|title=Em 2º turno, Lula teria 43,9% e Tarcísio, 37,6%, diz pesquisa CNT/MDA |website=CNN Brasil |language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 20–25 Aug 2025
+| ''20–25 Aug''
 | 46.6
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |48.4
@@ -9401,7 +9531,7 @@ period
 | <ref name="atlasAug25"/>
 |-
 | ''Paraná Pesquisas''
-| 17–21 Aug 2025
+| ''17–21 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |41.9
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold" |41.9
@@ -9415,7 +9545,7 @@ period
 | <ref name="paranaAug25"/>
 |-
 | rowspan="2" | ''Quaest''
-| rowspan="2" | 13–17 Aug 2025
+| rowspan="2" | ''13–17 Aug''
 | style="background:#ffb7b7;font-weight:bold;" |43
 |{{n/a}}
 | 35
@@ -9438,7 +9568,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |16
 |-
 | rowspan="2" | ''Datafolha''
-| rowspan="2" | 29–30 Jul 2025
+| rowspan="2" | ''29–30 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |45
 |{{n/a}}
 | 41
@@ -9460,7 +9590,7 @@ period
 | style="background:#ffb7b7;font-weight:bold;" |11
 |-
 | ''AtlasIntel''
-| 25–28 Jul 2025
+| ''25–28 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |50.4
 |{{n/a}}
 | 46.6
@@ -9474,7 +9604,7 @@ period
 | <ref>{{Cite web |date=31 July 2025 |url=https://exame.com/brasil/lula-vence-bolsonaro-tarcisio-e-michelle-e-outros-4-nomes-da-direita-em-2026-diz-atlasintel/|title=Lula vence Bolsonaro, Tarcísio e Michelle e outros 4 nomes da direita em 2026, diz AtlasIntel |website=Exame |language=pt}}</ref>
 |-
 | ''Quaest''
-| 10–14 Jul 2025
+| ''10–14 Jul''
 | style="background:#ffb7b7;font-weight:bold;" |41
 |{{n/a}}
 | 37
@@ -9488,7 +9618,7 @@ period
 | <ref name="quaestjul25"/>
 |-
 | ''AtlasIntel''
-| 27–30 Jun 2025
+| ''27–30 Jun''
 | style="background:#ffb7b7;font-weight:bold;" |47.6
 |{{n/a}}
 | 46.9
@@ -9502,7 +9632,7 @@ period
 | <ref name="atlasJun25"/>
 |-
 | ''Neokemp''
-| 25–27 Jun 2025
+| ''25–27 Jun''
 | 41.7
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |46.5
@@ -9516,7 +9646,7 @@ period
 | <ref name="neokempJun25"/>
 |-
 | ''Futura''
-| 12–23 Jun 2025
+| ''12–23 Jun''
 | 34.9
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |46.5
@@ -9530,7 +9660,7 @@ period
 | <ref name="futuraJun25"/>
 |-
 | rowspan="2" | ''Paraná Pesquisas''
-| rowspan="2" | 18–22 Jun 2025
+| rowspan="2" | ''18–22 Jun''
 | 40.1
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |43.6
@@ -9553,7 +9683,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |3.7
 |-
 | rowspan="2" | ''Datafolha''
-| rowspan="2" | 10–11 Jun 2025
+| rowspan="2" | ''10–11 Jun''
 | style="background:#ffb7b7;font-weight:bold" |43
 |{{n/a}}
 | 42
@@ -9575,7 +9705,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |9
 |-
 | ''Futura''
-| 2–4 Jun 2025
+| ''2–4 Jun''
 | style="background:#ffb7b7;font-weight:bold" |41.1
 |{{n/a}}
 | 41
@@ -9589,7 +9719,7 @@ period
 | <ref name="exame1"/>
 |-
 | rowspan="2" | ''Quaest''
-| rowspan="2" | 29 May – 1 Jun 2025
+| rowspan="2" | ''29 May – 1 Jun''
 | style="background:#ffb7b7;font-weight:bold" |41
 |{{n/a}}
 | 40
@@ -9612,7 +9742,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |2
 |-
 | ''AtlasIntel''
-| 19–23 May 2025
+| ''19–23 May''
 | 45.3
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold;" |48.9
@@ -9626,7 +9756,7 @@ period
 | <ref>{{Cite web |date=30 May 2025 |url=https://www.cnnbrasil.com.br/politica/lula-perde-para-bolsonaro-tarcisio-e-michelle-em-segundo-turno-diz-atlas/|title=Lula perde para Bolsonaro, Tarcísio e Michelle em segundo turno, diz Atlas |website=CNN Brasil|language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 20–24 Apr 2025
+| ''20–24 Apr''
 | style="background:#ffb7b7;font-weight:bold" |46.7
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold" |46.7
@@ -9640,7 +9770,7 @@ period
 | <ref>{{Cite web |date=28 April 2025 |url=https://www.estadao.com.br/politica/lula-tarcisio-freitas-michelle-bolsonaro-pesquisa-atlasintel-eleicoes-2026-nprp/|title=Lula está à frente de Tarcísio e Michelle em intenções de voto para 2026, diz pesquisa AtlasIntel |website=Estadão|language=pt}}</ref>
 |-
 | ''Paraná Pesquisas''
-| 16–19 Apr 2025
+| ''16–19 Apr''
 | style="" |40.6
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold" |43.4
@@ -9654,7 +9784,7 @@ period
 | <ref name="prpesquisasapr"/>
 |-
 | ''Datafolha''
-| 1–3 Apr 2025
+| ''1–3 Apr''
 | style=";background:#ffb7b7;font-weight:bold" |48
 |{{n/a}}
 | 39
@@ -9668,7 +9798,7 @@ period
 | <ref>{{Cite web |title=Datafolha: Lula teria 48%, contra 39% de Tarcísio em cenário de 2º turno |url=https://www1.folha.uol.com.br/poder/2025/04/datafolha-lula-teria-48-contra-39-de-tarcisio-em-cenario-de-2o-turno.shtml |access-date=5 April 2025 |website=Folha de S.Paulo|language=pt}}</ref>
 |-
 | ''Quaest''
-| 27–31 Mar 2025
+| ''27–31 Mar''
 | style=";background:#ffb7b7;font-weight:bold" |43
 |{{n/a}}
 | 37
@@ -9682,7 +9812,7 @@ period
 | <ref>{{Cite web |title=Lula e Bolsonaro empatam, e presidente vence outros 7 candidatos em cenários de 2º turno em 2026, aponta Quaest |url=https://g1.globo.com/politica/noticia/2025/04/03/quaest-lula-bolsonaro-cenarios-2026.ghtml |access-date=3 April 2025 |website=G1 |language=pt}}</ref>
 |-
 | ''AtlasIntel''
-| 20–24 Mar 2025
+| ''20–24 Mar''
 | style="" |46
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold" |47
@@ -9696,7 +9826,7 @@ period
 | <ref>{{Cite web |last=Salles Barros |first=Henrique |title=Lula, Tarcísio, Bolsonaro, Marçal: pesquisa Atlas simula 2° turno para 2026 |url=https://www.cnnbrasil.com.br/politica/lula-tarcisio-bolsonaro-marcal-pesquisa-atlas-simula-2-turno-para-2026/ |access-date=1 April 2025 |website=CNN Brasil |language=pt}}</ref>
 |-
 | ''Futura''
-| 19–22 Mar 2025
+| ''19–22 Mar''
 | style="" |37.6
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold" |42.3
@@ -9710,7 +9840,7 @@ period
 | <ref>{{Cite web |last=Porto |first=Douglas |title=Pesquisa Futura: Tarcísio tem 42,3% e Lula, 37,6% em simulação de 2º turno |url=https://www.cnnbrasil.com.br/politica/pesquisa-futura-tarcisio-tem-423-e-lula-376-em-simulacao-de-2o-turno/ |access-date=2025-03-27 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 | ''AtlasIntel''
-| 24–27 Feb 2025
+| ''24–27 Feb''
 | style="" |47
 |{{n/a}}
 | style="background:#c9def0;font-weight:bold" |49
@@ -9724,7 +9854,7 @@ period
 | <ref name="atlas1"/>
 |-
 | rowspan="2" |''AtlasIntel''
-| rowspan="2" |27–31 Jan 2025
+| rowspan="2" |''27–31 Jan''
 |style="background:#ffb7b7;font-weight:bold;" |45.7
 |{{n/a}}
 |44.7
@@ -9747,7 +9877,7 @@ period
 | style="background:#ffb7b7;font-weight:bold" |10.9
 |-
 | rowspan="3" |''Quaest''
-| rowspan="3" |23–26 Jan 2025
+| rowspan="3" |''23–26 Jan''
 |style="background:#ffb7b7;font-weight:bold;" |43
 |{{n/a}}
 |34

@@ -10,25 +10,25 @@ pip install -r requirements.txt
 python prever.py --atualizar      # baixa as pesquisas mais recentes e gera saida/painel.html
 ```
 
-## Resultado atual (pesquisas até 24/09/2026, 20 mil simulações)
+## Resultado atual (pesquisas até 27/09/2026, 20 mil simulações)
 
 | Candidato | 1º turno (válidos) | Intervalo 80% | Vai ao 2º turno | Eleito |
 |---|---|---|---|---|
-| Flávio Bolsonaro (PL) | 44,2% | 39,2–49,3% | 90% | **70%** |
-| Lula (PT) | 42,4% | 37,8–47,1% | 90% | **30%** |
-| Augusto Cury (Avante) | 4,4% | 1,6–7,3% | <1% | <1% |
-| Renan Santos (Missão) | 3,6% | 2,0–5,2% | <1% | <1% |
-| Caiado (PSD) | 3,3% | 1,8–4,9% | <1% | <1% |
-| Zema (Novo) | 1,1% | 0,3–2,0% | <1% | <1% |
+| Flávio Bolsonaro (PL) | 44,5% | 39,5–49,5% | 89% | **70%** |
+| Lula (PT) | 42,4% | 37,9–47,1% | 89% | **30%** |
+| Augusto Cury (Avante) | 4,0% | 1,5–6,7% | <1% | <1% |
+| Renan Santos (Missão) | 3,5% | 1,9–5,1% | <1% | <1% |
+| Caiado (PSD) | 3,4% | 1,9–5,1% | <1% | <1% |
+| Zema (Novo) | 1,0% | 0,3–1,9% | <1% | <1% |
 
-Chance de 2º turno: 90%. No confronto Lula × Flávio, Lula tem em média 48,0% dos válidos.
+Chance de 2º turno: 89%. No confronto Lula × Flávio, Lula tem em média 48,1% dos válidos.
 
 **A previsão depende muito de uma escolha:** quanto confiar no padrão histórico de erro das pesquisas.
 
 | Correção do viés histórico | Lula | Flávio |
 |---|---|---|
-| Nenhuma (pesquisas certas em média) | 52% | 48% |
-| Metade | 41% | 59% |
+| Nenhuma (pesquisas certas em média) | 53% | 47% |
+| Metade | 42% | 58% |
 | **Padrão do modelo** | **30%** | **70%** |
 | 1,5× | 20% | 80% |
 
@@ -78,7 +78,10 @@ Candidatos, blocos ideológicos e estados de origem ficam em `CONFIG_2026` (`mod
 ## Dados
 
 - `dados/brutos/pesquisas_*.wiki`: wikitexto das páginas "Opinion polling for the <ano> Brazilian presidential
-  election" (Wikipédia em inglês). `--atualizar` baixa de novo a de 2026.
+  election" (Wikipédia em inglês) e, para 2026, também da página "Pesquisas de opinião para a eleição presidencial
+  no Brasil em 2026" (Wikipédia em português), que lista institutos a mais (Veritá, Gerp, DataTrends,
+  American Analytics, Alfa Inteligência). No 1º turno as duas fontes são unidas por (instituto, data final),
+  sem duplicar pesquisas. `--atualizar` baixa as duas de novo.
 - `dados/processados/resultados_uf_2002_2022.csv`: votos por candidato e UF (1º e 2º turnos), extraídos das
   páginas "Resultados da eleição presidencial no Brasil em <ano>" (Wikipédia em português, que reproduzem o TSE).
   Os totais nacionais conferem com o TSE a menos de 0,1 ponto.

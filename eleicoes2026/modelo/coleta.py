@@ -68,6 +68,7 @@ MESES = {m: i + 1 for i, m in enumerate(
 MESES.update({"fev": 2, "abr": 4, "mai": 5, "ago": 8, "set": 9, "out": 10, "dez": 12})
 
 URL_PESQUISAS = "https://en.wikipedia.org/w/index.php?title=Opinion_polling_for_the_{ano}_Brazilian_presidential_election&action=raw"
+URL_PESQUISAS_PT = "https://pt.wikipedia.org/w/index.php?title=Pesquisas_de_opini%C3%A3o_para_a_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_{ano}&action=raw"
 URL_RESULTADOS = "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_{ano}"
 URL_RESULTADOS_2006 = "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"
 
@@ -95,6 +96,9 @@ def atualizar_fontes(anos_pesquisas=(2026,), anos_resultados=()) -> None:
     for ano in anos_pesquisas:
         ok = _baixar(URL_PESQUISAS.format(ano=ano), BRUTOS / f"pesquisas_{ano}.wiki")
         print(f"  pesquisas {ano}: {'atualizado' if ok else 'cache'}")
+        if ano == 2026:
+            ok = _baixar(URL_PESQUISAS_PT.format(ano=ano), BRUTOS / f"pesquisas_{ano}_pt.wiki")
+            print(f"  pesquisas {ano} (Wikipédia em português): {'atualizado' if ok else 'cache'}")
     for ano in anos_resultados:
         url = URL_RESULTADOS_2006 if ano == 2006 else URL_RESULTADOS.format(ano=ano)
         ok = _baixar(url, BRUTOS / f"res_{ano}.html")
@@ -151,12 +155,12 @@ def _classificar_coluna(cabecalhos: list[str], links: list[str | None]) -> tuple
     if pessoa:  # coluna por partido: o nome do candidato vem dentro da célula
         return "partido", None
     for chave, termos in [
-        ("instituto", ("pollster", "polling firm", "publisher", "instituto")),
-        ("data", ("period", "date", "fieldwork", "administered")),
-        ("amostra", ("sample",)),
-        ("margem", ("margin",)),
+        ("instituto", ("pollster", "polling firm", "publisher", "instituto", "contratante")),
+        ("data", ("period", "date", "fieldwork", "administered", "data(s)", "data de")),
+        ("amostra", ("sample", "amostra")),
+        ("margem", ("margin", "margem")),
         ("vantagem", ("lead",)),
-        ("indecisos", ("blank", "undec", "abst", "null", "none")),
+        ("indecisos", ("blank", "undec", "abst", "null", "none", "indecis", "branco", "nulo")),
         ("outros", ("others", "outros", "not affiliated")),
         ("link", ("link", "ref")),
     ]:
@@ -310,6 +314,29 @@ def pesquisas_primeiro_turno(df: pd.DataFrame, candidatos: list[str]) -> pd.Data
         linhas.append(linha)
     out = pd.DataFrame(linhas)
     return out.sort_values("meio").reset_index(drop=True)
+
+
+def unir_fontes(*tabelas: pd.DataFrame) -> pd.DataFrame:
+    """Une cenários de 1º turno de várias fontes, sem contar duas vezes a mesma pesquisa.
+
+    A chave é (instituto, data final). Se a pesquisa aparece em mais de uma fonte,
+    vale a primeira tabela passada; linhas repetidas dentro da mesma fonte são promediadas.
+    """
+    partes = []
+    vistas: set = set()
+    for t in tabelas:
+        if t is None or t.empty:
+            continue
+        t = t.copy()
+        t["_chave"] = list(zip(t.instituto, t.fim.dt.normalize()))
+        num = t.select_dtypes("number").columns
+        agreg = {c: "mean" for c in num}
+        agreg.update({c: "first" for c in t.columns if c not in num and c != "_chave"})
+        t = t.groupby("_chave", sort=False).agg(agreg).reset_index()
+        t = t[~t._chave.isin(vistas)]
+        vistas.update(t._chave)
+        partes.append(t.drop(columns="_chave"))
+    return pd.concat(partes, ignore_index=True).sort_values("meio").reset_index(drop=True)
 
 
 def pesquisas_segundo_turno(df: pd.DataFrame) -> pd.DataFrame:

@@ -55,6 +55,14 @@ def executar(n_sim: int = 20000, peso_vies: float = 1.0, atualizar: bool = False
     if hoje is not None:  # permite "voltar no tempo" (backtest) cortando pesquisas futuras
         brutas = brutas[brutas.fim <= pd.Timestamp(hoje)]
     p1 = coleta.pesquisas_primeiro_turno(brutas, cands)
+    caminho_pt = coleta.BRUTOS / "pesquisas_2026_pt.wiki"
+    if caminho_pt.exists():  # a página em português lista institutos que a inglesa não traz
+        brutas_pt = coleta.ler_pesquisas(caminho_pt.read_text(encoding="utf-8"), 2026)
+        brutas_pt = brutas_pt[brutas_pt.fim <= pd.Timestamp(hoje or date.today())]
+        antes = len(p1)
+        p1 = coleta.unir_fontes(p1, coleta.pesquisas_primeiro_turno(brutas_pt, cands))
+        log(f"  + {len(p1) - antes} pesquisas de 1º turno só na Wikipédia em português")
+        brutas = pd.concat([brutas, brutas_pt[brutas_pt.turno == 1]])
     p1 = p1[p1.meio >= INICIO_SERIE].reset_index(drop=True)
     p2 = coleta.pesquisas_segundo_turno(brutas)
     p2 = p2[p2.meio >= INICIO_SERIE].reset_index(drop=True)

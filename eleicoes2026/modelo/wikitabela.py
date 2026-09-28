@@ -198,6 +198,6 @@ def texto_limpo(s: str) -> str:
 def primeiro_link_pessoa(s: str) -> str | None:
     """Primeiro [[link]] do cabeçalho que não seja arquivo nem partido (em {{small}})."""
     s = re.sub(r"\{\{\s*small\s*\|.*?\}\}", "", s, flags=re.I | re.S)
-    s = re.sub(r"\[\[(?:File|Image|Ficheiro|Arquivo):[^\]]*\]\]", "", s, flags=re.I)
+    s = re.sub(r"\[\[(?:File|Image|Imagem|Ficheiro|Arquivo):[^\]]*\]\]", "", s, flags=re.I)
     m = _LINK_RE.search(s)
     return m.group(1).strip() if m else None
