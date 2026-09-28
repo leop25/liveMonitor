@@ -136,6 +136,20 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
   </div>
 </section>
 
+<section id="melhores-sec">
+  <div class="sec-head">
+    <div class="eyebrow">Só os institutos mais certeiros</div>
+    <h2 id="melTitle">E se ouvirmos só AtlasIntel e MDA?</h2>
+    <p class="small muted" id="melSub"></p>
+  </div>
+  <div class="tbl-wrap"><table id="t-mel"></table></div>
+  <div class="two even">
+    <div class="tbl-wrap"><table id="t-mel-ult"></table></div>
+    <div class="tbl-wrap"><table id="t-mel-hist"></table></div>
+  </div>
+  <p class="small muted" id="melTxt"></p>
+</section>
+
 <section>
   <div class="sec-head">
     <div class="eyebrow">1º turno · votos válidos projetados para <span id="dT1b"></span></div>
@@ -533,7 +547,29 @@ function metodo(){
   document.getElementById("method").innerHTML=itens.map(([h,p])=>`<div><h3>${h}</h3><p>${p}</p></div>`).join("");
 }
 
-function tudo(){ hero(); sens(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
+
+/* ---------- só os institutos mais certeiros ---------- */
+function melhores(){
+  const M=D.cenario_melhores, sec=document.getElementById("melhores-sec");
+  if(!M){ sec.hidden=true; return; }
+  const nomes=M.institutos.join(" e "), a1=A.split(" ")[0];
+  document.getElementById("melTitle").textContent=`E se ouvirmos só ${nomes}?`;
+  document.getElementById("melSub").textContent=`São os institutos com menor erro em 2018 e 2022. Nesta eleição publicaram ${M.n_t1} pesquisas de 1º turno e ${M.n_t2} confrontos de 2º turno. O modelo é o mesmo; muda só a base de pesquisas e a correção, que usa o erro histórico desses dois e não o de todos os institutos.`;
+  const row=(nome,sub,c,forte)=>`<tr${forte?' style="font-weight:600"':""}><td>${nome}<div class="small muted" style="font-weight:400">${sub}</div></td><td class="num">${fmt(c.t1[P])} × ${fmt(c.t1[A])}</td><td class="num">${c.t2_principal==null?"–":`${fmt(c.t2_principal)} × ${fmt(100-c.t2_principal)}`}</td><td class="num">${pct(c.vitoria[P])}</td><td class="num">${pct(c.vitoria[A])}</td></tr>`;
+  document.getElementById("t-mel").innerHTML=`<thead><tr><th>Cenário</th><th class="num">1º turno ${P} × ${a1}</th><th class="num">2º turno ${P} × ${a1}</th><th class="num">Chance ${P}</th><th class="num">Chance ${a1}</th></tr></thead><tbody>`+
+    row("Sem correção","Pesquisas dos dois tomadas como certas",M.sem_correcao,false)+
+    row("Corrigido pelo histórico dos dois",`1º turno: ${a1} ${M.vies.adv<0?"+":""}${fmt(-M.vies.adv)} pt · 2º turno: ${P} −${fmt(M.vies.h2h)} pt`,M.com_correcao,true)+"</tbody>";
+  document.getElementById("t-mel-ult").innerHTML=`<thead><tr><th>Última pesquisa</th><th class="num">1º turno</th><th class="num">2º turno ${P}</th></tr></thead><tbody>`+
+    Object.entries(M.ultimas).map(([i,u])=>`<tr><td>${i} <span class="muted small">${dataCurta(u.data)}</span></td><td class="num">${fmt(u.t1_p)} × ${fmt(u.t1_a)}</td><td class="num">${u.t2_p==null?"–":fmt(u.t2_p)+"%"}</td></tr>`).join("")+
+    `</tbody><tfoot><tr><td colspan="3" class="small muted" style="text-align:left;white-space:normal">Votos válidos, ${P} × ${A}.</td></tr></tfoot>`;
+  document.getElementById("t-mel-hist").innerHTML=`<thead><tr><th>Erro passado</th><th class="num">${P==="Lula"?"PT":P}</th><th class="num">Adversário</th></tr></thead><tbody>`+
+    M.erros_historicos.map(e=>`<tr><td>${e.instituto} ${e.ano} <span class="muted small">${e.tipo}</span></td><td class="num">${e.erro_pt>0?"+":""}${fmt(e.erro_pt)}</td><td class="num">${e.erro_adv==null?"–":(e.erro_adv>0?"+":"")+fmt(e.erro_adv)}</td></tr>`).join("")+
+    `</tbody><tfoot><tr><td colspan="3" class="small muted" style="text-align:left;white-space:normal">Pesquisa menos urna, em pontos. Negativo: o instituto subestimou o candidato.</td></tr></tfoot>`;
+  const c=M.com_correcao, lp=c.lider_t1_principal, ult=Object.entries(M.ultimas).sort((x,y)=>x[1].data<y[1].data?-1:1);
+  const principalFav = c.vitoria[P] >= c.vitoria[A];
+  document.getElementById("melTxt").innerHTML=`Com os dois institutos mais certeiros, ${P} termina o 1º turno à frente em ${pct(lp)} das simulações e o 2º turno fica em ${fmt(c.t2_principal)}% para ${P} (80% dos cenários entre ${fmt(c.t2_p10)} e ${fmt(c.t2_p90)}%): <b>${principalFav?P:A} com ${pct(Math.max(c.vitoria[P],c.vitoria[A]))}</b>, um cenário mais equilibrado que o do modelo principal (${P} ${pct(byName[P].p_vitoria)}). A base é pequena: a última pesquisa de ${ult[0][0]} é de ${dataCurta(ult[0][1].data)}, e o histórico dos dois cobre só ${new Set(M.erros_historicos.map(e=>e.ano)).size} eleições. Por isso o modelo principal continua usando todos os institutos, com peso maior para esses dois.`;
+}
+function tudo(){ hero(); sens(); melhores(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
 legendTrend(); metodo(); tudo();
 let rt; addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(tudo,150);});
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",tudo);

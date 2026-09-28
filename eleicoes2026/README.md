@@ -58,6 +58,32 @@ Contra:
 As evidências sustentam que parte do problema foi corrigida, não todo. Por isso o padrão é `--peso-vies 0.5`.
 Os outros cenários ficam no painel e na linha de comando (`--peso-vies 0` ou `--peso-vies 1`).
 
+## Só os institutos mais certeiros (AtlasIntel e MDA)
+
+AtlasIntel e MDA tiveram o menor erro em 2018 e 2022. O pipeline roda também um cenário só com eles
+(14 pesquisas de 1º turno e 68 confrontos de 2º turno), corrigido pelo erro histórico **deles**, não pelo
+de todos os institutos:
+
+| Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
+|---|---|---|---|---|
+| Sem correção | 45,8 × 40,5 | 51,6 × 48,4 | 69% | 31% |
+| **Corrigido pelo histórico dos dois** | **45,6 × 42,2** | **49,7 × 50,3** | **52%** | **48%** |
+
+| Erro passado (pesquisa − urna) | PT | Adversário |
+|---|---|---|
+| MDA 2018, 1º turno | −1,4 | −3,4 |
+| MDA 2018, 2º turno medido antes do 1º | +1,3 | – |
+| AtlasIntel 2022, 1º turno | +2,0 | −2,0 |
+| MDA 2022, 1º turno | −0,1 | −3,5 |
+| AtlasIntel 2022, 2º turno medido antes do 1º | +4,5 | – |
+| MDA 2022, 2º turno medido antes do 1º | +4,1 | – |
+
+Com esses dois, Lula termina o 1º turno à frente em 70% das simulações e o 2º turno vira empate. A base é
+pequena: a última pesquisa da MDA é de 9–13/set, antes da subida de Flávio, e o histórico dos dois cobre só
+duas eleições. Por isso o modelo principal continua usando todos os institutos, com peso maior para esses dois
+(MDA 2,0; AtlasIntel 1,5). A lista fica em `MELHORES` (`modelo/previsao.py`); para rodar só com eles:
+`python prever.py --institutos AtlasIntel,MDA`.
+
 ## Como funciona
 
 ```

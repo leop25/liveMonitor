@@ -9,7 +9,7 @@ import pandas as pd
 
 from . import coleta
 from .agregador import ajustar_tendencia, series_primeiro_turno, series_segundo_turno
-from .historico import REGIAO, calibrar
+from .historico import REGIAO, calibrar, vies_de_institutos
 from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
 
 DATA_T1 = pd.Timestamp("2026-10-04")
@@ -18,7 +18,9 @@ INICIO_SERIE = pd.Timestamp("2026-01-15")
 # Metade do viés histórico: os institutos atualizaram amostras (Censo 2022), adotaram modelos de
 # eleitor provável e a distância entre presenciais e online caiu pela metade desde 2022 — mas em
 # 2022 até os mais precisos erraram no mesmo sentido. Ver README ("Escolha do cenário").
-PESO_VIES_PADRAO = 0.5   # elenco de candidatos já próximo do final
+PESO_VIES_PADRAO = 0.5
+# Institutos com menor erro em 2018 e 2022 (ver historico.pesos_institutos).
+MELHORES = ["AtlasIntel", "MDA"]   # elenco de candidatos já próximo do final
 
 CONFIG_2026 = dict(
     candidatos=["Lula", "Flávio Bolsonaro", "Augusto Cury", "Renan Santos", "Caiado", "Zema"],
@@ -45,7 +47,14 @@ def _pontos(obs: pd.DataFrame, desde: pd.Timestamp) -> list[dict]:
 
 
 def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar: bool = False, semente: int = 2026,
-             hoje: date | None = None, verbose: bool = True, institutos: list[str] | None = None) -> dict:
+             hoje: date | None = None, verbose: bool = True, institutos: list[str] | None = None,
+             vies_proprio: bool = False, cenario_melhores: bool = True) -> dict:
+    """Roda a previsão completa.
+
+    institutos: restringe as pesquisas a esses institutos.
+    vies_proprio: com `institutos`, corrige pelo erro histórico só deles (não o de todos).
+    cenario_melhores: acrescenta à saída o cenário só com os institutos historicamente mais precisos.
+    """
     log = print if verbose else (lambda *a, **k: None)
     if atualizar:
         log("• Atualizando pesquisas na Wikipédia…")
@@ -78,6 +87,9 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
 
     log("• Calibrando com eleições de 2006–2022 (backtest, qualidade dos institutos, geografia)…")
     cal = calibrar()
+    erros_escolhidos = None
+    if institutos and vies_proprio:
+        cal, erros_escolhidos = vies_de_institutos(cal, institutos)
 
     log("• Agregando pesquisas (Kalman + efeito de instituto)…")
     tend1 = {}
@@ -127,7 +139,41 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
     saida = _consolidar(cfg, cfg_d, res, ent, cal, tend1, tend2, p1, p2, sens)
     saida["gerado_em"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     saida["ultima_pesquisa"] = brutas.fim.max().strftime("%Y-%m-%d")
+    if erros_escolhidos is not None:
+        saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
+    if cenario_melhores and not institutos:
+        log(f"• Cenário só com os institutos mais precisos ({', '.join(MELHORES)})…")
+        sub = executar(n_sim=min(n_sim, 20000), peso_vies=1.0, hoje=hoje, verbose=False, semente=semente,
+                       institutos=MELHORES, vies_proprio=True, cenario_melhores=False)
+        saida["cenario_melhores"] = _resumo_cenario(sub, cfg_d)
     return saida
+
+
+def _resumo_cenario(sub: dict, cfg_d: dict) -> dict:
+    """Resumo compacto de uma previsão restrita a alguns institutos, para o painel."""
+    P, A = cfg_d["principal"], cfg_d["adversario"]
+    lf = next((c for c in sub["confrontos"] if c["a"] == P and c["b"] == A), None)
+    ultimas = {}
+    for inst in MELHORES:
+        t1 = {c: [p for p in sub["pesquisas_t1"].get(c, []) if p["i"] == inst] for c in (P, A)}
+        t2 = [p for p in sub["pesquisas_t2"].get(A, []) if p["i"] == inst]
+        if t1[P] and t1[A]:
+            ultimas[inst] = {"data": t1[P][-1]["d"], "t1_p": t1[P][-1]["v"], "t1_a": t1[A][-1]["v"],
+                             "t2_p": t2[-1]["v"] if t2 else None, "t2_data": t2[-1]["d"] if t2 else None}
+    sens = {s["peso_vies"]: s for s in sub["sensibilidade"]}
+    return {
+        "institutos": MELHORES, "n_t1": sub["n_pesquisas_t1"], "n_t2": sub["n_confrontos_t2"],
+        "ultimas": ultimas, "erros_historicos": sub.get("erros_institutos_escolhidos", []),
+        "vies": {"pt": sub["calibracao"]["vies_t1"]["pt"], "adv": sub["calibracao"]["vies_t1"]["adv"],
+                 "h2h": sub["calibracao"]["vies_h2h"]},
+        "com_correcao": {"t1": {c["nome"]: c["t1_media"] for c in sub["candidatos"]},
+                         "t2_principal": lf["a_media"] if lf else None,
+                         "t2_p10": lf["a_p10"] if lf else None, "t2_p90": lf["a_p90"] if lf else None,
+                         "vitoria": {c["nome"]: c["p_vitoria"] for c in sub["candidatos"]},
+                         "lider_t1_principal": next(c["p_primeiro_lugar_t1"] for c in sub["candidatos"] if c["nome"] == P)},
+        "sem_correcao": {"t1": sens[0.0]["t1"], "t2_principal": sens[0.0]["t2_principal"],
+                         "vitoria": sens[0.0]["vitoria"]},
+    }
 
 
 def _pct(a, q):

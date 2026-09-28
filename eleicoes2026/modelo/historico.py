@@ -346,3 +346,50 @@ def calibrar(encolhimento_vies: float = 2.0) -> Calibracao:
                 "erros_h2h_media_simples": e2_simples, "trilha_backtest": trilha, "leans": leans, "geo": geo["dados"],
                 "casos_casa": casos_casa, "resultados_uf": res, "pesquisas": pesquisas},
     )
+
+
+def vies_de_institutos(cal: Calibracao, institutos: list[str], encolhimento: float = 2.0) -> tuple[Calibracao, pd.DataFrame]:
+    """Recalibra o erro sistemático usando só o histórico dos institutos escolhidos.
+
+    Mede, em 2010/2018/2022, o erro da última pesquisa de 1º turno de cada um (PT e
+    adversário) e o dos confrontos de 2º turno feitos antes do 1º turno; encolhe as médias
+    para zero como na calibração geral e mantém a dispersão residual da calibração geral.
+    """
+    import copy
+    pesquisas = cal.resumo["pesquisas"]
+    linhas = []
+    for ano, df in pesquisas.items():
+        e = ELEICOES[ano]
+        t1 = df[(df.turno == 1) & df.instituto.isin(institutos)]
+        if t1.empty:  # nenhum dos institutos pesquisou nesta eleição
+            continue
+        t1 = t1[t1.candidatos.map(lambda c: e["pt"] in c and e["adv"] in c)]
+        for _, r in _ultimas_por_instituto(t1, e["t1"], 7).iterrows():
+            v = _valido(r.candidatos, r.get("outros", np.nan))
+            linhas.append({"ano": ano, "instituto": r.instituto, "tipo": "1º turno",
+                           "erro_pt": v[e["pt"]] - e["r1"][e["pt"]], "erro_adv": v[e["adv"]] - e["r1"][e["adv"]]})
+        par = {e["pt"], e["adv"]}
+        t2 = df[(df.turno == 2) & df.instituto.isin(institutos) & df.candidatos.map(lambda c: set(c) == par)]
+        t2 = t2[t2.fim < pd.Timestamp(e["t1"])]
+        if t2.empty:
+            continue
+        for _, r in _ultimas_por_instituto(t2, e["t1"], 10).iterrows():
+            c = r.candidatos
+            linhas.append({"ano": ano, "instituto": r.instituto, "tipo": "2º turno (antes do 1º)",
+                           "erro_pt": 100 * c[e["pt"]] / (c[e["pt"]] + c[e["adv"]]) - e["r2"][e["pt"]],
+                           "erro_adv": np.nan})
+    erros = pd.DataFrame(linhas)
+    novo = copy.copy(cal)
+    t1 = erros[erros.tipo == "1º turno"]
+    t2 = erros[erros.tipo != "1º turno"]
+    res = {k: np.sqrt(max(cal.dp_t1[k] ** 2 - cal.vies_t1[k] ** 2, 1.0)) for k in cal.dp_t1}
+    if len(t1):
+        f = len(t1) / (len(t1) + encolhimento)
+        vp, va = float(t1.erro_pt.mean() * f), float(t1.erro_adv.mean() * f)
+        novo.vies_t1 = {"pt": vp, "adv": va, "outros": -(vp + va)}
+        novo.dp_t1 = {k: float(np.sqrt(res[k] ** 2 + novo.vies_t1[k] ** 2)) for k in res}
+    if len(t2):
+        r2 = np.sqrt(max(cal.dp_h2h ** 2 - cal.vies_h2h ** 2, 2.5 ** 2))
+        novo.vies_h2h = float(t2.erro_pt.mean() * len(t2) / (len(t2) + encolhimento))
+        novo.dp_h2h = float(np.sqrt(r2 ** 2 + novo.vies_h2h ** 2))
+    return novo, erros
