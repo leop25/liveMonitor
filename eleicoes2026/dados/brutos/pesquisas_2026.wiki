@@ -159,6 +159,36 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|Mission Party (Brazil)}}" class=unsortable |
 ! style="background-color:{{party color|Avante (political party)}}" class=unsortable |
 |-
+|''Vox Brasil''
+|''26–28 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |41.4
+|37.8
+|3.8
+|1.8
+|2.7
+|2.2
+|0.3
+|10.3
+|±2.15 pp
+|2,100
+| style="background:#ffb7b7;font-weight:bold;" |3.6
+|<ref>{{Cite web |date=2026-09-29 |title=Vox: Lula tem 41,1% das intenções de voto no 1º turno; Flávio, 37,8% |url=https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-411-das-intencoes-de-voto-no-1o-turno-flavio-378/ |access-date=2026-09-29 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''AtlasIntel''
+|''23–28 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |45.3
+|42.2
+|1.8
+|0.9
+|5.2
+|2.0
+|0.5
+|2.1
+|±1 pp
+|5,005
+| style="background:#ffb7b7;font-weight:bold;" |3.1
+|<ref name=":72">{{cite web|url=https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm|title=Pesquisa Atlas: Lula tem 45,3%, e Flávio, 42,2% no 1° turno; no 2°, empatam|website=UOL|language=pt-br|date=29 September 2026|accessdate=29 September 2026}}</ref>
+|-
 |''Nexus''
 |''25–27 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |42
@@ -188,6 +218,21 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |2,004
 | style="background:#ffb7b7;font-weight:bold;" |5
 |<ref name=":71">{{Cite web |date=2026-09-28 |title=Quaest, 1º turno:Lula, 39%; Flávio Bolsonaro, 34%; Caiado, 4%; Cury, 4%; Renan, 3%; Zema, 1%|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml|access-date=2026-09-28 |website=G1 |language=pt-BR}}</ref>
+|-
+|''Palver''
+|''24–27 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |44
+| style="font-weight:bold; background-color:#b2d1ea;" |44
+|1
+|1
+|8
+|1
+|0
+|2
+|±2.4 pp
+|5,000
+| style="background:#ecf0f1;font-weight:bold" |Tie
+|<ref>{{Cite web |date=2026-09-29 |title=Palver: Lula e Flávio empatam com 44% das intenções de voto no 1º turno |url=https://www.cnnbrasil.com.br/eleicoes/palver-lula-e-flavio-empatam-com-44-das-intencoes-de-voto-no-1o-turno/ |access-date=2026-09-29 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Datafolha''
 |''22–24 Sep''
@@ -4257,12 +4302,12 @@ period
 |<ref name=":aggregationPollingData"/><ref name=":aggregationBBC"/>
 |-
 |''Plano Político''
-|''24 September 2026''
-|45.2
-|style="font-weight:bold; background-color:#b2d1ea;" |45.5
-|9.3
-|±2.5 pp
-|style="font-weight:bold; background-color:#b2d1ea;" |0.3
+|''28 September 2026''
+|style="font-weight:bold; background-color:#ffb7b7;" |50
+|style="font-weight:bold; background-color:#b2d1ea;" |50
+|—
+|±1.8 pp
+|— 
 |<ref name=":49" />
 |-
 |''ABC Dados''
@@ -4316,6 +4361,97 @@ period
 ! style="background-color:{{party color|New Party (Brazil)}}" |
 ! style="background-color:{{party color|Mission Party (Brazil)}}" |
 ! style="background-color:{{party color|Avante (political party)}}" |
+|-
+| rowspan="4" |''Vox Brasil''
+| rowspan="4" |''26–28 Sep''
+|44.7
+|style="font-weight:bold; background-color:#b2d1ea;" |45.2
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|10.1
+| rowspan="4" |±2.15 pp
+| rowspan="4" |2,100
+|style="font-weight:bold; background-color:#b2d1ea;" |0.5
+| rowspan="4" |<ref>{{Cite web |date=2026-09-29 |title=Vox: Flávio tem 45,2% das intenções de voto no 2º turno; Lula, 44,7% |url=https://www.cnnbrasil.com.br/eleicoes/vox-flavio-tem-452-das-intencoes-de-voto-no-2o-turno-lula-447/ |access-date=2026-09-29 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45.3
+|{{n/a}}
+|41.1
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|13.6
+| style="background:#ffb7b7;font-weight:bold;" |4.2
+|-
+| style="background:#ffb7b7;font-weight:bold;" |46.1
+|{{n/a}}
+|{{n/a}}
+|30.3
+|{{n/a}}
+|{{n/a}}
+|23.6
+| style="background:#ffb7b7;font-weight:bold;" |15.8
+|-
+| style="background:#ffb7b7;font-weight:bold;" |44.8
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|35.1
+|20.1
+| style="background:#ffb7b7;font-weight:bold;" |9.7
+|-
+| rowspan="5" |''AtlasIntel''
+| rowspan="5" |''23–28 Sep''
+|47.6
+|style="font-weight:bold; background-color:#b2d1ea;" |47.7
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|4.8
+| rowspan="5" |±1 pp
+| rowspan="5" |5,005
+|style="font-weight:bold; background-color:#b2d1ea;" |0.1
+| rowspan="5" |<ref name=":72" />
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45.9
+|{{n/a}}
+|43.4
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|10.8
+| style="background:#ffb7b7;font-weight:bold;" |2.5
+|-
+| style="background:#ffb7b7;font-weight:bold;" |47.4
+|{{n/a}}
+|{{n/a}}
+|41.2
+|{{n/a}}
+|{{n/a}}
+|11.4
+| style="background:#ffb7b7;font-weight:bold;" |6.2
+|-
+| style="background:#ffb7b7;font-weight:bold;" |46.4
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|28.9
+|{{n/a}}
+|24.7
+| style="background:#ffb7b7;font-weight:bold;" |17.5
+|-
+| style="background:#ffb7b7;font-weight:bold;" |46.2
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|36.1
+|17.7
+| style="background:#ffb7b7;font-weight:bold;" |10.1
 |-
 | rowspan="5" |''Nexus''
 | rowspan="5" |''25–27 Sep''
@@ -4416,6 +4552,56 @@ period
 |33
 |25
 | style="background:#ffb7b7;font-weight:bold;" |9
+|-
+| rowspan="5" |''Palver''
+| rowspan="5" |''24–27 Sep''
+|45
+|style="font-weight:bold; background-color:#b2d1ea;" |47
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|8
+| rowspan="5" |±2.4 pp
+| rowspan="5" |5,000
+|style="font-weight:bold; background-color:#b2d1ea;" |2
+| rowspan="5" |<ref>{{Cite web |date=2026-09-29 |title=Palver: Flávio tem 47% das intenções de voto no 2º turno; Lula, 45% |url=https://www.cnnbrasil.com.br/eleicoes/palver-flavio-tem-47-das-intencoes-de-voto-no-2o-turno-lula-45/ |access-date=2026-09-29 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|40
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|16
+| style="background:#ffb7b7;font-weight:bold;" |5
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|{{n/a}}
+|40
+|{{n/a}}
+|{{n/a}}
+|14
+| style="background:#ffb7b7;font-weight:bold;" |5
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|33
+|{{n/a}}
+|22
+| style="background:#ffb7b7;font-weight:bold;" |12
+|-
+| style="background:#ffb7b7;font-weight:bold;" |44
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|34
+|22
+| style="background:#ffb7b7;font-weight:bold;" |10
 |-
 | rowspan="5" |''Datafolha''
 | rowspan="5" |''22–24 Sep''

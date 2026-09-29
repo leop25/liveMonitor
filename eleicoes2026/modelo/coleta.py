@@ -316,14 +316,16 @@ def pesquisas_primeiro_turno(df: pd.DataFrame, candidatos: list[str]) -> pd.Data
     return out.sort_values("meio").reset_index(drop=True)
 
 
-def unir_fontes(*tabelas: pd.DataFrame) -> pd.DataFrame:
+def unir_fontes(*tabelas: pd.DataFrame, tolerancia_dias: int = 3) -> pd.DataFrame:
     """Une cenários de 1º turno de várias fontes, sem contar duas vezes a mesma pesquisa.
 
-    A chave é (instituto, data final). Se a pesquisa aparece em mais de uma fonte,
-    vale a primeira tabela passada; linhas repetidas dentro da mesma fonte são promediadas.
+    Duas linhas são a mesma pesquisa quando têm o mesmo instituto e datas finais a até
+    `tolerancia_dias` de distância (as páginas às vezes registram o campo de forma diferente).
+    Vale a primeira tabela passada; linhas repetidas dentro da mesma fonte são promediadas.
     """
     partes = []
-    vistas: set = set()
+    vistas: dict[str, list[pd.Timestamp]] = {}
+    tol = pd.Timedelta(days=tolerancia_dias)
     for t in tabelas:
         if t is None or t.empty:
             continue
@@ -332,10 +334,12 @@ def unir_fontes(*tabelas: pd.DataFrame) -> pd.DataFrame:
         num = t.select_dtypes("number").columns
         agreg = {c: "mean" for c in num}
         agreg.update({c: "first" for c in t.columns if c not in num and c != "_chave"})
-        t = t.groupby("_chave", sort=False).agg(agreg).reset_index()
-        t = t[~t._chave.isin(vistas)]
-        vistas.update(t._chave)
-        partes.append(t.drop(columns="_chave"))
+        t = t.groupby("_chave", sort=False).agg(agreg).reset_index(drop=True)
+        repetida = t.apply(lambda r: any(abs(r.fim - f) <= tol for f in vistas.get(r.instituto, [])), axis=1)
+        t = t[~repetida]
+        for inst, fim in zip(t.instituto, t.fim):
+            vistas.setdefault(inst, []).append(fim)
+        partes.append(t)
     return pd.concat(partes, ignore_index=True).sort_values("meio").reset_index(drop=True)
 
 

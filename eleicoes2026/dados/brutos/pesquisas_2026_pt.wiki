@@ -203,64 +203,70 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" | 
 |-
-|DataFolha<ref name=":pesq-ultima-semana">{{Citar web|url=https://www.metropoles.com/brasil/quando-saem-as-ultimas-pesquisas-presidenciais-antes-do-1o-turno-da-eleicao|titulo=Quando saem as últimas pesquisas presidenciais antes do 1º turno da eleição|último=Martins|primeiro=Thays|data=28/09/2026|acessodata=28/09/2026|website=G1|língua=pt-BR|website=[[Metrópoles (jornal)|Metrópoles]]}}</ref>
+|[[DataFolha]]<ref name=":pesq-ultima-semana">{{Citar web|url=https://www.metropoles.com/brasil/quando-saem-as-ultimas-pesquisas-presidenciais-antes-do-1o-turno-da-eleicao|titulo=Quando saem as últimas pesquisas presidenciais antes do 1º turno da eleição|último=Martins|primeiro=Thays|data=28/09/2026|acessodata=28/09/2026|website=G1|língua=pt-BR|website=[[Metrópoles (jornal)|Metrópoles]]}}</ref><!--- BR-01708/2026 --->
 |3 Out
 |4 006
 |2,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Quaest<ref name=":pesq-ultima-semana"/>
+|[[Quaest]]<ref name=":pesq-ultima-semana"/><!--- BR-02197/2026 --->
 |2 Out – 3 Out
 |3 702
 |2,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Gerp<ref name=":pesq-ultima-semana"/>
+|Gerp<ref name=":pesq-ultima-semana"/><!--- BR-08168/2026 --->
 |1 Out – 3 Out
 |2 400
 |2,04
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Futura<ref name=":pesq-ultima-semana"/>
+|Futura<ref name=":pesq-ultima-semana"/><!--- BR-02431/2026 --->
 |29 Set – 3 Out
 |2 000
 |2,2
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|PoderData/Aya<ref name=":pesq-ultima-semana"/>
+|Gerp<ref name=":pesq-ultima-semana"/><!--- BR-00509/2026 --->
+|30 Set – 2 Out
+|2 400
+|2,04
+| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+|-
+|PoderData/Aya<ref name=":pesq-ultima-semana"/><!--- BR-03519/2026 --->
 |30 Set – 2 Out
 |4 000
 |2,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|CNT/MDA<ref name=":pesq-ultima-semana"/>
+|CNT/MDA<ref name=":pesq-ultima-semana"/><!--- BR-04756/2026 --->
 |29 Set – 2 Out
 |2 002
 |2,2
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|AtlasIntel<ref name=":pesq-ultima-semana"/>
+|AtlasIntel<ref name=":pesq-ultima-semana"/><!--- BR-00999/2026 --->
 |27 Set – 2 Out
 |5 000
 |1,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Palver<ref name=":pesq-ultima-semana"/>
+|[[Veritá]]<ref name=":pesq-ultima-semana"/><!--- BR-04522/2026 --->
+|26 Set – 2 Out
+|40 500
+|1,0
+| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+|-
+|Palver<ref name=":pesq-ultima-semana"/><!--- BR-00198/2026 --->
 |30 Set – 1 Out
 |5 000
 |4,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|DataFolha<ref name=":pesq-ultima-semana"/>
+|DataFolha<ref name=":pesq-ultima-semana"/><!--- BR-08039/2026 --->
 |28 Set – 1 Out
 |2 506
 |2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
-|-
-|Meio/Ideia<ref name=":pesq-ultima-semana"/>
-|28 Set – 1 Out
-|1 000
-|3,1
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |}
 
@@ -315,23 +321,109 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" |
 |-
-|Real Time Big Data<ref name=":pesq-ultima-semana"/>
+|DataTrends<ref name=":pesq-ultima-semana"/><!--- BR-04414/2026 --->
+|28 Set – 30 Set
+|2 000
+|±2,0
+| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+|-
+|Real Time Big Data<ref name=":pesq-ultima-semana"/><!--- BR-09503/2026 --->
 |26 Set – 30 Set
 |2 000
 |±2,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Indexa<ref name=":pesq-ultima-semana"/>
+|Indexa<ref name=":pesq-ultima-semana"/><!--- BR-01604/2026 --->
 |27 Set – 29 Set
 |2 000
 |±2,2
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Vox Brasil<ref name=":pesq-ultima-semana"/>
+|Vox Brasil<ref name=":173">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-452-contra-447-de-lula-no-2o-turno-diz-pesquisa/|titulo=Flávio tem 45,2% contra 44,7% de Lula no 2º turno, diz pesquisa|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
 |26 Set – 28 Set
 |2 100
 |±2,15
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |41%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,8%
+|2,2%
+|2,7%
+|3,8%
+|1,8%
+|0%
+|0%
+|0,1%
+|0%
+|0%
+|0,2%
+|0%
+|{{N/A}}
+|9,3%
+|-
+|Meio/Ideia<ref name=":pesq-ultima-semana"/><!--- BR-08706/2026 --->
+|25 Set – 28 Set
+|2 000
+|2,2
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+|-
+|Palver<ref name=":171">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/palver-presidente-setembro-2026-3/|titulo=O que mostra a nova pesquisa Palver para presidente|último=Ribeiro|primeiro=Gustavo|data=29/09/2026|acessodata=29/09/2026|website=Gazeta do Povo|língua=pt-BR|wayb=20260929121715}}</ref>
+|24 Set – 28 Set
+|5 000
+|2,4
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44%
+|1%
+|8%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{N/A}}
+|2%
+|-
+|Gerp<ref name=":170">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-50-contra-43-de-lula-no-2o-turno-diz-gerp-2/|titulo=Flávio tem 50% contra 43% de Lula no 2º turno, diz Gerp|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|24 Set – 28 Set
+|2 400
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |42%
+|5%
+|3%
+|3%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{N/A}}
+|5%
+|-
+|AtlasIntel<ref name=":169">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-477-e-lula-476-no-2o-turno-diz-atlasintel/|titulo=Flávio tem 47,7% e Lula, 47,6% no 2º turno, diz AtlasIntel|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|23 Set – 28 Set
+|5 005
+|1,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,3%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |42,2%
+|2%
+|5,2%
+|1,8%
+|0,9%
+|<0,5%
+|<0,5%
+|<0,5%
+|<0,5%
+|<0,5%
+|<0,5%
+|<0,5%
+|{{N/A}}
+|2,1%
 |-
 |Nexus/BTG<ref name=":168">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-44-de-flavio-no-2o-turno-diz-btg-nexus/|titulo=Lula tem 46% contra 44% de Flávio no 2º turno, diz BTG/Nexus|data=28/09/2026|acessodata=28/09/2026|website=Poder360|língua=pt-BR}}</ref>
 |25 Set – 27 Set
@@ -13077,8 +13169,8 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! rowspan="3" | Agregador
 ! rowspan="3" | Última atualização
 ! rowspan="3" | Margem de erro
-![[Imagem:Foto oficial de Luiz Inácio Lula da Silva (mais estreita).jpg|semmoldura|83px]]
-![[Imagem:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|semmoldura|83px]]
+! [[Imagem:08.08.2026 - FOTOS OFICIAIS - 55450293419.jpg|semmoldura|83px]]
+! [[Imagem:2026 FLAVIO BOLSONARO CANDIDATO PRESIDENTE TSE (280002551544).jpg|semmoldura|83px]]
 ! rowspan="3" | Abstenção Indeciso
 ! rowspan="3" | Vantagem
 |-
@@ -13164,6 +13256,42 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+|-
+|Vox Brasil<ref name=":173"/>
+|26 Set – 28 Set
+|2 100
+|±2,15
+|44,7%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,2%
+|10,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,5%
+|-
+|Palver<ref name=":171"/>
+|24 Set – 28 Set
+|5 000
+|2,4
+|45%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |47%
+|8%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |2%
+|-
+|Gerp<ref name=":170"/>
+|24 Set – 28 Set
+|2 400
+|2,0
+|43%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |50%
+|6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |7%
+|-
+|AtlasIntel<ref name=":169"/>
+|23 Set – 28 Set
+|5 005
+|1,0
+|47,6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |47,7%
+|4,8%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,1%
 |-
 |Nexus/BTG<ref name=":168"/>
 |25 Set – 27 Set
@@ -14560,6 +14688,33 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Avante (partido político)/meta/cor}}" |
 |-
+|Vox Brasil<ref name=":173"/>
+|26 Set – 28 Set
+|2 100
+|±2,15
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44,8%
+|35,1%
+|20,1%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |9,7%
+|-
+|Palver<ref name=":171"/>
+|24 Set – 28 Set
+|5 000
+|2,4
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44%
+|34%
+|22%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |10%
+|-
+|AtlasIntel<ref name=":169"/>
+|23 Set – 28 Set
+|5 005
+|1,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46,2%
+|36,1%
+|17,7%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |10,1%
+|-
 |Nexus/BTG<ref name=":168"/>
 |25 Set – 27 Set
 |2 000
@@ -14876,6 +15031,24 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Missão/meta/cor}}" |
+|-
+|Palver<ref name=":171"/>
+|24 Set – 28 Set
+|5 000
+|2,4
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|33%
+|22%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |12%
+|-
+|AtlasIntel<ref name=":169"/>
+|23 Set – 28 Set
+|5 005
+|1,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46,4%
+|28,9%
+|24,7%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |17,5%
 |-
 |Nexus/BTG<ref name=":168"/>
 |25 Set – 27 Set
@@ -15716,6 +15889,33 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |
+|-
+|Vox Brasil<ref name=":173"/>
+|26 Set – 28 Set
+|2 100
+|±2,15
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,3%
+|41,1%
+|13,6%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,2%
+|-
+|Palver<ref name=":171"/>
+|24 Set – 28 Set
+|5 000
+|2,4
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|40%
+|16%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |5%
+|-
+|AtlasIntel<ref name=":169"/>
+|23 Set – 28 Set
+|5 005
+|1,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,9%
+|43,4%
+|10,8%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2,5%
 |-
 |Nexus/BTG<ref name=":168"/>
 |25 Set – 27 Set
@@ -17202,6 +17402,33 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Novo/meta/cor}}" |
+|-
+|Vox Brasil<ref name=":173"/>
+|26 Set – 28 Set
+|2 100
+|±2,15
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46,1%
+|30,3%
+|23,6%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |15,8%
+|-
+|Palver<ref name=":171"/>
+|24 Set – 28 Set
+|5 000
+|2,4
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|40%
+|14%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |5%
+|-
+|AtlasIntel<ref name=":169"/>
+|23 Set – 28 Set
+|5 005
+|1,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |47,4%
+|41,2%
+|11,4%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |6,2%
 |-
 |Nexus/BTG<ref name=":168"/>
 |25 Set – 27 Set

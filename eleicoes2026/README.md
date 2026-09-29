@@ -10,29 +10,29 @@ pip install -r requirements.txt
 python prever.py --atualizar      # baixa as pesquisas mais recentes e gera saida/painel.html
 ```
 
-## Resultado atual (pesquisas até 27/09/2026, 20 mil simulações)
+## Resultado atual (pesquisas até 28/09/2026, 20 mil simulações)
 
 Cenário escolhido: **metade da correção do viés histórico** (explicação abaixo).
 
 | Candidato | 1º turno (válidos) | Intervalo 80% | Vai ao 2º turno | Eleito |
 |---|---|---|---|---|
-| Lula (PT) | 43,1% | 38,6–47,7% | 93% | **41%** |
-| Flávio Bolsonaro (PL) | 42,8% | 37,7–47,8% | 93% | **59%** |
-| Augusto Cury (Avante) | 4,4% | 1,8–7,1% | <1% | <1% |
-| Renan Santos (Missão) | 3,8% | 2,2–5,5% | <1% | <1% |
-| Caiado (PSD) | 3,7% | 2,2–5,4% | <1% | <1% |
-| Zema (Novo) | 1,1% | 0,3–2,0% | <1% | <1% |
+| Lula (PT) | 43,9% | 39,3–48,5% | 91% | **41%** |
+| Flávio Bolsonaro (PL) | 43,0% | 38,0–48,0% | 91% | **59%** |
+| Augusto Cury (Avante) | 3,8% | 1,4–6,4% | <1% | <1% |
+| Renan Santos (Missão) | 3,7% | 2,0–5,3% | <1% | <1% |
+| Caiado (PSD) | 3,5% | 2,0–5,2% | <1% | <1% |
+| Zema (Novo) | 1,2% | 0,3–2,1% | <1% | <1% |
 
-Chance de 2º turno: 93%. No 1º turno, Lula termina à frente em 53% das simulações. No 2º turno Lula × Flávio,
-Lula fica em média com 49,1% dos válidos (faixa de 80%: 43,8–54,4%).
+Chance de 2º turno: 91%. No 1º turno, Lula termina à frente em 56% das simulações. No 2º turno Lula × Flávio,
+Lula fica em média com 49,0% dos válidos (faixa de 80%: 43,7–54,2%).
 
 ## Dois cenários
 
 | Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
 |---|---|---|---|---|
-| **Metade da correção (escolhido)** | 43,1 × 42,8 | 49,1 × 50,9 | **41%** | **59%** |
-| Correção histórica inteira | 42,5 × 44,5 | 48,0 × 52,0 | 30% | 70% |
-| Sem correção (pesquisas certas em média) | — | — | 53% | 47% |
+| **Metade da correção (escolhido)** | 43,9 × 43,0 | 49,0 × 51,0 | **41%** | **59%** |
+| Correção histórica inteira | 43,3 × 44,8 | 48,0 × 52,0 | 30% | 70% |
+| Sem correção (pesquisas certas em média) | 44,6 × 41,3 | 50,0 × 50,0 | 53% | 47% |
 
 Em todas as cinco eleições de 2006 a 2022, a projeção final subestimou o principal candidato contra o PT no
 1º turno (de 1,5 a 7 pontos). Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em
@@ -61,13 +61,13 @@ Os outros cenários ficam no painel e na linha de comando (`--peso-vies 0` ou `-
 ## Só os institutos mais certeiros (AtlasIntel e MDA)
 
 AtlasIntel e MDA tiveram o menor erro em 2018 e 2022. O pipeline roda também um cenário só com eles
-(14 pesquisas de 1º turno e 68 confrontos de 2º turno), corrigido pelo erro histórico **deles**, não pelo
+(15 pesquisas de 1º turno e 73 confrontos de 2º turno), corrigido pelo erro histórico **deles**, não pelo
 de todos os institutos:
 
 | Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
 |---|---|---|---|---|
-| Sem correção | 45,8 × 40,5 | 51,6 × 48,4 | 69% | 31% |
-| **Corrigido pelo histórico dos dois** | **45,6 × 42,2** | **49,7 × 50,3** | **52%** | **48%** |
+| Sem correção | 46,4 × 41,2 | 51,4 × 48,6 | 68% | 32% |
+| **Corrigido pelo histórico dos dois** | **46,2 × 42,9** | **49,5 × 50,5** | **51%** | **49%** |
 
 | Erro passado (pesquisa − urna) | PT | Adversário |
 |---|---|---|
@@ -78,7 +78,7 @@ de todos os institutos:
 | AtlasIntel 2022, 2º turno medido antes do 1º | +4,5 | – |
 | MDA 2022, 2º turno medido antes do 1º | +4,1 | – |
 
-Com esses dois, Lula termina o 1º turno à frente em 70% das simulações e o 2º turno vira empate. A base é
+Com esses dois, Lula termina o 1º turno à frente em 71% das simulações e o 2º turno vira empate. A base é
 pequena: a última pesquisa da MDA é de 9–13/set, antes da subida de Flávio, e o histórico dos dois cobre só
 duas eleições. Por isso o modelo principal continua usando todos os institutos, com peso maior para esses dois
 (MDA 2,0; AtlasIntel 1,5). A lista fica em `MELHORES` (`modelo/previsao.py`); para rodar só com eles:
