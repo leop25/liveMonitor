@@ -58,96 +58,109 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido Missão/meta/cor}}" |
 ! style="color:white;background:{{Partido Novo/meta/cor}}" |
 |-
-|UOL<ref name="AgregadorUOL">{{Citar web|url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/|titulo=Agregador de pesquisas eleitorais {{!}} Eleições 2026|acessodata=23/09/2026|website=UOL|língua=pt-BR|arquivourl=http://web.archive.org/web/20260831095326/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/|arquivodata=2026-08-31}}</ref>
-|25 Set 2026
+|UOL<ref name="AgregadorUOL">{{Citar web|url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/|titulo=Agregador de pesquisas eleitorais {{!}} Eleições 2026|acessodata=30/09/2026|website=UOL|língua=pt-BR|arquivourl=http://web.archive.org/web/20260831095326/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/|arquivodata=2026-08-31}}</ref>
+|1 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,1%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |34,9%
-|6,8%
-|3,7%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,9%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |35,9%
+|5,8%
+|3,6%
 |3,5%
 |{{N/A}}
 |{{N/A}}
 |{{N/A}}
-| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,2%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,0%
 |-
-|PollingData<ref name="AgregadorPollingData">{{Citar web|url=https://flex.pollingdata.com.br/pdvoto|titulo=PollingData — Primeiro Agregador de Pesquisas do Brasil|acessodata=25/09/2026|website=PollingData|língua=pt-BR|wayb=20260917211725}}</ref>
-|24 Set 2026
+|PollingData<ref name="AgregadorPollingData">{{Citar web|url=https://flex.pollingdata.com.br/pdvoto|titulo=PollingData — Primeiro Agregador de Pesquisas do Brasil|acessodata=30/09/2026|website=PollingData|língua=pt-BR|wayb=20260917211725}}</ref>
+|1 Out 2026
 |3,0
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,1%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,5%
-|5,2%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,2%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,7%
+|4,1%
+|3,4%
 |3,7%
-|2,9%
-|0,6%
-|{{N/A}}
-|8%
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,6%
+|1,6%
+|3,6%
+|9,1%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,5%
 |-
-|BBC<ref name="AgregadorBBC">{{Citar web|url=https://www.bbc.com/portuguese/articles/czd2prld130o|titulo=Flávio Bolsonaro volta a aparecer à frente de Lula no 2º turno no Agregador de Pesquisas para presidente da BBC News Brasil|acessodata=25/09/2026|website=BBC News Brasil|língua=pt-BR|wayb=20260909004135}}</ref>
-|25 Set 2026
+|BBC<ref name="AgregadorBBC">{{Citar web|url=https://www.bbc.com/portuguese/articles/czd2prld130o|titulo=Flávio Bolsonaro volta a aparecer à frente de Lula no 2º turno no Agregador de Pesquisas para presidente da BBC News Brasil|acessodata=30/09/2026|website=BBC News Brasil|língua=pt-BR|wayb=20260909004135}}</ref>
+|1 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37%
-|5%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38%
 |4%
 |3%
-|1%
-|<6%{{Nre|Clariana Barão (DC): 1%; Samara Martins (UP): <1%; Rui Pimenta (PCO): <1%;  Hertz Dias (PSTU): <1%; Edmilson Costa (PCB): <1%; Wilson Grassi(DEMOCRATA): <1%}}
-|8%
+|4%
+|2%
+|<6%{{Nre|Samara Martins (UP): 1%; Hertz Dias (PSTU): <1%; Clariana Barão (DC): <1%; Rui Pimenta (PCO): <1%; Edmilson Costa (PCB): <1%; Wilson Grassi(DEMOCRATA): <1%}}
+|9%
 |style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
 |-
-|CartaCapital<ref name="AgregadorCartaCapital">{{Citar web|url=https://www.cartacapital.com.br/politica/cartacapital-lanca-agregador-de-pesquisas-eleitorais/|titulo=CartaCapital lança agregador de pesquisas eleitorais|data=2026-08-24|acessodata=25/09/2026|website=CartaCapital|língua=pt-BR}}</ref>
-|21 Set 2026
+|CartaCapital<ref name="AgregadorCartaCapital">{{Citar web|url=https://www.cartacapital.com.br/politica/cartacapital-lanca-agregador-de-pesquisas-eleitorais/|titulo=CartaCapital lança agregador de pesquisas eleitorais|data=2026-08-24|acessodata=30/09/2026|website=CartaCapital|língua=pt-BR}}</ref>
+|29 Set 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,7%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,7%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,7%
-|5,4%
-|3%
-|4,3%
-|{{N/A}}
-|{{N/A}}
-|{{N/A}}
-| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
-|-
-|Poll+Trend<ref name="AgregadorPoll+Trend">{{Citar web|url=https://pollplustrend.wordpress.com/26brpf/|titulo=2026 Brazil Polling Follower|data=2026-08-15|acessodata=25/09/2026|website=POLL+TREND|língua=en-GB|wayb=20260914111214}}</ref>
-|25 Set 2026
-|{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |41,05%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,31%
-|4,5%
-|2,42%
-|4,5%
-|0,79%
-|1,01%{{Nre|Samara Martins (UP): 0,37%; Clariana Barão (DC): 0,36%; Rui Pimenta (PCO): 0,13%; Hertz Dias (PSTU): 0,05%; Edmilson Costa (PCB): 0,05%; Wilson Grassi (Democrata): 0,05%}}
-|5,42%
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |0,74%
-|-
-|Plano Político<ref name="AgregadorPlanoPolítico">{{Citar web|url=https://planopolitico.com.br/agregador/presidente/|titulo=Agregador de Pesquisas 2026|acessodata=25/09/2026|website=Plano Político|língua=pt-BR|wayb=20260904132154}}</ref>
-|23 Set 2026
-|2,5
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |43,1%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,7%
-|5,9%
+|4,4%
+|3,4%
 |3,8%
-|4%
-|1,3%
 |{{N/A}}
 |{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,4%
+|{{N/A}}
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3,0%
 |-
-|ABC Dados<ref name="AgregadorABCDados">{{Citar web|url=https://abcdados.com.br/agregador2026/|titulo=Agregador de Pesquisas ABC Dados – ABC Dados|acessodata=25/09/2026|website=abcdados.com.br|língua=pt-BR|arquivourl=http://web.archive.org/web/20260824183041/https://abcdados.com.br/agregador2026/|arquivodata=2026-08-24}}</ref>
-|23 Set 2026
+|Poll+Trend<ref name="AgregadorPoll+Trend">{{Citar web|url=https://pollplustrend.wordpress.com/26brpf/|titulo=2026 Brazil Polling Follower|data=2026-08-15|acessodata=30/09/2026|website=POLL+TREND|língua=en-GB|wayb=20260914111214}}</ref>
+|1 Out 2026
+|{{N/A}}
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |41,74%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,26%
+|3,86%
+|2,65%
+|3,58%
+|0,85%
+|0,54%{{Nre|Samara Martins (UP): 0,25%; Clariana Barão (DC): 0,16%; Rui Pimenta (PCO): 0,06%; Wilson Grassi (Democrata): 0,02%; Hertz Dias (PSTU): 0,02%; Edmilson Costa (PCB): 0,03%}}
+|6,52%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |1,28%
+|-
+|Plano Político<ref name="AgregadorPlanoPolítico">{{Citar web|url=https://planopolitico.com.br/agregador/presidente/|titulo=Agregador de Pesquisas 2026|acessodata=30/09/2026|website=Plano Político|língua=pt-BR|wayb=20260904132154}}</ref>
+|1 Out 2026
+|2,5
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |43,9%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |41,4%
+|4,9%
+|3,6%
+|3,9%
+|1,4%
+|{{N/A}}
+|{{N/A}}
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,5%
+|-
+|ABC Dados<ref name="AgregadorABCDados">{{Citar web|url=https://abcdados.com.br/agregador2026/|titulo=Agregador de Pesquisas ABC Dados – ABC Dados|acessodata=30/09/2026|website=abcdados.com.br|língua=pt-BR|arquivourl=http://web.archive.org/web/20260824183041/https://abcdados.com.br/agregador2026/|arquivodata=2026-08-24}}</ref>
+|1 Out 2026
 |{{N/A}}
 |style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |40%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |35%
-|7%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |36%
+|6%
 |3%
 |4%
 |1%
 |{{N/A}}
 |{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |5%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |4%
+|-
+|Agregador presidencial<ref name="Agregadorpresidencial">{{Citar web|url=https://agregador-eleitoral.tuka1965.chatgpt.site/|titulo=Agregador presidencial 2026|acessodata=30/09/2026}}</ref>
+|1 Out 2026
+|
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |40,2%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,6%
+|5,0%	
+|3,5%
+|3,6%
+|1,2%
+|{{N/A}}
+|6,1%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,6%
 |}
 
 === 2026 ===
@@ -162,11 +175,10 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! [[Imagem:08.08.2026 - FOTOS OFICIAIS - 55450293419.jpg|semmoldura|83px]]
 ![[Imagem:2026 FLAVIO BOLSONARO CANDIDATO PRESIDENTE TSE (280002551544).jpg|semmoldura|83px]]
 ![[Imagem:2026 ESCRITOR AUGUSTO CURY CANDIDATO PRESIDENTE TSE (280002551547).jpg|semmoldura|83px]]
-![[Imagem:2026 RENAN SANTOS CANDIDATO PRESIDENTE TSE (280002540694).jpg|semmoldura|83px]]
 ![[Imagem:2026 RONALDO CAIADO CANDIDATO PRESIDENTE TSE (280002551932).jpg|semmoldura|83px]]
+![[Imagem:2026 RENAN SANTOS CANDIDATO PRESIDENTE TSE (280002540694).jpg|semmoldura|83px]]
 ![[Imagem:2026 ZEMA CANDIDATO PRESIDENTE TSE (280002539826).jpg|semmoldura|83px]]
 ![[Imagem:2026 SAMARA CANDIDATA PRESIDENTE TSE (280002538811).JPG|semmoldura|83px]]
-![[Imagem:2026 LEONARDO AVALANCHE CANDIDATO VICE-PRESIDENTE TSE (280002553883).jpg|semmoldura|83px]]
 ![[Imagem:2026 VETERINÁRIO WILSON GRASSI CANDIDATO PRESIDENTE TSE (280002548139).jpg|semmoldura|83px]]
 ![[Imagem:2026 CLARIANA BARAO CANDIDATA PRESIDENTE TSE (280002552484).jpg|semmoldura|83px]]
 ![[Imagem:2026 HERTZ DIAS CANDIDATO PRESIDENTE TSE (280002541457).jpg|semmoldura|83px]]
@@ -178,11 +190,10 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ![[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
 ![[Flávio Bolsonaro|Flávio]] <br>{{small|[[Partido Liberal (2006)|PL]]}}
 ![[Augusto Cury|Cury]]<br>{{small|[[Avante]]}}
-![[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
 ![[Ronaldo Caiado|Caiado]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+![[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
 ![[Romeu Zema|Zema]]<br>{{small|[[Partido Novo|NOVO]]}}
 ![[Samara Martins|Samara]]<br>{{small|[[Unidade Popular (Brasil)|UP]]}}
-![[Leonardo Avalanche|Avalanche]]<br>{{small|[[Partido Renovador Trabalhista Brasileiro|PRTB]]}}
 ![[Wilson Grassi|Grassi]]<br>{{small|[[Democrata (Brasil)|Democrata]]}}
 ![[Clariana Barão|Clariana]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
 ![[Hertz Dias|Dias]]<br>{{small|[[Partido Socialista dos Trabalhadores Unificado|PSTU]]}}
@@ -192,11 +203,10 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 | style="color:white;background:{{Avante (partido político)/meta/cor}}" |
-! style="color:white;background:{{Partido Missão/meta/cor}}" |
 ! style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |
+! style="color:white;background:{{Partido Missão/meta/cor}}" |
 ! style="color:white;background:{{Partido Novo/meta/cor}}" |
 | style="color:white;background:{{Unidade Popular (Brasil)/meta/cor}}" |
-| style="color:white;background:{{Partido Renovador Trabalhista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Mulher Brasileira/meta/cor}}" |
 | style="color:white;background:{{Democracia Cristã/meta/cor}}" |
 | style="color:white;background:{{Partido Socialista dos Trabalhadores Unificado/meta/cor}}" |
@@ -207,67 +217,99 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |3 Out
 |4 006
 |2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |[[Quaest]]<ref name=":pesq-ultima-semana"/><!--- BR-02197/2026 --->
 |2 Out – 3 Out
 |3 702
 |2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |Gerp<ref name=":pesq-ultima-semana"/><!--- BR-08168/2026 --->
 |1 Out – 3 Out
 |2 400
 |2,04
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |Futura<ref name=":pesq-ultima-semana"/><!--- BR-02431/2026 --->
 |29 Set – 3 Out
 |2 000
 |2,2
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |Gerp<ref name=":pesq-ultima-semana"/><!--- BR-00509/2026 --->
 |30 Set – 2 Out
 |2 400
 |2,04
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |PoderData/Aya<ref name=":pesq-ultima-semana"/><!--- BR-03519/2026 --->
 |30 Set – 2 Out
 |4 000
 |2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |CNT/MDA<ref name=":pesq-ultima-semana"/><!--- BR-04756/2026 --->
 |29 Set – 2 Out
 |2 002
 |2,2
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |AtlasIntel<ref name=":pesq-ultima-semana"/><!--- BR-00999/2026 --->
 |27 Set – 2 Out
 |5 000
 |1,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |[[Veritá]]<ref name=":pesq-ultima-semana"/><!--- BR-04522/2026 --->
 |26 Set – 2 Out
 |40 500
 |1,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
 |Palver<ref name=":pesq-ultima-semana"/><!--- BR-00198/2026 --->
 |30 Set – 1 Out
 |5 000
 |4,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
-|DataFolha<ref name=":pesq-ultima-semana"/><!--- BR-08039/2026 --->
+|Vox<ref name=":179">{{citar web|url=https://www.metropoles.com/brasil/vox-brasil-flavio-bolsonaro-tem-412-e-lula-marca-404-no-1o-turno|titulo=Vox Brasil: Flávio Bolsonaro tem 41,2% e Lula marca 40,4% no 1º turno|primeiro=Giovanna|último=Estrela|data=02/10/2026|website=Metrópoles|acessodata=02/10/2026}}</ref>
+|29 Set – 1 Out
+|2 100
+|2,15
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,4%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |41,2%
+|1,2%
+|3,3%
+|2,2%
+|1,3%
+|0%
+|0%
+|0%
+|0%
+|0,2%
+|0,0%
+|0%
+|10,2%
+|-
+|DataFolha<ref name=":178">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-outubro-2026-2/|titulo=Datafolha divulga pesquisa para presidente; veja os números|primeiro=Bruno|último=Maffi|data=01/10/2026|website=Gazeta do Povo|acessodata=01/10/2026|wayb=20261001222415}}</ref>
 |28 Set – 1 Out
 |2 506
 |2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38%
+|4%
+|3%
+|3%
+|1%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|7%
 |}
 
 ==== Setembro ====
@@ -321,23 +363,75 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" |
 |-
-|DataTrends<ref name=":pesq-ultima-semana"/><!--- BR-04414/2026 --->
+| colspan="4" |30 Set
+| colspan="16" |'''[[Leonardo Avalanche]] ([[Partido Renovador Trabalhista Brasileiro|PRTB]]) desiste da candidatura à Presidência.'''<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/leonardo-avalanche-desiste-de-disputar-a-presidencia/|titulo=Leonardo Avalanche desiste de disputar a Presidência|data=30/09/2026|acessodata=30/09/2026|website=[[Poder360]]}}</ref>
+|-
+|-
+|DataTrends<ref name=":pesq-ultima-semana"/><!--- BR-04414/2026 Data de divulgação:	02/10/2026 --->
 |28 Set – 30 Set
 |2 000
 |±2,0
 | colspan="16"|''Resultado da pesquisa ainda não divulgado.''
 |-
-|Real Time Big Data<ref name=":pesq-ultima-semana"/><!--- BR-09503/2026 --->
+|Real Time Big Data<ref name=":176">{{citar web|url=https://veja.abril.com.br/politica/como-esta-a-disputa-lula-x-flavio-bolsonaro-a-tres-dias-da-eleicao-segundo-nova-pesquisa/|titulo=Nova pesquisa Real Time Big Data mostra como está a disputa Lula x Flávio Bolsonaro a três dias da eleição|data=01/10/2026|website=VEJA|acessodata=01/10/2026}}</ref>
 |26 Set – 30 Set
 |2 000
 |±2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |39%
+|3%
+|4%
+|3%
+|1%
+|<1%
+|<1%
+|<1%
+|<1%
+|<1%
+|<1%
+|<1%
+|1%{{nre|Esses candidatos, somados, atingiram 1%.}}
+|6%
 |-
-|Indexa<ref name=":pesq-ultima-semana"/><!--- BR-01604/2026 --->
+|Indexa<ref name=":175">{{Citar web|url=https://www.cartacapital.com.br/politica/lula-lidera-em-1o-turno-e-empata-com-flavio-bolsonaro-no-2o-aponta-pesquisa-indexa-broadcast/|titulo=Lula lidera em 1º turno e empata com Flávio Bolsonaro no 2º, aponta pesquisa Indexa/Broadcast|data=30/09/2026|acessodata=30/09/2026|website=CartaCapital|língua=pt-BR}}</ref>
 |27 Set – 29 Set
 |2 000
 |±2,2
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |34%
+|4%
+|3%
+|4%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{N/A}}
+|15%
+|-
+|Futura<ref name=":174">{{Citar web|url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Relatorio_BR_Setembro_4_1a28dc.pdf|titulo=Pesquisa Futura 25 Set – 29 Set|data=30/09/2026|acessodata=30/09/2026|website=CNN|língua=pt-BR}}</ref>
+|25 Set – 29 Set
+|2 000
+|±2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,4%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |42,2%
+|3,8%
+|3,4%
+|4%
+|1,6%
+|0,2%
+|0,1%
+|0,1%
+| -
+|0,1%
+|0,2%
+|0,1%
+|{{N/A}}
+|5%
 |-
 |Vox Brasil<ref name=":173">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-452-contra-447-de-lula-no-2o-turno-diz-pesquisa/|titulo=Flávio tem 45,2% contra 44,7% de Lula no 2º turno, diz pesquisa|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
 |26 Set – 28 Set
@@ -359,11 +453,25 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |9,3%
 |-
-|Meio/Ideia<ref name=":pesq-ultima-semana"/><!--- BR-08706/2026 --->
+|Meio/Ideia<ref name=":172">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2026/09/30/meioideia-pesquisa-setembro.ghtm|titulo=Meio/Ideia: Lula e Flávio aparecem empatados tecnicamente em 1º e 2º turno|data=30/09/2026|acessodata=30/09/2026|website=Poder360|língua=pt-BR}}</ref>
 |25 Set – 28 Set
 |2 000
 |2,2
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,4%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38,4%
+|6,7%
+|4,5%
+|4,4%
+|3,5%
+|0,4%
+|0,1%
+|0,1%
+|0,3%
+|0,3%
+|0,1%
+|0,1%
+|{{N/A}}
+|2,2%
 |-
 |Palver<ref name=":171">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/palver-presidente-setembro-2026-3/|titulo=O que mostra a nova pesquisa Palver para presidente|último=Ribeiro|primeiro=Gustavo|data=29/09/2026|acessodata=29/09/2026|website=Gazeta do Povo|língua=pt-BR|wayb=20260929121715}}</ref>
 |24 Set – 28 Set
@@ -464,6 +572,26 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0%
 |{{N/A}}
 |15%
+|-
+|[[Veritá]]<ref>{{citar web|url=https://www.instagram.com/institutoverita/p/Dd7Ye1YIAq9/|título=Pesquisa realizada pelo Instituto Veritá a pedido Sistema de Comunicação Pantanal LTDA / REDE BRASIL DE TELEVISÃO|data=30/09/2026|acessodata=30/09/2026}}</ref><!---  BR-04467/2026 --->
+|20 Set – 25 Set
+|40 500
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44,65%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,14%
+|4,25%
+|2,39%
+|2,16%
+|0,46%
+|0,22%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
 |-
 |DataFolha<ref name=":166">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-24-setembro.ghtml|titulo=Datafolha, 1º turno: Lula, 40%; Flávio Bolsonaro, 36%; Cury, 5%; Caiado, 4%; Renan, 3%; Zema, 1%|data=2026-09-24|acessodata=2026-09-25|website=G1|língua=pt-BR|wayb=20260925025020}}</ref>
 |22 Set – 24 Set
@@ -1911,6 +2039,10 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 
 <!--- tabela sem negrito nos números, não é necessário, e com cor preta onde necessário, precisa ser seguindo WP:ACESSÍVEL e não ir contra WP:PAV --->
 
+{{hidden begin
+|title = Janeiro–Julho (2026)
+|titlestyle = background:#D8D8D8;
+}}
 ==== Julho ====
 {| class="wikitable" style="text-align:center;font-size:85%"
 ! rowspan="3" | Contratante / Pesquisa
@@ -5880,7 +6012,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | -
 | 15,4%
 |}
-
+{{hidden end}}
 
 {{hidden begin
 |title = 2025
@@ -13183,36 +13315,36 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
 |UOL<ref name="AgregadorUOL"/>
-|25 Set 2026
+|2 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44,8%
-|44,5%
-|10,7%
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,3%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,1%
+|44,6%
+|10,3%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,5%
 |-
 |PollingData<ref name="AgregadorPollingData"/>
-|24 Set 2026
+|30 Set 2026
 |3,0
-|45%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |46%
-|10%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1%
+|45,5%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,6%
+|8,9%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,1%
 |-
 |BBC<ref name="AgregadorBBC"/>
-|25 Set 2026
+|1 Out 2026
 |3,0
 |44%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45%
-|11%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1%
+|10%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1,0%
 |-
 |CartaCapital<ref name="AgregadorCartaCapital"/>
-|21 Set 2026
+|29 Set 2026
 |{{N/A}}
-|44,5%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,3%
-|10,2%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,8%
+|44,6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44,9%
+|10,5%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,3%
 |-
 |Poll+Trend<ref name="AgregadorPoll+Trend"/>
 |18 Set 2026
@@ -13223,20 +13355,28 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0%
 |-
 |Plano Político<ref name="AgregadorPlanoPolítico"/>
-|25 Set 2026
+|1 Out 2026
 |2,5
 |49,9%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |50,1%
 |{{N/A}}
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,2%
 |-
 |ABC Dados<ref name="AgregadorABCDados"/>
-|23 Set 2026
+|1 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
-|44%
-|12%
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
+|45%
+|45%
+|11%
+|0%
+|-
+|Agregador presidencial<ref name="Agregadorpresidencial"/>
+|1 Out 2026
+|{{N/A}}
+|45,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,3%
+|9,4%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,2%
 |}
 
 ==== 2026 ====
@@ -13257,6 +13397,51 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
+|Vox<ref name=":179"/>
+|29 Set – 1 Out
+|2 100
+|2,15
+|45,2%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |48,2%
+|6,6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |3%
+|-
+|Datafolha<ref name=":178"/>
+|28 Set – 1 Out
+|2 506
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48%
+|45%
+|7%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3%
+|-
+|Real Time Big Data<ref name=":176"/>
+|26 Set – 30 Set
+|2 000
+|±2,0
+|45%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |46%
+|9%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1%
+|-
+|Indexa<ref name=":175"/>
+|27 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43%
+|42%
+|15%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
+|-
+|Futura<ref name=":174"/>
+|25 Set – 29 Set
+|2 000
+|±2,2
+|43,5%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |49%
+|7,5%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |5,5%
+|-
 |Vox Brasil<ref name=":173"/>
 |26 Set – 28 Set
 |2 100
@@ -13265,6 +13450,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,2%
 |10,1%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,5%
+|-
+|Meio/Ideia<ref name=":172"/>
+|25 Set – 28 Set
+|2 000
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48,5%
+|48%
+|3,6%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,5%
 |-
 |Palver<ref name=":171"/>
 |24 Set – 28 Set
@@ -14688,6 +14882,51 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Avante (partido político)/meta/cor}}" |
 |-
+|Vox<ref name=":179"/>
+|29 Set – 1 Out
+|2 100
+|2,15
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46,8%
+|33,1%
+|20,1%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |13,7%
+|-
+|Datafolha<ref name=":178"/>
+|28 Set – 1 Out
+|2 506
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |47%
+|42%
+|11%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |5%
+|-
+|Real Time Big Data<ref name=":176"/>
+|26 Set – 30 Set
+|2 000
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|44%
+|11%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
+|-
+|Indexa<ref name=":175"/>
+|27 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |41%
+|39%
+|20%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
+|-
+|Futura<ref name=":174"/>
+|25 Set – 29 Set
+|2 000
+|±2,2
+|42%
+| style="color:white;background:{{Avante (partido político)/meta/cor}}" |45,1%
+|12,8%
+| style="color:white;background:{{Avante (partido político)/meta/cor}}" |3,1%
+|-
 |Vox Brasil<ref name=":173"/>
 |26 Set – 28 Set
 |2 100
@@ -14696,6 +14935,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |35,1%
 |20,1%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |9,7%
+|-
+|Meio/Ideia<ref name=":172"/>
+|25 Set – 28 Set
+|2 000
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48%
+|44%
+|8,1%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4%
 |-
 |Palver<ref name=":171"/>
 |24 Set – 28 Set
@@ -15031,6 +15279,51 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Missão/meta/cor}}" |
+|-
+|Datafolha<ref name=":178"/>
+|28 Set – 1 Out
+|2 506
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48%
+|39%
+|13%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |9%
+|-
+|Real Time Big Data<ref name=":176"/>
+|26 Set – 30 Set
+|2 000
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|38%
+|17%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |7%
+|-
+|Indexa<ref name=":175"/>
+|27 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44%
+|38%
+|18%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |6%
+|-
+|Futura<ref name=":174"/>
+|25 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44,6%
+|40,7%
+|14,8%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3,9%
+|-
+|Meio/Ideia<ref name=":172"/>
+|25 Set – 28 Set
+|2 000
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48%
+|41,3%
+|10,8%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |6,7%
 |-
 |Palver<ref name=":171"/>
 |24 Set – 28 Set
@@ -15890,6 +16183,51 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |
 |-
+|Vox<ref name=":179"/>
+|29 Set – 1 Out
+|2 100
+|2,15
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46,3%
+|42,1%
+|11,6%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3,2%
+|-
+|Datafolha<ref name=":178"/>
+|28 Set – 1 Out
+|2 506
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48%
+|42%
+|10%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |6%
+|-
+|Real Time Big Data<ref name=":176"/>
+|26 Set – 30 Set
+|2 000
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|43%
+|12%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
+|-
+|Indexa<ref name=":175"/>
+|27 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43%
+|40%
+|17%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3%
+|-
+|Futura<ref name=":174"/>
+|25 Set – 29 Set
+|2 000
+|±2,2
+|42,4%
+|style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |45,6%
+|12%
+| style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |3,2%
+|-
 |Vox Brasil<ref name=":173"/>
 |26 Set – 28 Set
 |2 100
@@ -15898,6 +16236,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |41,1%
 |13,6%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,2%
+|-
+|Meio/Ideia<ref name=":172"/>
+|25 Set – 28 Set
+|2 000
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48,5%
+|44,6%
+|7%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3,9%
 |-
 |Palver<ref name=":171"/>
 |24 Set – 28 Set
@@ -17403,6 +17750,42 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Novo/meta/cor}}" |
 |-
+|Datafolha<ref name=":178"/>
+|28 Set – 1 Out
+|2 506
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |49%
+|40%
+|11%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |9%
+|-
+|Real Time Big Data<ref name=":176"/>
+|26 Set – 30 Set
+|2 000
+|±2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+|40%
+|15%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |5%
+|-
+|Indexa<ref name=":175"/>
+|27 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43%
+|36%
+|21%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |7%
+|-
+|Futura<ref name=":174"/>
+|25 Set – 29 Set
+|2 000
+|±2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,1%
+|42,2%
+|12,8%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2,9%
+|-
 |Vox Brasil<ref name=":173"/>
 |26 Set – 28 Set
 |2 100
@@ -17411,6 +17794,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |30,3%
 |23,6%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |15,8%
+|-
+|Meio/Ideia<ref name=":172"/>
+|25 Set – 28 Set
+|2 000
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48,5%
+|44%
+|7,6%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,5%
 |-
 |Palver<ref name=":171"/>
 |24 Set – 28 Set

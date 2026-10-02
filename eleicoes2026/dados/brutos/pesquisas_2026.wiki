@@ -159,6 +159,66 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|Mission Party (Brazil)}}" class=unsortable |
 ! style="background-color:{{party color|Avante (political party)}}" class=unsortable |
 |-
+|''Datafolha''
+|''28–30 Sep''
+|style="background:#ffb7b7;font-weight:bold;" |42
+|38
+|3
+|1
+|3
+|4
+|2
+|7
+|±2 pp
+|2,506
+|style="background:#ffb7b7;font-weight:bold;" |4
+|<ref>{{Cite web |date=2026-10-01 |title=Datafolha: Lula tem 45% e Flávio Bolsonaro, 40% em votos válidos no 1º turno |url=https://www1.folha.uol.com.br/poder/2026/10/datafolha-lula-tem-45-e-flavio-bolsonaro-40-em-votos-validos-no-1o-turno.shtml |access-date=2026-10-01 |website=Folha de S.Paulo |language=pt-BR}}</ref>
+|-
+|''Real Time''
+|''26–30 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |43
+|39
+|3
+|1
+|4
+|3
+|1
+|6
+|±2 pp
+|2,000
+| style="background:#ffb7b7;font-weight:bold;" |4
+|<ref>{{Cite web |date=2026-10-01 |title=Real Time Big Data: Lula tem 43% no 1º turno; Flávio, 39% |url=https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/ |access-date=2026-10-01 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''Indexa''
+|''27–29 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |39
+|34
+|4
+|1
+|3
+|4
+|0
+|11
+|±2.2 pp
+|2,000
+| style="background:#ffb7b7;font-weight:bold;" |5
+|<ref>{{Cite web |date=2026-09-30 |title=Indexa/Broadcast: Lula tem 39% no 1º turno; Flávio, 34% |url=https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-lula-tem-39-no-1o-turno-flavio-34/ |access-date=2026-09-30 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''Futura''
+|''25–29 Sep''
+|39.4
+|style="font-weight:bold; background-color:#b2d1ea;" |42.2
+|4
+|1.6
+|3.2
+|3.8
+|0.8
+|5
+|±2.2 pp
+|2,000
+|style="font-weight:bold; background-color:#b2d1ea;" |2.8
+|<ref>{{Cite web |date=2026-09-30 |title=Futura: Flávio tem 42,2% das intenções de voto no 1º turno; Lula, 39,4% |url=https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-422-das-intencoes-de-voto-no-1o-turno-lula-394/ |access-date=2026-09-30 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
 |''Vox Brasil''
 |''26–28 Sep''
 | style="background:#ffb7b7;font-weight:bold;" |41.4
@@ -173,6 +233,21 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |2,100
 | style="background:#ffb7b7;font-weight:bold;" |3.6
 |<ref>{{Cite web |date=2026-09-29 |title=Vox: Lula tem 41,1% das intenções de voto no 1º turno; Flávio, 37,8% |url=https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-411-das-intencoes-de-voto-no-1o-turno-flavio-378/ |access-date=2026-09-29 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''Ideia''
+|''25–28 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |39.4
+|38.4
+|4.4
+|3.5
+|4.5
+|6.7
+|1.4
+|2.2
+|±2.2 pp
+|2,000
+| style="background:#ffb7b7;font-weight:bold;" |1
+|[https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf]
 |-
 |''AtlasIntel''
 |''23–28 Sep''
@@ -4362,6 +4437,206 @@ period
 ! style="background-color:{{party color|Mission Party (Brazil)}}" |
 ! style="background-color:{{party color|Avante (political party)}}" |
 |-
+| rowspan="5" |''Datafolha''
+| rowspan="5" |''28–30 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |48
+|45
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|7
+| rowspan="5" |±2 pp
+| rowspan="5" |2,506
+| style="background:#ffb7b7;font-weight:bold;" |3
+| rowspan="5" |<ref>{{Cite web |date=2026-10-01 |title=Datafolha: Lula, 42%; Flávio Bolsonaro, 38%; Cury, 4%; Caiado, 3%; Renan, 3%; Zema, 1% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml |access-date=2026-10-01 |website=G1 |language=pt-BR}}</ref>
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|10
+| style="background:#ffb7b7;font-weight:bold;" |6
+|-
+| style="background:#ffb7b7;font-weight:bold;" |49
+|{{n/a}}
+|{{n/a}}
+|40
+|{{n/a}}
+|{{n/a}}
+|11
+| style="background:#ffb7b7;font-weight:bold;" |9
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|39
+|{{n/a}}
+|12
+| style="background:#ffb7b7;font-weight:bold;" |9
+|-
+| style="background:#ffb7b7;font-weight:bold;" |47
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|42
+|11
+| style="background:#ffb7b7;font-weight:bold;" |5
+|-
+| rowspan="5" |''Real Time''
+| rowspan="5" |''26–30 Sep''
+|45
+|style="font-weight:bold; background-color:#b2d1ea;" |46
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|9
+| rowspan="5" |±2 pp
+| rowspan="5" |2,000
+|style="font-weight:bold; background-color:#b2d1ea;" |1
+| rowspan="5" |<ref>{{Cite web |date=2026-10-01 |title=Real Time Big Data: Flávio tem 46% no 2º turno; Lula, 45% |url=https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/ |access-date=2026-10-01 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|43
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|12
+| style="background:#ffb7b7;font-weight:bold;" |2
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|{{n/a}}
+|40
+|{{n/a}}
+|{{n/a}}
+|15
+| style="background:#ffb7b7;font-weight:bold;" |5
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|38
+|{{n/a}}
+|17
+| style="background:#ffb7b7;font-weight:bold;" |7
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|44
+|13
+| style="background:#ffb7b7;font-weight:bold;" |1
+|-
+| rowspan="5" |''Indexa''
+| rowspan="5" |''27–29 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |43
+|42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|15
+| rowspan="5" |±2.2 pp
+| rowspan="5" |2,000
+| style="background:#ffb7b7;font-weight:bold;" |1
+| rowspan="5" |<ref>{{Cite web |date=2026-09-30 |title=Indexa/Broadcast: No 2º turno, Lula tem 43%; Flávio, 42% |url=https://www.cnnbrasil.com.br/eleicoes/indexa-broadcast-no-2o-turno-lula-tem-43-flavio-42/ |access-date=2026-09-30 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+| style="background:#ffb7b7;font-weight:bold;" |43
+|{{n/a}}
+|40
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|17
+| style="background:#ffb7b7;font-weight:bold;" |3
+|-
+| style="background:#ffb7b7;font-weight:bold;" |43
+|{{n/a}}
+|{{n/a}}
+|36
+|{{n/a}}
+|{{n/a}}
+|21
+| style="background:#ffb7b7;font-weight:bold;" |7
+|-
+| style="background:#ffb7b7;font-weight:bold;" |44
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|38
+|{{n/a}}
+|18
+| style="background:#ffb7b7;font-weight:bold;" |6
+|-
+| style="background:#ffb7b7;font-weight:bold;" |41
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|39
+|20
+| style="background:#ffb7b7;font-weight:bold;" |2
+|-
+| rowspan="5" |''Futura''
+| rowspan="5" |''25–29 Sep''
+|43.5
+|style="font-weight:bold; background-color:#b2d1ea;" |49
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|7.5
+| rowspan="5" |±2.2 pp
+| rowspan="5" |2,000
+|style="font-weight:bold; background-color:#b2d1ea;" |5.5
+| rowspan="5" |<ref>{{Cite web |date=2026-09-30 |title=Futura: Flávio tem 49% das intenções de voto no 2º turno; Lula, 43,5% |url=https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-49-das-intencoes-de-voto-no-2o-turno-lula-435/ |access-date=2026-09-30 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|42.4
+|{{n/a}}
+|style="background:#ffd700;font-weight:bold;" |45.6
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|12
+|style="background:#ffd700;font-weight:bold;" |3.2
+|-
+| style="background:#ffb7b7;font-weight:bold;" |45.1
+|{{n/a}}
+|{{n/a}}
+|42.2
+|{{n/a}}
+|{{n/a}}
+|12.8
+| style="background:#ffb7b7;font-weight:bold;" |2.9
+|-
+| style="background:#ffb7b7;font-weight:bold;" |44.6
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|40.7
+|{{n/a}}
+|14.8
+| style="background:#ffb7b7;font-weight:bold;" |3.9
+|-
+|42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|style="font-weight:bold; background-color:#b5dddd;" |45.1
+|12.8
+|style="font-weight:bold; background-color:#b5dddd;" |3.1
+|-
 | rowspan="4" |''Vox Brasil''
 | rowspan="4" |''26–28 Sep''
 |44.7
@@ -4402,6 +4677,56 @@ period
 |35.1
 |20.1
 | style="background:#ffb7b7;font-weight:bold;" |9.7
+|-
+| rowspan="5" |''Ideia''
+| rowspan="5" |''25–28 Sep''
+| style="background:#ffb7b7;font-weight:bold;" |48.5
+|48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|3.6
+| rowspan="5" |±2.2 pp
+| rowspan="5" |2,000
+| style="background:#ffb7b7;font-weight:bold;" |0.5
+| rowspan="5" |[https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf]
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48.5
+|{{n/a}}
+|44.6
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|7
+| style="background:#ffb7b7;font-weight:bold;" |3.9
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48.5
+|{{n/a}}
+|{{n/a}}
+|44
+|{{n/a}}
+|{{n/a}}
+|7.6
+| style="background:#ffb7b7;font-weight:bold;" |4.5
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|41.3
+|{{n/a}}
+|10.8
+| style="background:#ffb7b7;font-weight:bold;" |6.7
+|-
+| style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|44
+|8.1
+| style="background:#ffb7b7;font-weight:bold;" |4
 |-
 | rowspan="5" |''AtlasIntel''
 | rowspan="5" |''23–28 Sep''
