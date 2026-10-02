@@ -150,17 +150,17 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |4%
 |-
 |Agregador presidencial<ref name="Agregadorpresidencial">{{Citar web|url=https://agregador-eleitoral.tuka1965.chatgpt.site/|titulo=Agregador presidencial 2026|acessodata=30/09/2026}}</ref>
-|1 Out 2026
+|2 Out 2026
 |
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |40,2%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,6%
-|5,0%	
-|3,5%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |41,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38,4%
+|3,5%	
 |3,6%
-|1,2%
+|3,4%
+|1,3%
 |{{N/A}}
-|6,1%
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,6%
+|6,5%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,7%
 |}
 
 === 2026 ===
@@ -252,6 +252,12 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |CNT/MDA<ref name=":pesq-ultima-semana"/><!--- BR-04756/2026 --->
 |29 Set – 2 Out
 |2 002
+|2,2
+| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+|-
+|IFP<!--- BR-02928/2026 Data de divulgação:	02/10/2026 --->
+|29 Set – 2 Out
+|2 000
 |2,2
 | colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
@@ -573,25 +579,25 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |15%
 |-
-|[[Veritá]]<ref>{{citar web|url=https://www.instagram.com/institutoverita/p/Dd7Ye1YIAq9/|título=Pesquisa realizada pelo Instituto Veritá a pedido Sistema de Comunicação Pantanal LTDA / REDE BRASIL DE TELEVISÃO|data=30/09/2026|acessodata=30/09/2026}}</ref><!---  BR-04467/2026 --->
+|[[Veritá]]<ref>{{citar web|url=https://lgjdbpskgjfbmlffbntx.supabase.co/storage/v1/object/public/pesquisas/pdfs/1790855512625_Relatorio_Nacional_Verita_Imprensa_27_UFs_20_a_25_Setembro_2026.pdf|título=Pesquisa Nacional - Eleições 2026|data=01/10/2026|acessodata=02/10/2026|wayb=20261002191702}}</ref><!---  BR-04467/2026 --->
 |20 Set – 25 Set
 |40 500
 |2,0
-| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44,65%
-| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,14%
-|4,25%
-|2,39%
-|2,16%
-|0,46%
-|0,22%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43,8%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44,3%
+|4,2%
+|2,3%
+|2,1%
+|0,5%
+|0,2%
+|0,1%
+|0%
+|0,3%
+|0,1%
+|0,1%
+|0,1%
 |{{N/A}}
-|{{N/A}}
-|{{N/A}}
-|{{N/A}}
-|{{N/A}}
-|{{N/A}}
-|{{N/A}}
-|{{N/A}}
+|1,9%
 |-
 |DataFolha<ref name=":166">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-24-setembro.ghtml|titulo=Datafolha, 1º turno: Lula, 40%; Flávio Bolsonaro, 36%; Cury, 5%; Caiado, 4%; Renan, 3%; Zema, 1%|data=2026-09-24|acessodata=2026-09-25|website=G1|língua=pt-BR|wayb=20260925025020}}</ref>
 |22 Set – 24 Set
@@ -13371,11 +13377,11 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0%
 |-
 |Agregador presidencial<ref name="Agregadorpresidencial"/>
-|1 Out 2026
+|2 Out 2026
 |{{N/A}}
-|45,1%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,3%
-|9,4%
+|45,6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,8%
+|8,4%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,2%
 |}
 
@@ -13408,7 +13414,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 |Datafolha<ref name=":178"/>
 |28 Set – 1 Out
-|2 506
+|2 002
 |±2,0
 |style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |48%
 |45%

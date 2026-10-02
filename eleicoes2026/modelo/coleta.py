@@ -280,6 +280,8 @@ def normalizar_instituto(nome: str) -> str:
         ("modalmais", "Futura"), ("brasmarket", "Brasmarket"), ("abc dados", "ABC Dados"),
         ("meio", "Ideia"), ("vox brasil", "Vox Brasil"), ("gpp", "GPP"),
     ]
+    if base == "vox":  # a Wikipédia em português abrevia Vox Brasil
+        return "Vox Brasil"
     for chave, canon in regras:
         if chave in base:
             return canon

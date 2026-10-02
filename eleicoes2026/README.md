@@ -16,23 +16,23 @@ Cenário escolhido: **metade da correção do viés histórico** (explicação a
 
 | Candidato | 1º turno (válidos) | Intervalo 80% | Vai ao 2º turno | Eleito |
 |---|---|---|---|---|
-| Lula (PT) | 44,2% | 39,7–48,7% | 89% | **41%** |
-| Flávio Bolsonaro (PL) | 43,7% | 38,8–48,6% | 89% | **59%** |
-| Augusto Cury (Avante) | 3,1% | 1,1–5,3% | <1% | <1% |
+| Lula (PT) | 44,0% | 39,5–48,5% | 89% | **40%** |
+| Flávio Bolsonaro (PL) | 43,9% | 39,0–48,8% | 89% | **60%** |
+| Augusto Cury (Avante) | 3,2% | 1,1–5,4% | <1% | <1% |
 | Renan Santos (Missão) | 3,6% | 1,9–5,4% | <1% | <1% |
-| Caiado (PSD) | 3,3% | 1,7–5,0% | <1% | <1% |
-| Zema (Novo) | 1,2% | 0,4–2,1% | <1% | <1% |
+| Caiado (PSD) | 3,3% | 1,7–4,9% | <1% | <1% |
+| Zema (Novo) | 1,2% | 0,4–2,0% | <1% | <1% |
 
-Chance de 2º turno: 89%. No 1º turno, Lula termina à frente em 53% das simulações. No 2º turno Lula × Flávio,
-Lula fica em média com 49,0% dos válidos (faixa de 80%: 43,7–54,2%).
+Chance de 2º turno: 89%. No 1º turno, Lula termina à frente em 50% das simulações. No 2º turno Lula × Flávio,
+Lula fica em média com 48,9% dos válidos (faixa de 80%: 43,7–54,1%).
 
 ## Dois cenários
 
 | Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
 |---|---|---|---|---|
-| **Metade da correção (escolhido)** | 44,2 × 43,7 | 49,0 × 51,0 | **41%** | **59%** |
-| Correção histórica inteira | 43,6 × 45,5 | 48,0 × 52,0 | 29% | 71% |
-| Sem correção (pesquisas certas em média) | 44,9 × 42,0 | 50,0 × 50,0 | 53% | 47% |
+| **Metade da correção (escolhido)** | 44,0 × 43,9 | 48,9 × 51,1 | **40%** | **60%** |
+| Correção histórica inteira | 43,4 × 45,7 | 47,9 × 52,1 | 28% | 72% |
+| Sem correção (pesquisas certas em média) | 44,7 × 42,2 | 49,9 × 50,1 | 52% | 48% |
 
 Em todas as cinco eleições de 2006 a 2022, a projeção final subestimou o principal candidato contra o PT no
 1º turno (de 1,5 a 7 pontos). Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em
