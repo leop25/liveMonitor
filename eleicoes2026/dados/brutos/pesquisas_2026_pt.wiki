@@ -4,9 +4,9 @@ Esta é uma lista de '''pesquisas eleitorais para a eleição presidencial de 20
 A eleição presidencial do Brasil em 2026 será a 10.ª eleição presidencial desde a [[Redemocratização do Brasil (1974-1988)|redemocratização]] e elegerá o [[Presidente do Brasil|presidente]] e o [[Vice-presidente do Brasil|vice-presidente]] da República.
 
 == Contexto ==
-As eleições presidenciais de 2026 são acompanhadas por um volume elevado de pesquisas eleitorais registradas na Justiça Eleitoral. Dados extraídos do sistema PesqEle indicavam, em 19 de setembro de 2026, 2.631 pesquisas registradas em todo o país, das quais 995 tinham abrangência nacional, correspondendo a aproximadamente 38% do total. O sistema oficial do Tribunal Superior Eleitoral (TSE) reúne informações sobre pesquisas, contratantes, pagantes, notas fiscais e questionários, com atualização periódica.<ref name=":1-B">{{citar web|url=https://eleicoes2026.app/panorama|título=Panorama das Pesquisas — Eleições 2026|data=19 de setembro de 2026|acessodata=20 de setembro de 2026}}</ref><ref name=":2-B">{{citar web|url=https://dadosabertos.tse.jus.br/dataset/pesquisas-eleitorais-2026|título=Pesquisas Eleitorais - 2026|data=2026|acessodata=20 de setembro de 2026}}</ref>
+As eleições presidenciais de 2026 são acompanhadas por um volume elevado de pesquisas eleitorais registradas na Justiça Eleitoral. Dados extraídos do sistema PesqEle indicavam, em 19 de setembro de 2026, 2.631 pesquisas registradas em todo o país, das quais 995 tinham abrangência nacional, correspondendo a aproximadamente 38% do total. O sistema oficial do Tribunal Superior Eleitoral (TSE) reúne informações sobre pesquisas, contratantes, pagantes, notas fiscais e questionários, com atualização periódica.<ref name=":1-B">{{citar web|url=https://eleicoes2026.app/panorama|título=Panorama das Pesquisas — Eleições 2026|data=19 de setembro de 2026|acessodata=20 de setembro de 2026}}</ref><ref name=":2-B">{{citar web|url=https://dadosabertos.tse.jus.br/dataset/pesquisas-eleitorais-2026|título=Pesquisas Eleitorais - 2026|data=2026|acessodata=20 de setembro de 2026|wayb=20260824012022}}</ref>
 
-Os levantamentos apresentam valores bastante distintos, conforme a metodologia, o tamanho da amostra e a abrangência territorial. Um exemplo registrado no PesqEle é uma pesquisa nacional da AtlasIntel, realizada em março de 2026 com 2.200 entrevistados, cujo valor declarado foi de R$ 75 mil. O próprio sistema eleitoral exige que sejam informados o valor e a origem dos recursos utilizados na realização das pesquisas, inclusive quando o levantamento é financiado com recursos próprios do instituto.<ref name=":3-B">{{citar web|url=https://static.poder360.com.br/2026/03/httpspesqele-divulgacao.tse_.jus_.brapppesquisadetalhar.xhtml_.pdf|título=PesqEle - Pesquisa BR-01079/2026|data=30 de março de 2026|acessodata=20 de setembro de 2026|wayb=20260920210556}}</ref><ref name=":4-B">{{citar web|url=https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-600-de-12-de-dezembro-de-2019|título=Resolução TSE nº 23.600/2019|data=12 de dezembro de 2019|acessodata=20 de setembro de 2026}}</ref>
+Os levantamentos apresentam valores bastante distintos, conforme a metodologia, o tamanho da amostra e a abrangência territorial. Um exemplo registrado no PesqEle é uma pesquisa nacional da AtlasIntel, realizada em março de 2026 com 2.200 entrevistados, cujo valor declarado foi de R$ 75 mil. O próprio sistema eleitoral exige que sejam informados o valor e a origem dos recursos utilizados na realização das pesquisas, inclusive quando o levantamento é financiado com recursos próprios do instituto.<ref name=":3-B">{{citar web|url=https://static.poder360.com.br/2026/03/httpspesqele-divulgacao.tse_.jus_.brapppesquisadetalhar.xhtml_.pdf|título=PesqEle - Pesquisa BR-01079/2026|data=30 de março de 2026|acessodata=20 de setembro de 2026|wayb=20260920210556}}</ref><ref name=":4-B">{{citar web|url=https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-600-de-12-de-dezembro-de-2019|título=Resolução TSE nº 23.600/2019|data=12 de dezembro de 2019|acessodata=20 de setembro de 2026|wayb=20261001231401}}</ref>
 
 O financiamento dos levantamentos é diversificado. Há pesquisas realizadas com recursos próprios dos institutos, enquanto outras são contratadas por empresas de comunicação, instituições financeiras ou outras organizações. Em setembro, por exemplo, pesquisas nacionais foram realizadas pela Nexus sob contratação do banco BTG Pactual, enquanto levantamentos do Datafolha e da Quaest foram contratados pelo Grupo Globo. As informações sobre contratantes, valores e origem dos recursos devem constar do registro eleitoral.<ref name=":5-B">{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/saiba-quais-pesquisas-eleitorais-podem-sair-nesta-3a-feira-7/|título=Saiba quais pesquisas eleitorais podem sair nesta 3ª feira|data=8 de setembro de 2026|acessodata=20 de setembro de 2026|wayb=20260920223948}}</ref><ref name=":6-B">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-39-no-1o-turno-flavio-36-e-cury-6/|título=Datafolha: Lula tem 39% no 1º turno; Flávio, 36%; e Cury, 6%|data=17 de setembro de 2026|acessodata=20 de setembro de 2026|wayb=20260921074105}}</ref><ref name=":7-B">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/quaest-no-1o-turno-lula-tem-36-flavio-29-e-cury-8/|título=Quaest: no 1º turno, Lula tem 36%; Flávio, 29%; e Cury, 8%|data=7 de setembro de 2026|acessodata=20 de setembro de 2026|wayb=20260920181007}}</ref>
 
@@ -14,7 +14,7 @@ A legislação eleitoral determina que as pesquisas destinadas ao conhecimento p
 
 A judicialização das pesquisas também marcou o ciclo eleitoral de 2026. Em fevereiro, o TSE determinou a suspensão da divulgação de uma pesquisa da Áltica Research que havia sido divulgada sem o registro prévio exigido pela legislação. Em junho, o Tribunal também suspendeu, por decisão liminar, a divulgação de uma pesquisa da AtlasIntel sobre a eleição presidencial, após representação do Partido Liberal que questionava a formulação do questionário e alegava indução das respostas; o caso foi posteriormente submetido à apreciação do Plenário.<ref name=":9-B">{{citar web|url=https://www.tse.jus.br/comunicacao/noticias/2026/Fevereiro/tse-suspende-divulgacao-de-pesquisa-eleitoral-sem-registro-previo|título=TSE suspende divulgação de pesquisa eleitoral sem registro prévio|data=2 de fevereiro de 2026|acessodata=20 de setembro de 2026}}</ref><ref name=":10-B">{{citar web|url=https://www.tse.jus.br/comunicacao/noticias/2026/Junho/tse-suspende-divulgacao-de-pesquisa-da-atlasintel-sobre-disputa-para-presidente-por-suspeita-de-inducao-ao-eleitor|título=TSE suspende divulgação de pesquisa da AtlasIntel sobre disputa para presidente por suspeita de indução ao eleitor|data=8 de junho de 2026|acessodata=20 de setembro de 2026|wayb=20260610003053}}</ref>
 
-A possibilidade de impugnação está expressamente prevista na regulamentação eleitoral. O pedido pode ser apresentado no âmbito de representação perante a Justiça Eleitoral, e, quando demonstrados plausibilidade do direito e perigo de dano, pode ser determinada liminarmente a suspensão da divulgação ou a inclusão de esclarecimentos. A regulamentação também atribui ao impugnante o ônus de indicar objetivamente o requisito ausente, a deficiência técnica ou o indício de manipulação que fundamenta a impugnação.<ref name=":11-B">{{citar web|url=https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-600-de-12-de-dezembro-de-2019|título=Resolução TSE nº 23.600/2019|data=12 de dezembro de 2019|acessodata=20 de setembro de 2026}}</ref>
+A possibilidade de impugnação está expressamente prevista na regulamentação eleitoral. O pedido pode ser apresentado no âmbito de representação perante a Justiça Eleitoral, e, quando demonstrados plausibilidade do direito e perigo de dano, pode ser determinada liminarmente a suspensão da divulgação ou a inclusão de esclarecimentos. A regulamentação também atribui ao impugnante o ônus de indicar objetivamente o requisito ausente, a deficiência técnica ou o indício de manipulação que fundamenta a impugnação.<ref name=":11-B">{{citar web|url=https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-600-de-12-de-dezembro-de-2019|título=Resolução TSE nº 23.600/2019|data=12 de dezembro de 2019|acessodata=20 de setembro de 2026|wayb=20261001231401}}</ref>
 
 Além das controvérsias específicas de 2026, decisões recentes do TSE demonstram que irregularidades em pesquisas podem resultar em sanções mesmo quando relacionadas a eleições anteriores. Em agosto de 2026, por exemplo, o Tribunal manteve multa de R$ 53.205 aplicada à Quaest por irregularidade em pesquisa realizada nas eleições municipais de 2024, relacionada à delimitação geográfica das áreas abrangidas pelo levantamento.<ref name=":12-B">{{citar web|url=https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/tribunal-mantem-multa-a-instituto-por-irregularidade-em-pesquisa-eleitoral-de-2024|título=Tribunal mantém multa a instituto por irregularidade em pesquisa eleitoral de 2024|data=13 de agosto de 2026|acessodata=20 de setembro de 2026}}</ref>
 
@@ -143,17 +143,17 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |4%
 |-
-|Agregador presidencial<ref name="Agregadorpresidencial">{{Citar web|url=https://agregador-eleitoral.tuka1965.chatgpt.site/|titulo=Agregador presidencial 2026|acessodata=30/09/2026}}</ref>
-|2 Out 2026
+|Agregador presidencial<ref name="Agregadorpresidencial">{{Citar web|url=https://agregador-eleitoral.tuka1965.chatgpt.site/|titulo=Agregador presidencial 2026|acessodata=30/09/2026|wayb=20260930202921}}</ref>
+|3 Out 2026
 |
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |41,1%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38,4%
-|3,5%	
-|3,6%
-|3,4%
-|1,3%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |41,6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38,9%
+|3,6%	
+|3,1%
+|3,1%
+|1,1%
 |{{N/A}}
-|6,5%
+|6,6%
 |style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,7%
 |}
 
@@ -207,7 +207,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" | 
 |-
-|[[DataFolha]]<ref name=":pesq-ultima-semana">{{Citar web|url=https://www.metropoles.com/brasil/quando-saem-as-ultimas-pesquisas-presidenciais-antes-do-1o-turno-da-eleicao|titulo=Quando saem as últimas pesquisas presidenciais antes do 1º turno da eleição|último=Martins|primeiro=Thays|data=28/09/2026|acessodata=28/09/2026|website=G1|língua=pt-BR|website=[[Metrópoles (jornal)|Metrópoles]]}}</ref><!--- BR-01708/2026 --->
+|[[DataFolha]]<ref name=":pesq-ultima-semana">{{Citar web|url=https://www.metropoles.com/brasil/quando-saem-as-ultimas-pesquisas-presidenciais-antes-do-1o-turno-da-eleicao|titulo=Quando saem as últimas pesquisas presidenciais antes do 1º turno da eleição|último=Martins|primeiro=Thays|data=28/09/2026|acessodata=28/09/2026|website=G1|língua=pt-BR|website=[[Metrópoles (jornal)|Metrópoles]]|wayb=20260928060346}}</ref><!--- BR-01708/2026 --->
 |3 Out
 |4 006
 |2,0
@@ -231,29 +231,81 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |2,2
 | colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
-|Gerp<ref name=":pesq-ultima-semana"/><!--- BR-00509/2026 --->
+|Gerp<ref name=":186">{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-49-contra-44-de-lula-no-2o-turno-diz-gerp/|titulo=Flávio tem 49% contra 44% de Lula no 2º turno, diz Gerp|data=03/10/2026|website=Poder360|acessodata=03/10/2026}}</ref>
 |30 Set – 2 Out
 |2 400
 |2,04
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44%
+|4%
+|3%
+|2%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+|1%
+|0%{{Nre|Leonardo Avalanche (PRTB)}}
+|{{N/A}}
 |-
-|PoderData/Aya<ref name=":pesq-ultima-semana"/><!--- BR-03519/2026 --->
+|PoderData/Aya<ref name=":185">{{citar web|url=https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/|titulo=Lula e Flávio têm 46% cada um no 2º turno, diz PoderData/Aya|data=03/10/2026|website=Poder360|acessodata=03/10/2026}}</ref>
 |30 Set – 2 Out
 |4 000
-|2,0
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+|1,5
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |41%
+|3%
+|2%
+|3%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|0%{{Nre|Leonardo Avalanche (PRTB)}}
+|6%
 |-
-|CNT/MDA<ref name=":pesq-ultima-semana"/><!--- BR-04756/2026 --->
-|29 Set – 2 Out
-|2 002
+|CNT/MDA<ref name=":184">{{citar web|url=https://exame.com/brasil/pesquisa-cnt-mda-para-presidente-lula-tem-478-e-flavio-421-dos-votos-validos-no-1o-turno/|titulo=Pesquisa CNT/MDA para presidente: Lula tem 47,8% e Flávio, 42,1%, dos votos válidos no 1º turno|data=03/10/2026|website=Poder360|acessodata=03/10/2026}}</ref>
+|30 Set – 2 Out
+|2 007
 |2,2
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43,1%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38%
+|3,1%
+|3%
+|1,5%
+|0,8%
+| -
+| -
+| -
+| -
+| -
+| -
+|{{N/A}}
+|9,7%
 |-
-|IFP<!--- BR-02928/2026 Data de divulgação:	02/10/2026 --->
+|IFP<ref name=":183">{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-4588-contra-4501-de-flavio-no-2o-turno-diz-pesquisa/|titulo=Lula tem 45,88% contra 45,01% de Flávio no 2º turno, diz pesquisa|data=03/10/2026|website=Poder360|acessodata=03/10/2026}}</ref>
 |29 Set – 2 Out
 |2 000
 |2,2
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,62%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,49%
+|4,52%
+|3,47%
+|3,22%
+|1,19%
+|0,68%
+|0,41%
+|0,28%
+|0,18%
+|0,12%
+|0,21%
+|0,17%{{Nre|Leonardo Avalanche (PRTB)}}
+|7,44%
 |-
 |AtlasIntel<ref name=":pesq-ultima-semana"/><!--- BR-00999/2026 --->
 |27 Set – 2 Out
@@ -273,7 +325,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |4,0
 | colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
-|Vox<ref name=":179">{{citar web|url=https://www.metropoles.com/brasil/vox-brasil-flavio-bolsonaro-tem-412-e-lula-marca-404-no-1o-turno|titulo=Vox Brasil: Flávio Bolsonaro tem 41,2% e Lula marca 40,4% no 1º turno|primeiro=Giovanna|último=Estrela|data=02/10/2026|website=Metrópoles|acessodata=02/10/2026}}</ref>
+|Vox<ref name=":179">{{citar web|url=https://www.metropoles.com/brasil/vox-brasil-flavio-bolsonaro-tem-412-e-lula-marca-404-no-1o-turno|titulo=Vox Brasil: Flávio Bolsonaro tem 41,2% e Lula marca 40,4% no 1º turno|primeiro=Giovanna|último=Estrela|data=02/10/2026|website=Metrópoles|acessodata=02/10/2026|wayb=20261002044623}}</ref>
 |29 Set – 1 Out
 |2 100
 |2,15
@@ -364,16 +416,29 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" |
 |-
 | colspan="4" |30 Set
-| colspan="16" |'''[[Leonardo Avalanche]] ([[Partido Renovador Trabalhista Brasileiro|PRTB]]) desiste da candidatura à Presidência.'''<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/leonardo-avalanche-desiste-de-disputar-a-presidencia/|titulo=Leonardo Avalanche desiste de disputar a Presidência|data=30/09/2026|acessodata=30/09/2026|website=[[Poder360]]}}</ref>
+| colspan="16" |'''[[Leonardo Avalanche]] ([[Partido Renovador Trabalhista Brasileiro|PRTB]]) desiste da candidatura à Presidência.'''<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/leonardo-avalanche-desiste-de-disputar-a-presidencia/|titulo=Leonardo Avalanche desiste de disputar a Presidência|data=30/09/2026|acessodata=30/09/2026|website=[[Poder360]]|wayb=20261001022737}}</ref>
 |-
-|-
-|DataTrends<ref name=":pesq-ultima-semana"/><!--- BR-04414/2026 Data de divulgação:	02/10/2026 --->
+|DataTrends<ref name=":177">{{citar web|url=https://www.edmarlyra.com/datatrends-lula-tem-41-e-flavio-bolsonaro-39-na-reta-final-da-disputa-presidencial/|titulo=DataTrends: Lula tem 41% e Flávio Bolsonaro 39% na reta final da disputa presidencial|data=02/10/2026|website=Edmar Lyra|acessodata=02/10/2026}}</ref>
 |28 Set – 30 Set
 |2 000
 |±2,0
-| colspan="16"|''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |41%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |39%
+|4%
+|4%
+|3%
+|1%
+|<1%
+|<1%
+|<1%
+|<1%
+|<1%
+|<1%
+|<1%
+|{{N/A}}
+|8%
 |-
-|Real Time Big Data<ref name=":176">{{citar web|url=https://veja.abril.com.br/politica/como-esta-a-disputa-lula-x-flavio-bolsonaro-a-tres-dias-da-eleicao-segundo-nova-pesquisa/|titulo=Nova pesquisa Real Time Big Data mostra como está a disputa Lula x Flávio Bolsonaro a três dias da eleição|data=01/10/2026|website=VEJA|acessodata=01/10/2026}}</ref>
+|Real Time Big Data<ref name=":176">{{citar web|url=https://veja.abril.com.br/politica/como-esta-a-disputa-lula-x-flavio-bolsonaro-a-tres-dias-da-eleicao-segundo-nova-pesquisa/|titulo=Nova pesquisa Real Time Big Data mostra como está a disputa Lula x Flávio Bolsonaro a três dias da eleição|data=01/10/2026|website=VEJA|acessodata=01/10/2026|wayb=20261001143259}}</ref>
 |26 Set – 30 Set
 |2 000
 |±2,0
@@ -393,7 +458,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |1%{{nre|Esses candidatos, somados, atingiram 1%.}}
 |6%
 |-
-|Indexa<ref name=":175">{{Citar web|url=https://www.cartacapital.com.br/politica/lula-lidera-em-1o-turno-e-empata-com-flavio-bolsonaro-no-2o-aponta-pesquisa-indexa-broadcast/|titulo=Lula lidera em 1º turno e empata com Flávio Bolsonaro no 2º, aponta pesquisa Indexa/Broadcast|data=30/09/2026|acessodata=30/09/2026|website=CartaCapital|língua=pt-BR}}</ref>
+|Indexa<ref name=":175">{{Citar web|url=https://www.cartacapital.com.br/politica/lula-lidera-em-1o-turno-e-empata-com-flavio-bolsonaro-no-2o-aponta-pesquisa-indexa-broadcast/|titulo=Lula lidera em 1º turno e empata com Flávio Bolsonaro no 2º, aponta pesquisa Indexa/Broadcast|data=30/09/2026|acessodata=30/09/2026|website=CartaCapital|língua=pt-BR|wayb=20261002215610}}</ref>
 |27 Set – 29 Set
 |2 000
 |±2,2
@@ -413,7 +478,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |15%
 |-
-|Futura<ref name=":174">{{Citar web|url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Relatorio_BR_Setembro_4_1a28dc.pdf|titulo=Pesquisa Futura 25 Set – 29 Set|data=30/09/2026|acessodata=30/09/2026|website=CNN|língua=pt-BR}}</ref>
+|Futura<ref name=":174">{{Citar web|url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Relatorio_BR_Setembro_4_1a28dc.pdf|titulo=Pesquisa Futura 25 Set – 29 Set|data=30/09/2026|acessodata=30/09/2026|website=CNN|língua=pt-BR|wayb=20260930234435}}</ref>
 |25 Set – 29 Set
 |2 000
 |±2,2
@@ -433,7 +498,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |5%
 |-
-|Vox Brasil<ref name=":173">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-452-contra-447-de-lula-no-2o-turno-diz-pesquisa/|titulo=Flávio tem 45,2% contra 44,7% de Lula no 2º turno, diz pesquisa|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|Vox Brasil<ref name=":173">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-452-contra-447-de-lula-no-2o-turno-diz-pesquisa/|titulo=Flávio tem 45,2% contra 44,7% de Lula no 2º turno, diz pesquisa|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR|wayb=20260930122334}}</ref>
 |26 Set – 28 Set
 |2 100
 |±2,15
@@ -453,7 +518,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |9,3%
 |-
-|Meio/Ideia<ref name=":172">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2026/09/30/meioideia-pesquisa-setembro.ghtm|titulo=Meio/Ideia: Lula e Flávio aparecem empatados tecnicamente em 1º e 2º turno|data=30/09/2026|acessodata=30/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|Meio/Ideia<ref name=":172">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2026/09/30/meioideia-pesquisa-setembro.ghtm|titulo=Meio/Ideia: Lula e Flávio aparecem empatados tecnicamente em 1º e 2º turno|data=30/09/2026|acessodata=30/09/2026|website=Poder360|língua=pt-BR|wayb=20261001045046}}</ref>
 |25 Set – 28 Set
 |2 000
 |2,2
@@ -493,7 +558,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |2%
 |-
-|Gerp<ref name=":170">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-50-contra-43-de-lula-no-2o-turno-diz-gerp-2/|titulo=Flávio tem 50% contra 43% de Lula no 2º turno, diz Gerp|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|Gerp<ref name=":170">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-50-contra-43-de-lula-no-2o-turno-diz-gerp-2/|titulo=Flávio tem 50% contra 43% de Lula no 2º turno, diz Gerp|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR|wayb=20260929131257}}</ref>
 |24 Set – 28 Set
 |2 400
 |2,0
@@ -513,7 +578,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |5%
 |-
-|AtlasIntel<ref name=":169">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-477-e-lula-476-no-2o-turno-diz-atlasintel/|titulo=Flávio tem 47,7% e Lula, 47,6% no 2º turno, diz AtlasIntel|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|AtlasIntel<ref name=":169">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-477-e-lula-476-no-2o-turno-diz-atlasintel/|titulo=Flávio tem 47,7% e Lula, 47,6% no 2º turno, diz AtlasIntel|data=29/09/2026|acessodata=29/09/2026|website=Poder360|língua=pt-BR|wayb=20260930101707}}</ref>
 |23 Set – 28 Set
 |5 005
 |1,0
@@ -533,7 +598,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |2,1%
 |-
-|Nexus/BTG<ref name=":168">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-44-de-flavio-no-2o-turno-diz-btg-nexus/|titulo=Lula tem 46% contra 44% de Flávio no 2º turno, diz BTG/Nexus|data=28/09/2026|acessodata=28/09/2026|website=Poder360|língua=pt-BR}}</ref>
+|Nexus/BTG<ref name=":168">{{Citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-44-de-flavio-no-2o-turno-diz-btg-nexus/|titulo=Lula tem 46% contra 44% de Flávio no 2º turno, diz BTG/Nexus|data=28/09/2026|acessodata=28/09/2026|website=Poder360|língua=pt-BR|wayb=20260928235411}}</ref>
 |25 Set – 27 Set
 |2 000
 |±2,0
@@ -553,7 +618,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |5%
 |-
-|Quaest<ref name=":167">{{Citar web|url=https://g1.globo.com/google/amp/politica/eleicoes/2026/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml|titulo=Quaest, 1º turno: Lula, 39%; Flávio Bolsonaro, 34%; Caiado, 4%; Cury, 4%; Renan, 3%; Zema, 1%|data=28/09/2026|acessodata=28/09/2026|website=[[g1]]|língua=pt-BR}}</ref>
+|Quaest<ref name=":167">{{Citar web|url=https://g1.globo.com/google/amp/politica/eleicoes/2026/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml|titulo=Quaest, 1º turno: Lula, 39%; Flávio Bolsonaro, 34%; Caiado, 4%; Cury, 4%; Renan, 3%; Zema, 1%|data=28/09/2026|acessodata=28/09/2026|website=[[g1]]|língua=pt-BR|wayb=20261002021710}}</ref>
 |24 Set – 27 Set
 |2 004
 |±2,0
@@ -613,7 +678,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |7%
 |-
-|Palver<ref name=":165">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2026/09/24/palver-lula-e-flavio-tem-empate-tecnico-no-1-e-no-2-turno.ghtm|titulo=Palver: Lula e Flávio têm empate técnico no 1º e no 2º turnos|local=São Paulo|website=UOL|data=24/09/2026|acessodata=24/09/2026}}</ref>
+|Palver<ref name=":165">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2026/09/24/palver-lula-e-flavio-tem-empate-tecnico-no-1-e-no-2-turno.ghtm|titulo=Palver: Lula e Flávio têm empate técnico no 1º e no 2º turnos|local=São Paulo|website=UOL|data=24/09/2026|acessodata=24/09/2026|wayb=20260929093713}}</ref>
 |20 Set – 23 Set
 |3 000
 |1,8
@@ -633,7 +698,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |2%
 |-
-|PoderData/Aya<ref name=":164">{{Citar web|url= https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-45-no-2o-turno-diz-poderdata-aya/|titulo=Flávio tem 46% e Lula, 45% no 2º turno, diz PoderData/Aya|primeiro=Bianca|último=Penteado|local=Brasília|website=Poder360|data=24/09/2026|acessodata=24/09/2026}}</ref>
+|PoderData/Aya<ref name=":164">{{Citar web|url= https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-45-no-2o-turno-diz-poderdata-aya/|titulo=Flávio tem 46% e Lula, 45% no 2º turno, diz PoderData/Aya|primeiro=Bianca|último=Penteado|local=Brasília|website=Poder360|data=24/09/2026|acessodata=24/09/2026|wayb=20260925080647}}</ref>
 |20 Set – 23 Set
 |3 000
 |1,8
@@ -653,7 +718,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |6%
 |-
-|Futura<ref>{{Citar web|url=https://exame.com/brasil/futura-flavio-bolsonaro-cresce-chega-a-404-e-ultrapassa-lula-no-1o-turno/|titulo=Futura: Flávio Bolsonaro cresce, chega a 40,4% e ultrapassa Lula no 1º turno|website=Exame|data=24/09/2026|acessodata=24/09/2026}}</ref>
+|Futura<ref>{{Citar web|url=https://exame.com/brasil/futura-flavio-bolsonaro-cresce-chega-a-404-e-ultrapassa-lula-no-1o-turno/|titulo=Futura: Flávio Bolsonaro cresce, chega a 40,4% e ultrapassa Lula no 1º turno|website=Exame|data=24/09/2026|acessodata=24/09/2026|wayb=20260927005856}}</ref>
 |19 Set – 23 Set
 |2 000
 |2,2
@@ -753,7 +818,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |7%
 |-
-|Quaest<ref name=":158">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-2o-turno-21-setembro.ghtml|titulo=Quaest, 2º turno: Flávio Bolsonaro, 42%; Lula, 41%|website=G1|data=21/09/2026|acessodata=21/09/2026}}</ref>
+|Quaest<ref name=":158">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-2o-turno-21-setembro.ghtml|titulo=Quaest, 2º turno: Flávio Bolsonaro, 42%; Lula, 41%|website=G1|data=21/09/2026|acessodata=21/09/2026|wayb=20260928005425}}</ref>
 |17 Set – 20 Set
 |2 004
 |2,0
@@ -773,7 +838,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |15%
 |-
-|American Analytics<ref name=":AmericanSet">{{Citar web|url=https://timesbrasil.com.br/brasil/decisao-2026-lula-e-flavio-bolsonaro-estao-empatados-numericamente-em-43-no-2o-turno-indica-pesquisa-american-analytics-times-brasil-cnbc/|titulo=Decisão 2026 – Lula e Flávio Bolsonaro estão empatados numericamente em 43% no 2º turno, indica pesquisa American Analytics Times Brasil|website=Time Brasil|data=23/09/2026|acessodata=23/09/2026}}</ref>
+|American Analytics<ref name=":AmericanSet">{{Citar web|url=https://timesbrasil.com.br/brasil/decisao-2026-lula-e-flavio-bolsonaro-estao-empatados-numericamente-em-43-no-2o-turno-indica-pesquisa-american-analytics-times-brasil-cnbc/|titulo=Decisão 2026 – Lula e Flávio Bolsonaro estão empatados numericamente em 43% no 2º turno, indica pesquisa American Analytics Times Brasil|website=Time Brasil|data=23/09/2026|acessodata=23/09/2026|wayb=20260923162436}}</ref>
 |15 Set – 20 Set
 |2 000
 |2,5
@@ -913,7 +978,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |2,1%
 |-
-|Futura/Apex<ref name=":153">{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-481-contra-437-de-lula-no-2o-turno-diz-pesquisa/|título=Flávio tem 48,1% contra 43,7% de Lula no 2º turno, diz pesquisa|website=Poder360|data=17/09/2026|acessodata=17/09/2026}}</ref>
+|Futura/Apex<ref name=":153">{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-481-contra-437-de-lula-no-2o-turno-diz-pesquisa/|título=Flávio tem 48,1% contra 43,7% de Lula no 2º turno, diz pesquisa|website=Poder360|data=17/09/2026|acessodata=17/09/2026|wayb=20260925021707}}</ref>
 |11 Set - 15 Set
 |2 000
 |2,2
@@ -936,7 +1001,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | colspan="4" |14 Set
 | colspan="16" |'''[[Partido Renovador Trabalhista Brasileiro]] (PRTB) substitui a candidatura de [[Pablo Marçal]], que foi indeferida, pela de [[Leonardo Avalanche]].'''<ref>{{citar web|url=https://divulgacandcontas.tse.jus.br/divulga/#/candidato/BR/BR/20322002026/280002554479/2026/BR|titulo=Registro de Candidatura de Leonardo Avalanche|data=14 de setembro de 2026|website=Divulgação de Candidaturas e Contas Eleitorais|wayb=20260917203822}}</ref>
 |-
-|DataTrends<ref name=":152">{{citar web|url=https://www.edmarlyra.com/datatrends-lula-tem-39-e-flavio-bolsonaro-35-no-primeiro-turno-segundo-turno-aponta-flavio-45-e-lula-44/|título=DataTrends: Lula tem 39% e Flávio Bolsonaro 35% no primeiro turno; segundo turno aponta Flávio 45% e Lula 44%|website=Edmar Lyra|data=16/09/2026|acessodata=16/09/2026}}</ref>
+|DataTrends<ref name=":152">{{citar web|url=https://www.edmarlyra.com/datatrends-lula-tem-39-e-flavio-bolsonaro-35-no-primeiro-turno-segundo-turno-aponta-flavio-45-e-lula-44/|título=DataTrends: Lula tem 39% e Flávio Bolsonaro 35% no primeiro turno; segundo turno aponta Flávio 45% e Lula 44%|website=Edmar Lyra|data=16/09/2026|acessodata=16/09/2026|wayb=20260922003928}}</ref>
 |12 Set – 14 Set
 |2 000
 |2,19
@@ -1267,7 +1332,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |3%<ref group="nota" name="Marçal"/>
 |4%
 |-
-| rowspan="2" |Quaest<ref>{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/07/quaest-presidente-7-setembro.ghtml|titulo=Quaest, 1º turno: Lula, 36%; Flávio Bolsonaro, 29%; Cury, 8%; Renan, 3%; Caiado, 3%; Zema, 2%|data=7 de setembro de 2026|acessodata=7 de setembro de 2026|website=G1}}</ref>
+| rowspan="2" |Quaest<ref>{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/07/quaest-presidente-7-setembro.ghtml|titulo=Quaest, 1º turno: Lula, 36%; Flávio Bolsonaro, 29%; Cury, 8%; Renan, 3%; Caiado, 3%; Zema, 2%|data=7 de setembro de 2026|acessodata=7 de setembro de 2026|website=G1|wayb=20260912002906}}</ref>
 | rowspan="2" |3 Set - 6 Set
 | rowspan="2" |2 004
 | rowspan="2" |2,0
@@ -1323,7 +1388,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |1,3%<ref group="nota" name="Marçal"/>
 |2%
 |-
-|Datafolha<ref name=":143">{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-2o-turno-presidente-3-setembro.ghtml|titulo=Datafolha, 2º turno: Lula, 46%; Flávio Bolsonaro, 44%|data=3 de setembro de 2026|acessodata=3 de setembro de 2026|website=[[G1]]}}</ref>
+|Datafolha<ref name=":143">{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-2o-turno-presidente-3-setembro.ghtml|titulo=Datafolha, 2º turno: Lula, 46%; Flávio Bolsonaro, 44%|data=3 de setembro de 2026|acessodata=3 de setembro de 2026|website=[[G1]]|wayb=20260912002904}}</ref>
 |1 Set - 2 Set
 |2 002
 |2,0
@@ -1420,7 +1485,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |6,1%
 |-
 | colspan="4" |1 e 2 Set 
-| colspan="16" |'''Os candidatos [[Renan Santos]] (Missão) e [[Wilson Grassi]] (Democrata) tem suas campanhas digitais reestabelecidas por ordem de [[Dias Toffoli]], ministro do [[Tribunal Superior Eleitoral]].'''<ref>{{Citar web|url=https://jovempan.com.br/politica/tofolli-recua-de-decisao-e-restabelece-campanha-de-renan-santos/|titulo=Toffoli recua de decisão e restabelece campanha de Renan Santos|data=2026-09-01|acessodata=2026-09-01|website=Jovem Pan|língua=pt-BR}}</ref><ref>{{Citar web|url=https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/toffoli-libera-propaganda-digital-do-candidato-presidente-grassi|titulo=Toffoli libera propaganda digital do candidato a presidente Grassi|data=2026-09-03|acessodata=2026-09-10|website=Agência Brasil|língua=pt-br|wayb=20260904094136}}</ref>
+| colspan="16" |'''Os candidatos [[Renan Santos]] (Missão) e [[Wilson Grassi]] (Democrata) tem suas campanhas digitais reestabelecidas por ordem de [[Dias Toffoli]], ministro do [[Tribunal Superior Eleitoral]].'''<ref>{{Citar web|url=https://jovempan.com.br/politica/tofolli-recua-de-decisao-e-restabelece-campanha-de-renan-santos/|titulo=Toffoli recua de decisão e restabelece campanha de Renan Santos|data=2026-09-01|acessodata=2026-09-01|website=Jovem Pan|língua=pt-BR|wayb=20260903082142}}</ref><ref>{{Citar web|url=https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/toffoli-libera-propaganda-digital-do-candidato-presidente-grassi|titulo=Toffoli libera propaganda digital do candidato a presidente Grassi|data=2026-09-03|acessodata=2026-09-10|website=Agência Brasil|língua=pt-br|wayb=20260904094136}}</ref>
 |}
 
 ==== Agosto ====
@@ -13315,12 +13380,12 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
 |UOL<ref name="AgregadorUOL"/>
-|2 Out 2026
+|3 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,1%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,2%
 |44,6%
 |10,3%
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,5%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,6%
 |-
 |PollingData<ref name="AgregadorPollingData"/>
 |30 Set 2026
@@ -13371,12 +13436,12 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0%
 |-
 |Agregador presidencial<ref name="Agregadorpresidencial"/>
-|2 Out 2026
+|3 Out 2026
 |{{N/A}}
-|45,2%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,5%
-|9,3%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,3%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|46,1%
+|45,5%
+|8,3%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,6%
 |}
 
 ==== 2026 ====
@@ -13397,6 +13462,42 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
+|Gerp<ref name=":186"/>
+|30 Set – 2 Out
+|2 400
+|2,04
+|44%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |49%
+|7%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |5%
+|-
+|PoderData/Aya<ref name=":185"/>
+|30 Set – 2 Out
+|4 000
+|1,5
+|46%
+|46%
+|8%
+|0%
+|-
+|CNT/MDA<ref name=":184"/>
+|30 Set – 2 Out
+|2 007
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |47,3%
+|43,1%
+|9,8%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,2%
+|-
+|IFP<ref name=":183"/>
+|29 Set – 2 Out
+|2 000
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,88%
+|45,01%
+|9,11%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,87%
+|-
 |Vox<ref name=":179"/>
 |29 Set – 1 Out
 |2 100
@@ -13414,6 +13515,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |45%
 |7%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3%
+|-
+|DataTrends<ref name=":177"/>
+|28 Set – 30 Set
+|2 000
+|±2,0
+|45%
+|45%
+|10%
+|0%
 |-
 |Real Time Big Data<ref name=":176"/>
 |26 Set – 30 Set
@@ -13532,7 +13642,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |9%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1%
 |-
-|Futura<ref name=":163">{{Citar web|url=https://exame.com/brasil/futura-flavio-bolsonaro-tem-494-e-lula-437-no-2o-turno/|titulo=Futura: Flávio Bolsonaro tem 49,4% e Lula, 43,7%, no 2º turno|website=Exame|data=24/09/2026|acessodata=24/09/2026}}</ref>
+|Futura<ref name=":163">{{Citar web|url=https://exame.com/brasil/futura-flavio-bolsonaro-tem-494-e-lula-437-no-2o-turno/|titulo=Futura: Flávio Bolsonaro tem 49,4% e Lula, 43,7%, no 2º turno|website=Exame|data=24/09/2026|acessodata=24/09/2026|wayb=20260924185734}}</ref>
 |19 Set – 23 Set
 |2 000
 |2,2

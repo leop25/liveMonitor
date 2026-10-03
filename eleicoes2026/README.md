@@ -10,29 +10,29 @@ pip install -r requirements.txt
 python prever.py --atualizar      # baixa as pesquisas mais recentes e gera saida/painel.html
 ```
 
-## Resultado atual (pesquisas até 01/10/2026, 20 mil simulações)
+## Resultado atual (pesquisas até 02/10/2026, 20 mil simulações)
 
 Cenário escolhido: **metade da correção do viés histórico** (explicação abaixo).
 
 | Candidato | 1º turno (válidos) | Intervalo 80% | Vai ao 2º turno | Eleito |
 |---|---|---|---|---|
-| Lula (PT) | 44,0% | 39,5–48,5% | 89% | **40%** |
-| Flávio Bolsonaro (PL) | 43,9% | 39,0–48,8% | 89% | **60%** |
-| Augusto Cury (Avante) | 3,2% | 1,1–5,4% | <1% | <1% |
-| Renan Santos (Missão) | 3,6% | 1,9–5,4% | <1% | <1% |
-| Caiado (PSD) | 3,3% | 1,7–4,9% | <1% | <1% |
-| Zema (Novo) | 1,2% | 0,4–2,0% | <1% | <1% |
+| Lula (PT) | 44,3% | 39,9–48,8% | 88% | **40%** |
+| Flávio Bolsonaro (PL) | 44,1% | 39,2–49,0% | 88% | **60%** |
+| Augusto Cury (Avante) | 3,0% | 1,2–5,1% | <1% | <1% |
+| Renan Santos (Missão) | 3,5% | 1,8–5,2% | <1% | <1% |
+| Caiado (PSD) | 3,2% | 1,6–4,9% | <1% | <1% |
+| Zema (Novo) | 1,0% | 0,3–1,8% | <1% | <1% |
 
-Chance de 2º turno: 89%. No 1º turno, Lula termina à frente em 50% das simulações. No 2º turno Lula × Flávio,
+Chance de 2º turno: 88%. No 1º turno, Lula termina à frente em 51% das simulações. No 2º turno Lula × Flávio,
 Lula fica em média com 48,9% dos válidos (faixa de 80%: 43,7–54,1%).
 
 ## Dois cenários
 
 | Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
 |---|---|---|---|---|
-| **Metade da correção (escolhido)** | 44,0 × 43,9 | 48,9 × 51,1 | **40%** | **60%** |
-| Correção histórica inteira | 43,4 × 45,7 | 47,9 × 52,1 | 28% | 72% |
-| Sem correção (pesquisas certas em média) | 44,7 × 42,2 | 49,9 × 50,1 | 52% | 48% |
+| **Metade da correção (escolhido)** | 44,3 × 44,1 | 48,9 × 51,1 | **40%** | **60%** |
+| Correção histórica inteira | 43,7 × 45,9 | 47,9 × 52,1 | 28% | 72% |
+| Sem correção (pesquisas certas em média) | 45,1 × 42,4 | 49,9 × 50,1 | 52% | 48% |
 
 Em todas as cinco eleições de 2006 a 2022, a projeção final subestimou o principal candidato contra o PT no
 1º turno (de 1,5 a 7 pontos). Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em
@@ -61,13 +61,13 @@ Os outros cenários ficam no painel e na linha de comando (`--peso-vies 0` ou `-
 ## Só os institutos mais certeiros (AtlasIntel e MDA)
 
 AtlasIntel e MDA tiveram o menor erro em 2018 e 2022. O pipeline roda também um cenário só com eles
-(15 pesquisas de 1º turno e 73 confrontos de 2º turno), corrigido pelo erro histórico **deles**, não pelo
+(16 pesquisas de 1º turno e 74 confrontos de 2º turno), corrigido pelo erro histórico **deles**, não pelo
 de todos os institutos:
 
 | Cenário | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
 |---|---|---|---|---|
-| Sem correção | 46,4 × 41,2 | 51,4 × 48,6 | 68% | 32% |
-| **Corrigido pelo histórico dos dois** | **46,2 × 42,9** | **49,5 × 50,5** | **51%** | **49%** |
+| Sem correção | 46,5 × 42,6 | 51,2 × 48,8 | 66% | 34% |
+| **Corrigido pelo histórico dos dois** | **46,3 × 44,3** | **49,4 × 50,6** | **49%** | **51%** |
 
 | Erro passado (pesquisa − urna) | PT | Adversário |
 |---|---|---|
@@ -78,9 +78,8 @@ de todos os institutos:
 | AtlasIntel 2022, 2º turno medido antes do 1º | +4,5 | – |
 | MDA 2022, 2º turno medido antes do 1º | +4,1 | – |
 
-Com esses dois, Lula termina o 1º turno à frente em 71% das simulações e o 2º turno vira empate. A base é
-pequena: a última pesquisa da MDA é de 9–13/set, antes da subida de Flávio, e o histórico dos dois cobre só
-duas eleições. Por isso o modelo principal continua usando todos os institutos, com peso maior para esses dois
+Com esses dois, Lula termina o 1º turno à frente em 63% das simulações e o 2º turno vira empate. A base é
+pequena: o histórico dos dois cobre só duas eleições. Por isso o modelo principal continua usando todos os institutos, com peso maior para esses dois
 (MDA 2,0; AtlasIntel 1,5). A lista fica em `MELHORES` (`modelo/previsao.py`); para rodar só com eles:
 `python prever.py --institutos AtlasIntel,MDA`.
 
