@@ -111,6 +111,42 @@ Simulação Monte Carlo (modelo/simulacao.py)
 saida/painel.html (painel interativo) e saida/previsao.json
 ```
 
+## Noite da eleição: apuração e 2º turno a partir das urnas
+
+```bash
+python prever.py --atualizar --apuracao    # baixa pesquisas e a apuração do TSE e refaz tudo
+```
+
+`--apuracao` baixa do TSE o arquivo simplificado de cada UF (eleição 6257, Presidente 1º turno;
+`resultados.tse.jus.br/oficial/ele2026/6257/dados-simplificados/<uf>/<uf>-c0001-e006257-r.json`).
+Antes da eleição o TSE devolve 404 e nada muda. Com apuração disponível (`modelo/pos_primeiro_turno.py`):
+
+1. **Projeção do 1º turno durante a apuração.** A parcial nacional do TSE engana porque a ordem de
+   apuração varia entre UFs (em 2022 Bolsonaro liderou as primeiras horas; o Nordeste apura depois).
+   A projeção é feita UF a UF: parcial de cada UF, com incerteza que cai conforme as seções são
+   totalizadas, ou a previsão pré-eleição onde ainda não há apuração; o total é ponderado pelos votos
+   válidos esperados de cada UF.
+2. **2º turno a partir das urnas.** Votos reais do 1º turno em cada UF + transferência dos votos dos
+   eliminados medida nas pesquisas de 2026 (mesma pesquisa: 1º turno × confronto direto; hoje 64% dos
+   votos que trocam de candidato vão para Flávio, em 70 pares de pesquisas) + erro calibrado em
+   2018/2022 + choques regionais e estaduais calibrados em 2006–2022. Pesquisas de 2º turno feitas depois
+   do 1º turno são agregadas e combinadas por variância inversa.
+
+Teste com o 1º turno real das eleições passadas: a conta acerta o vencedor do 2º turno em 2018 e 2022
+e 25–26 das 27 UFs; o erro no total nacional foi de +0,6 (2018) e +2,7 pontos (2022), ambos
+superestimando o PT, e esse erro entra na simulação.
+
+O painel ganha a seção "Apuração do 1º turno" no topo e um terceiro modo no mapa ("Depois das urnas").
+Se o TSE ficar fora do ar, dá para digitar o resultado em `dados/resultado_1t_2026.csv`
+(`uf,pst,Lula,Flávio Bolsonaro,Augusto Cury,Renan Santos,Caiado,Zema,Outros`, votos; `pst` de 0 a 1).
+
+## Pesquisas fora da Wikipédia
+
+Pesquisas divulgadas e ainda não registradas na Wikipédia podem ser digitadas em
+`dados/pesquisas_manuais.csv` (uma linha por cenário, em % do total; no 2º turno, preencha só os dois
+candidatos). Quando a Wikipédia registrar a mesma pesquisa (mesmo instituto, data final e turno), vale a
+da Wikipédia.
+
 ## Opções
 
 ```bash
@@ -119,6 +155,7 @@ python prever.py --peso-vies 0        # sem correção do viés histórico
 python prever.py --peso-vies 1        # correção histórica inteira
 python prever.py --ate 2026-08-15     # "volta no tempo": só pesquisas até a data
 python prever.py --institutos AtlasIntel,MDA   # só alguns institutos
+python prever.py --apuracao           # usa a apuração do TSE (noite da eleição)
 python -m pytest testes               # testes
 ```
 
@@ -140,7 +177,12 @@ Candidatos, blocos ideológicos e estados de origem ficam em `CONFIG_2026` (`mod
 
 ## Limitações
 
-- Não usa pesquisas estaduais de presidente; o mapa vem da geografia de 2022 mais o sorteio de choques.
+- Não usa pesquisas estaduais de presidente: não há compilação delas (nem na Wikipédia), e no Brasil o
+  total é nacional, então o ganho seria sobretudo no mapa. O mapa pré-eleição vem da geografia de 2022 mais
+  o sorteio de choques; depois do 1º turno, vem das urnas.
+- Indecisos são distribuídos na proporção dos votos (conversão para votos válidos). Distribuí-los pela
+  rejeição dos candidatos contaria duas vezes o mesmo efeito: o erro histórico usado na correção já
+  inclui para onde os indecisos foram em 2006–2022.
 - Não modela abstenção diferencial, que em 2022 favoreceu o candidato à direita em alguns estados.
 - A correção do viés se baseia em 5 eleições (1º turno) e 2 eleições (confrontos antes do 1º turno).
 - A Wikipédia é mantida por voluntários. O parser descarta linhas malformadas, mas pode haver erros de digitação na fonte.

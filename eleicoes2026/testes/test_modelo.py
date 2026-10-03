@@ -63,3 +63,44 @@ def test_calibracao_plausivel():
     assert c.vies_t1["adv"] < 0                  # antipetismo subestimado historicamente
     assert 0.7 < c.lean_coef[1] < 1.1            # geografia persistente
     assert 1.5 < c.multiplicador_casa < 3.5
+
+
+def test_le_arquivo_simplificado_do_tse():
+    from modelo.pos_primeiro_turno import _ler_json_tse
+    d = {"pst": "87,35", "cand": [{"nm": "LULA", "vap": "1000"}, {"nm": "FLÁVIO BOLSONARO", "vap": "900"},
+                                  {"nm": "RONALDO CAIADO", "vap": "50"}, {"nm": "FULANO", "vap": "10"}]}
+    info = _ler_json_tse(d)
+    assert info["pst"] == pytest.approx(0.8735)
+    assert info["votos"] == {"Lula": 1000.0, "Flávio Bolsonaro": 900.0, "Caiado": 50.0, "Outros": 10.0}
+
+
+def test_segundo_turno_a_partir_das_urnas_acerta_2018_e_2022():
+    from modelo import pos_primeiro_turno as pp
+    calp = pp.calibrar_pos()
+    res = coleta.ler_resultados_uf()
+    for ano, p, a, r, vence_p in [(2022, "Lula", "Bolsonaro", 0.38, True), (2018, "Haddad", "Bolsonaro", 0.345, False)]:
+        r1 = res[(res.ano == ano) & (res.turno == 1)].pivot_table(index="uf", columns="candidato", values="votos").fillna(0)
+        tab = pd.DataFrame({p: r1[p], a: r1[a], "Outros": r1.drop(columns=[p, a]).sum(axis=1)})
+        pesos = tab.sum(axis=1).to_numpy()
+        t1 = np.repeat((tab.to_numpy() / pesos[:, None])[None], 4000, axis=0)
+        out = pp.prever_segundo_turno(t1, pesos, list(tab.index), [p, a, "Outros"], p, a, r, 0.07, calp,
+                                      np.random.default_rng(0))
+        assert (out["vence_principal"].mean() > 0.5) == vence_p
+
+
+def test_projecao_da_apuracao_corrige_ordem_de_apuracao():
+    """Com o Nordeste pouco apurado, a parcial nacional subestima o PT; a projeção por UF não."""
+    from modelo import pos_primeiro_turno as pp
+    res = coleta.ler_resultados_uf()
+    r1 = res[(res.ano == 2022) & (res.turno == 1)].pivot_table(index="uf", columns="candidato", values="votos").fillna(0)
+    ne = {"BA", "PE", "CE", "MA", "PI", "PB", "RN", "AL", "SE"}
+    apur = pd.DataFrame({"uf": r1.index, "pst": [0.3 if u in ne else 0.9 for u in r1.index],
+                         "Lula": r1.Lula, "Flávio Bolsonaro": r1.Bolsonaro,
+                         "Outros": r1.drop(columns=["Lula", "Bolsonaro"]).sum(axis=1)})
+    apur[["Lula", "Flávio Bolsonaro", "Outros"]] = apur[["Lula", "Flávio Bolsonaro", "Outros"]].mul(apur.pst, axis=0)
+    previa = {u: {"t1": {"Lula": 45, "Flávio Bolsonaro": 45, "Outros": 10}, "peso": float(r1.loc[u].sum())} for u in r1.index}
+    t1, pesos, ufs, cc = pp.projetar_primeiro_turno(apur.reset_index(drop=True), previa, ["Lula", "Flávio Bolsonaro"],
+                                                    np.random.default_rng(0), 2000)
+    nac = np.einsum("nsk,s->nk", t1, pesos / pesos.sum()).mean(axis=0) * 100
+    parcial = 100 * apur.Lula.sum() / apur[["Lula", "Flávio Bolsonaro", "Outros"]].to_numpy().sum()
+    assert abs(nac[0] - 48.43) < abs(parcial - 48.43)

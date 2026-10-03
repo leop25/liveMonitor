@@ -3,11 +3,7 @@ Esta é uma lista de '''pesquisas eleitorais para a eleição presidencial de 20
 
 A eleição presidencial do Brasil em 2026 será a 10.ª eleição presidencial desde a [[Redemocratização do Brasil (1974-1988)|redemocratização]] e elegerá o [[Presidente do Brasil|presidente]] e o [[Vice-presidente do Brasil|vice-presidente]] da República.
 
-{{hidden begin
-|title = Contexto
-|titlestyle = background:#D8D8D8;
-}}
-
+== Contexto ==
 As eleições presidenciais de 2026 são acompanhadas por um volume elevado de pesquisas eleitorais registradas na Justiça Eleitoral. Dados extraídos do sistema PesqEle indicavam, em 19 de setembro de 2026, 2.631 pesquisas registradas em todo o país, das quais 995 tinham abrangência nacional, correspondendo a aproximadamente 38% do total. O sistema oficial do Tribunal Superior Eleitoral (TSE) reúne informações sobre pesquisas, contratantes, pagantes, notas fiscais e questionários, com atualização periódica.<ref name=":1-B">{{citar web|url=https://eleicoes2026.app/panorama|título=Panorama das Pesquisas — Eleições 2026|data=19 de setembro de 2026|acessodata=20 de setembro de 2026}}</ref><ref name=":2-B">{{citar web|url=https://dadosabertos.tse.jus.br/dataset/pesquisas-eleitorais-2026|título=Pesquisas Eleitorais - 2026|data=2026|acessodata=20 de setembro de 2026}}</ref>
 
 Os levantamentos apresentam valores bastante distintos, conforme a metodologia, o tamanho da amostra e a abrangência territorial. Um exemplo registrado no PesqEle é uma pesquisa nacional da AtlasIntel, realizada em março de 2026 com 2.200 entrevistados, cujo valor declarado foi de R$ 75 mil. O próprio sistema eleitoral exige que sejam informados o valor e a origem dos recursos utilizados na realização das pesquisas, inclusive quando o levantamento é financiado com recursos próprios do instituto.<ref name=":3-B">{{citar web|url=https://static.poder360.com.br/2026/03/httpspesqele-divulgacao.tse_.jus_.brapppesquisadetalhar.xhtml_.pdf|título=PesqEle - Pesquisa BR-01079/2026|data=30 de março de 2026|acessodata=20 de setembro de 2026|wayb=20260920210556}}</ref><ref name=":4-B">{{citar web|url=https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-600-de-12-de-dezembro-de-2019|título=Resolução TSE nº 23.600/2019|data=12 de dezembro de 2019|acessodata=20 de setembro de 2026}}</ref>
@@ -21,8 +17,6 @@ A judicialização das pesquisas também marcou o ciclo eleitoral de 2026. Em fe
 A possibilidade de impugnação está expressamente prevista na regulamentação eleitoral. O pedido pode ser apresentado no âmbito de representação perante a Justiça Eleitoral, e, quando demonstrados plausibilidade do direito e perigo de dano, pode ser determinada liminarmente a suspensão da divulgação ou a inclusão de esclarecimentos. A regulamentação também atribui ao impugnante o ônus de indicar objetivamente o requisito ausente, a deficiência técnica ou o indício de manipulação que fundamenta a impugnação.<ref name=":11-B">{{citar web|url=https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-600-de-12-de-dezembro-de-2019|título=Resolução TSE nº 23.600/2019|data=12 de dezembro de 2019|acessodata=20 de setembro de 2026}}</ref>
 
 Além das controvérsias específicas de 2026, decisões recentes do TSE demonstram que irregularidades em pesquisas podem resultar em sanções mesmo quando relacionadas a eleições anteriores. Em agosto de 2026, por exemplo, o Tribunal manteve multa de R$ 53.205 aplicada à Quaest por irregularidade em pesquisa realizada nas eleições municipais de 2024, relacionada à delimitação geográfica das áreas abrangidas pelo levantamento.<ref name=":12-B">{{citar web|url=https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/tribunal-mantem-multa-a-instituto-por-irregularidade-em-pesquisa-eleitoral-de-2024|título=Tribunal mantém multa a instituto por irregularidade em pesquisa eleitoral de 2024|data=13 de agosto de 2026|acessodata=20 de setembro de 2026}}</ref>
-
-{{hidden end}}
 
 == Primeiro turno ==
 
@@ -13332,25 +13326,25 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |30 Set 2026
 |3,0
 |45,5%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,6%
-|8,9%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |46,4%
+|8,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,9%
 |-
 |BBC<ref name="AgregadorBBC"/>
-|1 Out 2026
+|2 Out 2026
 |3,0
-|44%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45%
-|10%
+|45%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |46%
+|9%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1,0%
 |-
 |CartaCapital<ref name="AgregadorCartaCapital"/>
-|29 Set 2026
+|1 Out 2026
 |{{N/A}}
-|44,6%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44,9%
-|10,5%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,3%
+|45%
+|45%
+|10%
+|0%
 |-
 |Poll+Trend<ref name="AgregadorPoll+Trend"/>
 |18 Set 2026
@@ -13361,7 +13355,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0%
 |-
 |Plano Político<ref name="AgregadorPlanoPolítico"/>
-|1 Out 2026
+|2 Out 2026
 |2,5
 |49,9%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |50,1%
@@ -13369,20 +13363,20 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,2%
 |-
 |ABC Dados<ref name="AgregadorABCDados"/>
-|1 Out 2026
+|2 Out 2026
 |{{N/A}}
-|45%
-|45%
-|11%
+|46%
+|46%
+|8%
 |0%
 |-
 |Agregador presidencial<ref name="Agregadorpresidencial"/>
 |2 Out 2026
 |{{N/A}}
-|45,6%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,8%
-|8,4%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,2%
+|45,2%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |45,5%
+|9,3%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,3%
 |}
 
 ==== 2026 ====

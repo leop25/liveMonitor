@@ -172,6 +172,11 @@ def _classificar_coluna(cabecalhos: list[str], links: list[str | None]) -> tuple
 def ler_pesquisas(wikitexto: str, ano_padrao: int) -> pd.DataFrame:
     """Converte a página de pesquisas em DataFrame (uma linha por cenário pesquisado)."""
     registros = []
+    # As páginas listam as pesquisas em ordem cronológica reversa, muitas vezes sem o ano na data.
+    # A última data lida em cada seção (turno + subtítulo) serve de referência para a virada
+    # do ano entre tabelas da mesma seção.
+    ultima_data: dict[tuple, object] = {}
+    limite_futuro = (pd.Timestamp.today() + pd.Timedelta(days=30)).date()
     for t_idx, tab in enumerate(extrair_tabelas(wikitexto)):
         secoes = " / ".join(tab.secao).lower()
         if "aggregat" in secoes or "see also" in secoes:
@@ -210,7 +215,8 @@ def ler_pesquisas(wikitexto: str, ano_padrao: int) -> pd.DataFrame:
             continue
         if not any(t == "instituto" for t, _ in tipos):
             continue
-        fim_anterior = None
+        chave_secao = (turno, tuple(tab.secao[:2]))
+        fim_anterior = ultima_data.get(chave_secao)
         for i_lin, linha in enumerate(grade[n_cab:]):
             reg = {"turno": turno, "tabela": t_idx, "secao": tab.secao[-1] if tab.secao else ""}
             cands = {}
@@ -241,12 +247,18 @@ def ler_pesquisas(wikitexto: str, ano_padrao: int) -> pd.DataFrame:
             if reg.get("fim") is None:
                 continue
             # tabelas em ordem cronológica reversa sem o ano na data: ajusta a virada do ano
-            if not re.search(r"20\d\d", reg.get("data_txt", "")) and fim_anterior is not None:
-                while reg["fim"] > fim_anterior + pd.Timedelta(days=60).to_pytimedelta():
+            if not re.search(r"20\d\d", reg.get("data_txt", "")):
+                def recua():
                     reg["fim"] = reg["fim"].replace(year=reg["fim"].year - 1)
                     if reg.get("inicio"):
                         reg["inicio"] = reg["inicio"].replace(year=reg["inicio"].year - 1)
+                if fim_anterior is not None:
+                    while reg["fim"] > fim_anterior + pd.Timedelta(days=60).to_pytimedelta():
+                        recua()
+                while reg["fim"] > limite_futuro:  # pesquisa não pode terminar no futuro
+                    recua()
             fim_anterior = reg["fim"]
+            ultima_data[chave_secao] = fim_anterior
             cands = {k: v for k, v in cands.items() if not np.isnan(v)}
             if len(cands) < 2:
                 continue
@@ -316,6 +328,38 @@ def pesquisas_primeiro_turno(df: pd.DataFrame, candidatos: list[str]) -> pd.Data
         linhas.append(linha)
     out = pd.DataFrame(linhas)
     return out.sort_values("meio").reset_index(drop=True)
+
+
+MANUAIS = RAIZ / "dados" / "pesquisas_manuais.csv"
+
+
+def ler_pesquisas_manuais(caminho: Path = MANUAIS) -> pd.DataFrame:
+    """Pesquisas digitadas à mão (divulgadas e ainda não registradas na Wikipédia).
+
+    Uma linha por cenário: instituto, inicio, fim, amostra, turno, uma coluna por candidato
+    (% do total; vazio = fora do cenário), Outros, Indecisos. No 2º turno, preencha só os dois
+    candidatos do confronto. Devolve o mesmo formato de `ler_pesquisas`.
+    """
+    colunas = ["turno", "instituto", "inicio", "fim", "meio", "amostra", "candidatos", "outros", "indecisos"]
+    if not caminho.exists():
+        return pd.DataFrame(columns=colunas)
+    df = pd.read_csv(caminho)
+    if df.empty:
+        return pd.DataFrame(columns=colunas)
+    fixas = {"instituto", "inicio", "fim", "amostra", "turno", "Outros", "Indecisos"}
+    cands = [c for c in df.columns if c not in fixas]
+    linhas = []
+    for _, r in df.iterrows():
+        c = {k: float(r[k]) for k in cands if pd.notna(r[k])}
+        fim = pd.Timestamp(r["fim"])
+        ini = pd.Timestamp(r["inicio"]) if pd.notna(r.get("inicio")) else fim
+        linhas.append({"turno": int(r["turno"]), "instituto": normalizar_instituto(str(r["instituto"])),
+                       "inicio": ini, "fim": fim, "meio": ini + (fim - ini) / 2,
+                       "amostra": float(r["amostra"]) if pd.notna(r.get("amostra")) else np.nan,
+                       "candidatos": c, "outros": float(r["Outros"]) if pd.notna(r.get("Outros")) else np.nan,
+                       "indecisos": float(r["Indecisos"]) if pd.notna(r.get("Indecisos")) else np.nan,
+                       "data_txt": "manual", "secao": "manual", "tabela": -1})
+    return pd.DataFrame(linhas)
 
 
 def unir_fontes(*tabelas: pd.DataFrame, tolerancia_dias: int = 3) -> pd.DataFrame:

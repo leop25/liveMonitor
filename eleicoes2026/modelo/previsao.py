@@ -7,7 +7,7 @@ from datetime import date, datetime
 import numpy as np
 import pandas as pd
 
-from . import coleta
+from . import coleta, pos_primeiro_turno
 from .agregador import ajustar_tendencia, series_primeiro_turno, series_segundo_turno
 from .historico import REGIAO, calibrar, vies_de_institutos
 from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
@@ -48,14 +48,19 @@ def _pontos(obs: pd.DataFrame, desde: pd.Timestamp) -> list[dict]:
 
 def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar: bool = False, semente: int = 2026,
              hoje: date | None = None, verbose: bool = True, institutos: list[str] | None = None,
-             vies_proprio: bool = False, cenario_melhores: bool = True) -> dict:
+             vies_proprio: bool = False, cenario_melhores: bool = True, apuracao: bool = False) -> dict:
     """Roda a previsão completa.
 
     institutos: restringe as pesquisas a esses institutos.
     vies_proprio: com `institutos`, corrige pelo erro histórico só deles (não o de todos).
     cenario_melhores: acrescenta à saída o cenário só com os institutos historicamente mais precisos.
+    apuracao: baixa a apuração do 1º turno do TSE; com apuração disponível (TSE ou CSV manual),
+        acrescenta a previsão pós-1º turno em saida["pos_t1"].
     """
     log = print if verbose else (lambda *a, **k: None)
+    if apuracao and not institutos:
+        log("• Baixando a apuração do 1º turno (TSE)…")
+        pos_primeiro_turno.baixar_apuracao(verbose=verbose)
     if atualizar:
         log("• Atualizando pesquisas na Wikipédia…")
         coleta.atualizar_fontes()
@@ -65,6 +70,12 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
 
     log("• Lendo pesquisas de 2026…")
     brutas = coleta.ler_pesquisas((coleta.BRUTOS / "pesquisas_2026.wiki").read_text(encoding="utf-8"), 2026)
+    manuais = coleta.ler_pesquisas_manuais()
+    if len(manuais):  # divulgadas e ainda fora da Wikipédia; não duplica o que a Wikipédia já tem
+        chaves = set(zip(brutas.instituto, brutas.fim.dt.normalize(), brutas.turno))
+        novas = manuais[[(i, f.normalize(), t) not in chaves for i, f, t in zip(manuais.instituto, manuais.fim, manuais.turno)]]
+        brutas = pd.concat([brutas, novas], ignore_index=True)
+        log(f"  + {len(novas)} cenários de pesquisas digitadas à mão (dados/pesquisas_manuais.csv)")
     if hoje is not None:  # permite "voltar no tempo" (backtest) cortando pesquisas futuras
         brutas = brutas[brutas.fim <= pd.Timestamp(hoje)]
     p1 = coleta.pesquisas_primeiro_turno(brutas, cands)
@@ -138,7 +149,14 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
 
     saida = _consolidar(cfg, cfg_d, res, ent, cal, tend1, tend2, p1, p2, sens)
     saida["gerado_em"] = datetime.now().strftime("%Y-%m-%d %H:%M")
-    saida["ultima_pesquisa"] = brutas.fim.max().strftime("%Y-%m-%d")
+    saida["ultima_pesquisa"] = max(p1.fim.max(), p2.fim.max()).strftime("%Y-%m-%d")
+    if not institutos:
+        pos = pos_primeiro_turno.executar(saida, p1, p2, brutas, cfg_d, DATA_T1, DATA_T2, cal.pesos_institutos,
+                                          n=n_sim, semente=semente, peso_vies=peso_vies)
+        if pos is not None:
+            log(f"• Apuração do 1º turno: {100 * pos['apurado']:.1f}% · {cfg_d['principal']} eleito em "
+                f"{100 * pos['p_principal']:.0f}% das simulações")
+            saida["pos_t1"] = pos
     if erros_escolhidos is not None:
         saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
     if cenario_melhores and not institutos:

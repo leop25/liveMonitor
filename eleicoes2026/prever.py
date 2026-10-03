@@ -7,6 +7,7 @@ Uso:
     python prever.py --sim 50000 --peso-vies 1   # correção histórica inteira
     python prever.py --ate 2026-09-01   # "volta no tempo": só pesquisas até a data
     python prever.py --institutos AtlasIntel,MDA   # só alguns institutos
+    python prever.py --atualizar --apuracao        # noite da eleição: usa a apuração do TSE
 """
 from __future__ import annotations
 
@@ -23,6 +24,8 @@ RAIZ = Path(__file__).resolve().parent
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--atualizar", action="store_true", help="baixa as pesquisas mais recentes da Wikipédia")
+    ap.add_argument("--apuracao", action="store_true",
+                    help="baixa a apuração do 1º turno do TSE e projeta o resultado e o 2º turno a partir das urnas")
     ap.add_argument("--sim", type=int, default=20000, help="número de simulações (padrão: 20000)")
     ap.add_argument("--peso-vies", type=float, default=PESO_VIES_PADRAO,
                     help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 0,5 = padrão, 1 = inteiro)")
@@ -34,7 +37,8 @@ def main() -> None:
     args = ap.parse_args()
 
     s = executar(n_sim=args.sim, peso_vies=args.peso_vies, atualizar=args.atualizar,
-                 semente=args.semente, hoje=args.ate, institutos=args.institutos)
+                 semente=args.semente, hoje=args.ate, institutos=args.institutos,
+                 apuracao=args.apuracao)
     args.saida.mkdir(parents=True, exist_ok=True)
     salvar_json(s, args.saida / "previsao.json")
     html, _ = gerar_painel(s, args.saida)
@@ -53,6 +57,16 @@ def main() -> None:
     for x in s["sensibilidade"]:
         print("   peso {:.1f}: ".format(x["peso_vies"]) +
               " · ".join(f"{k} {100 * v:.0f}%" for k, v in x["vitoria"].items() if v > 0.005))
+    if "pos_t1" in s:
+        q = s["pos_t1"]
+        print(f"\n  ── Apuração do 1º turno: {100 * q['apurado']:.1f}% das seções ──")
+        for c, v in q["t1"].items():
+            if c != "Outros":
+                print(f"   {c:<18}{v['media']:5.1f}%  ({v['p10']:.1f}–{v['p90']:.1f})")
+        print(f"   Decidido no 1º turno: {100 * q['p_decidido_t1']:.0f}%")
+        if q["t2"]["media"] is not None:
+            print(f"   2º turno: Lula {q['t2']['media']:.1f}% ({q['t2']['p10']:.1f}–{q['t2']['p90']:.1f})"
+                  f" · Lula eleito {100 * q['p_principal']:.0f}%")
     print(f"\n  Painel: {html}\n  Dados:  {args.saida / 'previsao.json'}")
 
 

@@ -121,6 +121,18 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
   </div>
 </header>
 
+<section id="pos-sec" hidden>
+  <div class="sec-head">
+    <div class="eyebrow" id="posEyebrow">Apuração do 1º turno</div>
+    <h2 id="posTitle"></h2>
+    <p class="small muted" id="posSub"></p>
+  </div>
+  <div class="facts" id="posFacts"></div>
+  <div class="tbl-wrap"><table id="t-pos"></table></div>
+  <p class="small muted" id="posTxt"></p>
+</section>
+
+<div class="eyebrow" id="heroLbl" hidden style="padding-top:28px">Previsão feita antes da votação, só com pesquisas</div>
 <div class="hero" id="hero"></div>
 
 <section id="sens-sec">
@@ -191,6 +203,7 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
   <div class="seg" role="group" aria-label="Turno do mapa">
     <button type="button" id="m2" aria-pressed="true">2º turno: chance de Lula</button>
     <button type="button" id="m1" aria-pressed="false">1º turno: líder provável</button>
+    <button type="button" id="m3" aria-pressed="false" hidden>Depois das urnas: 2º turno</button>
   </div>
   <div class="two">
     <div class="chart" id="c-map"><div class="tiles" id="tiles"></div></div>
@@ -454,13 +467,15 @@ function mapa(){
     const d=document.createElement("div");
     if(!uf){ d.style.visibility="hidden"; d.className="tile"; box.appendChild(d); continue; }
     const e=E[uf]; let bg, sub;
-    if(modo===2){ bg=divergente(e.t2_p_lula); sub=fmt(e.t2_lula_media,0)+"%"; }
+    const Q3 = modo===3 && D.pos_t1 ? D.pos_t1.estados.find(x=>x.uf===uf) : null;
+    if(Q3){ bg=divergente(Q3.t2_p_principal ?? 0.5); sub=fmt(Q3.t2_media,0)+"%"; }
+    else if(modo===2){ bg=divergente(e.t2_p_lula); sub=fmt(e.t2_lula_media,0)+"%"; }
     else { const [lid,pl]=Object.entries(e.t1_lider).sort((a,b)=>b[1]-a[1])[0]; bg=mix(css("--neutral"),cor(lid),Math.min(1,Math.max(0,(pl-0.5)*2))*0.85+0.15); sub=lid.split(" ")[0].slice(0,6); }
     d.className="tile"+(lum(bg)>0.4?" light":""); d.style.background=bg; d.tabIndex=0;
     d.setAttribute("aria-label",`${NOME_UF[uf]}: ${modo===2?`Lula com ${fmt(e.t2_lula_media)}% no 2º turno, chance ${pct(e.t2_p_lula)}`:`líder provável ${sub}`}`);
     d.innerHTML=`${uf}<small class="num">${sub}</small>`;
     const show=ev=>{ const t1=Object.entries(e.t1).filter(([k])=>k!=="Outros").sort((a,b)=>b[1]-a[1]).slice(0,4);
-      tip.innerHTML=`<b>${NOME_UF[uf]}</b>`+(modo===2?`<div class="row"><span>${P} no 2º turno</span><span class="num">${fmt(e.t2_lula_media)}%</span></div><div class="row"><span>Intervalo 80%</span><span class="num">${fmt(e.t2_lula_p10)}–${fmt(e.t2_lula_p90)}%</span></div><div class="row"><span>Chance de ${P} vencer</span><span class="num">${pct(e.t2_p_lula)}</span></div>`:"")+
+      tip.innerHTML=`<b>${NOME_UF[uf]}</b>`+(Q3?`<div class="row"><span>Apurado</span><span class="num">${fmt(100*Q3.pst)}%</span></div><div class="row"><span>${P} no 2º turno</span><span class="num">${fmt(Q3.t2_media)}%</span></div><div class="row"><span>Intervalo 80%</span><span class="num">${fmt(Q3.t2_p10)}–${fmt(Q3.t2_p90)}%</span></div><div class="row"><span>Chance de ${P} vencer</span><span class="num">${pct(Q3.t2_p_principal)}</span></div>`:"")+(modo===2?`<div class="row"><span>${P} no 2º turno</span><span class="num">${fmt(e.t2_lula_media)}%</span></div><div class="row"><span>Intervalo 80%</span><span class="num">${fmt(e.t2_lula_p10)}–${fmt(e.t2_lula_p90)}%</span></div><div class="row"><span>Chance de ${P} vencer</span><span class="num">${pct(e.t2_p_lula)}</span></div>`:"")+
       `<div class="small muted" style="margin-top:4px">1º turno</div>`+t1.map(([k,v])=>`<div class="row"><span><span class="sw" style="background:${cor(k)}"></span>${k}</span><span class="num">${fmt(v)}%</span></div>`).join("");
       const r=host.getBoundingClientRect(), b=d.getBoundingClientRect(); place(tip,host,b.right-r.left,b.top-r.top); };
     d.addEventListener("pointerenter",show); d.addEventListener("focus",show);
@@ -468,12 +483,15 @@ function mapa(){
     box.appendChild(d);
   }
   const ramp=document.getElementById("ramp");
-  if(modo===2){ ramp.innerHTML=`<span>Chance de ${P} vencer na UF (2º turno contra ${A})</span><div class="g" style="background:linear-gradient(90deg,${cor(A)},${css("--neutral")},${cor(P)})"></div><div class="ends"><span>${A.split(" ")[0]} certo</span><span>50%</span><span>${P} certo</span></div>`; }
+  if(modo===3){ ramp.innerHTML=`<span>Chance de ${P} vencer na UF no 2º turno, projetada a partir das urnas do 1º turno</span><div class="g" style="background:linear-gradient(90deg,${cor(A)},${css("--neutral")},${cor(P)})"></div><div class="ends"><span>${A.split(" ")[0]} certo</span><span>50%</span><span>${P} certo</span></div>`; }
+  else if(modo===2){ ramp.innerHTML=`<span>Chance de ${P} vencer na UF (2º turno contra ${A})</span><div class="g" style="background:linear-gradient(90deg,${cor(A)},${css("--neutral")},${cor(P)})"></div><div class="ends"><span>${A.split(" ")[0]} certo</span><span>50%</span><span>${P} certo</span></div>`; }
   else { ramp.innerHTML=`<span>Candidato mais provável de liderar o 1º turno na UF (cor mais forte = mais certeza)</span><div class="legend">${D.candidatos.slice(0,2).map(c=>`<span><span class="sw" style="background:${cor(c.nome)}"></span>${c.nome}</span>`).join("")}</div>`; }
   const pesos=D.estados.reduce((s,e)=>s+e.eleitores_validos_2022,0);
   const lulaUF=D.estados.filter(e=>e.t2_p_lula>0.5).length;
   const disput=D.estados.filter(e=>e.t2_p_lula>0.25&&e.t2_p_lula<0.75).map(e=>e.uf);
-  document.getElementById("mapSummary").innerHTML = modo===2
+  document.getElementById("mapSummary").innerHTML = modo===3
+    ? `Pelas urnas do 1º turno, ${P} é favorito no 2º turno em <b>${D.pos_t1.estados.filter(x=>x.t2_p_principal>0.5).length}</b> UFs.`
+    : modo===2
     ? `No confronto ${P} × ${A}, ${P} é favorito em <b>${lulaUF}</b> UFs e ${A.split(" ")[0]} em <b>${27-lulaUF}</b>. Mais disputadas (chance entre 25% e 75%): <b>${disput.join(", ")||"nenhuma"}</b>. No Brasil o voto é somado nacionalmente: vencer em mais estados não decide a eleição.`
     : `No 1º turno, ${P} lidera provavelmente em <b>${D.estados.filter(e=>e.t1_lider[P]>0.5).length}</b> UFs e ${A.split(" ")[0]} em <b>${D.estados.filter(e=>e.t1_lider[A]>0.5).length}</b>.`;
   const t=document.getElementById("t-uf");
@@ -481,8 +499,11 @@ function mapa(){
   t.innerHTML=`<thead><tr><th>UF</th>${cs.map(c=>`<th class="num">${c.split(" ")[0]}</th>`).join("")}<th class="num">${P} 2º t.</th><th class="num">Chance ${P}</th></tr></thead><tbody>`+
     [...D.estados].sort((a,b)=>b.t2_p_lula-a.t2_p_lula).map(e=>`<tr><td>${NOME_UF[e.uf]} <span class="muted small">${e.uf}</span></td>${cs.map(c=>`<td class="num">${fmt(e.t1[c])}</td>`).join("")}<td class="num">${fmt(e.t2_lula_media)}</td><td class="num">${pct(e.t2_p_lula)}</td></tr>`).join("")+"</tbody>";
 }
-document.getElementById("m2").onclick=()=>{modo=2;document.getElementById("m2").setAttribute("aria-pressed","true");document.getElementById("m1").setAttribute("aria-pressed","false");mapa();};
-document.getElementById("m1").onclick=()=>{modo=1;document.getElementById("m1").setAttribute("aria-pressed","true");document.getElementById("m2").setAttribute("aria-pressed","false");mapa();};
+function setModo(m){ modo=m; [["m1",1],["m2",2],["m3",3]].forEach(([id,v])=>document.getElementById(id).setAttribute("aria-pressed",String(m===v))); mapa(); }
+document.getElementById("m1").onclick=()=>setModo(1);
+document.getElementById("m2").onclick=()=>setModo(2);
+document.getElementById("m3").onclick=()=>setModo(3);
+if(D.pos_t1){ modo=3; document.getElementById("m2").setAttribute("aria-pressed","false"); document.getElementById("m3").setAttribute("aria-pressed","true"); }
 
 /* ---------- institutos ---------- */
 function chartHouse(){
@@ -569,7 +590,36 @@ function melhores(){
   const principalFav = c.vitoria[P] >= c.vitoria[A];
   document.getElementById("melTxt").innerHTML=`Com os dois institutos mais certeiros, ${P} termina o 1º turno à frente em ${pct(lp)} das simulações e o 2º turno fica em ${fmt(c.t2_principal)}% para ${P} (80% dos cenários entre ${fmt(c.t2_p10)} e ${fmt(c.t2_p90)}%): <b>${principalFav?P:A} com ${pct(Math.max(c.vitoria[P],c.vitoria[A]))}</b>, um cenário mais equilibrado que o do modelo principal (${P} ${pct(byName[P].p_vitoria)}). A base é pequena: a última pesquisa de ${ult[0][0]} é de ${dataCurta(ult[0][1].data)}, e o histórico dos dois cobre só ${new Set(M.erros_historicos.map(e=>e.ano)).size} eleições. Por isso o modelo principal continua usando todos os institutos, com peso maior para esses dois.`;
 }
-function tudo(){ hero(); sens(); melhores(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
+
+/* ---------- depois das urnas ---------- */
+function posT1(){
+  const Q=D.pos_t1, sec=document.getElementById("pos-sec");
+  if(!Q){ sec.hidden=true; return; }
+  sec.hidden=false; document.getElementById("heroLbl").hidden=false; document.getElementById("m3").hidden=false;
+  const a1=A.split(" ")[0], ap=100*Q.apurado, fim=ap>=99.9;
+  document.getElementById("posEyebrow").textContent = fim ? "Resultado do 1º turno · 100% das seções" : `Apuração do 1º turno · ${fmt(ap)}% das seções totalizadas`;
+  const decid=Q.p_decidido_t1, pP=Q.p_principal;
+  let titulo;
+  if(decid>0.5){ const [w,p]=Object.entries(Q.p_vence_t1).sort((x,y)=>y[1]-x[1])[0]; titulo=`${w} eleito no 1º turno em ${pct(p)} das simulações`; }
+  else titulo = `2º turno ${P} × ${a1}: ${pP>=0.5?P:a1} eleito em ${pct(Math.max(pP,1-pP))} das simulações`;
+  document.getElementById("posTitle").textContent=titulo;
+  document.getElementById("posSub").textContent = fim
+    ? "Com o resultado oficial do 1º turno, o 2º turno é projetado a partir dos votos reais em cada UF e da transferência dos votos dos demais candidatos."
+    : "A parcial nacional do TSE engana: a ordem de apuração varia entre as UFs (o Nordeste costuma apurar depois). A projeção é feita UF a UF, com a parcial de cada uma e a previsão prévia onde ainda falta apurar.";
+  const t1=Q.t1, par=Q.parcial_br||{};
+  document.getElementById("posFacts").innerHTML=[
+    [fmt(ap)+"%","das seções totalizadas"],
+    [par[P]!=null?`${fmt(par[P])} × ${fmt(par[A])}`:"–",`parcial TSE: ${P} × ${a1}`],
+    [`${fmt(t1[P].media)} × ${fmt(t1[A].media)}`,`1º turno projetado: ${P} × ${a1}`],
+    [Q.t2.media!=null?`${fmt(Q.t2.media)}%`:"–",`${P} no 2º turno (80%: ${fmt(Q.t2.p10)}–${fmt(Q.t2.p90)})`],
+  ].map(([v,l])=>`<div class="fact"><span class="v num">${v}</span><span class="l">${l}</span></div>`).join("");
+  const cs=D.candidatos.map(c=>c.nome);
+  document.getElementById("t-pos").innerHTML=`<thead><tr><th>Candidato</th><th class="num">Parcial TSE</th><th class="num">1º turno projetado</th><th class="num">Faixa 80%</th><th class="num">Previsão antes da votação</th><th class="num">Termina em 1º</th></tr></thead><tbody>`+
+    cs.map(c=>`<tr><td><span class="sw" style="background:${cor(c)}"></span>${c}</td><td class="num">${par[c]!=null?fmt(par[c])+"%":"–"}</td><td class="num">${fmt(t1[c].media)}%</td><td class="num">${fmt(t1[c].p10)}–${fmt(t1[c].p90)}%</td><td class="num">${fmt(byName[c].t1_media)}%</td><td class="num">${pct(t1[c].primeiro)}</td></tr>`).join("")+"</tbody>";
+  const tr=Q.transferencia, cp=Q.pesquisas_pos_t1;
+  document.getElementById("posTxt").innerHTML=`Chance de o 1º turno ser decidido: ${pct(decid)}. No 2º turno, ${pct(tr.adversario)} dos votos que trocam de candidato entre os turnos vão para ${a1}, segundo ${tr.n_pesquisas} pares de pesquisas de 2026 (1º turno × confronto direto, mesma pesquisa). Essa conta errou o 2º turno por ${D.pos_t1.calibracao.backtest.map(b=>`${b.erro>0?"+":""}${fmt(b.erro)} pt em ${b.ano}`).join(" e ")}, e o modelo inclui esse erro. ${cp.n?`Pesquisas de 2º turno feitas depois do 1º turno (${cp.n}): ${P} com ${fmt(cp.media)}%, combinadas com a conta das urnas.`:"Ainda não há pesquisas de 2º turno feitas depois do 1º turno."}`;
+}
+function tudo(){ posT1(); hero(); sens(); melhores(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
 legendTrend(); metodo(); tudo();
 let rt; addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(tudo,150);});
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",tudo);
