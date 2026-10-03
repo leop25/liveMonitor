@@ -139,6 +139,23 @@ O painel ganha a seção "Apuração do 1º turno" no topo e um terceiro modo no
 Se o TSE ficar fora do ar, dá para digitar o resultado em `dados/resultado_1t_2026.csv`
 (`uf,pst,Lula,Flávio Bolsonaro,Augusto Cury,Renan Santos,Caiado,Zema,Outros`, votos; `pst` de 0 a 1).
 
+### Ao vivo, de 5 em 5 minutos
+
+```bash
+python ao_vivo.py --a-cada 300     # uma rodada a cada 5 min até a apuração chegar a 100%
+python ao_vivo.py                  # uma rodada só
+```
+
+Cada rodada baixa a apuração, refaz a projeção e o 2º turno, acrescenta um ponto a
+`saida/apuracao_historico.csv` e regenera o painel (com o gráfico "projeção × parcial do TSE" ao longo
+da noite). Se o TSE não mudou nada desde a rodada anterior, a rodada é pulada.
+
+Para os estados que ainda não apuraram, a projeção parte da previsão pré-eleição e aplica o desvio
+observado nos estados já apurados (se Lula supera a previsão onde já se contou, tende a superar onde
+falta contar). Num teste com o 1º turno de 2022 apurado com o Nordeste por último, a parcial do TSE
+mostrava o candidato de direita à frente até 89% das seções, enquanto a projeção já dava Lula à frente
+desde 5% e chegava a 47,3% (real: 48,4%) com metade das seções apuradas.
+
 ## Pesquisas fora da Wikipédia
 
 Pesquisas divulgadas e ainda não registradas na Wikipédia podem ser digitadas em

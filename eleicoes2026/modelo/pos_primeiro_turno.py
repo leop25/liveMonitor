@@ -239,9 +239,30 @@ def projetar_primeiro_turno(apur: pd.DataFrame, previa: dict, candidatos: list[s
     for c in cands:  # candidatos sem voto na UF (ou fora do arquivo) contam zero
         if c not in ap:
             ap[c] = 0.0
+    def _prior(uf):
+        pr = np.array([previa[uf]["t1"].get(c, 0.0) for c in cands], float)
+        return np.clip(pr / pr.sum(), 1e-4, None)
+
+    # Desvio das UFs já apuradas em relação à previsão (log-razão, ponderado pelos votos contados),
+    # aplicado às UFs que ainda faltam: se Lula supera a previsão onde já se apurou, tende a superar
+    # também onde ainda não se apurou.
+    desvio = np.zeros(K)
+    peso_desvio = 0.0
+    for uf in ufs:
+        if uf in ap.index and ap.loc[uf, cands].sum() > 0:
+            v = ap.loc[uf, cands].to_numpy(float)
+            pst_u = float(ap.loc[uf, "pst"]) if not np.isnan(ap.loc[uf, "pst"]) else 1.0
+            w_u = v.sum() * pst_u
+            desvio += w_u * (np.log(np.clip(v / v.sum(), 1e-4, None)) - np.log(_prior(uf)))
+            peso_desvio += w_u
+    if peso_desvio > 0:
+        desvio /= peso_desvio
+        frac = peso_desvio / max(sum(previa[u]["peso"] for u in ufs), 1.0)   # fração do país já contada
+        desvio *= frac / (frac + 0.05)                                       # encolhe no início da noite
+
     for s, uf in enumerate(ufs):
-        prior = np.array([previa[uf]["t1"].get(c, 0.0) for c in cands], float)
-        prior = np.clip(prior / prior.sum(), 1e-4, None)
+        prior = _prior(uf) * np.exp(desvio)
+        prior = prior / prior.sum()
         if uf in ap.index and ap.loc[uf, cands].sum() > 0:
             v = ap.loc[uf, cands].to_numpy(float)
             obs = np.clip(v / v.sum(), 1e-4, None)
@@ -251,7 +272,7 @@ def projetar_primeiro_turno(apur: pd.DataFrame, previa: dict, candidatos: list[s
             dp = 0.20 * np.sqrt(1 - pst)          # logito
             pesos[s] = max(pesos[s], v.sum() / max(pst, 0.01)) if pst > 0.5 else pesos[s]
         else:
-            base, dp = prior, 0.12                 # sem apuração: previsão pré-eleição da UF
+            base, dp = prior, 0.12                 # sem apuração: previsão da UF ajustada pelo desvio
         z = np.log(base)[None, :] + dp * rng.standard_normal((n, K))
         p = np.exp(z)
         out[:, s, :] = p / p.sum(axis=1, keepdims=True)
