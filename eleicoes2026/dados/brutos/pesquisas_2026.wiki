@@ -159,6 +159,66 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|Mission Party (Brazil)}}" class=unsortable |
 ! style="background-color:{{party color|Avante (political party)}}" class=unsortable |
 |-
+|''Datafolha''
+|''3 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |42
+|40
+|4
+|0
+|3
+|3
+|0
+|7
+|±2 pp
+|4,006
+| style="background:#ffb7b7;font-weight:bold;" |2
+|<ref name=":76">{{Cite web |date=2026-10-03 |title=Datafolha: Lula tem 45% e Flávio Bolsonaro 42% dos votos válidos |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml |access-date=2026-10-03 |website=G1 |language=pt-BR}}</ref>
+|-
+|''Palver''
+|''30 Sep–3 Oct''
+|43
+|style="font-weight:bold; background-color:#b2d1ea;" |47
+|1
+|0
+|7
+|1
+|0
+|0
+|±2.4 pp
+|5,000
+|style="font-weight:bold; background-color:#b2d1ea;" |4
+|<ref name=":75">{{Cite web |title=Pesquisa para presidente Palver: Flávio Bolsonaro tem 47% e Lula, 43%, no 1º turno |url=https://exame.com/brasil/pesquisa-palver-para-presidente-flavio-bolsonaro-tem-47-e-lula-43-no-1o-turno/ |access-date=2026-10-03 |website=Exame |language=pt-br}}</ref>
+|-
+|''PoderData''
+|''30 Sep–2 Oct''
+|style="background:#ffb7b7;font-weight:bold;" |42
+|41
+|2
+|1
+|3
+|3
+|1
+|6
+|±1.5 pp
+|4,000
+|style="background:#ffb7b7;font-weight:bold;" |1
+|<ref name=":74">{{Cite web |last=Penteado |first=Bianca |date=2026-10-03 |title=Lula e Flávio têm 46% cada um no 2º turno, diz PoderData/Aya |url=https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/ |access-date=2026-10-03 |website=Poder360 |language=pt-br}}</ref>
+|-
+|''MDA''
+|''29 Sep–2 Oct''
+|style="background:#ffb7b7;font-weight:bold;" |43.1
+|38
+|3
+|0.8
+|1.5
+|3.2
+|0.5
+|9.7
+|±2.2 pp
+|2,007
+|style="background:#ffb7b7;font-weight:bold;" |5.1
+|<ref name=":73">{{Cite web |date=2026-10-03 |title=CNT/MDA: Lula tem 47,8% dos votos válidos no 1º turno; Flávio, 42,1% |url=https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/ |access-date=2026-10-03 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
 |''Vox Brasil''
 |''29 Sep–1 Oct''
 |40.4
@@ -4451,6 +4511,134 @@ period
 ! style="background-color:{{party color|New Party (Brazil)}}" |
 ! style="background-color:{{party color|Mission Party (Brazil)}}" |
 ! style="background-color:{{party color|Avante (political party)}}" |
+|-
+|''Datafolha''
+|''3 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |47
+|46
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|8
+|±2 pp
+|4,006
+| style="background:#ffb7b7;font-weight:bold;" |1
+|<ref name=":76" />
+|-
+| rowspan="5" |''Palver''
+| rowspan="5" |''30 Sep–3 Oct''
+|44
+|style="font-weight:bold; background-color:#b2d1ea;" |49
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|7
+| rowspan="5" |±2.4 pp
+| rowspan="5" |5,000
+|style="font-weight:bold; background-color:#b2d1ea;" |5
+| rowspan="5" |<ref name=":75" />
+|-
+|style="background:#ffb7b7;font-weight:bold;" |43
+|{{n/a}}
+|42
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|14
+|style="background:#ffb7b7;font-weight:bold;" |1
+|-
+|style="background:#ffb7b7;font-weight:bold;" |44
+|{{n/a}}
+|{{n/a}}
+|42
+|{{n/a}}
+|{{n/a}}
+|14
+|style="background:#ffb7b7;font-weight:bold;" |2
+|-
+|style="background:#ffb7b7;font-weight:bold;" |44
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|33
+|{{n/a}}
+|23
+|style="background:#ffb7b7;font-weight:bold;" |11
+|-
+|style="background:#ffb7b7;font-weight:bold;" |44
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|36
+|21
+|style="background:#ffb7b7;font-weight:bold;" |8
+|-
+|''PoderData''
+|''30 Sep–2 Oct''
+|style="background:#ffb7b7;font-weight:bold;" |46
+|style="font-weight:bold; background-color:#b2d1ea;" |46
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|8
+|±1.5 pp
+|4,000
+| style="background:#ecf0f1;font-weight:bold" |Tie
+|<ref name=":74" />
+|-
+| rowspan="5" |''MDA''
+| rowspan="5" |''29 Sep–2 Oct''
+|style="background:#ffb7b7;font-weight:bold;" |47
+|43
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|10
+| rowspan="5" |±2.2 pp
+| rowspan="5" |2,007
+|style="background:#ffb7b7;font-weight:bold;" |4
+| rowspan="5" |<ref name=":73" />
+|-
+|style="background:#ffb7b7;font-weight:bold;" |47
+|{{n/a}}
+|37
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|16
+|style="background:#ffb7b7;font-weight:bold;" |10
+|-
+|style="background:#ffb7b7;font-weight:bold;" |49
+|{{n/a}}
+|{{n/a}}
+|34
+|{{n/a}}
+|{{n/a}}
+|16
+|style="background:#ffb7b7;font-weight:bold;" |15
+|-
+|style="background:#ffb7b7;font-weight:bold;" |48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|34
+|{{n/a}}
+|18
+|style="background:#ffb7b7;font-weight:bold;" |14
+|-
+|style="background:#ffb7b7;font-weight:bold;" |47
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|38
+|15
+|style="background:#ffb7b7;font-weight:bold;" |9
 |-
 | rowspan="3" |''Vox Brasil''
 | rowspan="3" |''29 Sep–1 Oct''

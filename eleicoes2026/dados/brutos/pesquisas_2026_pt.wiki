@@ -207,19 +207,32 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" | 
 |-
-|[[DataFolha]]<ref name=":pesq-ultima-semana">{{Citar web|url=https://www.metropoles.com/brasil/quando-saem-as-ultimas-pesquisas-presidenciais-antes-do-1o-turno-da-eleicao|titulo=Quando saem as últimas pesquisas presidenciais antes do 1º turno da eleição|último=Martins|primeiro=Thays|data=28/09/2026|acessodata=28/09/2026|website=G1|língua=pt-BR|website=[[Metrópoles (jornal)|Metrópoles]]|wayb=20260928060346}}</ref><!--- BR-01708/2026 --->
-|3 Out
-|4 006
-|2,0
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
-|-
 |[[Quaest]]<ref name=":pesq-ultima-semana"/><!--- BR-02197/2026 --->
 |2 Out – 3 Out
 |3 702
 |2,0
 | colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
-|Gerp<ref name=":pesq-ultima-semana"/><!--- BR-08168/2026 --->
+|[[DataFolha]]<ref name=":189">{{citar web|url=https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/datafolha-mostra-lula-com-45-e-flavio-bolsonaro-com-42-dos-votos-validos/amp|titulo=Datafolha mostra Lula com 45% e Flávio Bolsonaro com 42% dos votos válidos|data=03/10/2026|website=Diário do Poder|acessodata=03/10/2026}}</ref>
+|1 – 3 Out
+|2 002
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40%
+|3%
+|4%
+|3%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{N/A}}
+|7%
+|-
+|Gerp<ref name=":pesq-ultima-semana">{{Citar web|url=https://www.metropoles.com/brasil/quando-saem-as-ultimas-pesquisas-presidenciais-antes-do-1o-turno-da-eleicao|titulo=Quando saem as últimas pesquisas presidenciais antes do 1º turno da eleição|último=Martins|primeiro=Thays|data=28/09/2026|acessodata=28/09/2026|website=G1|língua=pt-BR|website=[[Metrópoles (jornal)|Metrópoles]]|wayb=20260928060346}}</ref><!--- BR-08168/2026 --->
 |1 Out – 3 Out
 |2 400
 |2,04
@@ -235,20 +248,20 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |30 Set – 2 Out
 |2 400
 |2,04
-| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46%
-| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |41%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |43%
 |4%
 |3%
 |2%
 |0%
-|1%
 |0%
 |0%
 |0%
 |0%
-|1%
+|0%
+|0%
 |0%{{Nre|Leonardo Avalanche (PRTB)}}
-|{{N/A}}
+|7%
 |-
 |PoderData/Aya<ref name=":185">{{citar web|url=https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/|titulo=Lula e Flávio têm 46% cada um no 2º turno, diz PoderData/Aya|data=03/10/2026|website=Poder360|acessodata=03/10/2026}}</ref>
 |30 Set – 2 Out
@@ -319,11 +332,24 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |1,0
 | colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
-|Palver<ref name=":pesq-ultima-semana"/><!--- BR-00198/2026 --->
+|Palver<ref name=":180">{{citar web|url=https://www.cartacapital.com.br/politica/pesquisa-palver-mostra-lideranca-de-flavio-bolsonaro-contra-lula/|titulo=Pesquisa Palver mostra liderança de Flávio Bolsonaro contra Lula|data=03/10/2026|website=CartaCapital|acessodata=03/10/2026}}</ref>
 |30 Set – 1 Out
 |5 000
 |4,0
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |47%
+|1%
+|1%
+|7%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
 |-
 |Vox<ref name=":179">{{citar web|url=https://www.metropoles.com/brasil/vox-brasil-flavio-bolsonaro-tem-412-e-lula-marca-404-no-1o-turno|titulo=Vox Brasil: Flávio Bolsonaro tem 41,2% e Lula marca 40,4% no 1º turno|primeiro=Giovanna|último=Estrela|data=02/10/2026|website=Metrópoles|acessodata=02/10/2026|wayb=20261002044623}}</ref>
 |29 Set – 1 Out
@@ -13462,6 +13488,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
+|DataFolha<ref>{{citar web |url=https://g1.globo.com/google/amp/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-segundo-turno-3-outubro.ghtml|título=Datafolha, 2º turno: Lula, 47%; Flávio Bolsonaro, 46%|data=03/10/2026|acessodata=03/10/2026}}</ref>
+|3 Out
+|4 006
+|2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |47%
+|46%
+|7%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
+|-
 |Gerp<ref name=":186"/>
 |30 Set – 2 Out
 |2 400
@@ -13497,6 +13532,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |45,01%
 |9,11%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,87%
+|-
+|Palver<ref name=":180"/>
+|30 Set – 1 Out
+|5 000
+|4,0
+|44%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |49%
+|7%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |5%
 |-
 |Vox<ref name=":179"/>
 |29 Set – 1 Out
@@ -14992,6 +15036,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Avante (partido político)/meta/cor}}" |
 |-
+|Palver<ref name=":180"/>
+|30 Set – 1 Out
+|5 000
+|4,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44%
+|36%
+|21%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |8%
+|-
 |Vox<ref name=":179"/>
 |29 Set – 1 Out
 |2 100
@@ -15389,6 +15442,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Missão/meta/cor}}" |
+|-
+|Palver<ref name=":180"/>
+|30 Set – 1 Out
+|5 000
+|4,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44%
+|33%
+|23%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |11%
 |-
 |Datafolha<ref name=":178"/>
 |28 Set – 1 Out
@@ -16292,6 +16354,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |
+|-
+|Palver<ref name=":180"/>
+|30 Set – 1 Out
+|5 000
+|4,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |43%
+|42%
+|14%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
 |-
 |Vox<ref name=":179"/>
 |29 Set – 1 Out
@@ -17859,6 +17930,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |-
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Novo/meta/cor}}" |
+|-
+|Palver<ref name=":180"/>
+|30 Set – 1 Out
+|5 000
+|4,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |44%
+|42%
+|13%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
 |-
 |Datafolha<ref name=":178"/>
 |28 Set – 1 Out
