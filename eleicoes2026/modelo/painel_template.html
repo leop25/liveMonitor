@@ -118,6 +118,7 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
   <div class="meta">
     <span>1º turno <b id="dT1"></b></span><span>2º turno <b id="dT2"></b></span>
     <span>Última pesquisa <b id="dUlt"></b></span><span>Atualizado <b id="dGer"></b></span>
+    <span id="semOnline" hidden></span>
   </div>
 </header>
 
@@ -284,6 +285,10 @@ document.getElementById("dT1b").textContent = dataBR(D.eleicao.t1);
 document.getElementById("dT2b").textContent = dataBR(D.eleicao.t2);
 document.getElementById("dUlt").textContent = dataBR(D.ultima_pesquisa);
 document.getElementById("dGer").textContent = dataBR(D.gerado_em);
+if (D.modo_coleta && D.modo_coleta.excluidos.length) {
+  const el_ = document.getElementById("semOnline"); el_.hidden = false;
+  el_.innerHTML = `Sem pesquisas pela internet: fora <b>${D.modo_coleta.excluidos.join(", ")}</b>`;
+}
 
 function hero(){
   const h = document.getElementById("hero"); h.innerHTML="";

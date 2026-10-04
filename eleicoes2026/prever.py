@@ -15,7 +15,7 @@ import argparse
 from datetime import date
 from pathlib import Path
 
-from modelo.previsao import PESO_VIES_PADRAO, executar, salvar_json
+from modelo.previsao import EXCLUIR_MODOS_PADRAO, PESO_VIES_PADRAO, executar, salvar_json
 from modelo.relatorio import gerar_painel
 
 RAIZ = Path(__file__).resolve().parent
@@ -24,6 +24,8 @@ RAIZ = Path(__file__).resolve().parent
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--atualizar", action="store_true", help="baixa as pesquisas mais recentes da Wikipédia")
+    ap.add_argument("--com-online", action="store_true",
+                    help="inclui pesquisas feitas pela internet (AtlasIntel, Palver); por padrão ficam de fora")
     ap.add_argument("--apuracao", action="store_true",
                     help="baixa a apuração do 1º turno do TSE e projeta o resultado e o 2º turno a partir das urnas")
     ap.add_argument("--sim", type=int, default=20000, help="número de simulações (padrão: 20000)")
@@ -38,7 +40,7 @@ def main() -> None:
 
     s = executar(n_sim=args.sim, peso_vies=args.peso_vies, atualizar=args.atualizar,
                  semente=args.semente, hoje=args.ate, institutos=args.institutos,
-                 apuracao=args.apuracao)
+                 apuracao=args.apuracao, excluir_modos=() if args.com_online else EXCLUIR_MODOS_PADRAO)
     args.saida.mkdir(parents=True, exist_ok=True)
     salvar_json(s, args.saida / "previsao.json")
     html, _ = gerar_painel(s, args.saida)

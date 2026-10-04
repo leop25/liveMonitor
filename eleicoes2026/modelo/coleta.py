@@ -290,7 +290,7 @@ def normalizar_instituto(nome: str) -> str:
         ("genial", "Quaest"), ("ideia", "Ideia"), ("idea", "Ideia"), ("gerp", "Gerp"),
         ("sensus", "Sensus"), ("veritá", "Veritá"), ("verita", "Veritá"), ("ipsos", "Ipsos"),
         ("modalmais", "Futura"), ("brasmarket", "Brasmarket"), ("abc dados", "ABC Dados"),
-        ("meio", "Ideia"), ("vox brasil", "Vox Brasil"), ("gpp", "GPP"),
+("meio", "Ideia"), ("indexa", "Indexa"), ("alfa", "Alfa Inteligência"), ("vox brasil", "Vox Brasil"), ("gpp", "GPP"),
     ]
     if base == "vox":  # a Wikipédia em português abrevia Vox Brasil
         return "Vox Brasil"

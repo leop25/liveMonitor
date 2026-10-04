@@ -20,7 +20,20 @@ INICIO_SERIE = pd.Timestamp("2026-01-15")
 # 2022 até os mais precisos erraram no mesmo sentido. Ver README ("Escolha do cenário").
 PESO_VIES_PADRAO = 0.5
 # Institutos com menor erro em 2018 e 2022 (ver historico.pesos_institutos).
-MELHORES = ["AtlasIntel", "MDA"]   # elenco de candidatos já próximo do final
+MELHORES = ["AtlasIntel", "MDA"]
+
+# Modo de coleta de cada instituto (fontes: Exame, Correio Braziliense, InfoMoney e relatórios dos
+# institutos; ver README). "desconhecido" = o método não aparece nas divulgações consultadas.
+MODO_COLETA = {
+    "AtlasIntel": "online", "Palver": "online",
+    "Real Time Big Data": "misto",          # telefone + abordagens digitais
+    "Datafolha": "presencial", "Quaest": "presencial", "Ipec": "presencial", "Paraná Pesquisas": "presencial",
+    "MDA": "presencial", "Vox Brasil": "presencial",
+    "Futura": "telefone", "Gerp": "telefone", "Nexus": "telefone", "Ideia": "telefone",
+    "PoderData": "telefone", "DataTrends": "telefone", "Ipespe": "telefone", "FSB": "telefone",
+}
+# Por padrão o modelo não usa pesquisas feitas pela internet (decisão do usuário em 04/10/2026).
+EXCLUIR_MODOS_PADRAO = ("online",)
 
 CONFIG_2026 = dict(
     candidatos=["Lula", "Flávio Bolsonaro", "Augusto Cury", "Renan Santos", "Caiado", "Zema"],
@@ -48,7 +61,8 @@ def _pontos(obs: pd.DataFrame, desde: pd.Timestamp) -> list[dict]:
 
 def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar: bool = False, semente: int = 2026,
              hoje: date | None = None, verbose: bool = True, institutos: list[str] | None = None,
-             vies_proprio: bool = False, cenario_melhores: bool = True, apuracao: bool = False) -> dict:
+             vies_proprio: bool = False, cenario_melhores: bool = True, apuracao: bool = False,
+             excluir_modos: tuple[str, ...] = EXCLUIR_MODOS_PADRAO) -> dict:
     """Roda a previsão completa.
 
     institutos: restringe as pesquisas a esses institutos.
@@ -58,7 +72,7 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
         acrescenta a previsão pós-1º turno em saida["pos_t1"].
     """
     log = print if verbose else (lambda *a, **k: None)
-    if apuracao and not institutos:
+    if apuracao and (not institutos or excluir_modos):
         log("• Baixando a apuração do 1º turno (TSE)…")
         pos_primeiro_turno.baixar_apuracao(verbose=verbose)
     if atualizar:
@@ -90,10 +104,19 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
     p1 = p1[p1.meio >= INICIO_SERIE].reset_index(drop=True)
     p2 = coleta.pesquisas_segundo_turno(brutas)
     p2 = p2[p2.meio >= INICIO_SERIE].reset_index(drop=True)
+    excluidos = []
+    if excluir_modos and not institutos:  # exclui institutos por modo de coleta (ex.: online)
+        presentes = set(p1.instituto) | set(p2.instituto)
+        excluidos = sorted(i for i in presentes if MODO_COLETA.get(i, "desconhecido") in excluir_modos)
+        institutos = sorted(presentes - set(excluidos))
+        vies_proprio = True   # corrige pelo erro histórico dos institutos que ficaram, não de todos
+        brutas = brutas[~brutas.instituto.isin(excluidos)]   # também fora da transferência de votos
+        log(f"  sem pesquisas {'/'.join(excluir_modos)}: fora {', '.join(excluidos)}")
     if institutos:  # previsão restrita a alguns institutos (ex.: os mais precisos no passado)
         p1 = p1[p1.instituto.isin(institutos)].reset_index(drop=True)
         p2 = p2[p2.instituto.isin(institutos)].reset_index(drop=True)
-        log(f"  apenas: {', '.join(institutos)}")
+        if not excluidos:
+            log(f"  apenas: {', '.join(institutos)}")
     log(f"  {len(p1)} pesquisas de 1º turno e {len(p2)} confrontos de 2º turno desde {INICIO_SERIE:%d/%m/%Y}")
 
     log("• Calibrando com eleições de 2006–2022 (backtest, qualidade dos institutos, geografia)…")
@@ -150,7 +173,7 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
     saida = _consolidar(cfg, cfg_d, res, ent, cal, tend1, tend2, p1, p2, sens)
     saida["gerado_em"] = datetime.now().strftime("%Y-%m-%d %H:%M")
     saida["ultima_pesquisa"] = max(p1.fim.max(), p2.fim.max()).strftime("%Y-%m-%d")
-    if not institutos:
+    if not institutos or excluidos:
         pos = pos_primeiro_turno.executar(saida, p1, p2, brutas, cfg_d, DATA_T1, DATA_T2, cal.pesos_institutos,
                                           n=n_sim, semente=semente, peso_vies=peso_vies)
         if pos is not None:
@@ -159,6 +182,9 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
             saida["pos_t1"] = pos
     if erros_escolhidos is not None:
         saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
+    saida["modo_coleta"] = {"excluidos": excluidos, "modos_excluidos": list(excluir_modos) if excluidos else [],
+                            "classificacao": {i: MODO_COLETA.get(i, "desconhecido")
+                                              for i in sorted(set(p1.instituto) | set(excluidos))}}
     if cenario_melhores and not institutos:
         log(f"• Cenário só com os institutos mais precisos ({', '.join(MELHORES)})…")
         sub = executar(n_sim=min(n_sim, 20000), peso_vies=1.0, hoje=hoje, verbose=False, semente=semente,
