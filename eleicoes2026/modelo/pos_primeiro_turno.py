@@ -95,6 +95,17 @@ def baixar_apuracao(eleicao: str = ELEICAO_T1, destino: Path = DIR_APURACAO, ver
     return ok
 
 
+def _parcial_oficial(cc: list[str]) -> dict:
+    """Parcial nacional como o TSE divulga (arquivo br.json, inclui o exterior)."""
+    f = DIR_APURACAO / "br.json"
+    try:
+        v = _ler_json_tse(json.loads(f.read_text(encoding="utf-8")))["votos"]
+    except Exception:  # noqa: BLE001
+        return {}
+    tot = sum(v.values())
+    return {c: float(100 * v.get(c, 0.0) / tot) for c in cc} if tot else {}
+
+
 def status_apuracao(diretorio: Path | None = None) -> dict | None:
     """Situação dos arquivos do TSE antes de haver votos (para o painel mostrar a apuração "aguardando")."""
     diretorio = diretorio or DIR_APURACAO
@@ -426,7 +437,8 @@ def executar(saida_pre: dict, p1: pd.DataFrame, p2: pd.DataFrame, brutas: pd.Dat
     t2 = res["t2"][ha_t2]
     return {
         "apurado": pst_total, "apurado_ufs": int((ap.reindex(ufs).pst.fillna(0) >= 0.999).sum()),
-        "parcial_br": {c: float(100 * v / votos_br.sum()) for c, v in votos_br.items()} if votos_br.sum() else {},
+        "parcial_br": _parcial_oficial(cc) or ({c: float(100 * v / votos_br.sum()) for c, v in votos_br.items()}
+                                               if votos_br.sum() else {}),
         "t1": {c: {"media": float(nac_t1[:, k].mean()), "p10": float(np.percentile(nac_t1[:, k], 10)),
                    "p90": float(np.percentile(nac_t1[:, k], 90)),
                    "primeiro": float(np.mean(nac_t1[:, :-1].argmax(axis=1) == k))}
