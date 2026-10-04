@@ -53,108 +53,108 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido Novo/meta/cor}}" |
 |-
 |UOL<ref name="AgregadorUOL">{{Citar web|url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/|titulo=Agregador de pesquisas eleitorais {{!}} Eleições 2026|acessodata=30/09/2026|website=UOL|língua=pt-BR|arquivourl=http://web.archive.org/web/20260831095326/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/|arquivodata=2026-08-31}}</ref>
-|1 Out 2026
+|4 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,9%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |35,9%
-|5,8%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,3%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |36,9%
+|5,0%
 |3,6%
 |3,5%
 |{{N/A}}
 |{{N/A}}
 |{{N/A}}
-| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |4,0%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3,4%
 |-
 |PollingData<ref name="AgregadorPollingData">{{Citar web|url=https://flex.pollingdata.com.br/pdvoto|titulo=PollingData — Primeiro Agregador de Pesquisas do Brasil|acessodata=30/09/2026|website=PollingData|língua=pt-BR|wayb=20260917211725}}</ref>
-|1 Out 2026
+|2 Out 2026
 |3,0
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,2%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,7%
-|4,1%
-|3,4%
-|3,7%
-|1,6%
-|3,6%
-|9,1%
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,5%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42,3%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,7%
+|3,3%
+|3,1%
+|2,9%
+|0,6%
+|1,7%
+|8,9%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |1,6%
 |-
 |BBC<ref name="AgregadorBBC">{{Citar web|url=https://www.bbc.com/portuguese/articles/czd2prld130o|titulo=Flávio Bolsonaro volta a aparecer à frente de Lula no 2º turno no Agregador de Pesquisas para presidente da BBC News Brasil|acessodata=30/09/2026|website=BBC News Brasil|língua=pt-BR|wayb=20260909004135}}</ref>
-|1 Out 2026
+|2 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38%
-|4%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |39%
 |3%
-|4%
-|2%
-|<6%{{Nre|Samara Martins (UP): 1%; Hertz Dias (PSTU): <1%; Clariana Barão (DC): <1%; Rui Pimenta (PCO): <1%; Edmilson Costa (PCB): <1%; Wilson Grassi(DEMOCRATA): <1%}}
-|9%
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
+|3%
+|3%
+|1%
+|<6%{{Nre|Wilson Grassi(DEMOCRATA): 1%; Samara Martins (UP): <1%; Hertz Dias (PSTU): <1%; Clariana Barão (DC): <1%; Rui Pimenta (PCO): <1%; Edmilson Costa (PCB): <1%}}
+|8%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3%
 |-
 |CartaCapital<ref name="AgregadorCartaCapital">{{Citar web|url=https://www.cartacapital.com.br/politica/cartacapital-lanca-agregador-de-pesquisas-eleitorais/|titulo=CartaCapital lança agregador de pesquisas eleitorais|data=2026-08-24|acessodata=30/09/2026|website=CartaCapital|língua=pt-BR}}</ref>
-|29 Set 2026
+|3 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40,7%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |37,7%
-|4,4%
-|3,4%
-|3,8%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |41,8%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,3%
+|3,3%
+|3,1%
+|3,6%
 |{{N/A}}
 |{{N/A}}
 |{{N/A}}
-| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |3,0%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1,5%
 |-
 |Poll+Trend<ref name="AgregadorPoll+Trend">{{Citar web|url=https://pollplustrend.wordpress.com/26brpf/|titulo=2026 Brazil Polling Follower|data=2026-08-15|acessodata=30/09/2026|website=POLL+TREND|língua=en-GB|wayb=20260914111214}}</ref>
-|1 Out 2026
+|2 Out 2026
 |{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |41,74%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,26%
-|3,86%
-|2,65%
-|3,58%
-|0,85%
-|0,54%{{Nre|Samara Martins (UP): 0,25%; Clariana Barão (DC): 0,16%; Rui Pimenta (PCO): 0,06%; Wilson Grassi (Democrata): 0,02%; Hertz Dias (PSTU): 0,02%; Edmilson Costa (PCB): 0,03%}}
-|6,52%
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |1,28%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42,26%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40,76%
+|3,60%
+|2,74%
+|3,68%
+|0,97%
+|0,54%{{Nre|Samara Martins (UP): 0,28%; Clariana Barão (DC): 0,12%; Wilson Grassi (Democrata): 0,09%; Rui Pimenta (PCO): 0,08%; Edmilson Costa (PCB): 0,06%; Hertz Dias (PSTU): 0,05%}}
+|5,45%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |1,50%
 |-
 |Plano Político<ref name="AgregadorPlanoPolítico">{{Citar web|url=https://planopolitico.com.br/agregador/presidente/|titulo=Agregador de Pesquisas 2026|acessodata=30/09/2026|website=Plano Político|língua=pt-BR|wayb=20260904132154}}</ref>
-|1 Out 2026
+|3 Out 2026
 |2,5
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |43,9%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |41,4%
-|4,9%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |44,4%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |42,8%
+|4,1%
+|3,5%
 |3,6%
-|3,9%
-|1,4%
+|1,1%
 |{{N/A}}
 |{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,5%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |1,6%
 |-
 |ABC Dados<ref name="AgregadorABCDados">{{Citar web|url=https://abcdados.com.br/agregador2026/|titulo=Agregador de Pesquisas ABC Dados – ABC Dados|acessodata=30/09/2026|website=abcdados.com.br|língua=pt-BR|arquivourl=http://web.archive.org/web/20260824183041/https://abcdados.com.br/agregador2026/|arquivodata=2026-08-24}}</ref>
-|1 Out 2026
+|3 Out 2026
 |{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |40%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |36%
-|6%
-|3%
-|4%
-|1%
-|{{N/A}}
-|{{N/A}}
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |4%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |42,9%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |39,6%
+|3,0%
+|2,6%
+|3,4%
+|0,7%
+|0,3%
+|7,6%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}"  |3,3%
 |-
 |Agregador presidencial<ref name="Agregadorpresidencial">{{Citar web|url=https://agregador-eleitoral.tuka1965.chatgpt.site/|titulo=Agregador presidencial 2026|acessodata=30/09/2026|wayb=20260930202921}}</ref>
 |3 Out 2026
 |
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |41,6%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38,9%
-|3,6%	
-|3,1%
-|3,1%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |41,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38,7%
+|4,1%	
+|3,3%
+|3,3%
 |1,1%
 |{{N/A}}
-|6,6%
-|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,7%
+|8,4%
+|style="color:white; background:{{Partido dos Trabalhadores/meta/cor}}" |2,4%
 |}
 
 === 2026 ===
@@ -207,11 +207,43 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 | style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
 | style="color:white;background:{{Partido da Causa Operária/meta/cor}}" | 
 |-
-|[[Quaest]]<ref name=":pesq-ultima-semana"/><!--- BR-02197/2026 --->
+|DataFolha<ref name=":191">{{citar web |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml|título=Datafolha, 1º turno - votos válidos: Lula, 45%; Flávio Bolsonaro, 42%; Caiado, 4%; Renan, 3%; Cury, 3%; Zema, 1%|data=03/10/2026|acessodata=03/10/2026}}</ref>
+|3 Out
+|4 006
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |40%
+|3%
+|4%
+|3%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{N/A}}
+|7%
+|-
+|[[Quaest]]<ref name=":190">{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-2o-turno-flavio-bolsonaro-44percent-lula-42percent.ghtml|titulo=Quaest, 2º turno: Flávio Bolsonaro, 44%; Lula 42%|data=03/10/2026|website=Diário do Poder|acessodata=03/10/2026}}</ref>
 |2 Out – 3 Out
 |3 702
 |2,0
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |38%
+|3%
+|3%
+|3%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{N/A}}
+|13%
 |-
 |[[DataFolha]]<ref name=":189">{{citar web|url=https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/datafolha-mostra-lula-com-45-e-flavio-bolsonaro-com-42-dos-votos-validos/amp|titulo=Datafolha mostra Lula com 45% e Flávio Bolsonaro com 42% dos votos válidos|data=03/10/2026|website=Diário do Poder|acessodata=03/10/2026}}</ref>
 |1 – 3 Out
@@ -238,11 +270,24 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |2,04
 | colspan="14" |''Resultado da pesquisa ainda não divulgado.''
 |-
-|Futura<ref name=":pesq-ultima-semana"/><!--- BR-02431/2026 --->
+|Futura<ref name=":187">{{citar web|url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf|titulo=Relatorio Tracking Nacional 1 Turno Final Votos Validos|data=03/10/2026|website=CNN Brasil|acessodata=03/10/2026}}</ref>
 |29 Set – 3 Out
 |2 000
 |2,2
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |42,6%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44,8%
+|4,1%
+|3,9%
+|2,8%
+|0,8%
+|0,4%
+|0,1%
+|0,1%
+|0,1%
+|0,2%
+|0,1%
+|{{N/A}}
+|{{N/A}}
 |-
 |Gerp<ref name=":186">{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-49-contra-44-de-lula-no-2o-turno-diz-gerp/|titulo=Flávio tem 49% contra 44% de Lula no 2º turno, diz Gerp|data=03/10/2026|website=Poder360|acessodata=03/10/2026}}</ref>
 |30 Set – 2 Out
@@ -320,17 +365,43 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0,17%{{Nre|Leonardo Avalanche (PRTB)}}
 |7,44%
 |-
-|AtlasIntel<ref name=":pesq-ultima-semana"/><!--- BR-00999/2026 --->
+|AtlasIntel<ref name=":182">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026/|título=Os números da AtlasIntel para presidente na véspera do 1º turno|autor=Gustavo Ribeiro|data=03/10/2026|website=Gazeta do Povo|acessodata=03/10/2026|wayb=20261004054444}}</ref>
 |27 Set – 2 Out
 |5 000
 |1,0
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |47%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44,1%
+|2,1%
+|1,4%
+|4,6%
+|<0,9%
+|<0,9%
+|<0,9%
+|<0,9%
+|<0,9%
+|<0,9%
+|<0,9%
+|<0,9%
+|{{N/A}}
 |-
-|[[Veritá]]<ref name=":pesq-ultima-semana"/><!--- BR-04522/2026 --->
+|[[Veritá]]<ref name=":181">{{citar web|url=https://www.instagram.com/institutoverita/p/DeDm4ZcuFvP/|título=Pesquisa presidencial - Percentual válido|data=03/10/2026|acessodata=03/10/2026}}</ref><!--- BR-04522/2026 --->
 |26 Set – 2 Out
 |40 500
 |1,0
-| colspan="14" |''Resultado da pesquisa ainda não divulgado.''
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |47%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
 |-
 |Palver<ref name=":180">{{citar web|url=https://www.cartacapital.com.br/politica/pesquisa-palver-mostra-lideranca-de-flavio-bolsonaro-contra-lula/|titulo=Pesquisa Palver mostra liderança de Flávio Bolsonaro contra Lula|data=03/10/2026|website=CartaCapital|acessodata=03/10/2026}}</ref>
 |30 Set – 1 Out
@@ -13408,18 +13479,18 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |UOL<ref name="AgregadorUOL"/>
 |3 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,2%
-|44,6%
-|10,3%
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,6%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |45,1%
+|44,7%
+|10,2%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,4%
 |-
 |PollingData<ref name="AgregadorPollingData"/>
-|30 Set 2026
+|2 Out 2026
 |3,0
-|45,5%
+|45,2%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |46,4%
-|8,1%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,9%
+|8,4%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1,2%
 |-
 |BBC<ref name="AgregadorBBC"/>
 |2 Out 2026
@@ -13430,12 +13501,12 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1,0%
 |-
 |CartaCapital<ref name="AgregadorCartaCapital"/>
-|1 Out 2026
+|3 Out 2026
 |{{N/A}}
-|45%
-|45%
-|10%
-|0%
+|45,3%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |46,4%
+|8,3%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |1,1%
 |-
 |Poll+Trend<ref name="AgregadorPoll+Trend"/>
 |18 Set 2026
@@ -13446,28 +13517,28 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |0%
 |-
 |Plano Político<ref name="AgregadorPlanoPolítico"/>
-|2 Out 2026
+|3 Out 2026
 |2,5
-|49,9%
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |50,1%
+|49,8%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |50,2%
 |{{N/A}}
-|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,2%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |0,4%
 |-
 |ABC Dados<ref name="AgregadorABCDados"/>
-|2 Out 2026
+|3 Out 2026
 |{{N/A}}
-|46%
-|46%
-|8%
-|0%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46%
+|45%
+|9%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
 |-
 |Agregador presidencial<ref name="Agregadorpresidencial"/>
 |3 Out 2026
 |{{N/A}}
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|46,1%
-|45,5%
-|8,3%
-|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,6%
+|45,7%
+|45,7%
+|8,6%
+|0%
 |}
 
 ==== 2026 ====
@@ -13488,7 +13559,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
-|DataFolha<ref>{{citar web |url=https://g1.globo.com/google/amp/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-segundo-turno-3-outubro.ghtml|título=Datafolha, 2º turno: Lula, 47%; Flávio Bolsonaro, 46%|data=03/10/2026|acessodata=03/10/2026}}</ref>
+|DataFolha<ref name=":191"/>
 |3 Out
 |4 006
 |2,0
@@ -13496,6 +13567,33 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |46%
 |7%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1%
+|-
+|[[Quaest]]<ref name=":190"/>
+|2 Out – 3 Out
+|3 702
+|2,0
+|42%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |44%
+|14%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |2%
+|-
+|[[DataFolha]]<ref name=":189-B">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-das-intencoes-de-voto-no-2o-turno-flavio-44/|titulo=Datafolha: Lula tem 46% das intenções de voto no 2º turno; Flávio, 44%|data=03/10/2026|website=CNN Brasil|acessodata=03/10/2026}}</ref>
+|1 – 3 Out
+|2 002
+|2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |46%
+|44%
+|10%
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |2%
+|-
+|Futura<ref name=":187"/>
+|29 Set – 3 Out
+|2 000
+|2,2
+|45,1%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |48%
+|6,9%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |5%
 |-
 |Gerp<ref name=":186"/>
 |30 Set – 2 Out
@@ -13532,6 +13630,15 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |45,01%
 |9,11%
 | style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,87%
+|-
+|AtlasIntel<ref name=":182"/>
+|27 Set – 2 Out
+|5 000
+|1,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |50,1%
+|49,9%
+|{{N/A}}
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |0,2%
 |-
 |Palver<ref name=":180"/>
 |30 Set – 1 Out

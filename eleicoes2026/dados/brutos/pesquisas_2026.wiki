@@ -40,31 +40,31 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|Avante (political party)}}" |
 |-
 |''UOL''
-|''2 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |40
-|style="font-weight:bold; background-color:#b2d1ea;" |36.2
-|3.7
+|''4 October 2026''
+| style="background:#ffb7b7;font-weight:bold;" |40.6
+|style="font-weight:bold; background-color:#b2d1ea;" |37.3
+|3.6
 |{{NA}}
-|3.5
-|5.6
+|3.4
+|4.9
 |{{NA}}
 |{{NA}}
 |{{NA}}
-| style="background:#ffb7b7;font-weight:bold;" |3.8
+| style="background:#ffb7b7;font-weight:bold;" |3.3
 |<ref>{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=http://web.archive.org/web/20260930191140/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-09-30 |access-date=2026-10-02 |website=UOL |language=pt-BR}}</ref>
 |-
 |''BBC/PollingData''
-|''2 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |41.6
-|style="font-weight:bold; background-color:#b2d1ea;" |39.4
-| 2.6
-| 1
-| 3.2
-| 3.4
-| 3.7
-| 8.4
+|''4 October 2026''
+| style="background:#ffb7b7;font-weight:bold;" |41.8
+|style="font-weight:bold; background-color:#b2d1ea;" |40.1
+| 3.1
+| 0.6
+| 2.9
+| 3.3
+| 1.7
+| 8.9
 |±3 pp
-| style="background:#ffb7b7;font-weight:bold;" |2.2
+| style="background:#ffb7b7;font-weight:bold;" |1.7
 |<ref name=":aggregationPollingData">{{Cite web |date=2026-05-05 |title=Eleições 2026 - Presidente - Nacional - Turno 1 |url=https://flex.pollingdata.com.br/pdvoto/2026/presidente/br/t1_lula-flavio/ |access-date=2026-09-23 |website=PollingData |language=pt-br}}</ref><ref name=":aggregationBBC">{{Cite web |date=2026-05-05 |title=Pesquisa para presidente: Flávio Bolsonaro fica um ponto atrás de Lula no segundo turno {{!}} Agregador de Pesquisas eleitorais da BBC |url=https://www.bbc.com/portuguese/articles/czd2prld130o |access-date=2026-09-23 |website=BBC News Brasil |language=pt-br}}</ref>
 |-
 |''Poll+Trend''
@@ -82,45 +82,45 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |<ref name=":45">{{Cite web |title=2026 Brazil Polling Follower |url=https://pollplustrend.com/26brpf |access-date=2026-09-23 |website=Poll+Trend by Globe Elections UN |language=en}}</ref>
 |-
 |''Plano Político''
-|''2 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |44
-|style="font-weight:bold; background-color:#b2d1ea;" |41.5
+|''3 October 2026''
+| style="background:#ffb7b7;font-weight:bold;" |44.4
+|style="font-weight:bold; background-color:#b2d1ea;" |42.8
+|3.5
+|1.1
 |3.6
-|1.3
-|3.9
-|4.9
+|4.1
 |{{NA}}
 |{{NA}}
 |±2.5 pp
-| style="background:#ffb7b7;font-weight:bold;" |2.5
+| style="background:#ffb7b7;font-weight:bold;" |1.6
 |<ref name=":49">{{Cite web |title=Agregador de Pesquisas 2026 |url=https://planopolitico.com.br/agregador/presidente/ |access-date=2026-09-23|website=Plano Político |language=pt-BR}}</ref>
 |-
 |''ABC Dados''
-|''2 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |43
-|style="font-weight:bold; background-color:#b2d1ea;" |39
-|3
-|1
-|4
-|4
+|''3 October 2026''
+| style="background:#ffb7b7;font-weight:bold;" |46.4
+|style="font-weight:bold; background-color:#b2d1ea;" |42.8
+|2.8
+|0.8
+|3.6
+|3.3
 |{{NA}}
 |{{NA}}
 |{{NA}}
-| style="background:#ffb7b7;font-weight:bold;" |4
+| style="background:#ffb7b7;font-weight:bold;" |3.6
 |<ref name=":47">{{Cite web |title=Agregador De Pesquisas ABC Dados |url=https://abcdados.com.br/agregador2026/ |access-date=2026-09-23 |website=ABC Dados |language=pt-BR}}</ref>
 |-
 |''The Economist''
-|''30 September 2026''
+|''3 October 2026''
 | style="background:#ffb7b7;font-weight:bold;" |40
-|style="font-weight:bold; background-color:#b2d1ea;" |36
+|style="font-weight:bold; background-color:#b2d1ea;" |37
 |3
 |1
 |4
 |5
 |{{NA}}
-|11
+|10
 |{{NA}}
-| style="background:#ffb7b7;font-weight:bold;" |4
+| style="background:#ffb7b7;font-weight:bold;" |3
 |<ref name=":48">{{Cite web |title=Brazil election poll tracker: Who will be the next president? |url=https://www.economist.com/interactive/2026-brazil-election-tracker |access-date=2026-08-20 |website=The Economist |language=en}}</ref>
 |}
 
@@ -158,6 +158,33 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 ! style="background-color:{{party color|New Party (Brazil)}}" class=unsortable |
 ! style="background-color:{{party color|Mission Party (Brazil)}}" class=unsortable |
 ! style="background-color:{{party color|Avante (political party)}}" class=unsortable |
+|-style="background:#EFEFEF"
+| rowspan="2" |''Results''
+| rowspan="2" |''4 Oct''
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|Valid votes
+|
+| rowspan="2" |<ref>{{Cite web |title=Resultados |url=https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/6257/uf/br/cargo/1/vis/nominal/resultados |access-date=2026-10-04 |website=resultados.tse.jus.br}}</ref>
+|-style="background:#EFEFEF"
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|Total votes
+|
 |-
 |''Datafolha''
 |''3 Oct''
@@ -173,6 +200,36 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |4,006
 | style="background:#ffb7b7;font-weight:bold;" |2
 |<ref name=":76">{{Cite web |date=2026-10-03 |title=Datafolha: Lula tem 45% e Flávio Bolsonaro 42% dos votos válidos |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml |access-date=2026-10-03 |website=G1 |language=pt-BR}}</ref>
+|-
+|''Quaest''
+|''2–3 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |40
+|38
+|3
+|0
+|3
+|3
+|0
+|13
+|±2 pp
+|3,702
+| style="background:#ffb7b7;font-weight:bold;" |2
+|<ref>{{Cite web |date=2026-10-03 |title=Pesquisa Quaest: Lula tem 46% e Flávio Bolsonaro 45% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-presidente-3-outubro.ghtml |access-date=2026-10-03 |website=G1 |language=pt-BR}}</ref>
+|-
+|''Futura''
+|''2–3 Oct''
+|40.5
+|style="font-weight:bold; background-color:#b2d1ea;" |42.5
+|3.7
+|0.8
+|2.6
+|3.9
+|1
+|2.6
+|±2.2 pp
+|2,000
+|style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref name=":77">{{Cite web |title=Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3-1.pdf |url=https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3-1.pdf |access-date=2026-10-04 |website=docs.google.com}}</ref>
 |-
 |''Palver''
 |''30 Sep–3 Oct''
@@ -218,6 +275,25 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |2,007
 |style="background:#ffb7b7;font-weight:bold;" |5.1
 |<ref name=":73">{{Cite web |date=2026-10-03 |title=CNT/MDA: Lula tem 47,8% dos votos válidos no 1º turno; Flávio, 42,1% |url=https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-478-dos-votos-validos-no-1o-turno-flavio-421/ |access-date=2026-10-03 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''AtlasIntel''
+|''27 Sep–2 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |46.7
+|43.8
+|1.4
+|0.3
+|4.6
+|2.1
+|0.6
+|0.6
+|±1 pp
+|4,945
+| style="background:#ffb7b7;font-weight:bold;" |2.9
+|<ref name=":78">{{Cite web |title=Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf |url=https://docs.google.com/viewerng/viewer?url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf |access-date=2026-10-04 |website=docs.google.com}}</ref>
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden;" |''1 Oct''
+| colspan="12" |Last day of free electoral broadcast time on TV and Radio.
 |-
 |''Vox Brasil''
 |''29 Sep–1 Oct''
@@ -4434,43 +4510,43 @@ period
 ! style="background-color:{{Party color|Liberal Party (Brazil, 2006)}}" |
 |-
 |''UOL''
-|''2 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |45.1
-|44.6
-|10.3
+|''4 October 2026''
+| style="background:#ffb7b7;font-weight:bold;" |45.2
+|44.8
+|10
 |{{n/a}}
-| style="background:#ffb7b7;font-weight:bold;" |0.5
+| style="background:#ffb7b7;font-weight:bold;" |0.4
 |<ref name=":46"><nowiki><ref></nowiki>{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=http://web.archive.org/web/20260822181934/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-08-22 |access-date=2026-09-23 |website=UOL |language=pt-BR}}</ref>
 |-
 |''BBC/PollingData''
-|''2 October 2026''
-|45.5
-| style="font-weight:bold; background-color:#b2d1ea;" |46.4
+|''4 October 2026''
+|45.3
+| style="font-weight:bold; background-color:#b2d1ea;" |46.1
 |8.7
 |±3 pp
-| style="font-weight:bold; background-color:#b2d1ea;" |0.9
+| style="font-weight:bold; background-color:#b2d1ea;" |0.8
 |<ref name=":aggregationPollingData"/><ref name=":aggregationBBC"/>
 |-
 |''Plano Político''
-|''2 October 2026''
-|style="font-weight:bold; background-color:#ffb7b7;" |45.3
-|style="font-weight:bold; background-color:#b2d1ea;" |45.4
-|9.3
+|''3 October 2026''
+|45.4
+|style="font-weight:bold; background-color:#b2d1ea;" |45.8
+|8.8
 |±1.8 pp
-|style="font-weight:bold; background-color:#b2d1ea;" |0.1 
+|style="font-weight:bold; background-color:#b2d1ea;" |0.4 
 |<ref name=":49" />
 |-
 |''ABC Dados''
-|''2 October 2026''
+|''3 October 2026''
 | style="background:#ffb7b7;font-weight:bold;" |46
-|style="font-weight:bold; background-color:#b2d1ea;" |46
-|8
+|45
+|9
 |{{n/a}}
-|Tie
+| style="background:#ffb7b7;font-weight:bold;" |1
 |<ref name=":47" />
 |-
 |''The Economist''
-|''30 September 2026''
+|''3 October 2026''
 |44
 |style="font-weight:bold; background-color:#b2d1ea;" |45
 |11
@@ -4525,6 +4601,43 @@ period
 |4,006
 | style="background:#ffb7b7;font-weight:bold;" |1
 |<ref name=":76" />
+|-
+|''Quaest''
+|''2–3 Oct''
+|42
+|style="font-weight:bold; background-color:#b2d1ea;" |44
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|14
+|±2 pp
+|3,702
+|style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{Cite web |date=2026-10-03 |title=Quaest, 2º turno: Flávio Bolsonaro, 44%; Lula 42% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-2o-turno-flavio-bolsonaro-44percent-lula-42percent.ghtml |access-date=2026-10-03 |website=G1 |language=pt-BR}}</ref>
+|-
+| rowspan="2" |''Futura''
+| rowspan="2" |''2–3 Oct''
+|45.1
+|style="font-weight:bold; background-color:#b2d1ea;" |48
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|6.9
+| rowspan="2" |±2.2 pp
+| rowspan="2" |2,000
+|style="font-weight:bold; background-color:#b2d1ea;" |2.9
+| rowspan="2" |<ref name=":77" />
+|-
+|44
+|{{n/a}}
+|style="background:#ffd700;font-weight:bold;" |44.7
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|11.3
+|style="background:#ffd700;font-weight:bold;" |0.7
 |-
 | rowspan="5" |''Palver''
 | rowspan="5" |''30 Sep–3 Oct''
@@ -4639,6 +4752,20 @@ period
 |38
 |15
 |style="background:#ffb7b7;font-weight:bold;" |9
+|-
+|''AtlasIntel''
+|''27 Sep–2 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |47.6
+|47.4
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|5
+|±1 pp
+|4,945
+| style="background:#ffb7b7;font-weight:bold;" |0.2
+|<ref name=":78" />
 |-
 | rowspan="3" |''Vox Brasil''
 | rowspan="3" |''29 Sep–1 Oct''
