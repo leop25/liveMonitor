@@ -143,11 +143,11 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
 
 <section id="sens-sec">
   <div class="sec-head">
-    <div class="eyebrow">Dois cenários</div>
+    <div class="eyebrow">Cenários</div>
     <h2>Quanto do erro histórico das pesquisas vai se repetir?</h2>
   </div>
   <div class="tbl-wrap"><table id="t-cen"></table></div>
-  <p class="small muted" id="cenTxt"></p>
+  <div class="small muted" id="cenTxt" style="display:flex;flex-direction:column;gap:8px"></div>
   <div class="callout">
     <p class="small muted" id="sensTxt"></p>
     <div class="sens" id="sens"></div>
@@ -325,7 +325,8 @@ function hero(){
 /* ---------- sensibilidade ---------- */
 function sens(){
   const C=D.calibracao, box=document.getElementById("sens"); box.innerHTML="";
-  const nomes = {0:"Sem correção",0.5:"Metade (escolhido)",1:"Correção inteira",1.5:"Correção 1,5×"};
+  const nomes0 = {0:"Sem correção",0.5:"Metade",1:"Correção inteira",1.5:"Correção 1,5×"};
+  const nomes = Object.fromEntries(Object.entries(nomes0).map(([k,v])=>[k, +k===D.peso_vies ? v+" (escolhido)" : v]));
   D.sensibilidade.forEach(s=>{
     const p=s.vitoria[P], a=s.vitoria[A];
     const r=document.createElement("div"); r.className="sens-row"+(s.peso_vies===D.peso_vies?" on":"");
@@ -340,15 +341,20 @@ function sens(){
   const e = D.calibracao.erros_t1.filter(r=>r.papel==="adv");
   const anos = e.map(r=>r.ano).sort().join(", ");
   document.getElementById("sensTxt").innerHTML =
-    `Em ${e.length} de ${e.length} eleições (${anos}) a projeção final subestimou o principal candidato contra o PT no 1º turno, em média <b>${fmt(-e.reduce((s,r)=>s+r.erro,0)/e.length)} pontos</b>. Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em ${D.calibracao.erros_h2h.map(r=>`${r.ano}: +${fmt(r.erro)}`).join(" e ")}. O modelo aplica esse viés só em parte (encolhido para zero, por serem poucas eleições) e mantém a incerteza toda. As barras mostram o quanto o resultado depende dessa escolha.`;
+    `Em ${e.length} de ${e.length} eleições (${anos}) a projeção final subestimou o principal candidato contra o PT no 1º turno, em média <b>${fmt(-e.reduce((s,r)=>s+r.erro,0)/e.length)} pontos</b>. Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em ${D.calibracao.erros_h2h.map(r=>`${r.ano}: +${fmt(r.erro)}`).join(" e ")}. O modelo aplica o viés médio dessas eleições, encolhido para zero por serem poucas. Num teste fora da amostra em 2010, 2018 e 2022, essa foi a escolha que mais acertou (tabela acima). As barras mostram o quanto o resultado depende dela.`;
   // tabela dos dois cenários principais
-  const cen=[0.5,1].map(pv=>D.sensibilidade.find(s=>s.peso_vies===pv)).filter(Boolean);
-  const titulo={0.5:"Metade da correção <span class=\"pill\">escolhido</span>",1:"Correção histórica inteira"};
-  const desc={0.5:"Os institutos corrigiram parte do problema",1:"As pesquisas erram como em 2006–2022"};
+  const cen=[1,0.5,0].map(pv=>D.sensibilidade.find(s=>s.peso_vies===pv)).filter(Boolean);
+  const tit0={0:"Sem correção",0.5:"Metade da correção",1:"Correção histórica inteira"};
+  const titulo=Object.fromEntries(Object.entries(tit0).map(([k,v])=>[k, +k===D.peso_vies ? v+' <span class="pill">escolhido</span>' : v]));
+  const desc={0:"As pesquisas acertam em média",0.5:"Os institutos corrigiram metade do problema",1:"As pesquisas erram como em 2006–2022, em média"};
   const t2=s=>s.t2_principal==null?"–":`${fmt(s.t2_principal)} × ${fmt(100-s.t2_principal)}`;
   document.getElementById("t-cen").innerHTML=`<thead><tr><th>Cenário</th><th class="num">1º turno ${P} × ${A.split(" ")[0]}</th><th class="num">Quem lidera o 1º turno</th><th class="num">2º turno ${P} × ${A.split(" ")[0]}</th><th class="num">Chance ${P}</th><th class="num">Chance ${A.split(" ")[0]}</th></tr></thead><tbody>`+
     cen.map(s=>{const lp=s.lider_t1_principal;return `<tr${s.peso_vies===D.peso_vies?' style="font-weight:600"':""}><td>${titulo[s.peso_vies]}<div class="small muted" style="font-weight:400">${desc[s.peso_vies]}</div></td><td class="num">${fmt(s.t1[P])} × ${fmt(s.t1[A])}</td><td class="num">${lp>=0.5?P:A.split(" ")[0]} (${pct(Math.max(lp,1-lp))})</td><td class="num">${t2(s)}</td><td class="num">${pct(s.vitoria[P])}</td><td class="num">${pct(s.vitoria[A])}</td></tr>`}).join("")+"</tbody>";
-  document.getElementById("cenTxt").innerHTML=`<b>Por que metade.</b> Desde 2022 os institutos atualizaram as amostras com o Censo 2022, adotaram modelos de eleitor provável e, no caso da Quaest, passaram a controlar a composição política da amostra. A distância entre institutos presenciais e online caiu de cerca de 5,5 para 2,5 pontos na margem Lula–adversário. Mas em 2022 até os institutos mais precisos superestimaram Lula em cerca de 4 pontos, e a baixa resposta de eleitores bolsonaristas não tem correção conhecida. Aplicar metade do viés é o meio-termo que essas evidências sustentam. Votos válidos em %.`;
+  const AV=D.avaliacao||[];
+  document.getElementById("cenTxt").innerHTML = AV.length ? `<b>Como a escolha foi feita.</b> O modelo inteiro foi rodado como se fosse a véspera de 2010, 2018 e 2022, só com as pesquisas da época e calibrado com as outras eleições, e comparado com a urna. Erro típico (raiz do erro quadrático médio, pontos de votos válidos):`+
+    `<div class="tbl-wrap" style="margin-top:8px"><table><thead><tr><th>Variante</th><th class="num">Margem 1º turno</th><th class="num">2º turno</th><th class="num">Log-loss</th></tr></thead><tbody>`+
+    AV.map(a=>`<tr${a.escolhida?' style="font-weight:600"':""}><td>${a.variante}${a.escolhida?' <span class="pill">usada</span>':""}</td><td class="num">${fmt(a.rmse_t1_margem)}</td><td class="num">${fmt(a.rmse_t2)}</td><td class="num">${fmt(a.logloss,3)}</td></tr>`).join("")+
+    `</tbody></table></div><span class="small">Log-loss mede a qualidade da probabilidade de vitória (menor é melhor). O viés apareceu nas cinco eleições de 2006 a 2022, apesar das mudanças de método ao longo do período; por isso o modelo não aposta que ele sumiu em 2026.</span>` : "";
 }
 
 /* ---------- 1º turno: intervalos ---------- */

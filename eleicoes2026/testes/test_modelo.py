@@ -104,3 +104,9 @@ def test_projecao_da_apuracao_corrige_ordem_de_apuracao():
     nac = np.einsum("nsk,s->nk", t1, pesos / pesos.sum()).mean(axis=0) * 100
     parcial = 100 * apur.Lula.sum() / apur[["Lula", "Flávio Bolsonaro", "Outros"]].to_numpy().sum()
     assert abs(nac[0] - 48.43) < abs(parcial - 48.43)
+
+
+def test_correcao_de_vies_reduz_erro_fora_da_amostra():
+    from modelo.avaliacao import Variante, avaliar, resumir
+    r = resumir(avaliar([Variante("sem", peso_vies=0.0), Variante("inteira", peso_vies=1.0)], n_sim=3000))
+    assert r.loc["inteira", "rmse_t1_margem"] < r.loc["sem", "rmse_t1_margem"]

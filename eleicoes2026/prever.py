@@ -24,13 +24,13 @@ RAIZ = Path(__file__).resolve().parent
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--atualizar", action="store_true", help="baixa as pesquisas mais recentes da Wikipédia")
-    ap.add_argument("--com-online", action="store_true",
-                    help="inclui pesquisas feitas pela internet (AtlasIntel, Palver); por padrão ficam de fora")
+    ap.add_argument("--sem-online", action="store_true",
+                    help="exclui pesquisas feitas pela internet (AtlasIntel, Palver)")
     ap.add_argument("--apuracao", action="store_true",
                     help="baixa a apuração do 1º turno do TSE e projeta o resultado e o 2º turno a partir das urnas")
     ap.add_argument("--sim", type=int, default=20000, help="número de simulações (padrão: 20000)")
     ap.add_argument("--peso-vies", type=float, default=PESO_VIES_PADRAO,
-                    help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 0,5 = padrão, 1 = inteiro)")
+                    help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 1 = padrão: viés médio encolhido)")
     ap.add_argument("--semente", type=int, default=2026)
     ap.add_argument("--ate", type=date.fromisoformat, default=None, help="usa só pesquisas até esta data (AAAA-MM-DD)")
     ap.add_argument("--institutos", type=lambda t: [x.strip() for x in t.split(",") if x.strip()], default=None,
@@ -40,7 +40,7 @@ def main() -> None:
 
     s = executar(n_sim=args.sim, peso_vies=args.peso_vies, atualizar=args.atualizar,
                  semente=args.semente, hoje=args.ate, institutos=args.institutos,
-                 apuracao=args.apuracao, excluir_modos=() if args.com_online else EXCLUIR_MODOS_PADRAO)
+                 apuracao=args.apuracao, excluir_modos=("online",) if args.sem_online else EXCLUIR_MODOS_PADRAO)
     args.saida.mkdir(parents=True, exist_ok=True)
     salvar_json(s, args.saida / "previsao.json")
     html, _ = gerar_painel(s, args.saida)

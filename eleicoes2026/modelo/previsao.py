@@ -15,10 +15,9 @@ from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
 DATA_T1 = pd.Timestamp("2026-10-04")
 DATA_T2 = pd.Timestamp("2026-10-25")
 INICIO_SERIE = pd.Timestamp("2026-01-15")
-# Metade do viés histórico: os institutos atualizaram amostras (Censo 2022), adotaram modelos de
-# eleitor provável e a distância entre presenciais e online caiu pela metade desde 2022 — mas em
-# 2022 até os mais precisos erraram no mesmo sentido. Ver README ("Escolha do cenário").
-PESO_VIES_PADRAO = 0.5
+# Correção inteira do viés histórico (média encolhida para zero): foi a variante de menor erro no
+# teste fora da amostra de 2010, 2018 e 2022 (avaliar.py; dados/processados/avaliacao.csv).
+PESO_VIES_PADRAO = 1.0
 # Institutos com menor erro em 2018 e 2022 (ver historico.pesos_institutos).
 MELHORES = ["AtlasIntel", "MDA"]
 
@@ -32,8 +31,9 @@ MODO_COLETA = {
     "Futura": "telefone", "Gerp": "telefone", "Nexus": "telefone", "Ideia": "telefone",
     "PoderData": "telefone", "DataTrends": "telefone", "Ipespe": "telefone", "FSB": "telefone",
 }
-# Por padrão o modelo não usa pesquisas feitas pela internet (decisão do usuário em 04/10/2026).
-EXCLUIR_MODOS_PADRAO = ("online",)
+# Pesquisas online entram: no teste fora da amostra, excluí-las piorou o erro de 2022
+# (AtlasIntel foi a mais precisa). `--sem-online` as exclui.
+EXCLUIR_MODOS_PADRAO: tuple[str, ...] = ()
 
 CONFIG_2026 = dict(
     candidatos=["Lula", "Flávio Bolsonaro", "Augusto Cury", "Renan Santos", "Caiado", "Zema"],
@@ -182,6 +182,9 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
             saida["pos_t1"] = pos
     if erros_escolhidos is not None:
         saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
+    aval = coleta.PROCESSADOS / "avaliacao.csv"
+    if aval.exists():
+        saida["avaliacao"] = pd.read_csv(aval).to_dict("records")
     saida["modo_coleta"] = {"excluidos": excluidos, "modos_excluidos": list(excluir_modos) if excluidos else [],
                             "classificacao": {i: MODO_COLETA.get(i, "desconhecido")
                                               for i in sorted(set(p1.instituto) | set(excluidos))}}
