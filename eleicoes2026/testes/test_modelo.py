@@ -110,3 +110,14 @@ def test_correcao_de_vies_reduz_erro_fora_da_amostra():
     from modelo.avaliacao import Variante, avaliar, resumir
     r = resumir(avaliar([Variante("sem", peso_vies=0.0), Variante("inteira", peso_vies=1.0)], n_sim=3000))
     assert r.loc["inteira", "rmse_t1_margem"] < r.loc["sem", "rmse_t1_margem"]
+
+
+def test_le_arquivo_do_tse_no_leiaute_de_2026():
+    """Leiaute real de 2026 (simulado oficial do TSE): candidatos aninhados, só 'Válido' conta."""
+    import json
+    from pathlib import Path
+    from modelo.pos_primeiro_turno import _ler_json_tse
+    d = json.loads((Path(__file__).parent / "tse_2026_u_exemplo.json").read_text(encoding="utf-8"))
+    info = _ler_json_tse(d)
+    assert info["pst"] == pytest.approx(0.7135)
+    assert info["votos"] == {"Lula": 1000.0, "Flávio Bolsonaro": 900.0, "Caiado": 50.0}

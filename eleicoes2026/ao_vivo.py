@@ -9,6 +9,7 @@ Uso:
     python ao_vivo.py                 # uma rodada
     python ao_vivo.py --a-cada 300    # uma rodada a cada 5 minutos, até a apuração terminar
     python ao_vivo.py --forcar        # roda mesmo que o TSE não tenha mudado nada
+    python ao_vivo.py --simulado      # testa o pipeline no simulado oficial do TSE (saída em saida_simulado/)
 """
 from __future__ import annotations
 
@@ -17,6 +18,8 @@ import hashlib
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+import json
 
 import pandas as pd
 
@@ -39,9 +42,38 @@ def _hash_apuracao() -> str:
     return h.hexdigest()
 
 
-def rodada(n_sim: int = 10000, forcar: bool = False) -> dict | None:
+SIMULADO = {"base": "https://resultados-sim.tse.jus.br/simulado/simulado2026", "eleicao": "21270"}
+
+
+def usar_simulado() -> None:
+    """Aponta tudo para o simulado oficial do TSE, com saída e arquivos separados dos reais."""
+    global SAIDA, HISTORICO, MARCA
+    pos_primeiro_turno.BASE_TSE = SIMULADO["base"]
+    pos_primeiro_turno.ELEICAO_T1 = SIMULADO["eleicao"]
+    pos_primeiro_turno.DIR_APURACAO = RAIZ / "dados" / "brutos" / "tse_simulado"
+    SAIDA = RAIZ / "saida_simulado"
+    HISTORICO, MARCA = SAIDA / "apuracao_historico.csv", SAIDA / ".apuracao_hash"
+
+
+def _nomes_do_simulado() -> None:
+    """No simulado os candidatos se chamam 'CANDIDATO 9995'; atribui os nomes reais pela ordem de votos."""
+    f = pos_primeiro_turno.DIR_APURACAO / "br.json"
+    if not f.exists():
+        return
+    d = json.loads(f.read_text(encoding="utf-8"))
+    cands = [c for a in d["carg"][0]["agr"] for p in a["par"] for c in p["cand"]
+             if str(c.get("dvt", "")).startswith("Válido")]
+    cands.sort(key=lambda c: -int(c.get("vap") or 0))
+    nomes = ["Lula", "Flávio Bolsonaro", "Augusto Cury", "Renan Santos", "Caiado", "Zema"]
+    pos_primeiro_turno.NUMEROS_TSE = {str(c["n"]): nm for c, nm in zip(cands, nomes)}
+
+
+def rodada(n_sim: int = 10000, forcar: bool = False, simulado: bool = False) -> dict | None:
     agora = datetime.now(BRASILIA)
-    baixados = pos_primeiro_turno.baixar_apuracao(verbose=False)
+    baixados = pos_primeiro_turno.baixar_apuracao(eleicao=pos_primeiro_turno.ELEICAO_T1,
+                                                  destino=pos_primeiro_turno.DIR_APURACAO, verbose=False)
+    if simulado:
+        _nomes_do_simulado()
     if not baixados and not pos_primeiro_turno.CSV_MANUAL.exists():
         print(f"[{agora:%H:%M}] TSE ainda não publicou a apuração")
         return None
@@ -89,9 +121,12 @@ def main() -> None:
     ap.add_argument("--a-cada", type=int, default=0, help="segundos entre rodadas (0 = uma rodada só)")
     ap.add_argument("--sim", type=int, default=10000)
     ap.add_argument("--forcar", action="store_true")
+    ap.add_argument("--simulado", action="store_true", help="usa o simulado oficial do TSE (teste)")
     args = ap.parse_args()
+    if args.simulado:
+        usar_simulado()
     while True:
-        ponto = rodada(args.sim, args.forcar)
+        ponto = rodada(args.sim, args.forcar, args.simulado)
         if not args.a_cada or (ponto and ponto["apurado"] >= 100):
             break
         time.sleep(args.a_cada)

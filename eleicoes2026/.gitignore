@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 dados/brutos/*.html
 saida/.apuracao_hash
+saida_simulado/
+dados/brutos/tse_simulado/

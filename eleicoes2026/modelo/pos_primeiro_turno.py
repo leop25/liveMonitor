@@ -31,12 +31,20 @@ from .agregador import ajustar_tendencia, series_segundo_turno
 from .coleta import BRUTOS, RAIZ, UFS, ler_resultados_uf
 from .historico import ELEICOES, REGIAO, _carregar_pesquisas_historicas, _ultimas_por_instituto
 
-URL_TSE = "https://resultados.tse.jus.br/oficial/ele2026/{eleicao}/dados-simplificados/{uf}/{uf}-c0001-e00{eleicao}-r.json"
+# Leiaute de 2026: /dados/<uf>/<uf>-c0001-e<eleição com 6 dígitos>-u.json (não existe mais "dados-simplificados").
+# O leiaute antigo (-r.json, até 2022) fica como alternativa. BASE_TSE pode apontar para o simulado oficial:
+# https://resultados-sim.tse.jus.br/simulado/simulado2026 (eleição 21270), útil para testar o pipeline.
+BASE_TSE = "https://resultados.tse.jus.br/oficial"
+URLS_TSE = ["{base}/ele2026/{eleicao}/dados/{uf}/{uf}-c0001-e{ele6}-u.json",
+            "{base}/ele2026/{eleicao}/dados-simplificados/{uf}/{uf}-c0001-e{ele6}-r.json"]
 ELEICAO_T1 = "6257"     # "Eleição Ordinária Federal - 2026 1º Turno" (Presidente), ver config ele-c.json do TSE
 DIR_APURACAO = BRUTOS / "tse_1t_2026"
 CSV_MANUAL = RAIZ / "dados" / "resultado_1t_2026.csv"
 
 # Nome na urna (TSE) -> nome no modelo
+# Números de urna de 2026, conferidos no arquivo oficial da eleição 6257 (br-c0001-e006257-u.json).
+NUMEROS_TSE = {"13": "Lula", "22": "Flávio Bolsonaro", "70": "Augusto Cury", "14": "Renan Santos",
+               "55": "Caiado", "30": "Zema"}
 NOMES_TSE = [("LULA", "Lula"), ("FLAVIO", "Flávio Bolsonaro"), ("CURY", "Augusto Cury"),
              ("RENAN", "Renan Santos"), ("CAIADO", "Caiado"), ("ZEMA", "Zema")]
 
@@ -59,37 +67,63 @@ def _num(x) -> float:
 
 # ----------------------------------------------------------------------------- dados da apuração
 
-def baixar_apuracao(eleicao: str = ELEICAO_T1, destino: Path = DIR_APURACAO, verbose: bool = True) -> int:
-    """Baixa o arquivo simplificado do TSE de cada UF (e do Brasil). Devolve quantos vieram."""
+def baixar_apuracao(eleicao: str = ELEICAO_T1, destino: Path = DIR_APURACAO, verbose: bool = True,
+                    base: str | None = None) -> int:
+    """Baixa o arquivo de resultados do TSE de cada UF (e do Brasil). Devolve quantos vieram.
+
+    Um arquivo só é gravado se for um JSON válido; uma falha (404 antes da eleição, rede, TSE fora do
+    ar) mantém o último arquivo bom, então o modelo continua com a apuração anterior.
+    """
     destino.mkdir(parents=True, exist_ok=True)
+    base = base or BASE_TSE
     ok = 0
     for uf in ["br"] + [u.lower() for u in UFS]:
-        url = URL_TSE.format(eleicao=eleicao, uf=uf)
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "eleicoes2026-modelo/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                corpo = r.read()
-            json.loads(corpo)
-            (destino / f"{uf}.json").write_bytes(corpo)
-            ok += 1
-        except Exception:  # noqa: BLE001 - antes da eleição o TSE devolve 404
-            continue
+        for modelo_url in URLS_TSE:
+            url = modelo_url.format(base=base, eleicao=eleicao, ele6=eleicao.zfill(6), uf=uf)
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "eleicoes2026-modelo/1.0"})
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    corpo = r.read()
+                json.loads(corpo)
+                (destino / f"{uf}.json").write_bytes(corpo)
+                ok += 1
+                break
+            except Exception:  # noqa: BLE001 - antes da eleição o TSE devolve 404
+                continue
     if verbose:
         print(f"  apuração do TSE: {ok} de 28 arquivos" + ("" if ok else " (ainda não publicada)"))
     return ok
 
 
+def _nome_modelo(numero: str, nome: str) -> str:
+    if numero in NUMEROS_TSE:
+        return NUMEROS_TSE[numero]
+    nome = _sem_acento(nome)
+    return next((m for k, m in NOMES_TSE if k in nome), "Outros")
+
+
 def _ler_json_tse(d: dict) -> dict:
-    """Extrai % de seções totalizadas e votos por candidato de um arquivo simplificado do TSE."""
+    """% de seções totalizadas e votos válidos por candidato, nos leiautes de 2026 (-u) e 2022 (-r)."""
     votos = {}
-    for c in d.get("cand", []):
-        nome = _sem_acento(c.get("nm", ""))
+    if "carg" in d:   # leiaute 2026: s.pst, candidatos em carg/agr/par/cand, só os "Válido" contam
+        cands = [c for a in d["carg"][0].get("agr", []) for p in a.get("par", []) for c in p.get("cand", [])]
+        # Descarta só quem está marcado como anulado/nulo. No arquivo oficial antes da apuração o campo
+        # "dvt" vem vazio; não dá para exigir "Válido" sem correr o risco de descartar todos os votos.
+        invalido = lambda dvt: any(x in str(dvt or "") for x in ("Anulado", "Nulo", "Cassado", "Indeferido"))
+        cands = [c for c in cands if not invalido(c.get("dvt"))]
+        pst = d.get("s", {}).get("pst")
+        nome_de = lambda c: c.get("nmu") or c.get("nm", "")
+    else:             # leiaute até 2022
+        cands = d.get("cand", [])
+        pst = d.get("pst")
+        nome_de = lambda c: c.get("nm", "")
+    for c in cands:
         v = _num(c.get("vap"))
         if np.isnan(v):
             continue
-        chave = next((m for k, m in NOMES_TSE if k in nome), "Outros")
+        chave = _nome_modelo(str(c.get("n", "")), nome_de(c))
         votos[chave] = votos.get(chave, 0.0) + v
-    return {"pst": _num(d.get("pst")) / 100 if d.get("pst") is not None else np.nan, "votos": votos}
+    return {"pst": _num(pst) / 100 if pst is not None else np.nan, "votos": votos}
 
 
 def carregar_apuracao(diretorio: Path | None = None, csv: Path | None = None) -> pd.DataFrame | None:

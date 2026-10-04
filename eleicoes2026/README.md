@@ -144,8 +144,10 @@ saida/painel.html (painel interativo) e saida/previsao.json
 python prever.py --atualizar --apuracao    # baixa pesquisas e a apuração do TSE e refaz tudo
 ```
 
-`--apuracao` baixa do TSE o arquivo simplificado de cada UF (eleição 6257, Presidente 1º turno;
-`resultados.tse.jus.br/oficial/ele2026/6257/dados-simplificados/<uf>/<uf>-c0001-e006257-r.json`).
+`--apuracao` baixa do TSE o arquivo de resultados de cada UF no leiaute de 2026 (eleição 6257, Presidente
+1º turno; `resultados.tse.jus.br/oficial/ele2026/6257/dados/<uf>/<uf>-c0001-e006257-u.json`; em 2026 não existe
+mais `dados-simplificados`). Os candidatos são identificados pelo número de urna (13, 22, 70, 14, 55, 30),
+conferido no arquivo oficial. `python ao_vivo.py --simulado` testa o pipeline no simulado oficial do TSE.
 Antes da eleição o TSE devolve 404 e nada muda. Com apuração disponível (`modelo/pos_primeiro_turno.py`):
 
 1. **Projeção do 1º turno durante a apuração.** A parcial nacional do TSE engana porque a ordem de
