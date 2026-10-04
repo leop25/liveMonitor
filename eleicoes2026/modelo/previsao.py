@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
@@ -12,6 +12,7 @@ from .agregador import ajustar_tendencia, series_primeiro_turno, series_segundo_
 from .historico import REGIAO, calibrar, vies_de_institutos
 from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
 
+BRASILIA = timezone(timedelta(hours=-3))
 DATA_T1 = pd.Timestamp("2026-10-04")
 DATA_T2 = pd.Timestamp("2026-10-25")
 INICIO_SERIE = pd.Timestamp("2026-01-15")
@@ -182,6 +183,10 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
             log(f"• Apuração do 1º turno: {100 * pos['apurado']:.1f}% · {cfg_d['principal']} eleito em "
                 f"{100 * pos['p_principal']:.0f}% das simulações")
             saida["pos_t1"] = pos
+        elif DATA_T1 <= pd.Timestamp(hoje or datetime.now(BRASILIA).date()) < DATA_T2:
+            st = pos_primeiro_turno.status_apuracao()
+            saida["apuracao_espera"] = {**(st or {"arquivos": 0}),
+                                        "verificado_em": datetime.now(BRASILIA).strftime("%H:%M")}
     if erros_escolhidos is not None:
         saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
     mun = coleta.PROCESSADOS / "erros_municipais_2024.csv"

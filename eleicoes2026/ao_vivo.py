@@ -85,6 +85,8 @@ def rodada(n_sim: int = 10000, forcar: bool = False, simulado: bool = False) -> 
     s = executar(n_sim=n_sim, verbose=False)
     q = s.get("pos_t1")
     if q is None:
+        salvar_json(s, SAIDA / "previsao.json")   # painel mostra a apuração "aguardando votos"
+        gerar_painel(s, SAIDA)
         print(f"[{agora:%H:%M}] arquivos do TSE sem votos ainda")
         return None
 

@@ -95,6 +95,22 @@ def baixar_apuracao(eleicao: str = ELEICAO_T1, destino: Path = DIR_APURACAO, ver
     return ok
 
 
+def status_apuracao(diretorio: Path | None = None) -> dict | None:
+    """Situação dos arquivos do TSE antes de haver votos (para o painel mostrar a apuração "aguardando")."""
+    diretorio = diretorio or DIR_APURACAO
+    f = diretorio / "br.json"
+    if not f.exists():
+        return None
+    try:
+        d = json.loads(f.read_text(encoding="utf-8"))
+        s = d.get("s", {})
+        return {"arquivos": len(list(diretorio.glob("*.json"))), "secoes": int(s.get("ts") or 0),
+                "pst": float(str(s.get("pst", "0")).replace(",", ".")),
+                "gerado_tse": f"{d.get('dg', '')} {d.get('hg', '')}".strip()}
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def _nome_modelo(numero: str, nome: str) -> str:
     if numero in NUMEROS_TSE:
         return NUMEROS_TSE[numero]

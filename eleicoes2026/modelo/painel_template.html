@@ -641,7 +641,26 @@ function chartPos(){
 /* ---------- depois das urnas ---------- */
 function posT1(){
   const Q=D.pos_t1, sec=document.getElementById("pos-sec");
-  if(!Q){ sec.hidden=true; return; }
+  if(!Q){
+    const E=D.apuracao_espera;
+    if(!E){ sec.hidden=true; return; }
+    sec.hidden=false; document.getElementById("heroLbl").hidden=false;
+    document.getElementById("posEyebrow").textContent="Apuração do 1º turno · ao vivo";
+    document.getElementById("posTitle").textContent="Aguardando os primeiros votos do TSE";
+    document.getElementById("posSub").textContent="As urnas fecham às 17h (horário de Brasília) e a totalização começa logo depois. A partir daí, a cada 5 minutos, o modelo baixa a apuração das 27 UFs, projeta o resultado final do 1º turno UF a UF e refaz a chance de cada candidato no 2º turno.";
+    document.getElementById("posFacts").innerHTML=[
+      [fmt(E.pst||0)+"%","das seções totalizadas"],
+      [E.secoes?E.secoes.toLocaleString("pt-BR"):"–","seções no país"],
+      [`${E.arquivos||0}/28`,"arquivos do TSE disponíveis"],
+      [E.verificado_em||"–","última verificação (Brasília)"],
+    ].map(([v,l])=>`<div class="fact"><span class="v num">${v}</span><span class="l">${l}</span></div>`).join("");
+    document.getElementById("posLinha").hidden=true;
+    const cs=D.candidatos.map(c=>c.nome);
+    document.getElementById("t-pos").innerHTML=`<thead><tr><th>Candidato</th><th class="num">Parcial TSE</th><th class="num">1º turno projetado</th><th class="num">Previsão antes da votação</th><th class="num">Faixa 80%</th></tr></thead><tbody>`+
+      cs.map(c=>`<tr><td><span class="sw" style="background:${cor(c)}"></span>${c}</td><td class="num">–</td><td class="num">–</td><td class="num">${fmt(byName[c].t1_media)}%</td><td class="num">${fmt(byName[c].t1_p10)}–${fmt(byName[c].t1_p90)}%</td></tr>`).join("")+"</tbody>";
+    document.getElementById("posTxt").textContent=`Arquivo do TSE gerado em ${E.gerado_tse||"–"}, ainda zerado. Quando chegarem os votos, esta seção passa a mostrar a parcial, a projeção e a linha do tempo da noite.`;
+    return;
+  }
   sec.hidden=false; document.getElementById("heroLbl").hidden=false; document.getElementById("m3").hidden=false;
   chartPos();
   const a1=A.split(" ")[0], ap=100*Q.apurado, fim=ap>=99.9;
