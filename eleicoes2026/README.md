@@ -12,54 +12,66 @@ python prever.py --atualizar      # baixa as pesquisas mais recentes e gera said
 
 ## Resultado atual (pesquisas finais até 03/10/2026, 20 mil simulações)
 
-Configuração escolhida pelo teste fora da amostra (abaixo): **correção inteira do viés histórico**, com
-todas as pesquisas (inclusive as feitas pela internet).
+Configuração: **metade da correção do viés histórico**, com todas as pesquisas (inclusive as online).
+Por que metade: ver "Como a correção foi escolhida", abaixo.
 
 | Candidato | 1º turno (válidos) | Intervalo 80% | Vai ao 2º turno | Eleito |
 |---|---|---|---|---|
-| Lula (PT) | 43,4% | 39,1–47,8% | 76% | **26%** |
-| Flávio Bolsonaro (PL) | 47,0% | 42,2–51,8% | 76% | **74%** |
-| Augusto Cury (Avante) | 2,6% | 0,9–4,4% | <1% | <1% |
-| Renan Santos (Missão) | 3,0% | 1,3–4,8% | <1% | <1% |
-| Caiado (PSD) | 2,8% | 1,2–4,5% | <1% | <1% |
-| Zema (Novo) | 0,7% | 0,1–1,3% | <1% | <1% |
+| Lula (PT) | 44,1% | 39,7–48,5% | 85% | **38%** |
+| Flávio Bolsonaro (PL) | 45,2% | 40,4–50,1% | 85% | **62%** |
+| Augusto Cury (Avante) | 2,9% | 1,1–4,7% | <1% | <1% |
+| Renan Santos (Missão) | 3,4% | 1,6–5,2% | <1% | <1% |
+| Caiado (PSD) | 3,2% | 1,5–4,9% | <1% | <1% |
+| Zema (Novo) | 0,8% | 0,2–1,4% | <1% | <1% |
 
-Chance de 2º turno: 76%. No 1º turno, Flávio termina à frente em 73% das simulações e vence já
-no 1º turno em 20% (Lula: 3,4%). No 2º turno Lula × Flávio, Lula fica em média com
-47,9% dos válidos (faixa de 80%: 42,7–53,0%).
+Chance de 2º turno: 85%. No 1º turno, Flávio termina à frente em 58% das simulações; vence já no
+1º turno em 10% (Lula: 5%). No 2º turno Lula × Flávio, Lula fica em média com
+48,9% dos válidos (faixa de 80%: 43,6–54,0%).
 
 ## Quanto a previsão depende da correção do viés
 
 | Correção do viés histórico | 1º turno Lula × Flávio | 2º turno Lula × Flávio | Chance Lula | Chance Flávio |
 |---|---|---|---|---|
-| **Inteira (escolhida)** | 43,4 × 47,0 | 47,9 × 52,1 | 26% | 74% |
-| Metade | 44,2 × 45,3 | 48,9 × 51,1 | 37% | 63% |
+| Inteira | 43,5 × 47,0 | 47,9 × 52,1 | 26% | 74% |
+| **Metade (usada)** | 44,1 × 45,2 | 48,9 × 51,1 | 38% | 62% |
 | Nenhuma (pesquisas certas em média) | 44,9 × 43,5 | 49,9 × 50,1 | 50% | 50% |
 
 Em todas as cinco eleições de 2006 a 2022, a projeção final subestimou o principal candidato contra o PT no
 1º turno (de 1,5 a 7 pontos). Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em
 3,2 pontos (2018) e 6,1 (2022).
 
-### Como a configuração foi escolhida: teste fora da amostra
+### Como a correção foi escolhida
 
-`python avaliar.py` roda o modelo inteiro como se fosse a véspera de 2010, 2018 e 2022, usando só as
-pesquisas publicadas até ali e uma calibração que exclui a eleição testada (viés, dispersão e pesos dos
-institutos vêm das outras eleições), e compara com a urna. Erro típico (raiz do erro quadrático médio, pontos):
+**1. Teste fora da amostra, regime antigo (2010, 2018, 2022).** `python avaliar.py` roda o modelo inteiro
+como se fosse a véspera de cada eleição, só com as pesquisas da época e calibração que exclui a eleição
+testada, e compara com a urna. Erro típico (pontos de votos válidos):
 
 | Variante | Margem PT − adversário no 1º turno | 2º turno | Log-loss da vitória |
 |---|---|---|---|
 | Sem correção de viés | 5,7 | 4,5 | 0,162 |
-| Metade da correção | 3,7 | 3,9 | 0,136 |
-| **Correção inteira** | 2,6 | 3,4 | 0,114 |
+| **Metade da correção** (usada) | 3,7 | 3,9 | 0,136 |
+| Correção inteira | 2,6 | 3,4 | 0,114 |
 | Correção inteira, sem pesquisas online | 2,6 | 3,6 | 0,112 |
 | Correção inteira, sem pesos de qualidade | 2,6 | 3,3 | 0,123 |
 
-- **Correção inteira** teve o menor erro na margem do 1º turno (2,6 pontos contra 3,7 com metade e 5,7 sem
-  correção) e a melhor probabilidade de vitória. Em cada eleição, o viés das outras previu bem o daquela.
-- **Pesquisas online** ajudam: sem elas, o erro de 2022 aumentou (a AtlasIntel foi a mais precisa).
-- **Pesos de qualidade dos institutos**: efeito pequeno e misto; mantidos.
-- O viés apareceu nas cinco eleições de 2006 a 2022, apesar das mudanças de método ao longo do período;
-  por isso o modelo não aposta que ele sumiu em 2026. Os resultados ficam em `dados/processados/avaliacao*.csv`.
+Nesse regime, a correção inteira foi a mais precisa, as pesquisas online ajudaram (sem elas, 2022 piorou) e
+os pesos de qualidade tiveram efeito pequeno.
+
+**2. Depois da mudança de métodos (municipais de 2024).** Os institutos atualizaram amostras com o Censo
+2022 e adotaram filtros de eleitor provável; o teste acima não enxerga isso. Nas disputas entre esquerda e
+direita de 2024 com pesquisas na semana final ("erro da margem" = quanto as pesquisas exageraram a vantagem
+da esquerda):
+
+| Disputa | Pesquisas (esq. × dir.) | Urna | Erro da margem |
+|---|---|---|---|
+| São Paulo, 1º turno (Guilherme Boulos × Ricardo Nunes) | 28,7 × 27,5 | 29,1 × 29,5 | +1,6 |
+| São Paulo, 2º turno (Guilherme Boulos × Ricardo Nunes) | 44,1 × 55,9 | 40,6 × 59,4 | +7,0 |
+| Fortaleza, 2º turno (Evandro Leitão × André Fernandes) | 48,9 × 51,1 | 50,4 × 49,6 | -2,9 |
+
+Média de +1,9 ponto, contra cerca de +6,9 nas presidenciais de 2006–2022: o viés diminuiu para algo
+entre um quarto e metade do histórico, mas continuou no mesmo sentido. Por isso o modelo usa **metade** da
+correção. São três disputas municipais (fontes em `dados/processados/erros_municipais_2024.csv`), então essa
+evidência é limitada.
 
 ### Modo de coleta dos institutos
 
@@ -184,7 +196,7 @@ da Wikipédia.
 ```bash
 python prever.py --sim 50000          # mais simulações
 python prever.py --peso-vies 0        # sem correção do viés histórico
-python prever.py --peso-vies 0.5      # metade da correção
+python prever.py --peso-vies 1        # correção inteira
 python avaliar.py                     # teste fora da amostra das escolhas do modelo
 python prever.py --ate 2026-08-15     # "volta no tempo": só pesquisas até a data
 python prever.py --institutos AtlasIntel,MDA   # só alguns institutos

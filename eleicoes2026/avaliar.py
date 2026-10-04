@@ -18,7 +18,7 @@ VARIANTES = [
     Variante("Correção inteira, sem pesquisas online", peso_vies=1.0, sem_online=True),
     Variante("Correção inteira, sem pesos de qualidade", peso_vies=1.0, usar_pesos=False),
 ]
-ESCOLHIDA = "Correção inteira"
+ESCOLHIDA = "Metade da correção"
 
 if __name__ == "__main__":
     pd.set_option("display.width", 200)

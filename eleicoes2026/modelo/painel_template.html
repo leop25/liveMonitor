@@ -341,7 +341,7 @@ function sens(){
   const e = D.calibracao.erros_t1.filter(r=>r.papel==="adv");
   const anos = e.map(r=>r.ano).sort().join(", ");
   document.getElementById("sensTxt").innerHTML =
-    `Em ${e.length} de ${e.length} eleições (${anos}) a projeção final subestimou o principal candidato contra o PT no 1º turno, em média <b>${fmt(-e.reduce((s,r)=>s+r.erro,0)/e.length)} pontos</b>. Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em ${D.calibracao.erros_h2h.map(r=>`${r.ano}: +${fmt(r.erro)}`).join(" e ")}. O modelo aplica o viés médio dessas eleições, encolhido para zero por serem poucas. Num teste fora da amostra em 2010, 2018 e 2022, essa foi a escolha que mais acertou (tabela acima). As barras mostram o quanto o resultado depende dela.`;
+    `Em ${e.length} de ${e.length} eleições (${anos}) a projeção final subestimou o principal candidato contra o PT no 1º turno, em média <b>${fmt(-e.reduce((s,r)=>s+r.erro,0)/e.length)} pontos</b>. Nos confrontos de 2º turno medidos antes do 1º turno, o PT foi superestimado em ${D.calibracao.erros_h2h.map(r=>`${r.ano}: +${fmt(r.erro)}`).join(" e ")}. Os métodos mudaram depois de 2022 (Censo 2022, filtro de eleitor provável), e nas municipais de 2024 o exagero da vantagem da esquerda caiu, sem sumir. Por isso o modelo aplica metade do viés histórico. As barras mostram o quanto o resultado depende dessa escolha.`;
   // tabela dos dois cenários principais
   const cen=[1,0.5,0].map(pv=>D.sensibilidade.find(s=>s.peso_vies===pv)).filter(Boolean);
   const tit0={0:"Sem correção",0.5:"Metade da correção",1:"Correção histórica inteira"};
@@ -354,7 +354,11 @@ function sens(){
   document.getElementById("cenTxt").innerHTML = AV.length ? `<b>Como a escolha foi feita.</b> O modelo inteiro foi rodado como se fosse a véspera de 2010, 2018 e 2022, só com as pesquisas da época e calibrado com as outras eleições, e comparado com a urna. Erro típico (raiz do erro quadrático médio, pontos de votos válidos):`+
     `<div class="tbl-wrap" style="margin-top:8px"><table><thead><tr><th>Variante</th><th class="num">Margem 1º turno</th><th class="num">2º turno</th><th class="num">Log-loss</th></tr></thead><tbody>`+
     AV.map(a=>`<tr${a.escolhida?' style="font-weight:600"':""}><td>${a.variante}${a.escolhida?' <span class="pill">usada</span>':""}</td><td class="num">${fmt(a.rmse_t1_margem)}</td><td class="num">${fmt(a.rmse_t2)}</td><td class="num">${fmt(a.logloss,3)}</td></tr>`).join("")+
-    `</tbody></table></div><span class="small">Log-loss mede a qualidade da probabilidade de vitória (menor é melhor). O viés apareceu nas cinco eleições de 2006 a 2022, apesar das mudanças de método ao longo do período; por isso o modelo não aposta que ele sumiu em 2026.</span>` : "";
+    `</tbody></table></div><span class="small">Log-loss mede a qualidade da probabilidade de vitória (menor é melhor). No regime antigo de métodos (2006–2022), a correção inteira foi a mais precisa.</span>`+
+    ((D.evidencia_2024||[]).length ? `<b style="margin-top:6px">Depois da mudança de métodos: municipais de 2024.</b> Disputas entre esquerda e direita com pesquisas na semana final (votos válidos; erro da margem = quanto as pesquisas exageraram a vantagem da esquerda):`+
+    `<div class="tbl-wrap"><table><thead><tr><th>Disputa</th><th class="num">Pesquisas</th><th class="num">Urna</th><th class="num">Erro da margem</th></tr></thead><tbody>`+
+    D.evidencia_2024.map(e=>`<tr><td>${e.cidade}, ${e.turno}º turno <span class="muted">${e.esquerda.split(" (")[0]} × ${e.direita.split(" (")[0]}</span></td><td class="num">${fmt(e.esq_pesquisas)} × ${fmt(e.dir_pesquisas)}</td><td class="num">${fmt(e.esq_urna)} × ${fmt(e.dir_urna)}</td><td class="num">${e.erro_margem>0?"+":""}${fmt(e.erro_margem)}</td></tr>`).join("")+
+    `</tbody></table></div><span class="small">Média de +${fmt(D.evidencia_2024.reduce((a,e)=>a+e.erro_margem,0)/D.evidencia_2024.length)} ponto na margem, contra cerca de +6,9 nas presidenciais de 2006–2022: o viés diminuiu para algo entre um quarto e metade, mas continuou no mesmo sentido. O modelo usa metade da correção histórica. São três disputas municipais, então a evidência é limitada.</span>` : "") : "";
 }
 
 /* ---------- 1º turno: intervalos ---------- */

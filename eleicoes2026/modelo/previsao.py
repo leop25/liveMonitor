@@ -15,9 +15,11 @@ from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
 DATA_T1 = pd.Timestamp("2026-10-04")
 DATA_T2 = pd.Timestamp("2026-10-25")
 INICIO_SERIE = pd.Timestamp("2026-01-15")
-# Correção inteira do viés histórico (média encolhida para zero): foi a variante de menor erro no
-# teste fora da amostra de 2010, 2018 e 2022 (avaliar.py; dados/processados/avaliacao.csv).
-PESO_VIES_PADRAO = 1.0
+# Metade do viés histórico. O teste fora da amostra em 2010/2018/2022 favorece a correção inteira, mas
+# ele só enxerga o regime antigo de métodos. Nas municipais de 2024 (já com Censo 2022 e eleitor
+# provável), o exagero da vantagem da esquerda caiu para ~1,9 ponto na margem, contra ~6,9 nas
+# presidenciais de 2006–2022: o viés diminuiu, sem sumir (dados/processados/erros_municipais_2024.csv).
+PESO_VIES_PADRAO = 0.5
 # Institutos com menor erro em 2018 e 2022 (ver historico.pesos_institutos).
 MELHORES = ["AtlasIntel", "MDA"]
 
@@ -182,6 +184,9 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
             saida["pos_t1"] = pos
     if erros_escolhidos is not None:
         saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
+    mun = coleta.PROCESSADOS / "erros_municipais_2024.csv"
+    if mun.exists():
+        saida["evidencia_2024"] = pd.read_csv(mun).to_dict("records")
     aval = coleta.PROCESSADOS / "avaliacao.csv"
     if aval.exists():
         saida["avaliacao"] = pd.read_csv(aval).to_dict("records")

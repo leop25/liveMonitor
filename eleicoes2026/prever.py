@@ -30,7 +30,7 @@ def main() -> None:
                     help="baixa a apuração do 1º turno do TSE e projeta o resultado e o 2º turno a partir das urnas")
     ap.add_argument("--sim", type=int, default=20000, help="número de simulações (padrão: 20000)")
     ap.add_argument("--peso-vies", type=float, default=PESO_VIES_PADRAO,
-                    help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 1 = padrão: viés médio encolhido)")
+                    help="quanto do viés histórico das pesquisas aplicar (0 = nenhum, 0,5 = padrão, 1 = viés médio inteiro)")
     ap.add_argument("--semente", type=int, default=2026)
     ap.add_argument("--ate", type=date.fromisoformat, default=None, help="usa só pesquisas até esta data (AAAA-MM-DD)")
     ap.add_argument("--institutos", type=lambda t: [x.strip() for x in t.split(",") if x.strip()], default=None,
