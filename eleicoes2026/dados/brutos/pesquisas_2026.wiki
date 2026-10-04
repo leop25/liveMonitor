@@ -42,7 +42,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |''UOL''
 |''4 October 2026''
 | style="background:#ffb7b7;font-weight:bold;" |40.6
-|style="font-weight:bold; background-color:#b2d1ea;" |37.3
+| style="font-weight:bold; background-color:#b2d1ea;" |37.3
 |3.6
 |{{NA}}
 |3.4
@@ -67,19 +67,19 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 | style="background:#ffb7b7;font-weight:bold;" |1.7
 |<ref name=":aggregationPollingData">{{Cite web |date=2026-05-05 |title=Eleições 2026 - Presidente - Nacional - Turno 1 |url=https://flex.pollingdata.com.br/pdvoto/2026/presidente/br/t1_lula-flavio/ |access-date=2026-09-23 |website=PollingData |language=pt-br}}</ref><ref name=":aggregationBBC">{{Cite web |date=2026-05-05 |title=Pesquisa para presidente: Flávio Bolsonaro fica um ponto atrás de Lula no segundo turno {{!}} Agregador de Pesquisas eleitorais da BBC |url=https://www.bbc.com/portuguese/articles/czd2prld130o |access-date=2026-09-23 |website=BBC News Brasil |language=pt-br}}</ref>
 |-
-|''Poll+Trend''
-|''2 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |42.26
-|style="font-weight:bold; background-color:#b2d1ea;" |40.76
-|2.74
-|0.97
-|3.68
-|3.60
-|0.68
-|5.31
+|''Poll+Trend (Final)''
+|''4 October 2026''
+| style="background:#ffb7b7;font-weight:bold;" |45.45
+| style="font-weight:bold; background-color:#b2d1ea;" |44.51
+|2.31
+|0.66
+|3.35
+|3.16
+|0.56
 |{{NA}}
-| style="background:#ffb7b7;font-weight:bold;" |1.5
-|<ref name=":45">{{Cite web |title=2026 Brazil Polling Follower |url=https://pollplustrend.com/26brpf |access-date=2026-09-23 |website=Poll+Trend by Globe Elections UN |language=en}}</ref>
+|{{NA}}
+| style="background:#ffb7b7;font-weight:bold;" |0.96
+|<ref name=":99">{{Cite web |title=Brazil {{!}} Forecasted Results of 2026 Presidential Election based on Latest National Polls (R1) |url=https://pollplustrend.com/26brfpr1 |access-date=2026-10-04 |website=Poll+Trend by Globe Elections UN |language=en}}</ref>
 |-
 |''Plano Político''
 |''3 October 2026''
@@ -168,8 +168,8 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |
 |
 |
-|
-|
+|{{NA}}
+|{{NA}}
 |Valid votes
 |
 | rowspan="2" |<ref>{{Cite web |title=Resultados |url=https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/6257/uf/br/cargo/1/vis/nominal/resultados |access-date=2026-10-04 |website=resultados.tse.jus.br}}</ref>
@@ -182,7 +182,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |
 |
 |
-|
+|{{NA}}
 |Total votes
 |
 |-
