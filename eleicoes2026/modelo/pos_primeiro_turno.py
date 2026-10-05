@@ -106,6 +106,17 @@ def _parcial_oficial(cc: list[str]) -> dict:
     return {c: float(100 * v.get(c, 0.0) / tot) for c in cc} if tot else {}
 
 
+def resultado_final_t1(candidatos: list[str], minimo: float = 0.99) -> dict | None:
+    """Resultado nacional do 1º turno (% dos válidos) quando a apuração está praticamente completa."""
+    f = DIR_APURACAO / "br.json"
+    try:
+        if _ler_json_tse(json.loads(f.read_text(encoding="utf-8")))["pst"] < minimo:
+            return None
+    except Exception:  # noqa: BLE001
+        return None
+    return _parcial_oficial(list(candidatos) + ["Outros"]) or None
+
+
 def status_apuracao(diretorio: Path | None = None) -> dict | None:
     """Situação dos arquivos do TSE antes de haver votos (para o painel mostrar a apuração "aguardando")."""
     diretorio = diretorio or DIR_APURACAO

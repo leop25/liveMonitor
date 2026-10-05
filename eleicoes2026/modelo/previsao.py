@@ -9,7 +9,7 @@ import pandas as pd
 
 from . import coleta, pos_primeiro_turno
 from .agregador import ajustar_tendencia, series_primeiro_turno, series_segundo_turno
-from .historico import REGIAO, calibrar, vies_de_institutos
+from .historico import REGIAO, calibrar, erros_institutos_eleicao, pesos_institutos, vies_de_institutos
 from .simulacao import Configuracao, Entrada, simular_estados, simular_nacional
 
 BRASILIA = timezone(timedelta(hours=-3))
@@ -138,6 +138,22 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
     soma = sum(t1_media.values())
     t1_media = {c: 100 * v / soma for c, v in t1_media.items()}
 
+    # Depois do 1º turno: o erro de cada instituto em 2026 entra no histórico de qualidade e
+    # passa a pesar no 2º turno (o 1º turno acima continua com os pesos de antes da votação).
+    erros_2026 = None
+    res_t1 = (pos_primeiro_turno.resultado_final_t1(cands)
+              if hoje is None or pd.Timestamp(hoje) > DATA_T1 else None)
+    if res_t1 and not institutos:
+        erros_2026 = erros_institutos_eleicao(p1, res_t1, DATA_T1.date(), cfg_d["principal"],
+                                              cfg_d["adversario"], 2026)
+        if len(erros_2026):
+            pesos_antes = dict(cal.pesos_institutos)
+            todos = pd.concat([cal.erros_institutos, erros_2026[["ano", "turno", "instituto", "rmse"]]])
+            cal.pesos_institutos, _ = pesos_institutos(todos)
+            erros_2026["peso_antes"] = erros_2026.instituto.map(lambda i: pesos_antes.get(i, 1.0))
+            erros_2026["peso_depois"] = erros_2026.instituto.map(cal.pesos_institutos)
+            log(f"• Pesos dos institutos atualizados com o 1º turno de 2026 ({len(erros_2026)} institutos)")
+
     tend2 = {}
     for rival, obs in series_segundo_turno(p2, cfg_d["principal"]).items():
         if rival not in cands or len(obs) < 4:
@@ -182,11 +198,18 @@ def executar(n_sim: int = 20000, peso_vies: float = PESO_VIES_PADRAO, atualizar:
         if pos is not None:
             log(f"• Apuração do 1º turno: {100 * pos['apurado']:.1f}% · {cfg_d['principal']} eleito em "
                 f"{100 * pos['p_principal']:.0f}% das simulações")
+            hist = coleta.RAIZ / "saida" / "apuracao_historico.csv"
+            if hist.exists():  # linha do tempo da noite da apuração (gravada pelo ao_vivo.py)
+                h = pd.read_csv(hist)
+                pos["historico"] = h.where(pd.notna(h), None).to_dict("records")
             saida["pos_t1"] = pos
         elif DATA_T1 <= pd.Timestamp(hoje or datetime.now(BRASILIA).date()) < DATA_T2:
             st = pos_primeiro_turno.status_apuracao()
             saida["apuracao_espera"] = {**(st or {"arquivos": 0}),
                                         "verificado_em": datetime.now(BRASILIA).strftime("%H:%M")}
+    if erros_2026 is not None and len(erros_2026):
+        saida["erros_institutos_2026"] = {"resultado": res_t1,
+                                          "erros": erros_2026.sort_values("rmse").round(3).to_dict("records")}
     if erros_escolhidos is not None:
         saida["erros_institutos_escolhidos"] = erros_escolhidos.round(2).to_dict("records")
     mun = coleta.PROCESSADOS / "erros_municipais_2024.csv"

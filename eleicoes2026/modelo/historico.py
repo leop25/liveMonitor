@@ -180,6 +180,26 @@ def erros_confronto_antes_t1(pesquisas: dict[int, pd.DataFrame]) -> tuple[pd.Dat
     return pd.DataFrame(linhas), pd.DataFrame(por_inst)
 
 
+def erros_institutos_eleicao(p1: pd.DataFrame, resultado: dict, data_t1: date, pt: str, adv: str,
+                             ano: int, dias: int = 7) -> pd.DataFrame:
+    """Erro da última pesquisa de 1º turno de cada instituto numa eleição já apurada.
+
+    Mesmo critério do histórico: última pesquisa nos `dias` antes da eleição, votos válidos,
+    RMSE sobre o PT e o principal adversário. `p1` no formato de `pesquisas_primeiro_turno`.
+    """
+    cands = [c for c in p1.columns if c in resultado and c != "Outros"]
+    linhas = []
+    for _, r in _ultimas_por_instituto(p1, data_t1, dias).iterrows():
+        tot = np.nansum([r[c] for c in cands]) + (0 if pd.isna(r.get("Outros")) else r["Outros"])
+        if not tot or pd.isna(r[pt]) or pd.isna(r[adv]):
+            continue
+        e_pt, e_adv = 100 * r[pt] / tot - resultado[pt], 100 * r[adv] / tot - resultado[adv]
+        linhas.append({"ano": ano, "turno": 1, "instituto": r.instituto, "fim": r.fim.strftime("%Y-%m-%d"),
+                       "erro_pt": float(e_pt), "erro_adv": float(e_adv),
+                       "rmse": float(np.sqrt((e_pt ** 2 + e_adv ** 2) / 2))})
+    return pd.DataFrame(linhas)
+
+
 def pesos_institutos(erros: pd.DataFrame, k: float = 2.0) -> tuple[dict[str, float], float]:
     """Peso = (erro típico global / erro típico do instituto)², com encolhimento bayesiano."""
     global_mse = float(np.mean(np.square(erros.rmse)))

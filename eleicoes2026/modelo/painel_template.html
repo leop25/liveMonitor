@@ -230,6 +230,16 @@ footer{padding-block:28px;font-size:.8rem;color:var(--ink-3);display:flex;flex-d
   <div class="chart" id="c-house"></div>
 </section>
 
+<section id="err26-sec" hidden>
+  <div class="sec-head">
+    <div class="eyebrow">1º turno de 2026</div>
+    <h2>Quem acertou a urna</h2>
+    <p class="small muted">Última pesquisa de cada instituto na semana antes da eleição, em votos válidos, contra o resultado do TSE. O erro de 2026 entra no histórico de cada instituto e muda o peso dele no 2º turno; a previsão do 1º turno continua com os pesos de antes da votação.</p>
+  </div>
+  <div class="tbl-wrap"><table id="t-err26"></table></div>
+  <p class="small muted" id="err26Txt"></p>
+</section>
+
 <section>
   <div class="sec-head">
     <div class="eyebrow">Lições de 2006 a 2022</div>
@@ -686,7 +696,16 @@ function posT1(){
   const tr=Q.transferencia, cp=Q.pesquisas_pos_t1;
   document.getElementById("posTxt").innerHTML=`Chance de o 1º turno ser decidido: ${pct(decid)}. No 2º turno, ${pct(tr.adversario)} dos votos que trocam de candidato entre os turnos vão para ${a1}, segundo ${tr.n_pesquisas} pares de pesquisas de 2026 (1º turno × confronto direto, mesma pesquisa). Essa conta errou o 2º turno por ${D.pos_t1.calibracao.backtest.map(b=>`${b.erro>0?"+":""}${fmt(b.erro)} pt em ${b.ano}`).join(" e ")}, e o modelo inclui esse erro. ${cp.n?`Pesquisas de 2º turno feitas depois do 1º turno (${cp.n}): ${P} com ${fmt(cp.media)}%, combinadas com a conta das urnas.`:"Ainda não há pesquisas de 2º turno feitas depois do 1º turno."}`;
 }
-function tudo(){ posT1(); hero(); sens(); melhores(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
+function err26(){
+  const E=D.erros_institutos_2026, sec=document.getElementById("err26-sec");
+  if(!E){ sec.hidden=true; return; } sec.hidden=false;
+  const a1=A.split(" ")[0], R=E.resultado, sg=v=>(v>0?"+":"")+fmt(v);
+  document.getElementById("t-err26").innerHTML=`<thead><tr><th>Instituto</th><th class="num">Última pesquisa</th><th class="num">Erro ${P}</th><th class="num">Erro ${a1}</th><th class="num">Erro na diferença</th><th class="num">Erro típico</th><th class="num">Peso antes → depois</th></tr></thead><tbody>`+
+    E.erros.map(e=>`<tr><td>${e.instituto}</td><td class="num">${dataCurta(e.fim)}</td><td class="num">${sg(e.erro_pt)}</td><td class="num">${sg(e.erro_adv)}</td><td class="num">${sg(e.erro_pt-e.erro_adv)}</td><td class="num">${fmt(e.rmse)}</td><td class="num">${fmt(e.peso_antes)} → <b>${fmt(e.peso_depois)}</b></td></tr>`).join("")+"</tbody>";
+  const sub=E.erros.filter(e=>e.erro_adv<0).length;
+  document.getElementById("err26Txt").textContent=`Resultado: ${a1} ${fmt(R[A])}% × ${P} ${fmt(R[P])}%. ${sub} de ${E.erros.length} institutos mediram ${a1} abaixo da urna, o mesmo sentido de 2018 e 2022. Erro na diferença positivo = pesquisa favoreceu ${P}. Erro típico: média quadrática dos erros de ${P} e ${a1}. O peso combina 2026 com o histórico e é encolhido para 1 quando há poucas eleições, para que um acerto isolado não vire certeza.`;
+}
+function tudo(){ err26(); posT1(); hero(); sens(); melhores(); chartT1(); chartTrend(); chartT2(); mapa(); chartHouse(); chartHist(); }
 legendTrend(); metodo(); tudo();
 let rt; addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(tudo,150);});
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",tudo);
