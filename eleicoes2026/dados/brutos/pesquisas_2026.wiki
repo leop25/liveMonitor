@@ -121,7 +121,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |10
 |{{NA}}
 | style="background:#ffb7b7;font-weight:bold;" |3
-|<ref name=":48">{{Cite web |title=Brazil election poll tracker: Who will be the next president? |url=https://www.economist.com/interactive/2026-brazil-election-tracker |access-date=2026-08-20 |website=The Economist |language=en}}</ref>
+|<ref name=":48">{{Cite news |title=Brazil election poll tracker: Who will be the next president? |url=https://www.economist.com/interactive/2026-brazil-election-tracker |access-date=2026-08-20 |newspaper=The Economist |language=en}}</ref>
 |}
 
 === 2026 ===
@@ -161,30 +161,30 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |-style="background:#EFEFEF"
 | rowspan="2" |''Results''
 | rowspan="2" |''4 Oct''
-|
-|
-|
-|
-|
-|
-|
+|45.16
+|style="font-weight:bold; background-color:#b2d1ea;" |47.03
+|2.18
+|0.27
+|2.24
+|2.89
+|0.23
 |{{NA}}
 |{{NA}}
 |Valid votes
-|
+|style="font-weight:bold; background-color:#b2d1ea;" |1.87
 | rowspan="2" |<ref>{{Cite web |title=Resultados |url=https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/6257/uf/br/cargo/1/vis/nominal/resultados |access-date=2026-10-04 |website=resultados.tse.jus.br}}</ref>
 |-style="background:#EFEFEF"
-|
-|
-|
-|
-|
-|
-|
-|
+|43.00
+|style="font-weight:bold; background-color:#b2d1ea;" |44.78
+|2.07
+|0.25
+|2.13
+|2.75
+|0.22
+|4.77
 |{{NA}}
 |Total votes
-|
+|style="font-weight:bold; background-color:#b2d1ea;" |1.78
 |-
 |''Datafolha''
 |''3 Oct''
@@ -867,7 +867,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
 | style="border-right-style:hidden;" |''1 Sep''
-| colspan="12" |Beginning of the institutional crisis at the [[Supreme Federal Court]].{{efn|name="STF crisis"}}<ref name=":61">{{Cite web |date=2026-09-01 |title=Vorcaro consultou Moraes sobre fuga: "2ª tenho que estar fora?" |url=https://www.cnnbrasil.com.br/politica/vorcaro-consultou-moraes-sobre-fuga-2a-tenho-que-estar-fora-diz-jornal/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":62">{{Cite web |last=AFP and The Associated Press |title=Brazil’s Supreme Court shuts down early as political chaos mounts |url=https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts |access-date=2026-09-11 |website=Al Jazeera |language=en}}</ref><ref name=":63">{{Cite web |date=2026-09-03 |title=Moraes usa inquérito das fake news para acusar Mendonça de crimes {{!}} Blogs |url=https://www.cnnbrasil.com.br/blogs/gustavo-uribe/politica/moraes-usa-inquerito-das-fake-news-para-acusar-mendonca-de-crimes/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":64">{{Cite web |date=2026-09-09 |title=Entenda o que o STF vai discutir no plenário em 15 de setembro |url=https://www.cnnbrasil.com.br/politica/entenda-o-que-o-stf-vai-discutir-no-plenario-em-15-de-setembro/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref>
+| colspan="12" |Beginning of the institutional crisis at the [[Supreme Federal Court]].{{efn|name="STF crisis"}}<ref name=":61">{{Cite web |date=2026-09-01 |title=Vorcaro consultou Moraes sobre fuga: "2ª tenho que estar fora?" |url=https://www.cnnbrasil.com.br/politica/vorcaro-consultou-moraes-sobre-fuga-2a-tenho-que-estar-fora-diz-jornal/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":62">{{Cite web |last=AFP and The Associated Press |title=Brazil's Supreme Court shuts down early as political chaos mounts |url=https://www.aljazeera.com/news/2026/9/11/brazils-supreme-court-shuts-down-early-as-political-chaos-mounts |access-date=2026-09-11 |website=Al Jazeera |language=en}}</ref><ref name=":63">{{Cite web |date=2026-09-03 |title=Moraes usa inquérito das fake news para acusar Mendonça de crimes {{!}} Blogs |url=https://www.cnnbrasil.com.br/blogs/gustavo-uribe/politica/moraes-usa-inquerito-das-fake-news-para-acusar-mendonca-de-crimes/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":64">{{Cite web |date=2026-09-09 |title=Entenda o que o STF vai discutir no plenário em 15 de setembro |url=https://www.cnnbrasil.com.br/politica/entenda-o-que-o-stf-vai-discutir-no-plenario-em-15-de-setembro/ |access-date=2026-09-11 |website=CNN Brasil |language=pt-BR}}</ref>
 |-
 |''Quaest''
 |''30 Aug – 1 Sep''
@@ -1472,7 +1472,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
 | style="border-right-style:hidden;" |''8 Jul''
-| colspan="12" |[[Aécio Neves]] ([[Brazilian Social Democracy Party|PSDB]]) rules out a presidential bid.<ref>{{Cite web |title=Entrevista {{!}} Aécio descarta candidatura do PSDB à Presidência e vê eleição ‘fratricida’ entre Lula e Flávio |url=https://www.estadao.com.br/politica/aecio-descarta-candidatura-do-psdb-a-presidencia-e-ve-eleicao-fratricida-entre-lula-e-flavio/ |access-date=2026-07-08 |website=Estadão |language=pt-br}}</ref>
+| colspan="12" |[[Aécio Neves]] ([[Brazilian Social Democracy Party|PSDB]]) rules out a presidential bid.<ref>{{Cite web |title=Entrevista {{!}} Aécio descarta candidatura do PSDB à Presidência e vê eleição 'fratricida' entre Lula e Flávio |url=https://www.estadao.com.br/politica/aecio-descarta-candidatura-do-psdb-a-presidencia-e-ve-eleicao-fratricida-entre-lula-e-flavio/ |access-date=2026-07-08 |website=Estadão |language=pt-br}}</ref>
 |-
 |''Ideia''
 |''3–6 Jul''
@@ -1871,7 +1871,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
 | style="border-right-style:hidden;" |''13 May''
-| colspan="12" |Leaked audio recordings linked [[Flávio Bolsonaro]] to [[Daniel Vorcaro]], a central figure in the [[Banco Master scandal]].<ref name=":19">{{Cite web |last=Moraes |first=Paulo Motoryn, Eduardo Goulart, Laís Martins, Andrew Fishman, Cecília Olliveira, Leandro Becker, Mauricio |date=2026-05-13 |title=ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair |url=https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/ |access-date=2026-05-13 |website=Intercept Brasil |language=pt-BR}}</ref><ref name=":20">{{Cite web |date=2026-05-13 |title=Flávio pediu R$ 134 mi a Vorcaro para filme de Bolsonaro, diz Intercept |url=https://www.cnnbrasil.com.br/politica/flavio-pediu-r-134-mi-a-vorcaro-para-filme-de-bolsonaro-diz-intercept/ |access-date=2026-05-13 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":21">{{Cite news |title=A bombshell leak threatens Flávio Bolsonaro’s election bid |url=https://www.economist.com/the-americas/2026/05/14/a-bombshell-leak-threatens-flavio-bolsonaros-election-bid |access-date=2026-05-14 |work=The Economist |issn=0013-0613}}</ref><ref name=":22">{{Cite web |date=2026-05-13 |title=Brazil presidential hopeful Flávio Bolsonaro denies wrongdoing after asking banker for millions |url=https://apnews.com/article/brazil-flavio-bolsonaro-vorcaro-236f7e6448e10836d1af0ceecc26ddc8 |access-date=2026-05-14 |website=AP News |language=en}}</ref>{{efn|name="Banco Master"}}
+| colspan="12" |Leaked audio recordings linked [[Flávio Bolsonaro]] to [[Daniel Vorcaro]], a central figure in the [[Banco Master scandal]].<ref name=":19">{{Cite web |last=Moraes |first=Paulo Motoryn, Eduardo Goulart, Laís Martins, Andrew Fishman, Cecília Olliveira, Leandro Becker, Mauricio |date=2026-05-13 |title=ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair |url=https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/ |access-date=2026-05-13 |website=Intercept Brasil |language=pt-BR}}</ref><ref name=":20">{{Cite web |date=2026-05-13 |title=Flávio pediu R$ 134 mi a Vorcaro para filme de Bolsonaro, diz Intercept |url=https://www.cnnbrasil.com.br/politica/flavio-pediu-r-134-mi-a-vorcaro-para-filme-de-bolsonaro-diz-intercept/ |access-date=2026-05-13 |website=CNN Brasil |language=pt-BR}}</ref><ref name=":21">{{Cite news |title=A bombshell leak threatens Flávio Bolsonaro's election bid |url=https://www.economist.com/the-americas/2026/05/14/a-bombshell-leak-threatens-flavio-bolsonaros-election-bid |access-date=2026-05-14 |newspaper=The Economist |issn=0013-0613}}</ref><ref name=":22">{{Cite web |date=2026-05-13 |title=Brazil presidential hopeful Flávio Bolsonaro denies wrongdoing after asking banker for millions |url=https://apnews.com/article/brazil-flavio-bolsonaro-vorcaro-236f7e6448e10836d1af0ceecc26ddc8 |access-date=2026-05-14 |website=AP News |language=en}}</ref>{{efn|name="Banco Master"}}
 |-
 |''Datafolha''
 |''12–13 May''
@@ -3427,7 +3427,7 @@ period
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
 | style="border-right-style:hidden;" |''11 Sep''
-| colspan="13" |[[Jair Bolsonaro]] [[Trial for the 2022–2023 Brazilian coup plot|is sentenced to 27 years in prison]] for leading a coup plot.<ref>{{Cite news |last=Ionova |first=Ana |last2=capital |first2=Jack NicasReporting from Brazil’s Supreme Court in the |last3=Brasília |date=2025-09-11 |title=Bolsonaro Sentenced to 27 Years in Prison for Plotting Coup in Brazil |url=https://www.nytimes.com/2025/09/11/world/americas/bolsonaro-convicted-coup-attempt.html |access-date=2026-02-10 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
+| colspan="13" |[[Jair Bolsonaro]] [[Trial for the 2022–2023 Brazilian coup plot|is sentenced to 27 years in prison]] for leading a coup plot.<ref>{{Cite news |last1=Ionova |first1=Ana |last2=capital |first2=Jack NicasReporting from Brazil’s Supreme Court in the |last3=Brasília |date=2025-09-11 |title=Bolsonaro Sentenced to 27 Years in Prison for Plotting Coup in Brazil |url=https://www.nytimes.com/2025/09/11/world/americas/bolsonaro-convicted-coup-attempt.html |access-date=2026-02-10 |work=The New York Times |language=en-US |issn=0362-4331}}</ref>
 |-
 | ''AtlasIntel''
 | ''10–14 Sep''
@@ -4125,7 +4125,7 @@ period
 | rowspan="5" | ±2.2 pp
 | rowspan="5" |2,026
 | style="background:#ffb7b7;font-weight:bold" | 1.4
-| rowspan="5" |<ref>{{Cite web |last=Aguiar |first=Victor |title=Pesquisa simula eleição com Lula contra Bolsonaro, Michelle e Tarcísio; veja cenários |url=https://www.cnnbrasil.com.br/politica/pesquisa-simula-eleicao-com-lula-contra-bolsonaro-michelle-e-tarcisio-veja-cenarios/ |access-date=2024-07-30 |website=CNN Brasil |language=pt-BR}}</ref>
+| rowspan="5" |<ref>{{Cite web |last=Aguiar |first=Victor |title=Pesquisa simula eleição com Lula contra Bolsonaro, Michelle e Tarcísio; veja cenários |url=https://www.cnnbrasil.com.br/politica/pesquisa-simula-eleicao-com-lula-contra-bolsonaro-michelle-e-tarcisio-veja-cenarios/ |access-date=2024-07-30 |website=CNN Brasil |date=29 July 2024 |language=pt-BR}}</ref>
 |-
 | style="background:#ffb7b7;font-weight:bold;" | 38.7
 | {{n/a}}
@@ -4491,6 +4491,9 @@ period
 |}
 ==Second round==
 
+=== Graphical summary ===
+[[Aggregate data]] of voting intention from opinion polling for the presidential election. Each line represents a [[local regression]]. The "Undecided", "Blank/Null" and "Absent" groups were calculated out.[[File:2026 Brazilian presidential election 2nd round polls.svg|center|920px]]
+
 === Polling aggregation ===
 {| class="wikitable sortable sticky-header-multi" style="text-align:center; font-size:90%;"
 |- style="vertical-align:bottom"
@@ -4509,31 +4512,40 @@ period
 ! style="background-color:{{Party color|Workers' Party (Brazil)}}" |
 ! style="background-color:{{Party color|Liberal Party (Brazil, 2006)}}" |
 |-
+|''Poll+Trend''
+|''10 October 2026''
+|45.40
+| style="font-weight:bold; background-color:#b2d1ea;" |47.01
+|7.59
+|±2.5 pp
+| style="font-weight:bold; background-color:#b2d1ea;" |1.61
+|<ref name=":100">{{Cite web |title=2026 Brazil Polling Follower |url=https://pollplustrend.com/26brpf |access-date=2026-10-11 |website=Poll+Trend by Globe Elections UN |language=en}}</ref>
+|-
 |''UOL''
-|''4 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |45.2
-|44.8
-|10
+|''10 October 2026''
+|47.9
+| style="font-weight:bold; background-color:#b2d1ea;" |52.1
 |{{n/a}}
-| style="background:#ffb7b7;font-weight:bold;" |0.4
-|<ref name=":46"><nowiki><ref></nowiki>{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=http://web.archive.org/web/20260822181934/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-08-22 |access-date=2026-09-23 |website=UOL |language=pt-BR}}</ref>
+|{{n/a}}
+| style="font-weight:bold; background-color:#b2d1ea;" |4.2
+|<ref name=":46">{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=http://web.archive.org/web/20260822181934/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-08-22 |access-date=2026-09-23 |website=UOL |language=pt-BR}}</ref>
 |-
 |''BBC/PollingData''
-|''4 October 2026''
-|45.3
-| style="font-weight:bold; background-color:#b2d1ea;" |46.1
-|8.7
+|''9 October 2026''
+|43.7
+| style="font-weight:bold; background-color:#b2d1ea;" |47.4
+|9
 |±3 pp
-| style="font-weight:bold; background-color:#b2d1ea;" |0.8
+| style="font-weight:bold; background-color:#b2d1ea;" |3.7
 |<ref name=":aggregationPollingData"/><ref name=":aggregationBBC"/>
 |-
 |''Plano Político''
-|''3 October 2026''
-|45.4
-|style="font-weight:bold; background-color:#b2d1ea;" |45.8
-|8.8
+|''10 October 2026''
+|48.1
+|style="font-weight:bold; background-color:#b2d1ea;" |51.9
+|{{n/a}}
 |±1.8 pp
-|style="font-weight:bold; background-color:#b2d1ea;" |0.4 
+|style="font-weight:bold; background-color:#b2d1ea;" |3.8 
 |<ref name=":49" />
 |-
 |''ABC Dados''
@@ -4556,6 +4568,84 @@ period
 |}
 
 === 2026 ===
+
+==== October (after 1st round) ====
+{| class="wikitable sortable sticky-header-multi" style="text-align:center; font-size:90%;"
+|- style="vertical-align:bottom"
+! rowspan="3" class="unsortable" |Pollster
+! rowspan="3" class="unsortable" |Polling<br />period
+![[File:Foto_oficial_de_Luiz_Inácio_Lula_da_Silva_(3x4_cropped).jpg|70x70px]]
+![[File:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|66x66px]]
+! rowspan="3" class="unsortable" |Blank<br />Null Undec.
+! rowspan="3" class="unsortable" |Margin of<br />error
+! rowspan="3" class="unsortable" |Sample<br />size
+! rowspan="3" class="unsortable" |Lead
+! rowspan="3" class="unsortable" |Link
+|-
+![[Luiz Inácio Lula da Silva|Lula]]<br />{{small|[[Workers' Party (Brazil)|PT]]}}
+![[Flávio Bolsonaro|F. Bolsonaro]]<br />{{small|[[Liberal Party (Brazil, 2006)|PL]]}}
+|-
+! style="background-color:{{Party color|Workers' Party (Brazil)}}" |
+! style="background-color:{{Party color|Liberal Party (Brazil, 2006)}}" |
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden;" |''9 Oct''
+| colspan="7" |Beginning of free electoral broadcast time on TV and Radio.{{efn|In the second round, free advertisement on television and radio runs from 9 to 23 October 2026 and is reserved exclusively for the two remaining candidates. The block for presidential candidates airs Monday to Saturday, twice per day, for 10 minutes, divided equally between the candidates regardless of the size of their parties or coalitions, giving Lula and Flávio Bolsonaro 5 minutes each per block.}}
+|-
+|''Ipespe''
+|''6–8 Oct''
+|44
+| style="font-weight:bold; background-color:#b2d1ea;" |49
+|7
+|±2.6 pp
+|1,500
+| style="font-weight:bold; background-color:#b2d1ea;" |5
+|<ref>{{Cite web |date=2026-10-10 |title=Ipespe: Flávio tem 52,7% dos votos válidos no 2º turno; Lula, 47,3% |url=https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/ |access-date=2026-10-10 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''AtlasIntel''
+|''3–8 Oct''
+|45.7
+| style="font-weight:bold; background-color:#b2d1ea;" |51.1
+|3.2
+|±1 pp
+|5,026
+| style="font-weight:bold; background-color:#b2d1ea;" |5.4
+|<ref>{{Cite web |date=2026-10-09 |title=Atlas: Flávio tem 52,8% dos votos válidos no 2º turno; Lula, 47,2% |url=https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-tem-528-dos-votos-validos-no-2o-turno-lula-472/ |access-date=2026-10-09 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''Datafolha''
+|''6–7 Oct''
+|45
+| style="font-weight:bold; background-color:#b2d1ea;" |49
+|6
+|±2 pp
+|2,520
+| style="font-weight:bold; background-color:#b2d1ea;" |4
+|<ref>{{Cite web |date=2026-10-08 |title=Datafolha: Flávio Bolsonaro, 49%; Lula, 45% |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml |access-date=2026-10-08 |website=G1 |language=pt-BR}}</ref>
+|-
+|''PoderData''
+|''5–7 Oct''
+|44
+| style="font-weight:bold; background-color:#b2d1ea;" |49
+|7
+|±1.8 pp
+|3,000
+| style="font-weight:bold; background-color:#b2d1ea;" |5
+|<ref>{{Cite web |last=Karter |first=Bianca Penteado, Jonathan |date=2026-10-08 |title=Flávio tem 53% contra 47% de Lula no 2º turno, diz pesquisa PoderData/Aya |url=https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-pesquisa-poderdata-aya/ |access-date=2026-10-08 |website=Poder360 |language=pt-br}}</ref>
+|-
+|''Vox Brasil''
+|''5–7 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |44.2
+|42.7
+|13.1
+|±2.15 pp
+|2,100
+| style="background:#ffb7b7;font-weight:bold;" |1.5
+|<ref>{{Cite web |date=2026-10-09 |title=Vox: Lula tem 44,2% das intenções de voto no 2º turno; Flávio, 42,7% |url=https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-442-das-intencoes-de-voto-no-2o-turno-flavio-427/ |access-date=2026-10-09 |website=CNN Brasil |language=pt-BR}}</ref>
+|- style="background:lightyellow;"
+| style="border-right-style:hidden; background:lightyellow;" |
+| style="border-right-style:hidden;" |''4 Oct''
+| colspan="7" |First round of the elections.
+|}
 
 ==== Aug–Oct (Campaign period) ====
 {| class="wikitable sortable sticky-header-multi" style="text-align:center; font-size:90%;"
@@ -10668,7 +10758,7 @@ period
 |±2 pp
 | 3,054
 | style="background:#ffb7b7;font-weight:bold" |9
-| <ref>{{Cite web |title=Datafolha: Lula teria 48%, contra 39% de Tarcísio em cenário de 2º turno |url=https://www1.folha.uol.com.br/poder/2025/04/datafolha-lula-teria-48-contra-39-de-tarcisio-em-cenario-de-2o-turno.shtml |access-date=5 April 2025 |website=Folha de S.Paulo|language=pt}}</ref>
+| <ref>{{Cite web |title=Datafolha: Lula teria 48%, contra 39% de Tarcísio em cenário de 2º turno |url=https://www1.folha.uol.com.br/poder/2025/04/datafolha-lula-teria-48-contra-39-de-tarcisio-em-cenario-de-2o-turno.shtml |access-date=5 April 2025 |website=Folha de S.Paulo|date=5 April 2025 |language=pt}}</ref>
 |-
 | ''Quaest''
 | ''27–31 Mar''
@@ -10682,7 +10772,7 @@ period
 | ±2 pp
 | 2,004
 | style="background:#ffb7b7;font-weight:bold" |6
-| <ref>{{Cite web |title=Lula e Bolsonaro empatam, e presidente vence outros 7 candidatos em cenários de 2º turno em 2026, aponta Quaest |url=https://g1.globo.com/politica/noticia/2025/04/03/quaest-lula-bolsonaro-cenarios-2026.ghtml |access-date=3 April 2025 |website=G1 |language=pt}}</ref>
+| <ref>{{Cite web |title=Lula e Bolsonaro empatam, e presidente vence outros 7 candidatos em cenários de 2º turno em 2026, aponta Quaest |url=https://g1.globo.com/politica/noticia/2025/04/03/quaest-lula-bolsonaro-cenarios-2026.ghtml |access-date=3 April 2025 |website=G1 |date=3 April 2025 |language=pt}}</ref>
 |-
 | ''AtlasIntel''
 | ''20–24 Mar''
@@ -10696,7 +10786,7 @@ period
 | ±1 pp
 | 4,659
 | style="background:#c9def0;font-weight:bold" |1
-| <ref>{{Cite web |last=Salles Barros |first=Henrique |title=Lula, Tarcísio, Bolsonaro, Marçal: pesquisa Atlas simula 2° turno para 2026 |url=https://www.cnnbrasil.com.br/politica/lula-tarcisio-bolsonaro-marcal-pesquisa-atlas-simula-2-turno-para-2026/ |access-date=1 April 2025 |website=CNN Brasil |language=pt}}</ref>
+| <ref>{{Cite web |last=Salles Barros |first=Henrique |title=Lula, Tarcísio, Bolsonaro, Marçal: pesquisa Atlas simula 2° turno para 2026 |url=https://www.cnnbrasil.com.br/politica/lula-tarcisio-bolsonaro-marcal-pesquisa-atlas-simula-2-turno-para-2026/ |access-date=1 April 2025 |website=CNN Brasil |date=April 2025 |language=pt}}</ref>
 |-
 | ''Futura''
 | ''19–22 Mar''
@@ -10710,7 +10800,7 @@ period
 | ±3.1 pp
 | 1,000
 | style="background:#c9def0;font-weight:bold" |4.7
-| <ref>{{Cite web |last=Porto |first=Douglas |title=Pesquisa Futura: Tarcísio tem 42,3% e Lula, 37,6% em simulação de 2º turno |url=https://www.cnnbrasil.com.br/politica/pesquisa-futura-tarcisio-tem-423-e-lula-376-em-simulacao-de-2o-turno/ |access-date=2025-03-27 |website=CNN Brasil |language=pt-BR}}</ref>
+| <ref>{{Cite web |last=Porto |first=Douglas |title=Pesquisa Futura: Tarcísio tem 42,3% e Lula, 37,6% em simulação de 2º turno |url=https://www.cnnbrasil.com.br/politica/pesquisa-futura-tarcisio-tem-423-e-lula-376-em-simulacao-de-2o-turno/ |access-date=2025-03-27 |website=CNN Brasil |date=26 March 2025 |language=pt-BR}}</ref>
 |-
 | ''AtlasIntel''
 | ''24–27 Feb''
@@ -10857,6 +10947,13 @@ The situation escalated on 8 September, when Mendonça ordered the preventive re
 }}
 
 ==References==
+{{Duplicated citations|reason=DuplicateReferences script detected:
+* https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ (refs: 1, 201)
+* https://www.poder360.com.br/poderdata/em-votos-validos-lula-tem-43-contra-42-de-flavio-no-1o-turno/ (refs: 27, 216)
+* https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/ (refs: 71, 236)
+* https://exame.com/brasil/lula-tem-44-contra-40-de-flavio-em-primeiro-turno-e-renan-santos-aparece-com-10-diz-palver/ (refs: 72, 237)
+|date=October 2026}}
+
 {{reflist}}
 
 {{Brazilian elections}}
