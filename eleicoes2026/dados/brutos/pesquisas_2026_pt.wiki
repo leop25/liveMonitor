@@ -13551,6 +13551,42 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 ! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
 ! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
 |-
+|PoderData/Aya<ref>{{citar web|url=https://www.poder360.com.br/poderdata/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/|título=Flávio tem 51% contra 49% de Lula no 2º turno, diz PoderData/Aya|data=13/10/2026|acessodata=13/10/2026}}</ref>
+|10 Out – 12 Out
+|3 000
+|1,8
+|49%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|51%
+|{{N/A}}
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |2%
+|-
+|BTG/Nexus<ref>{{citar web|url=https://sbtnews.sbt.com.br/noticia/eleicoes/btg-nexus-flavio-tem-48-e-lula-45-no-2-turno|título=BTG/Nexus: Flávio tem 48% e Lula 45% no 2° turno|website=SBT News|data=2026-10-13|acessodata=2026-10-13|lingua=pt-br|wayb=20261013104729}}</ref>
+|10 Out - 12 Out
+|2 000
+|2,0
+|45%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |48%
+|7%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |3%
+|-
+|Gerp<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-contra-44-de-lula-diz-pesquisa-gerp/|título=Flávio tem 55% contra 45% de Lula, diz pesquisa Gerp|website=Poder360|data=13/10/2026|acessodata=13/10/2026}}</ref>
+|8 Out – 12 Out
+|2 400
+|2,0
+|44%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|53%
+|4%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |9%
+|-
+|Futura<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-518-contra-482-de-lula-diz-futura/|título=Flávio tem 51,8% contra 48,2% de Lula, diz Futura|website=Poder360|data=13/10/2026|acessodata=13/10/2026}}</ref>
+|7 Out – 10 Out
+|2 000
+|2,2
+|46,6%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|50%
+|3,4%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |3,4%
+|-
 |DataTrends<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/|título=Flávio tem 53,1% e Lula tem 46,9% dos votos válidos, diz DataTrends|website=Poder360|data=11/10/2026|acessodata=11/10/2026}}</ref>
 |7 Out – 9 Out
 |2 000
@@ -13569,7 +13605,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |{{N/A}}
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|5,4%
 |-
-|[[DataFolha]]<ref>{{citar web|url=https://g1.globo.com/google/amp/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml|título=Datafolha: Flávio Bolsonaro, 49%; Lula, 45%|website=g1|data=08/10/2026|acessidata=08/10/2026}}</ref>
+|[[DataFolha]]<ref>{{citar web|url=https://g1.globo.com/google/amp/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml|título=Datafolha: Flávio Bolsonaro, 49%; Lula, 45%|website=g1|data=08/10/2026|acessodata=08/10/2026}}</ref>
 |6 Out – 8 Out
 |2 520
 |2,0
@@ -13578,7 +13614,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |6%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|4%
 |-
-|[[AtlasIntel]]<ref>{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/|título=AtlasIntel divulga pesquisa para presidente no 2º turno|autor=Diógenes Freire Feitosa|data=09/10/2026|website=Gazeta do Povo|acessidata=09/10/2026}}</ref>
+|[[AtlasIntel]]<ref>{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/|título=AtlasIntel divulga pesquisa para presidente no 2º turno|autor=Diógenes Freire Feitosa|data=09/10/2026|website=Gazeta do Povo|acessodata=09/10/2026}}</ref>
 |3 Out – 8 Out
 |5 026
 |1,0
@@ -13587,7 +13623,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |3,2%
 |style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|5,4%
 |-
-|Vox<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-442-e-flavio-427-no-2o-turno-diz-vox-brasil/|título=Lula tem 44,2% e Flávio, 42,7% no 2º turno, diz Vox Brasil|website=Poder360|data=08/10/2026|acessidata=08/10/2026}}</ref>
+|Vox<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-442-e-flavio-427-no-2o-turno-diz-vox-brasil/|título=Lula tem 44,2% e Flávio, 42,7% no 2º turno, diz Vox Brasil|website=Poder360|data=08/10/2026|acessodata=08/10/2026}}</ref>
 |5 Out – 7 Out
 |2 100
 |2,0
@@ -13596,7 +13632,7 @@ Além das controvérsias específicas de 2026, decisões recentes do TSE demonst
 |13,1%
 |style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |1,5%
 |-
-|PoderData/Aya<ref>{{citar web|url=https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-pesquisa-poderdata-aya/|título=Flávio tem 53% contra 47% de Lula no 2º turno, diz PoderData/Aya|data=08/10/2026|acessidata=08/10/2026}}</ref>
+|PoderData/Aya<ref>{{citar web|url=https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-pesquisa-poderdata-aya/|título=Flávio tem 53% contra 47% de Lula no 2º turno, diz PoderData/Aya|data=08/10/2026|acessodata=08/10/2026}}</ref>
 |5 Out – 7 Out
 |3 000
 |1,8

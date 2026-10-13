@@ -4587,6 +4587,36 @@ period
 |-
 ! style="background-color:{{Party color|Workers' Party (Brazil)}}" |
 ! style="background-color:{{Party color|Liberal Party (Brazil, 2006)}}" |
+|-
+|''PoderData''
+|''10–12 Oct''
+|46
+| style="font-weight:bold; background-color:#b2d1ea;" |48
+|7
+|±1.8 pp
+|3,000
+| style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{cite web|url=https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-flavio-tem-51-dos-votos-validos-no-2o-turno-lula-49/|title=PoderData/AYA: Flávio tem 51% dos votos válidos no 2º turno; Lula, 49%|website=CNN Brasil|language=pt-br|first=Lucas|last=Massei|date=13 October 2026|accessdate=13 October 2026}}</ref>
+|-
+|''Nexus''
+|''10–12 Oct''
+|45
+| style="font-weight:bold; background-color:#b2d1ea;" |48
+|7
+|±2 pp
+|2,000
+| style="font-weight:bold; background-color:#b2d1ea;" |3
+|<ref>{{cite web|url=https://noticias.uol.com.br/eleicoes/2026/10/13/btgnexus-pesquisa-presidencial-segundo-turno.ghtm|title=Flávio tem 52% dos votos válidos, e Lula, 48%, diz pesquisa BTG/Nexus|website=UOL|language=pt-br|date=13 October 2026|accessdate=13 October 2026}}</ref>
+|-
+|''Futura''
+|''7–10 Oct''
+|46.6
+| style="font-weight:bold; background-color:#b2d1ea;" |50
+|3.4
+|±2.2 pp
+|2,000
+| style="font-weight:bold; background-color:#b2d1ea;" |3.4
+|<ref>{{Cite web |date=2026-10-13 |title=Futura: Flávio tem 51,8% dos votos válidos no 2º turno; Lula, 48,2% |url=https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-518-dos-votos-validos-no-2o-turno-lula-482/ |access-date=2026-10-13 |website=CNN Brasil |language=pt-BR}}</ref>
 |- style="background:lightyellow;"
 | style="border-right-style:hidden; background:lightyellow;" |
 | style="border-right-style:hidden;" |''9 Oct''
