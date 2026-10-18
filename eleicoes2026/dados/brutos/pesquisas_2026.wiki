@@ -51,7 +51,7 @@ Since the [[2022 Brazilian general election]], polling companies have published 
 |{{NA}}
 |{{NA}}
 | style="background:#ffb7b7;font-weight:bold;" |3.3
-|<ref>{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=http://web.archive.org/web/20260930191140/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-09-30 |access-date=2026-10-02 |website=UOL |language=pt-BR}}</ref>
+|<ref>{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=https://web.archive.org/web/20260930191140/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-09-30 |access-date=2026-10-02 |website=UOL |language=pt-BR}}</ref>
 |-
 |''BBC/PollingData''
 |''4 October 2026''
@@ -3889,8 +3889,8 @@ period
 ! [[Sergio Moro|Moro]]<hr>[[File:União Brasil logo.svg|40px|link=Brazil Union]]
 ! [[Ronaldo Caiado|Caiado]]<hr>[[File:União Brasil logo.svg|40px|link=Brazil Union]]
 ! [[Eduardo Leite|Leite]]<hr>[[File:Logo of the Brazilian Social Democracy Party (2023).svg|50px|link=Brazilian Social Democracy Party]]
-! [[Helder Barbalho|Barbalho]]<hr>[[File:Brazilian Democratic Movement logo.svg|35px|link=Brazilian Democratic Movement]]
-! [[Simone Tebet|Tebet]]<hr>[[File:Brazilian Democratic Movement logo.svg|35px|link=Brazilian Democratic Movement]]
+! [[Helder Barbalho|Barbalho]]<hr>[[File:Movimento Democrático Brasileiro (2017).svg|35px|link=Brazilian Democratic Movement]]
+! [[Simone Tebet|Tebet]]<hr>[[File:Movimento Democrático Brasileiro (2017).svg|35px|link=Brazilian Democratic Movement]]
 ! [[Tereza Cristina|Cristina]]<hr>[[File:Progressistas logo.png|40px|link=Progressistas]]
 ! rowspan="2" | Blank<br />Null<br />Undec.<br />{{efn|name=sample}}
 ! rowspan="2" | Margin of error<br />{{efn|name=MOE|In cases when linked poll details distinguish between the margin of error associated with the total sample of respondents (including undecided and non-voters) and that of the subsample of decided/leaning voters, the former is included in the table. Also not included is the margin of error created by rounding to the nearest whole number or any margin of error from methodological sources. Most online polls (because of their opt-in method of recruiting panelists which results in a non-random sample) cannot have a margin of error. In such cases, shown is what the margin of error would be for a survey using a random probability-based sample of equivalent size.}}
@@ -4513,57 +4513,48 @@ period
 ! style="background-color:{{Party color|Liberal Party (Brazil, 2006)}}" |
 |-
 |''Poll+Trend''
-|''10 October 2026''
-|45.40
-| style="font-weight:bold; background-color:#b2d1ea;" |47.01
-|7.59
+|''15 October 2026''
+|45.76
+| style="font-weight:bold; background-color:#b2d1ea;" |49.25
+|4.99
 |±2.5 pp
-| style="font-weight:bold; background-color:#b2d1ea;" |1.61
+| style="font-weight:bold; background-color:#b2d1ea;" |3.49
 |<ref name=":100">{{Cite web |title=2026 Brazil Polling Follower |url=https://pollplustrend.com/26brpf |access-date=2026-10-11 |website=Poll+Trend by Globe Elections UN |language=en}}</ref>
 |-
 |''UOL''
-|''10 October 2026''
-|47.9
-| style="font-weight:bold; background-color:#b2d1ea;" |52.1
+|''15 October 2026''
+|48.4
+| style="font-weight:bold; background-color:#b2d1ea;" |51.6
 |{{n/a}}
 |{{n/a}}
-| style="font-weight:bold; background-color:#b2d1ea;" |4.2
-|<ref name=":46">{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=http://web.archive.org/web/20260822181934/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-08-22 |access-date=2026-09-23 |website=UOL |language=pt-BR}}</ref>
+| style="font-weight:bold; background-color:#b2d1ea;" |3.2
+|<ref name=":46">{{Cite web |title=Agregador de pesquisas eleitorais {{!}} Eleições 2026 |url=https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-url=https://web.archive.org/web/20260822181934/https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/ |archive-date=2026-08-22 |access-date=2026-09-23 |website=UOL |language=pt-BR}}</ref>
 |-
 |''BBC/PollingData''
-|''9 October 2026''
-|43.7
-| style="font-weight:bold; background-color:#b2d1ea;" |47.4
-|9
+|''15 October 2026''
+|45.3
+| style="font-weight:bold; background-color:#b2d1ea;" |47.7
+|8
 |±3 pp
-| style="font-weight:bold; background-color:#b2d1ea;" |3.7
+| style="font-weight:bold; background-color:#b2d1ea;" |2.4
 |<ref name=":aggregationPollingData"/><ref name=":aggregationBBC"/>
 |-
 |''Plano Político''
-|''10 October 2026''
-|48.1
-|style="font-weight:bold; background-color:#b2d1ea;" |51.9
-|{{n/a}}
+|''15 October 2026''
+|44.9
+|style="font-weight:bold; background-color:#b2d1ea;" |48
+|7.1
 |±1.8 pp
-|style="font-weight:bold; background-color:#b2d1ea;" |3.8 
+|style="font-weight:bold; background-color:#b2d1ea;" |3.1 
 |<ref name=":49" />
 |-
-|''ABC Dados''
-|''3 October 2026''
-| style="background:#ffb7b7;font-weight:bold;" |46
-|45
-|9
-|{{n/a}}
-| style="background:#ffb7b7;font-weight:bold;" |1
-|<ref name=":47" />
-|-
 |''The Economist''
-|''3 October 2026''
+|''13 October 2026''
 |44
-|style="font-weight:bold; background-color:#b2d1ea;" |45
-|11
+| style="font-weight:bold; background-color:#b2d1ea;" |48
+|8
 |{{n/a}}
-|style="font-weight:bold; background-color:#b2d1ea;" |1
+| style="font-weight:bold; background-color:#b2d1ea;" |4
 |<ref name=":48" />
 |}
 
@@ -4588,6 +4579,109 @@ period
 ! style="background-color:{{Party color|Workers' Party (Brazil)}}" |
 ! style="background-color:{{Party color|Liberal Party (Brazil, 2006)}}" |
 |-
+|''Gerp''
+|''14–16 Oct''
+|45
+| style="font-weight:bold; background-color:#b2d1ea;" |50
+|5
+|±2 pp
+|2,400
+| style="font-weight:bold; background-color:#b2d1ea;" |5
+|<ref>{{cite web|url=https://tmc.com.br/politica/pesquisa-gerp-flavio-bolsonaro-lidera-com-50-contra-45-de-lula/ |title=Pesquisa Gerp: Flávio Bolsonaro lidera com 50% contra 45% de Lula|website=TMC|language=pt-br|date=16 October 2026|accessdate=16 October 2026}}</ref>
+|-
+|''Verita''
+|''12–16 Oct''
+|47.7
+| style="font-weight:bold; background-color:#b2d1ea;" |49.7
+|2.6
+|±1 pp
+|15,554
+| style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{cite web|url=https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-511-dos-votos-validos-no-2o-turno-lula-489/?utm_source=whatsapp&utm_medium=-link |title=Veritá: Flávio has 51.1% of the valid votes in the second round; Lula, 48.9%.
+|website=CNN Brazsil|language=pt-br|date=17 October 2026|accessdate=17 October 2026}}</ref>
+|-
+|''Futura''
+|''14–15 Oct''
+|47.5
+| style="font-weight:bold; background-color:#b2d1ea;" |49
+|3.6
+|±2.2 pp
+|2,000
+| style="font-weight:bold; background-color:#b2d1ea;" |1.5
+|<ref>{{Cite web |date=2026-10-16 |title=Futura: Flávio tem 50,8% dos votos válidos no 2º turno; Lula, 49,2% |url=https://www.cnnbrasil.com.br/eleicoes/futura-flavio-tem-508-dos-votos-validos-no-2o-turno-lula-492/ |access-date=2026-10-16 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''Ipespe''
+|''13–15 Oct''
+|46
+| style="font-weight:bold; background-color:#b2d1ea;" |48
+|6
+|±2.6 pp
+|1,500
+| style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{Cite web |date=2026-10-17 |title=Ipespe/Abrapel: Flávio tem 51,2% dos votos válidos no 2º turno; Lula, 48,8%
+ |url=https://www.cnnbrasil.com.br/eleicoes/ipespe-abrapel-flavio-tem-512-dos-votos-validos-no-2o-turno-lula-488/?utm_source=whatsapp&utm_medium=-link |access-date=2026-10-17 |website=CNN Brasil |language=pt-BR}}</ref>
+|-
+|''MDA''
+|''13–15 Oct''
+|45.9
+| style="font-weight:bold; background-color:#b2d1ea;" |46.8
+|7.3
+|±2.2 pp
+|2,014
+| style="font-weight:bold; background-color:#b2d1ea;" |0.9
+|<ref>{{cite web|url=https://noticias.uol.com.br/eleicoes/2026/10/16/cntmda-pesquisa-presidencial-2-turno.ghtm|title=CNT/MDA: Flávio aparece com 50,5%, e Lula tem 49,5% em votos válidos|website=UOL|language=pt-br|date=16 October 2026|accessdate=16 October 2026}}</ref>
+|-
+|''PoderData''
+|''13–15 Oct''
+| style="background:#ffb7b7;font-weight:bold;" |47
+| style="font-weight:bold; background-color:#b2d1ea;" |47
+|6
+|±1.8 pp
+|3,000
+| style="background:#ecf0f1;font-weight:bold" |Tie
+|<ref>{{cite web|url=https://noticias.uol.com.br/eleicoes/2026/10/16/poderdata-lula-flavio-bolsonaro-presidencia-republica-segundo-turno.ghtm|title=Flávio e Lula empatam em 50% dos votos válidos, diz pesquisa PoderData|website=UOL|language=pt-br|date=16 October 2026|accessdate=16 October 2026}}</ref>
+|-
+|''Datafolha''
+|''13–15 Oct''
+|45
+| style="font-weight:bold; background-color:#b2d1ea;" |47
+|8
+|±2 pp
+|2,520
+| style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{Cite web |date=2026-10-08 |title=Datafolha poll, second round: Flávio Bolsonaro, 47%; Lula, 45%
+ |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-presidente-segundo-turno-15-outubro.ghtml?utm_source=twitter&utm_medium=social&utm_campaign=g1 |access-date=2026-10-15 |website=G1 |language=pt-BR}}</ref>
+|-
+|''Indexa''
+|''13–14 Oct''
+|42
+| style="font-weight:bold; background-color:#b2d1ea;" |44
+|4
+|±2.2 pp
+|2,000
+| style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{Cite web |last1=Duarte |first1=Isadora |last2=Bucci |first2=Geovani |date=2026-10-15 |title=Indexa/Broadcast: no 2º turno, Flávio Bolsonaro tem 44% ante 42% de Lula |url=https://viva.com.br/politica/indexabroadcast-no-2-turno-flavio-bolsonaro-tem-44-ante-42-de-lula.html |access-date=2026-10-15 |website=VIVA |language=pt-BR}}</ref>
+|-
+|''Palver''
+|''10–13 Oct''
+|49
+| style="font-weight:bold; background-color:#b2d1ea;" |50
+|1
+|±2.3 pp
+|5,000
+| style="font-weight:bold; background-color:#b2d1ea;" |1
+|<ref>{{Cite web |last=Bucci |first=Geovani |date=2026-10-15 |title=Palver: Flávio Bolsonaro tem 50% e Lula, 49% em empate técnico no 2º turno |url=https://viva.com.br/politica/palver-flavio-bolsonaro-tem-50-e-lula-49-em-empate-tecnico-no-2-turno.html |access-date=2026-10-15 |website=VIVA |language=pt-BR}}</ref>
+|-
+|''Quaest''
+|''10–13 Oct''
+|44
+| style="font-weight:bold; background-color:#b2d1ea;" |46
+|10
+|±2 pp
+|2,154
+| style="font-weight:bold; background-color:#b2d1ea;" |2
+|<ref>{{Cite web |date=2026-10-14 |title=Quaest aponta empate técnico entre Flávio Bolsonaro e Lula |url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml |access-date=2026-10-15 |website=G1 |language=pt-BR}}</ref>
+|-
 |''PoderData''
 |''10–12 Oct''
 |46
@@ -4607,6 +4701,16 @@ period
 |2,000
 | style="font-weight:bold; background-color:#b2d1ea;" |3
 |<ref>{{cite web|url=https://noticias.uol.com.br/eleicoes/2026/10/13/btgnexus-pesquisa-presidencial-segundo-turno.ghtm|title=Flávio tem 52% dos votos válidos, e Lula, 48%, diz pesquisa BTG/Nexus|website=UOL|language=pt-br|date=13 October 2026|accessdate=13 October 2026}}</ref>
+|-
+|''Gerp''
+|''8–12 Oct''
+|44
+| style="font-weight:bold; background-color:#b2d1ea;" |53
+|3
+|±2 pp
+|2,400
+| style="font-weight:bold; background-color:#b2d1ea;" |9
+|<ref>{{cite web|url=https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-55-dos-votos-validos-no-2o-turno-lula-45/?utm_source=social&utm_medium=twitter-canal&utm_campaign=politica-cnn-brasil&utm_content=link#goog_rewarded|title=Gerp: Flávio tem 55% dos votos válidos no 2º turno; Lula, 45%|website=CNN Brazil|language=pt-br|date=13 October 2026|accessdate=13 October 2026}}</ref>
 |-
 |''Futura''
 |''7–10 Oct''
