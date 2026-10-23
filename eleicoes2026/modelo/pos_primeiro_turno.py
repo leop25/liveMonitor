@@ -220,10 +220,13 @@ def _transferencia(t1: pd.DataFrame, t2: pd.DataFrame, pt: str, adv: str) -> tup
     return r, float((ga[ok] / (gp[ok] + ga[ok])).std()), int(ok.sum())
 
 
-# Erro comum das pesquisas de 2º turno (pp na parcela do principal). As duas eleições com dados
-# (2018, 2022) dão ~1,2 pp, pouco para estimar uma cauda; 2,0 pp é o que outros agregadores usam
-# (IPPI: erro comum de 2 pp) e cobre o caso de 2018, quando as pesquisas a 7 dias erravam por 3,4 pp.
-DP_MIN_PESQUISAS_T2 = 2.0
+# Pesquisas finais de 2º turno sem página estruturada na Wikipédia (parcela do PT nos votos
+# válidos, como divulgadas): 2006 Datafolha de 23/10 (61 × 39); 2014 Ibope de 25/10 e Datafolha
+# de 23/10 (53 × 47).
+FINAIS_T2_MANUAIS = {2006: 61.0, 2014: 53.0}
+# Piso do erro comum das pesquisas de 2º turno (pp na parcela do principal). Nas cinco eleições
+# (2006–2022) a média da última semana errou 0,2, 0,4, 1,4, −1,9 e 0,7 pp: bem menos que no 1º turno.
+DP_MIN_PESQUISAS_T2 = 1.0
 # Fração da inclinação recente que se supõe continuar até o dia da eleição. No backtest (2010, 2018,
 # 2022) extrapolar a tendência não reduziu o erro, então o modelo principal usa 0 (a tendência já
 # entra no nível estimado, que dá mais peso às pesquisas recentes); o cenário com 0,5 é informativo.
@@ -289,9 +292,13 @@ def calibrar_pos(encolhimento: float = 2.0) -> CalibracaoPos:
         if len(fin):
             par = fin.candidatos.map(lambda c: 100 * c[e["pt"]] / (c[e["pt"]] + c[e["adv"]]))
             ep.append(par.mean() - e["r2"][e["pt"]])
+    for ano, v in FINAIS_T2_MANUAIS.items():
+        e = ELEICOES[ano]
+        ep.append(v - e["r2"][e["pt"]])
     ep = np.array(ep)
     vies_p = float(ep.mean() * len(ep) / (len(ep) + encolhimento)) if len(ep) else 0.0
-    dp_p = float(max(np.sqrt(np.mean(ep ** 2)), DP_MIN_PESQUISAS_T2)) if len(ep) else 2.5
+    # RMSE com correção de amostra pequena (n/(n−1)): cinco eleições ainda são poucas para a cauda
+    dp_p = float(max(np.sqrt(np.sum(ep ** 2) / max(len(ep) - 1, 1)), DP_MIN_PESQUISAS_T2)) if len(ep) else 2.5
     return CalibracaoPos(vies, dp, dp_est, dp_reg, vies_p, dp_p, bt)
 
 

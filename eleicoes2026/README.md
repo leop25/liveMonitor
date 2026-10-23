@@ -208,10 +208,12 @@ adiante: prolongar a inclinação da última semana até a eleição não reduzi
 como referência. Agregadores consultados fazem o mesmo: Scoras pondera por recência (meia-vida de 4
 dias) sem extrapolar e o IPPI usa média ponderada por data com erro comum de 2 pp.
 
-O erro comum das pesquisas de 2º turno tem piso de 2,0 pp (antes 1,0): as duas eleições com dados
-dão 1,2 pp, pouco para estimar a cauda, e em 2018 a média a 7 dias da eleição errou por 3,4 pp. A
-previsão final combina, por variância inversa, essa média com a conta feita a partir das urnas do 1º
-turno; em 23/10 os pesos eram 48% e 52%.
+O erro comum das pesquisas de 2º turno vem das cinco eleições de 2006 a 2022: a média da última
+semana errou a parcela do PT por +0,2 (2006, Datafolha de 23/10), +0,4 (2010), +1,4 (2014, Ibope e
+Datafolha finais), −1,9 (2018) e +0,7 pp (2022). RMSE de 1,1 pp, ou 1,24 pp com a correção para
+amostra pequena: bem menos que o erro das pesquisas de 1º turno. A previsão final combina, por
+variância inversa, essa média com a conta feita a partir das urnas do 1º turno (erro de 2,0 pp);
+em 23/10 os pesos eram 68% e 32%.
 
 ## Pesquisas fora da Wikipédia
 
