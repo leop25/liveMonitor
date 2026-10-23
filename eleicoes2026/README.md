@@ -186,6 +186,33 @@ falta contar). Num teste com o 1º turno de 2022 apurado com o Nordeste por últ
 mostrava o candidato de direita à frente até 89% das seções, enquanto a projeção já dava Lula à frente
 desde 5% e chegava a 47,3% (real: 48,4%) com metade das seções apuradas.
 
+## Tendência no 2º turno
+
+As pesquisas de 2º turno feitas depois do 1º turno passam pelo mesmo filtro de Kalman com efeito de
+instituto, mas com o ruído de cada pesquisa também estimado por máxima verossimilhança. Separado o
+viés de cada instituto, pesquisas do mesmo instituto variam menos que o nominal; supor ruído demais
+fazia uma tendência real parecer oscilação. Em 2026 todos os institutos que repetiram a pesquisa
+subiram Lula (Datafolha 47,9 → 49,5; AtlasIntel 47,2 → 48,9; Ipespe 47,3 → 48,9), e o filtro antigo
+mostrava uma linha plana.
+
+Backtest com os 2º turnos de 2010, 2018 e 2022 (erro da média estimada contra a urna):
+
+| Antecedência | Ruído fixo | Ruído estimado |
+|---|---|---|
+| 3 dias | 1,63 pp | 1,21 pp |
+| véspera | 0,98 pp | 0,71 pp |
+
+O modelo segue a tendência (o nível estimado acompanha as pesquisas recentes), mas não a projeta
+adiante: prolongar a inclinação da última semana até a eleição não reduziu o erro no mesmo teste
+(piorou 2010, quase não mudou 2018 e 2022). Esse cenário, com metade da inclinação, aparece no painel
+como referência. Agregadores consultados fazem o mesmo: Scoras pondera por recência (meia-vida de 4
+dias) sem extrapolar e o IPPI usa média ponderada por data com erro comum de 2 pp.
+
+O erro comum das pesquisas de 2º turno tem piso de 2,0 pp (antes 1,0): as duas eleições com dados
+dão 1,2 pp, pouco para estimar a cauda, e em 2018 a média a 7 dias da eleição errou por 3,4 pp. A
+previsão final combina, por variância inversa, essa média com a conta feita a partir das urnas do 1º
+turno; em 23/10 os pesos eram 48% e 52%.
+
 ## Pesquisas fora da Wikipédia
 
 Pesquisas divulgadas e ainda não registradas na Wikipédia podem ser digitadas em

@@ -83,12 +83,20 @@ def _kalman(y, t, v, n_dias, q, x0, p0):
     return ms, ps, loglik
 
 
+GRADE_RUIDO = np.array([0.25, 0.4, 0.6, 1.0])  # fração da variância de cada pesquisa (ver estimar_ruido)
+
+
 def ajustar_tendencia(obs: pd.DataFrame, pesos: dict[str, float], ate: pd.Timestamp | None = None,
-                      iteracoes: int = 25, peso_padrao: float = 1.0) -> Tendencia:
+                      iteracoes: int = 25, peso_padrao: float = 1.0, estimar_ruido: bool = False) -> Tendencia:
     """Ajusta a tendência de uma série.
 
     `obs` precisa das colunas: meio (data), instituto, valor (pp), n_efetivo (tamanho
     de amostra que corresponde ao denominador do valor).
+
+    estimar_ruido: escolhe também, por máxima verossimilhança, quanto da variância nominal de cada
+    pesquisa é ruído de fato. Com o efeito de instituto já separado, as pesquisas de um mesmo
+    instituto costumam variar menos que o nominal; supor ruído demais faz uma tendência real parecer
+    oscilação (o caso do 2º turno de 2026, em que todos os institutos subiram Lula).
     """
     obs = obs.dropna(subset=["valor"]).copy()
     inicio = obs.meio.min().normalize()
@@ -111,12 +119,15 @@ def ajustar_tendencia(obs: pd.DataFrame, pesos: dict[str, float], ate: pd.Timest
 
     h = np.zeros(len(nomes))
     q = 0.02
+    v_nom = v
     x0, p0 = float(np.median(y[: max(3, len(y) // 10)])), 25.0
     for it in range(iteracoes):
         yc = y - h[ii]
-        if it % 5 == 0:  # reescolhe q por máxima verossimilhança
-            lls = [(_kalman(yc, t, v, len(datas), qq, x0, p0)[2], qq) for qq in GRADE_Q]
-            q = max(lls)[1]
+        if it % 5 == 0:  # reescolhe q (e a escala do ruído) por máxima verossimilhança
+            escalas = GRADE_RUIDO if estimar_ruido else [1.0]
+            lls = [(_kalman(yc, t, k * v_nom, len(datas), qq, x0, p0)[2], qq, k) for qq in GRADE_Q for k in escalas]
+            _, q, k = max(lls)
+            v = k * v_nom
         ms, ps, _ = _kalman(yc, t, v, len(datas), q, x0, p0)
         r = y - ms[t]
         num = np.bincount(ii, weights=r / v, minlength=len(nomes))

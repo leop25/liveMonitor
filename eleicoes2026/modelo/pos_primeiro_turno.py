@@ -220,6 +220,16 @@ def _transferencia(t1: pd.DataFrame, t2: pd.DataFrame, pt: str, adv: str) -> tup
     return r, float((ga[ok] / (gp[ok] + ga[ok])).std()), int(ok.sum())
 
 
+# Erro comum das pesquisas de 2º turno (pp na parcela do principal). As duas eleições com dados
+# (2018, 2022) dão ~1,2 pp, pouco para estimar uma cauda; 2,0 pp é o que outros agregadores usam
+# (IPPI: erro comum de 2 pp) e cobre o caso de 2018, quando as pesquisas a 7 dias erravam por 3,4 pp.
+DP_MIN_PESQUISAS_T2 = 2.0
+# Fração da inclinação recente que se supõe continuar até o dia da eleição. No backtest (2010, 2018,
+# 2022) extrapolar a tendência não reduziu o erro, então o modelo principal usa 0 (a tendência já
+# entra no nível estimado, que dá mais peso às pesquisas recentes); o cenário com 0,5 é informativo.
+MOMENTO_CENARIO = 0.5
+
+
 def calibrar_pos(encolhimento: float = 2.0) -> CalibracaoPos:
     pesq = _carregar_pesquisas_historicas()
     res = ler_resultados_uf()
@@ -281,7 +291,7 @@ def calibrar_pos(encolhimento: float = 2.0) -> CalibracaoPos:
             ep.append(par.mean() - e["r2"][e["pt"]])
     ep = np.array(ep)
     vies_p = float(ep.mean() * len(ep) / (len(ep) + encolhimento)) if len(ep) else 0.0
-    dp_p = float(max(np.sqrt(np.mean(ep ** 2)), 1.0)) if len(ep) else 2.0
+    dp_p = float(max(np.sqrt(np.mean(ep ** 2)), DP_MIN_PESQUISAS_T2)) if len(ep) else 2.5
     return CalibracaoPos(vies, dp, dp_est, dp_reg, vies_p, dp_p, bt)
 
 
@@ -354,8 +364,12 @@ def projetar_primeiro_turno(apur: pd.DataFrame, previa: dict, candidatos: list[s
 def prever_segundo_turno(t1_uf: np.ndarray, pesos: np.ndarray, ufs: list[str], cands: list[str],
                          principal: str, adversario: str, transf: float, transf_dp: float,
                          calp: CalibracaoPos, rng, pesquisas_t2: tuple[float, float] | None = None,
-                         peso_vies: float = 1.0) -> dict:
-    """2º turno principal × adversário a partir do 1º turno (sorteado ou real) por UF."""
+                         peso_vies: float = 1.0, deriva: float = 0.0) -> dict:
+    """2º turno principal × adversário a partir do 1º turno (sorteado ou real) por UF.
+
+    `deriva` (pp): incerteza extra da conta das urnas (0 por padrão: o erro calibrado em 2018 e 2022
+    já compara essa conta com o resultado final, então já inclui o que a campanha moveu).
+    """
     n, S, K = t1_uf.shape
     ip, ia = cands.index(principal), cands.index(adversario)
     w = pesos / pesos.sum()
@@ -370,12 +384,13 @@ def prever_segundo_turno(t1_uf: np.ndarray, pesos: np.ndarray, ufs: list[str], c
     r_uf = np.clip(r[:, None] + 0.05 * rng.standard_normal((n, S)), 0.02, 0.98)
     base = L + (1 - r_uf) * O                                     # parcela do principal, por UF
     nac_base = (base * w).sum(axis=1) * 100
-    nac_urnas = nac_base - peso_vies * calp.vies_urnas + calp.dp_urnas * rng.standard_normal(n)
+    dp_u = float(np.hypot(calp.dp_urnas, deriva))
+    nac_urnas = nac_base - peso_vies * calp.vies_urnas + dp_u * rng.standard_normal(n)
     if pesquisas_t2 is not None:  # combina com as pesquisas feitas depois do 1º turno
         m_p, dp_p = pesquisas_t2
         m_p = m_p - peso_vies * calp.vies_pesquisas_t2
         dp_p = np.sqrt(dp_p ** 2 + calp.dp_pesquisas_t2 ** 2)
-        w_u, w_p = 1 / calp.dp_urnas ** 2, 1 / dp_p ** 2
+        w_u, w_p = 1 / dp_u ** 2, 1 / dp_p ** 2
         media = (w_u * (nac_base - peso_vies * calp.vies_urnas) + w_p * m_p) / (w_u + w_p)
         nac = media + np.sqrt(1 / (w_u + w_p)) * rng.standard_normal(n)
     else:
@@ -394,8 +409,10 @@ def prever_segundo_turno(t1_uf: np.ndarray, pesos: np.ndarray, ufs: list[str], c
     uf2 = _expit(lg + d[:, None]) * 100
 
     vence_principal = np.where(decidido, vencedor_t1 == ip, nac > 50)
+    peso_pesquisas = float(w_p / (w_u + w_p)) if pesquisas_t2 is not None else 0.0
     return {"nac_t1": nac_t1, "decidido": decidido, "vencedor_t1": vencedor_t1, "t2": nac, "t2_uf": uf2,
-            "vence_principal": vence_principal, "transf": r}
+            "vence_principal": vence_principal, "transf": r, "peso_pesquisas": peso_pesquisas,
+            "media_urnas": float(np.mean(nac_base - peso_vies * calp.vies_urnas))}
 
 
 # ----------------------------------------------------------------------------- pipeline
@@ -422,14 +439,32 @@ def executar(saida_pre: dict, p1: pd.DataFrame, p2: pd.DataFrame, brutas: pd.Dat
 
     # pesquisas de 2º turno feitas depois do 1º turno
     pos = p2[p2.meio > data_t1]
-    agreg = None
+    agreg, tendencia, deriva = None, None, 0.0
     if len(pos):
         s2 = series_segundo_turno(pos, P).get(A)
         if s2 is not None and len(s2) >= 2:
-            tr = ajustar_tendencia(s2, pesos_inst, ate=data_t2)
+            # ruído e volatilidade medidos nas próprias pesquisas: segue a tendência comum aos institutos
+            # (backtest 2010/2018/2022, véspera: RMSE 0,98 → 0,71 pp; 3 dias antes: 1,63 → 1,21 pp)
+            tr = ajustar_tendencia(s2, pesos_inst, ate=data_t2, estimar_ruido=True)
             agreg = tr.em(data_t2)
+            ult = pd.Timestamp(s2.meio.max()).normalize()
+            m0 = tr.em(ult)[0]
+            m7 = tr.em(ult - pd.Timedelta(days=7))[0]
+            inclin = (m0 - m7) / 7
+            dias = max((data_t2 - ult).days, 0)
+            tendencia = {"ultima_pesquisa": ult.strftime("%Y-%m-%d"), "nivel": m0, "variacao_7d": m0 - m7,
+                         "dias_ate_eleicao": dias, "momento": MOMENTO_CENARIO,
+                         "nivel_com_momento": m0 + MOMENTO_CENARIO * inclin * dias,
+                         "serie": [{"d": d.strftime("%Y-%m-%d"), "m": float(m), "dp": float(p)}
+                                   for d, m, p in zip(tr.datas, tr.media, tr.dp)]}
 
-    res = prever_segundo_turno(t1_uf, pesos, ufs, cc, P, A, r, r_dp, calp, rng, agreg, peso_vies)
+    res = prever_segundo_turno(t1_uf, pesos, ufs, cc, P, A, r, r_dp, calp, rng, agreg, peso_vies, deriva)
+    if tendencia is not None:  # cenário: a tendência da última semana continua pela metade
+        agreg_m = (agreg[0] + tendencia["nivel_com_momento"] - tendencia["nivel"], agreg[1])
+        res_m = prever_segundo_turno(t1_uf, pesos, ufs, cc, P, A, r, r_dp, calp,
+                                     np.random.default_rng(semente + 8), agreg_m, peso_vies, deriva)
+        tendencia["p_principal_com_momento"] = float(res_m["vence_principal"].mean())
+        tendencia["t2_com_momento"] = float(res_m["t2"][~res_m["decidido"]].mean())
     ap = apur.set_index("uf")
     pst_total = float((ap.reindex(ufs).pst.fillna(0).to_numpy() * pesos).sum() / pesos.sum())
     votos_br = ap.reindex(ufs).reindex(columns=cc).fillna(0).sum()
@@ -464,6 +499,9 @@ def executar(saida_pre: dict, p1: pd.DataFrame, p2: pd.DataFrame, brutas: pd.Dat
         "transferencia": {"adversario": r, "dp": r_dp, "n_pesquisas": n_pares},
         "pesquisas_pos_t1": {"n": int(len(pos[(pos.a == A) | (pos.b == A)])),
                              "media": agreg[0] if agreg else None, "dp": agreg[1] if agreg else None},
+        "combinacao": {"peso_pesquisas": res["peso_pesquisas"], "media_urnas": res["media_urnas"],
+                       "dp_urnas": calp.dp_urnas, "dp_pesquisas_t2": calp.dp_pesquisas_t2},
+        "tendencia": tendencia,
         "calibracao": {"vies_urnas": calp.vies_urnas, "dp_urnas": calp.dp_urnas, "dp_estado": calp.dp_estado,
                        "dp_regiao": calp.dp_regiao, "backtest": calp.backtest},
         "estados": estados,
