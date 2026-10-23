@@ -200,6 +200,8 @@ class CalibracaoPos:
     vies_pesquisas_t2: float  # erro médio das pesquisas da última semana do 2º turno, pp
     dp_pesquisas_t2: float
     backtest: list
+    vies_lider_t2: float = 0.0   # erro médio na parcela de quem liderava as pesquisas, pp
+    erros_t2: list = None        # por eleição: média das pesquisas, urna, erro PT, erro do líder
 
 
 def _transferencia(t1: pd.DataFrame, t2: pd.DataFrame, pt: str, adv: str) -> tuple[float, float, int]:
@@ -281,7 +283,7 @@ def calibrar_pos(encolhimento: float = 2.0) -> CalibracaoPos:
     dp_est = float((rd.res - reg).std())
 
     # (c) pesquisas da última semana do 2º turno (feitas depois do 1º turno)
-    ep = []
+    ep, em = [], []
     for ano, d in pesq.items():
         e = ELEICOES[ano]
         t2 = d[(d.turno == 2) & (d.fim > pd.Timestamp(e["t1"]))]
@@ -292,14 +294,27 @@ def calibrar_pos(encolhimento: float = 2.0) -> CalibracaoPos:
         if len(fin):
             par = fin.candidatos.map(lambda c: 100 * c[e["pt"]] / (c[e["pt"]] + c[e["adv"]]))
             ep.append(par.mean() - e["r2"][e["pt"]])
+            em.append((ano, float(par.mean())))
     for ano, v in FINAIS_T2_MANUAIS.items():
         e = ELEICOES[ano]
         ep.append(v - e["r2"][e["pt"]])
+        em.append((ano, v))
+    # o mesmo erro visto do lado de quem liderava as pesquisas (hipótese alternativa ao viés pró-PT)
+    erros_t2 = []
+    for ano, m in sorted(em):
+        e = ELEICOES[ano]
+        real = e["r2"][e["pt"]]
+        lider_pt = m >= 50
+        erros_t2.append({"ano": ano, "pt": e["pt"], "adv": e["adv"], "pesquisas_pt": m, "urna_pt": real,
+                         "erro_pt": m - real, "lider": e["pt"] if lider_pt else e["adv"],
+                         "erro_lider": (m - real) if lider_pt else (real - m)})
+    el = np.array([x["erro_lider"] for x in erros_t2])
+    vies_lider = float(el.mean() * len(el) / (len(el) + encolhimento)) if len(el) else 0.0
     ep = np.array(ep)
     vies_p = float(ep.mean() * len(ep) / (len(ep) + encolhimento)) if len(ep) else 0.0
     # RMSE com correção de amostra pequena (n/(n−1)): cinco eleições ainda são poucas para a cauda
     dp_p = float(max(np.sqrt(np.sum(ep ** 2) / max(len(ep) - 1, 1)), DP_MIN_PESQUISAS_T2)) if len(ep) else 2.5
-    return CalibracaoPos(vies, dp, dp_est, dp_reg, vies_p, dp_p, bt)
+    return CalibracaoPos(vies, dp, dp_est, dp_reg, vies_p, dp_p, bt, vies_lider, erros_t2)
 
 
 # ----------------------------------------------------------------------------- simulação
@@ -466,6 +481,20 @@ def executar(saida_pre: dict, p1: pd.DataFrame, p2: pd.DataFrame, brutas: pd.Dat
                                    for d, m, p in zip(tr.datas, tr.media, tr.dp)]}
 
     res = prever_segundo_turno(t1_uf, pesos, ufs, cc, P, A, r, r_dp, calp, rng, agreg, peso_vies, deriva)
+    cenario_lider = None
+    if agreg is not None:  # hipótese alternativa: as pesquisas de 2º turno superestimam quem lidera
+        import copy
+        sinal = 1.0 if agreg[0] >= 50 else -1.0           # +: principal lidera → superestimado
+        calp_l = copy.copy(calp)
+        calp_l.vies_pesquisas_t2 = sinal * calp.vies_lider_t2
+        cen = {}
+        for pv in (peso_vies, 1.0):
+            rl = prever_segundo_turno(t1_uf, pesos, ufs, cc, P, A, r, r_dp, calp_l,
+                                      np.random.default_rng(semente + 9), agreg, pv, deriva)
+            cen[str(pv)] = {"p_principal": float(rl["vence_principal"].mean()),
+                            "t2": float(rl["t2"][~rl["decidido"]].mean())}
+        cenario_lider = {"vies_lider": calp.vies_lider_t2, "lider_pesquisas": P if sinal > 0 else A,
+                         "erros": calp.erros_t2, "por_peso": cen}
     if tendencia is not None:  # cenário: a tendência da última semana continua pela metade
         agreg_m = (agreg[0] + tendencia["nivel_com_momento"] - tendencia["nivel"], agreg[1])
         res_m = prever_segundo_turno(t1_uf, pesos, ufs, cc, P, A, r, r_dp, calp,
@@ -509,6 +538,7 @@ def executar(saida_pre: dict, p1: pd.DataFrame, p2: pd.DataFrame, brutas: pd.Dat
         "combinacao": {"peso_pesquisas": res["peso_pesquisas"], "media_urnas": res["media_urnas"],
                        "dp_urnas": calp.dp_urnas, "dp_pesquisas_t2": calp.dp_pesquisas_t2},
         "tendencia": tendencia,
+        "cenario_vies_lider": cenario_lider,
         "calibracao": {"vies_urnas": calp.vies_urnas, "dp_urnas": calp.dp_urnas, "dp_estado": calp.dp_estado,
                        "dp_regiao": calp.dp_regiao, "backtest": calp.backtest},
         "estados": estados,
